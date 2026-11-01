@@ -68,6 +68,59 @@ tags: [CFA-L1, Vocabulary]
 | Overvalued                                      | 估值过高 / 被高估         | 分析师认为证券价格高于合理价值                          |
 | Buy Recommendation                              | 买入建议               | 对证券提出买入评级或建议                             |
 
+| Standard I(A) — Knowledge of the Law | 标准 I(A)——了解法律 | 遵守适用法律；冲突时遵循更严格要求 |
+| Applicable Laws, Rules, and Regulations | 适用法律、规则与法规 | I(A) 的核心要求 |
+| More Strict Requirements | 更严格的要求 | 法律与 Code and Standards 不一致时，遵循更严格者 |
+| Dissociate | 切割 / 脱离违规行为 | 不得继续参与或协助违规 |
+| Standard I(C) — Misrepresentation | 标准 I(C)——虚假陈述 | 禁止故意作出虚假或误导性陈述 |
+| Misrepresentation | 虚假陈述 | 包括夸大资历、业绩或产品特征 |
+| Plagiarism | 抄袭 | 使用他人研究或观点而不注明来源 |
+| Standard I(D) — Misconduct | 标准 I(D)——不当行为 | 禁止欺诈、不诚实及损害职业声誉的行为 |
+| Fraud / Deceit / Dishonesty | 欺诈 / 欺骗 / 不诚实 | I(D) 的典型违规行为 |
+| Standard I(E) — Competence | 标准 I(E)——胜任能力 | 具备并持续保持履职所需能力 |
+| Standard II — Integrity of Capital Markets | 标准 II——资本市场诚信 | 维护市场信息与交易价格的诚信 |
+| Material | 重大 | 信息可能影响证券价格或理性投资者决策 |
+| Nonpublic | 非公开 | 尚未向市场广泛传播 |
+| Selective Disclosure | 选择性披露 | 只向特定人士披露重大信息 |
+| Mosaic Theory | 马赛克理论 | 使用公开信息及非重大非公开信息形成分析 |
+| Market Manipulation | 市场操纵 | 故意扭曲价格或交易量误导市场 |
+| Transaction-based Manipulation | 基于交易的操纵 | 通过交易制造人为价格或成交量信号 |
+| Information-based Manipulation | 基于信息的操纵 | 散布虚假或误导性信息 |
+| Standard III — Duties to Clients | 标准 III——对客户的责任 | 客户利益、公平对待、适当性、业绩展示与保密 |
+| Loyalty, Prudence, and Care | 忠诚、审慎与谨慎 | 客户利益优先 |
+| Fair Dealing | 公平对待 | 公平、客观地对待所有客户 |
+| Suitability | 适当性 | 投资符合客户目标、风险承受力及整体组合 |
+| Investment Policy Statement (IPS) | 投资政策声明 | 记录客户目标、风险和投资限制 |
+| Risk Tolerance | 风险承受能力 | 客户可接受的风险水平 |
+| Total Portfolio | 整体投资组合 | 从整体组合角度评估投资适当性 |
+| Performance Presentation | 业绩展示 | 公平、准确、完整 |
+| Preservation of Confidentiality | 保密义务 | 保护现任、前任及潜在客户信息 |
+| Standard IV — Duties to Employers | 标准 IV——对雇主的责任 | 维护雇主利益 |
+| Additional Compensation Arrangements | 额外报酬安排 | 可能与雇主利益冲突的第三方报酬 |
+| Written Consent | 书面同意 | 接受冲突性额外报酬前须取得 |
+| Responsibilities of Supervisors | 主管责任 | 尽合理努力监督下属合规 |
+| Compliance Procedures | 合规程序 | 建立、执行和改进合规制度 |
+| Standard V(B) — Communication with Clients and Prospective Clients | 标准 V(B)——与客户及潜在客户沟通 | 披露服务、费用、流程、限制和风险 |
+| Distinguish Fact from Opinion | 区分事实与观点 | 投资沟通中的重要要求 |
+| Standard V(C) — Record Retention | 标准 V(C)——记录保存 | 保存支持分析、建议和行动的记录 |
+| Supporting Records | 支持性记录 | 证明研究范围、分析和结论依据 |
+| Firm Property | 雇主财产 | 工作中形成的记录通常属于公司 |
+| Standard VI — Conflicts of Interest | 标准 VI——利益冲突 | 避免或披露冲突，交易优先及推荐费用 |
+| Avoid or Disclose Conflicts | 避免或披露利益冲突 | VI(A) 的核心要求 |
+| Prominent Disclosure | 醒目披露 | 披露须清晰、充分、公平且易于注意 |
+| Priority of Transactions | 交易优先顺序 | 客户和雇主交易优先于个人交易 |
+| Beneficial Owner | 受益所有人 | 对个人投资交易具有受益权益的人 |
+| Front Running | 抢先交易 | 利用客户交易信息为个人交易谋利 |
+| Preclearance | 事先审批 | 个人交易执行前的合规审批 |
+| Referral Fees | 推荐费用 | 因推荐产品或服务而收取或支付的报酬 |
+| Standard VII — Responsibilities as a CFA Institute Member or CFA Candidate | 标准 VII——CFA 会员或考生的责任 | 维护 CFA 项目诚信并准确描述资格身份 |
+| Exam Confidentiality | 考试保密 | 不得泄露具体题目及未公开考试范围等信息 |
+| Exam Security | 考试安全 | 不得作弊或规避考试安全措施 |
+| Program Integrity | 项目完整性 | 维护 CFA Institute 项目公信力 |
+| CFA Charterholder | CFA 持证人 | 已取得 CFA 资格的人 |
+| CFA Candidate | CFA 考生 | 正式注册并参加 CFA Program 的考生 |
+| Misrepresent or Exaggerate | 歪曲或夸大 | 不得夸大 CFA 资格或考生身份的含义和作用 |
+
 ## GIPS｜全球投资业绩标准
 
 | English Term | 中文释义 | 考试语境 / 记忆 |
