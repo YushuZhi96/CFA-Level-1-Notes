@@ -15,7 +15,6 @@ tags: [CFA-L1, Vocabulary]
 
 | English Term                                    | 中文释义               | 考试语境 / 记忆                                |
 | ----------------------------------------------- | ------------------ | ---------------------------------------- |
-| Moral and Ethical Principles                    | 道德与伦理原则            | Ethics 的核心含义                             |
 | Code of Ethics                                  | 道德规范               | 特定群体的书面道德原则                              |
 | Standards of Conduct                            | 行为准则               | 最低可接受行为标准                                |
 | Obligatory Conduct                              | 必须履行的行为 / 义务       | Code of Ethics 的关键词                      |
