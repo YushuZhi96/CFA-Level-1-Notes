@@ -40,7 +40,7 @@ tags: [CFA-L1, Vocabulary]
 | Investigation | 调查 | Professional Conduct Staff 的核心工作 |
 | Integrity | 诚信 | CFA 职业道德核心价值之一 |
 | Competence | 能力 / 胜任能力 | 专业人员应具备相应知识与技能 |
-| Diligence | 勤勉 | 工作中应尽到应有的谨慎与努力 |
+| Diligence | 勤勉 | 工作中应尽到应有的谨慎与努力；也是 Standard V(A) 的关键词 |
 | Material Nonpublic Information | 重大非公开信息 | 不得利用此类信息进行交易 |
 | Overconfidence | 过度自信 | 道德决策的内部影响因素 |
 | Internal Influences | 内部影响因素 | 个人心理、认知等影响 |
@@ -50,6 +50,25 @@ tags: [CFA-L1, Vocabulary]
 | Performance Pressure | 业绩压力 | 为达到业绩目标而产生的压力 |
 | Time Pressure | 时间压力 | 时间紧迫导致判断受影响 |
 | Long-term Consequences | 长期后果 | 减少短期利益和情境压力影响的决策方法 |
+| Standard I(B) — Independence and Objectivity | 标准 I(B)——独立性与客观性 | 专业判断不应受到不当利益或压力影响 |
+| Independence | 独立性 | 保持专业判断不受不当影响 |
+| Objectivity | 客观性 | 基于事实与合理判断，不偏袒 |
+| Reasonable Care and Judgment | 合理的谨慎与判断 | I(B) 要求会员运用合理谨慎和判断 |
+| Gifts, Benefits, Compensation, or Consideration | 礼物、利益、报酬或其他好处 | 若可能损害独立性与客观性，不得提供、索取或接受 |
+| Conflict of Interest | 利益冲突 | 个人或公司利益可能影响专业判断 |
+| External Pressure | 外部压力 | 上级、客户、雇主或商业关系施加的压力 |
+| Standard V(A) — Diligence and Reasonable Basis | 标准 V(A)——勤勉调查与合理依据 | 投资分析、建议和行动必须有充分合理依据 |
+| Thoroughness | 全面、彻底 | 分析投资时应进行充分调查 |
+| Reasonable and Adequate Basis | 合理且充分的依据 | 支持投资分析、建议或行动的基础 |
+| Appropriate Research and Investigation | 适当的研究与调查 | V(A) 要求建议有研究调查支持 |
+| Investment Analysis | 投资分析 | 应勤勉、独立、全面地进行 |
+| Investment Recommendation | 投资建议 | 必须由合理且充分的依据支持 |
+| Investment Action | 投资行动 | 应有合理且充分的依据支持 |
+| Sell-side Analyst | 卖方分析师 | 通常为客户提供证券研究和投资建议 |
+| Investment Banking Department | 投资银行部门 | 承销、融资等业务；与研究部门可能存在利益冲突 |
+| Seasoned Equity Offering | 增发 / 后续股票发行 | 已上市公司再次发行股票融资 |
+| Overvalued | 估值过高 / 被高估 | 分析师认为证券价格高于合理价值 |
+| Buy Recommendation | 买入建议 | 对证券提出买入评级或建议 |
 
 ## GIPS｜全球投资业绩标准
 
