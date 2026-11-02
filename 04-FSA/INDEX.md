@@ -9,3 +9,4 @@
 - [[Common-Size-Statements-and-Financial-Ratios|共同比财务报表与财务比率分析（Common-Size Statements & Financial Ratio Analysis）]]（2026-11-02，🟡）
 - [[Revenue-Recognition-and-Contract-Liabilities|收入确认与合同负债（Revenue Recognition & Contract Liabilities）]]（2026-11-02，🟡）
 - [[Earnings-Per-Share-EPS|每股收益（Earnings Per Share, EPS）]]（2026-11-02，🟡）
+- [[Equity-Investments-and-Fair-Value-Changes|权益投资分类与公允价值变动（Equity Investment Classification & Fair Value Changes）]]（2026-11-02，🟡）
