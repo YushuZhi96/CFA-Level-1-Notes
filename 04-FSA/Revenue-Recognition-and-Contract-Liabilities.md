@@ -24,6 +24,27 @@ tags: [CFA-L1, FSA, Revenue-Recognition, Contract-Liability]
 - **Point in Time（某一时点）**：在控制权于某一时点转移时确认收入。
 - **Over Time（某一期间）**：在履约过程中持续转移控制权或满足其他规定条件时，按履约进度确认收入。
 
+### 识别可明确区分的商品或服务（Distinct Goods or Services）
+
+一项承诺的商品或服务，只有同时满足以下**两个条件**，才属于可明确区分（Distinct），并作为单独履约义务处理：
+
+**条件一：客户能够从该商品或服务本身受益（Capable of Being Distinct）**
+- 客户能够单独使用该商品或服务并从中获益；或者
+- 客户能够将其与容易获得的其他资源（Readily Available Resources）结合使用并从中获益。
+- 关注单项商品或服务本身是否具有独立效用，不要求客户一定单独购买。
+
+**条件二：转让该商品或服务的承诺在合同背景下可单独识别（Separately Identifiable）**
+- 关注合同中各项承诺之间的关系，而不是只看商品或服务在技术上能否单独运行。
+- 若企业提供重大整合服务（Significant Integration）、一项商品或服务对另一项作出重大修改或定制（Significant Modification or Customization），或各项承诺高度相互依赖 / 相互关联（Highly Interdependent or Interrelated），通常表明它们在合同背景下不能单独识别。
+- 例如：多个软件模块虽然各自可以运行，但若企业承诺将它们整合为一个不可分割的整体系统，第二个条件可能不满足。
+
+**判断口诀：**
+- 条件一看“单项能不能带来利益”；
+- 条件二看“合同中是否需要整合成一个整体”；
+- **两项必须同时满足**，不能只满足其中一个。
+
+本题正确答案为 C（Statement 1 and Statement 2）。用户原选 A，只考虑了独立受益条件，遗漏了合同背景下单独识别条件。
+
 ## 二、捆绑销售与交易价格分摊（Bundled Sale & Allocation of Transaction Price）
 
 当一份合同包含多项可明确区分的履约义务，例如“设备 + 三年服务”，不能仅因客户一次性付款，就将全部款项立即确认为收入。
@@ -162,9 +183,12 @@ $$
 
 ## 我的错因 / 验证记录
 
-本次错题：Snoopy Co. 收到设备与三年服务合同的总价 $30,000，却将全部金额在 2019 年确认为销售收入。正确收入为设备 $24,000 + 当年服务 $2,000 = $26,000，因此净利润在题目简化假设下高估，选 B。
+本次错题 2：合同中多项服务是否分别构成履约义务。正确答案 C，必须同时满足客户能够从各项服务本身或结合易得资源受益（Capable of Being Distinct），且各项承诺在合同背景下可单独识别（Separately Identifiable）。只满足第一项并不足够。
+
+本次错题 1：Snoopy Co. 收到设备与三年服务合同的总价 $30,000，却将全部金额在 2019 年确认为销售收入。正确收入为设备 $24,000 + 当年服务 $2,000 = $26,000，因此净利润在题目简化假设下高估，选 B。
 
 - [ ] 能区分 Cash Received 与 Revenue Recognized
+- [ ] 能解释 Distinct 的两个条件：Capable of Being Distinct 与 Separately Identifiable
 - [ ] 能解释 Contract Liability 为什么属于负债
 - [ ] 能计算设备与服务组合的分期收入
 - [ ] 能分析收入确认错误对三大报表的影响
