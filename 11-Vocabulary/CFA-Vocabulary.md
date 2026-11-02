@@ -549,3 +549,47 @@ tags: [CFA-L1, Vocabulary]
 
 - **SOX Section 404(b)** — SOX 第404(b)条
   - 适用发行人由外部审计师审计 ICFR，存在法定豁免
+
+## Financial Statement Analysis｜财务报表分析
+
+- **Equity Financing** — 权益融资
+  - 发行股票筹集资金；增加现金和股东权益，不是收入
+
+- **Debt Financing** — 债务融资
+  - 借款或发行债券筹资；增加现金和负债
+
+- **Contributed Capital** — 投入资本
+  - 股东投入企业的资本，不属于营业收入
+
+- **Common Stock** — 普通股股本
+  - 发行普通股形成的股东权益项目
+
+- **Additional Paid-in Capital (APIC)** — 资本公积 / 额外实收资本
+  - 发行价超过面值等形成的投入资本
+
+- **Share Issuance Proceeds** — 发行股票所得款项
+  - 通常列为筹资活动现金流入
+
+- **Bonds Payable** — 应付债券
+  - 发行债券形成的负债
+
+- **Bond Proceeds** — 债券发行所得款项
+  - 债务融资现金流入，不是营业收入
+
+- **Revenue** — 收入 / 营业收入
+  - 经营活动中符合确认条件的收入
+
+- **Net Income** — 净利润
+  - 收入扣除费用、税项等后的期间经营成果
+
+- **Dividends** — 股息 / 股利
+  - 向股东分配利润，不属于利润表费用
+
+- **Interest Expense** — 利息费用
+  - 债务融资成本，通常计入利润表费用
+
+- **Journal Entry** — 会计分录
+  - 记录一项交易对账户的借贷影响
+
+- **Financing Activities** — 筹资活动
+  - 现金流量表中与权益和债务融资相关的活动
