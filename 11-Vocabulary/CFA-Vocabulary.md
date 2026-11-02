@@ -845,3 +845,48 @@ tags: [CFA-L1, Vocabulary]
 
 - **Irrevocable Election** — 不可撤销的选择
   - 符合条件的非交易性权益投资初始确认时可作出的 FVOCI 选择
+
+
+## Financial Statement Analysis｜商誉补充
+
+- **Goodwill** — 商誉
+  - 企业合并中购买对价等超过可辨认净资产公允价值份额的剩余金额
+
+- **Business Combination** — 企业合并
+  - 购买方取得一个或多个业务控制权的交易或事项
+
+- **Purchase Price** — 购买价格
+  - 为取得被收购方控制权而支付的购买对价
+
+- **Consideration Transferred** — 转移的对价
+  - 企业合并中购买方转移的现金、其他资产、权益工具等对价
+
+- **Identifiable Net Assets** — 可辨认净资产
+  - 可辨认资产公允价值减去承担负债公允价值
+
+- **Acquiree** — 被收购方
+  - 在企业合并中被购买方取得控制权的企业或业务
+
+- **Non-controlling Interest (NCI)** — 非控制性权益
+  - 子公司权益中不归属于母公司的部分
+
+- **Previously Held Equity Interest** — 原先持有的股权
+  - 分阶段收购取得控制权前已持有的被收购方权益
+
+- **Step Acquisition** — 分阶段收购
+  - 购买方通过分步交易最终取得被收购方控制权
+
+- **Full Goodwill Method** — 完全商誉法
+  - NCI 按公允价值计量，确认包括 NCI 部分的商誉
+
+- **Partial Goodwill Method** — 部分商誉法
+  - NCI 按可辨认净资产比例份额计量，仅确认归属于母公司的商誉
+
+- **Bargain Purchase Gain** — 廉价购买收益
+  - 重新检查计量后，可辨认净资产公允价值超过合并对价等项目的差额
+
+- **Goodwill Impairment** — 商誉减值
+  - 商誉账面金额超过可收回金额或相关测试金额时确认的减值损失
+
+- **Impairment Test** — 减值测试
+  - 评估资产或资产组账面价值是否发生减值
