@@ -662,3 +662,45 @@ tags: [CFA-L1, Vocabulary]
 
 - **Average Balance** — 平均余额
   - 期间流量除以时点余额时常用平均余额
+
+
+## Financial Statement Analysis｜收入确认补充
+
+- **Revenue Recognition** — 收入确认
+  - 履行履约义务、向客户转移商品或服务控制权时确认收入
+
+- **Performance Obligation** — 履约义务
+  - 向客户转让可明确区分商品或服务的承诺
+
+- **Transaction Price** — 交易价格
+  - 企业预期因转让商品或服务而有权收取的对价
+
+- **Standalone Selling Price** — 单独售价
+  - 企业单独向客户销售承诺商品或服务的价格
+
+- **Relative Standalone Selling Prices** — 相对单独售价
+  - 多项履约义务之间分摊交易价格的基础
+
+- **Contract Liability** — 合同负债
+  - 已收取或应收对价，但仍负有转让商品或服务的义务
+
+- **Deferred Revenue** — 递延收入
+  - 已收款但尚未赚取或确认的收入，通常对应合同负债
+
+- **Cash Received** — 收到现金
+  - 现金收款本身不代表全部金额均可确认为收入
+
+- **Revenue Recognized** — 已确认收入
+  - 企业已履行相应履约义务而确认的收入
+
+- **Point in Time** — 某一时点
+  - 控制权在特定时点转移时确认收入
+
+- **Over Time** — 某一期间
+  - 履约义务在一段时间内履行时按进度确认收入
+
+- **Distinct Performance Obligations** — 可明确区分的履约义务
+  - 捆绑合同中需分别识别并分摊交易价格的承诺
+
+- **Control** — 控制权
+  - 客户能够主导商品或服务的使用并获得其几乎全部剩余利益
