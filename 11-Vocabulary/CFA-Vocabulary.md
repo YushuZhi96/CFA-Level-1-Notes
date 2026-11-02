@@ -500,3 +500,52 @@ tags: [CFA-L1, Vocabulary]
 
 - **Cash and Cash Equivalents** — 现金及现金等价物
   - 现金流量表和资产负债表的重要项目
+
+
+- **Internal Control System** — 内部控制系统
+  - 为经营、财务报告和合规目标提供合理保证
+
+- **Internal Control over Financial Reporting (ICFR)** — 财务报告内部控制
+  - 提高财务报告可靠性，防止或发现重大错报
+
+- **Reliability of Financial Reporting** — 财务报告的可靠性
+  - 内部控制的重要目标之一
+
+- **Financial Statement Analysis** — 财务报表分析
+  - 分析师使用已披露财务信息进行分析和评价
+
+- **Management** — 管理层
+  - 负责设计、实施和维护内部控制
+
+- **External Auditors** — 外部审计师
+  - 独立审计并在适用要求下发表审计意见
+
+- **Financial Analysts** — 财务分析师
+  - 分析和解释财务信息，不负责建立内部控制
+
+- **Segregation of Duties** — 职责分离
+  - 分开授权、资产保管和记账等关键职责
+
+- **Authorization Controls** — 授权审批控制
+  - 重大交易需获得适当批准
+
+- **Reconciliation** — 核对 / 调节
+  - 核对账面记录与外部或实物记录
+
+- **Safeguarding of Assets** — 资产保护
+  - 防止资产被盗用或未经授权访问
+
+- **Access Controls** — 访问控制
+  - 限制系统和财务数据访问权限
+
+- **Reasonable Assurance** — 合理保证
+  - 内部控制提供合理而非绝对保证
+
+- **Sarbanes-Oxley Act (SOX)** — 萨班斯—奥克斯利法案
+  - 美国上市公司财务报告与内部控制监管的重要法律
+
+- **SOX Section 404(a)** — SOX 第404(a)条
+  - 管理层评估并报告财务报告内部控制
+
+- **SOX Section 404(b)** — SOX 第404(b)条
+  - 适用发行人由外部审计师审计 ICFR，存在法定豁免
