@@ -394,3 +394,35 @@ tags: [CFA-L1, Vocabulary]
 
 - **Mandatory** — 强制的
   - Firm-wide Compliance 是要求，不应与 Verification 混淆
+
+## Economics｜经济学
+
+- **Oligopoly** — 寡头垄断
+  - 少数企业相互依赖，必须考虑竞争对手反应
+
+- **Oligopolistic Market** — 寡头垄断市场
+  - 常见价格领导和战略互动
+
+- **Price Leadership** — 价格领导
+  - 主导企业制定价格，其他企业跟随
+
+- **Price War** — 价格战
+  - 对手竞相降价，通常使行业利润下降
+
+- **Strategic Interdependence** — 战略相互依赖
+  - 一家企业的决策会影响其他企业的最优反应
+
+- **Retaliation** — 竞争反击
+  - 竞争对手可能跟随或加大降价幅度
+
+- **Market Share** — 市场份额
+  - 降价后份额不一定上升，取决于对手反应
+
+- **Economies of Scale** — 规模经济
+  - 产量扩大可能降低单位平均成本
+
+- **Kinked Demand Curve** — 折弯需求曲线
+  - 涨价对手可能不跟，降价对手可能跟随
+
+- **Price Rigidity** — 价格黏性
+  - 折弯需求曲线用于解释寡头价格相对稳定
