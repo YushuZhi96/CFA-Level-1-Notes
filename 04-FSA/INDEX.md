@@ -10,3 +10,4 @@
 - [[Revenue-Recognition-and-Contract-Liabilities|收入确认与合同负债（Revenue Recognition & Contract Liabilities）]]（2026-11-02，🟡）
 - [[Earnings-Per-Share-EPS|每股收益（Earnings Per Share, EPS）]]（2026-11-02，🟡）
 - [[Equity-Investments-and-Fair-Value-Changes|权益投资分类与公允价值变动（Equity Investment Classification & Fair Value Changes）]]（2026-11-02，🟡）
+- [[Goodwill-Initial-Recognition-and-Measurement|商誉的初始确认与计量（Goodwill: Initial Recognition & Measurement）]]（2026-11-02，🟡）
