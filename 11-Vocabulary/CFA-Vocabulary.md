@@ -593,3 +593,72 @@ tags: [CFA-L1, Vocabulary]
 
 - **Financing Activities** — 筹资活动
   - 现金流量表中与权益和债务融资相关的活动
+
+
+## Financial Statement Analysis｜财务报表分析（补充）
+
+- **Common-Size Financial Statements** — 共同比财务报表
+  - 将报表项目转换为统一基准的百分比
+
+- **Common-Size Income Statement** — 共同比利润表
+  - 各项目除以 Revenue，营业收入为100%
+
+- **Common-Size Balance Sheet** — 共同比资产负债表
+  - 各项目除以 Total Assets，总资产为100%
+
+- **Vertical Analysis** — 纵向分析
+  - 分析单张报表各项目占共同基准的比例
+
+- **Time-Series Analysis** — 时间序列分析
+  - 比较同一企业不同时期的财务数据
+
+- **Cross-Sectional Analysis** — 横截面分析
+  - 比较不同企业同一时期的财务数据
+
+- **Cost of Goods Sold (COGS)** — 销售成本 / 营业成本
+  - 共同比利润表中常比较其占 Revenue 的比例
+
+- **Gross Profit Margin** — 毛利率
+  - Gross Profit / Revenue
+
+- **Operating Profit Margin** — 营业利润率
+  - Operating Income / Revenue
+
+- **Net Profit Margin** — 净利率
+  - Net Income / Revenue
+
+- **Liquidity** — 流动性 / 短期偿债能力
+  - 衡量企业偿还短期义务的能力
+
+- **Solvency** — 长期偿债能力
+  - 衡量企业长期偿债压力
+
+- **Leverage** — 财务杠杆
+  - 企业使用债务融资的程度
+
+- **Financial Ratio Analysis** — 财务比率分析
+  - 通过财务项目之间的比率评估企业状况
+
+- **Debt-to-Equity Ratio** — 债务权益比
+  - Total Debt / Total Equity
+
+- **Interest Coverage** — 利息保障倍数
+  - EBIT / Interest Expense
+
+- **Return on Assets (ROA)** — 资产回报率
+  - Net Income / Average Total Assets
+
+- **Return on Equity (ROE)** — 股东权益回报率
+  - Net Income / Average Shareholders' Equity
+
+- **Inventory Turnover** — 存货周转率
+  - COGS / Average Inventory
+
+- **Receivables Turnover** — 应收账款周转率
+  - Net Credit Sales / Average Receivables
+
+- **Total Asset Turnover** — 总资产周转率
+  - Revenue / Average Total Assets
+
+- **Average Balance** — 平均余额
+  - 期间流量除以时点余额时常用平均余额
