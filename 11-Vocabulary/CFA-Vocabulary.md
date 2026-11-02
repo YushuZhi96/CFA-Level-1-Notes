@@ -803,3 +803,45 @@ tags: [CFA-L1, Vocabulary]
 
 - **Stock Dividend** — 股票股利
   - 通常需对加权平均股数及比较期间作追溯调整
+
+
+## Financial Statement Analysis｜权益投资与公允价值补充
+
+- **Equity Investment** — 权益投资
+  - 对其他企业普通股等权益工具的投资
+
+- **Trading Securities** — 交易性证券
+  - 传统分类下按公允价值计量，未实现变动计入当期损益
+
+- **Available-for-Sale (AFS) Securities** — 可供出售证券
+  - 传统分类下未实现公允价值变动通常计入 OCI
+
+- **Held-to-Maturity (HTM) Securities** — 持有至到期证券
+  - 仅适用于符合条件的债务证券，传统框架下按摊余成本计量
+
+- **Debt Securities** — 债务证券
+  - 具有合同现金流和到期日特征的债务工具
+
+- **Amortized Cost** — 摊余成本
+  - 考虑本金偿还及实际利率法摊销后的账面金额
+
+- **Unrealized Gain** — 未实现收益
+  - 持有资产期间因公允价值上涨形成的收益
+
+- **Unrealized Loss** — 未实现损失
+  - 持有资产期间因公允价值下降形成的损失
+
+- **Fair Value Through Profit or Loss (FVTPL)** — 公允价值计量且变动计入损益
+  - 公允价值变动计入当期损益
+
+- **Fair Value Through Other Comprehensive Income (FVOCI)** — 公允价值计量且变动计入其他综合收益
+  - 符合条件的资产公允价值变动计入 OCI
+
+- **Other Comprehensive Income (OCI)** — 其他综合收益
+  - 按准则计入综合收益但不直接进入当期净利润的项目
+
+- **Profit or Loss** — 损益
+  - 计入当期损益的收入、费用、利得和损失
+
+- **Irrevocable Election** — 不可撤销的选择
+  - 符合条件的非交易性权益投资初始确认时可作出的 FVOCI 选择
