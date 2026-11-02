@@ -426,3 +426,77 @@ tags: [CFA-L1, Vocabulary]
 
 - **Price Rigidity** — 价格黏性
   - 折弯需求曲线用于解释寡头价格相对稳定
+
+## Financial Statement Analysis｜财务报表分析
+
+- **Balance Sheet** — 资产负债表
+  - 反映特定时点的财务状况
+
+- **Point in Time** — 特定时点
+  - 资产负债表是时点报表
+
+- **Financial Position** — 财务状况
+  - 资产负债表展示企业财务状况
+
+- **Accounting Equation** — 会计恒等式
+  - Assets = Liabilities + Equity
+
+- **Assets** — 资产
+  - 企业控制的经济资源
+
+- **Liabilities** — 负债
+  - 企业承担的现时义务
+
+- **Shareholders' Equity** — 股东权益
+  - 资产扣除负债后的剩余权益
+
+- **Residual Interest** — 剩余权益
+  - 股东对净资产的剩余索取权
+
+- **Current Assets** — 流动资产
+  - 通常在营业周期或未来12个月内变现、出售或耗用
+
+- **Non-current Assets** — 非流动资产
+  - 不符合流动资产分类条件的长期资源
+
+- **Current Liabilities** — 流动负债
+  - 通常在营业周期或未来12个月内清偿
+
+- **Non-current Liabilities** — 非流动负债
+  - 不符合流动负债分类条件的长期义务
+
+- **Accounts Receivable** — 应收账款
+  - 客户欠公司的款项，属于资产
+
+- **Accounts Payable** — 应付账款
+  - 公司欠供应商的款项，属于负债
+
+- **Inventory** — 存货
+  - 待出售或用于生产的材料、在产品和商品
+
+- **Property, Plant and Equipment (PP&E)** — 固定资产
+  - 用于经营的厂房、机器和设备等
+
+- **Intangible Assets** — 无形资产
+  - 专利、商标等符合确认条件的无形资源
+
+- **Retained Earnings** — 留存收益
+  - 累计净利润扣除分红及其他调整后的留存部分
+
+- **Working Capital** — 营运资本
+  - 流动资产减流动负债
+
+- **Current Ratio** — 流动比率
+  - 流动资产除以流动负债
+
+- **Quick Ratio** — 速动比率
+  - 速动资产除以流动负债
+
+- **Debt Ratio** — 负债比率
+  - 总负债除以总资产
+
+- **Book Value** — 账面价值
+  - 会计账面金额，不等同于市场价值
+
+- **Cash and Cash Equivalents** — 现金及现金等价物
+  - 现金流量表和资产负债表的重要项目
