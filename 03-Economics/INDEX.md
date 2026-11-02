@@ -4,4 +4,4 @@
 
 ## 知识点目录
 
-> 待后续从章节题与错题中逐步收录。
+- [[Oligopoly-Price-Leadership-and-Price-War|寡头垄断：价格领导与价格战]]（2026-11-02，🟡）
