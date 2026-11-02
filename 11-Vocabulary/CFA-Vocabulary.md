@@ -704,3 +704,27 @@ tags: [CFA-L1, Vocabulary]
 
 - **Control** — 控制权
   - 客户能够主导商品或服务的使用并获得其几乎全部剩余利益
+
+
+## Financial Statement Analysis｜履约义务识别补充
+
+- **Capable of Being Distinct** — 能够独立受益 / 可明确区分
+  - 客户可从商品或服务本身，或结合易得资源中受益
+
+- **Separately Identifiable** — 在合同背景下可单独识别
+  - 判断合同中的承诺是否彼此独立，而非重大整合或高度相互依赖
+
+- **Readily Available Resources** — 容易获得的资源
+  - 客户可单独或结合该资源使用商品或服务并从中受益
+
+- **Significant Integration** — 重大整合
+  - 企业将多项商品或服务整合成合同承诺的组合产出
+
+- **Significant Modification or Customization** — 重大修改或定制
+  - 一项商品或服务对另一项作出重大修改或定制
+
+- **Highly Interdependent or Interrelated** — 高度相互依赖或相互关联
+  - 各项承诺彼此显著影响，不能在合同背景下单独识别
+
+- **Distinct Performance Obligation** — 可明确区分的履约义务
+  - 需同时满足可独立受益和在合同背景下可单独识别两个条件
