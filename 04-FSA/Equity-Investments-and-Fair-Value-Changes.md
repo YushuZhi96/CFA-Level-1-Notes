@@ -119,3 +119,59 @@ $$
 - [ ] 能解释 OCI 与 Net Income 的区别
 - [ ] 能说明 HTM 为什么不适用于普通股
 - [ ] 能根据题目指定准则选择正确处理
+
+## 现金股利与未实现公允价值变动（Cash Dividends vs. Unrealized Fair Value Changes）
+
+这是本题的核心补充：**现金股利（Cash Dividend）和未实现公允价值收益（Unrealized Fair Value Gain）是两种不同性质的收益。**
+
+### 1. 现金股利（Dividend Income）
+企业持有其他公司的股票，通常在取得收取股利的权利（Right to Receive the Dividend）时确认股利收入（Dividend Income），计入利润表（Income Statement / Profit or Loss）。该基本处理通常不因投资被分类为 Trading 或传统 AFS 而改变。
+
+若已取得收款权但尚未收到现金，可能确认应收股利（Dividend Receivable）；收到现金时再冲销应收股利。若股利明确代表收回部分投资成本，则需按适用准则另行判断，不能机械地全部确认为收入。
+
+### 2. 未实现公允价值变动（Unrealized Fair Value Changes）
+按本题使用的传统分类框架：
+
+| 项目 | Trading Securities | Traditional Available-for-Sale (AFS) |
+|---|---|---|
+| Cash Dividend | 计入 Income Statement | 计入 Income Statement |
+| Unrealized Fair Value Gain / Loss | 计入 Income Statement | 计入 OCI |
+| 期末资产计量 | Fair Value | Fair Value |
+
+记忆：
+- Dividend Income：通常进入 Income Statement。
+- Trading 的未实现公允价值变动：进入 Income Statement。
+- 传统 AFS 的未实现公允价值变动：进入 OCI。
+
+### 3. 本题计算：Company A 持有 Company B 股票
+- 初始购买成本：$50,000。
+- 收到现金股利：$10,000。
+- 年末公允价值：$65,000。
+- 未实现公允价值收益：$65,000 - $50,000 = $15,000。
+
+**若分类为传统 AFS：**
+- $10,000 股利收入进入 Income Statement。
+- $15,000 未实现收益进入 OCI。
+- Income Statement 影响 = **$10,000**。
+
+**若分类为 Trading：**
+- $10,000 股利收入进入 Income Statement。
+- $15,000 未实现收益也进入 Income Statement。
+- Income Statement 影响 = $10,000 + $15,000 = **$25,000**。
+
+正确选项：**C（$10,000 & $25,000）**，依次对应 AFS 与 Trading。
+
+### 4. 三大报表理解
+- Balance Sheet：收到股利时现金增加；股票投资按适用分类以期末公允价值计量。
+- Income Statement：通常确认股利收入；Trading 还确认未实现公允价值变动。
+- OCI / Equity：传统 AFS 的未实现公允价值变动进入 OCI，并累计影响 AOCI，不进入当期 Net Income。
+
+以上按题目简化情形说明，未考虑税项、交易费用及股利除息日等因素。
+
+### 5. 考试陷阱
+1. 股利收入与股价上涨产生的未实现收益不是同一项目。
+2. 传统 AFS 下，股利收入通常进入利润表，未实现公允价值变动进入 OCI。
+3. Trading 下，股利收入和未实现公允价值变动通常都进入利润表。
+4. 先确认题目使用的传统分类还是 IFRS 9 / 现行 US GAAP。
+
+本题记录：正确答案 C。AFS 的利润表收益为 $10,000；Trading 的利润表收益为 $25,000。
