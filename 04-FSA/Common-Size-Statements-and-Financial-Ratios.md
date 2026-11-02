@@ -1,0 +1,227 @@
+---
+subject: Financial Statement Analysis
+topic: Common-Size Statements and Financial Ratios
+status: "🟡 解析能懂，待独立验证"
+created: 2026-11-02
+last-reviewed:
+tags: [CFA-L1, FSA, Common-Size, Financial-Ratios]
+---
+
+# 共同比财务报表与财务比率分析（Common-Size Statements & Financial Ratio Analysis）
+
+## 一句话理解
+**共同比财务报表（Common-Size Financial Statements）**把报表项目转换为统一基准的百分比，便于比较规模不同的企业或同一企业不同时期的结构变化；**财务比率分析（Financial Ratio Analysis）**则把相关财务项目建立比率关系，用于分析流动性、偿债能力、盈利能力和经营效率等。
+
+> 术语提醒：Common-size 通常译为“共同比”或“百分比报表”，不要与“同比增长（year-over-year growth）”混淆。
+
+## 一、共同比财务报表（Common-Size Financial Statements）
+
+### 1. 共同比利润表（Common-Size Income Statement）
+
+将利润表每一个项目表示为营业收入（Revenue / Sales）的百分比：
+
+$$
+Common\text{-}size\ percentage
+=\frac{Income\ Statement\ Item}{Revenue}\times 100\%
+$$
+
+因此，Revenue = 100%。
+
+例：Revenue = 500，COGS = 300，Net Income = 50：
+
+- COGS / Revenue = 300 / 500 = 60%
+- Net Income / Revenue = 50 / 500 = 10%
+
+**分母不是 Net Income（净利润）**。本次题目选项 A 将分母写成 Net Income，因此错误。
+
+### 2. 共同比资产负债表（Common-Size Balance Sheet）
+
+将资产负债表各项目表示为总资产（Total Assets）的百分比：
+
+$$
+Common\text{-}size\ percentage
+=\frac{Balance\ Sheet\ Item}{Total\ Assets}\times 100\%
+$$
+
+因此，Total Assets = 100%。
+
+例：Inventory = 20，Total Assets = 200，则 Inventory / Total Assets = 10%。
+
+### 3. 两种报表的基准对照
+
+| 报表 | 共同基准 | 基准占比 |
+|---|---|---:|
+| Income Statement（利润表） | Revenue / Sales（营业收入） | 100% |
+| Balance Sheet（资产负债表） | Total Assets（总资产） | 100% |
+
+共同比分析属于纵向分析（Vertical Analysis）：关注每个项目在同一张报表中的构成比例。
+
+## 二、共同比报表的两种比较用途
+
+### 1. 时间序列分析（Time-Series Analysis）
+比较**同一家企业在不同期间**的共同比数据，观察结构和趋势变化。
+
+例：某公司 COGS / Revenue 从 55% 上升到 60%，再升至 65%。这提示成本占收入比例上升，可能挤压毛利率；仍需进一步调查原因。
+
+记忆：Same company, different periods（同一公司，不同期间）。
+
+### 2. 横截面分析（Cross-Sectional Analysis）
+比较**不同企业在同一期间**的共同比数据。转换为百分比有助于减弱企业规模差异的影响。
+
+例：同一年度 A、B 两家公司的 Net Income / Revenue 分别为 20% 和 10%，可比较其净利率表现。
+
+记忆：Different companies, same period（不同公司，同一期间）。
+
+### 3. 局限
+共同比分析让比较更方便，但不能自动消除会计政策、业务模式、会计估计、季节性等差异。比较时仍要确认口径一致，并结合附注理解数据。
+
+## 三、财务比率分析（Financial Ratio Analysis）
+
+财务比率把报表中的项目联系起来，帮助回答不同问题。常见分类如下。
+
+### 1. 流动性（Liquidity）
+衡量企业偿还短期义务的能力。
+
+**营运资本（Working Capital）**
+
+$$
+Working\ Capital = Current\ Assets - Current\ Liabilities
+$$
+
+**流动比率（Current Ratio）**
+
+$$
+Current\ Ratio = \frac{Current\ Assets}{Current\ Liabilities}
+$$
+
+**速动比率（Quick Ratio）**
+
+$$
+Quick\ Ratio =
+\frac{Cash + Short\text{-}term\ Marketable\ Securities + Receivables}{Current\ Liabilities}
+$$
+
+也常按题目口径写作：
+
+$$
+Quick\ Ratio =
+\frac{Current\ Assets - Inventory - Prepaids}{Current\ Liabilities}
+$$
+
+速动比率比流动比率更严格，通常剔除存货和预付费用等较难迅速用于偿债的项目。
+
+### 2. 偿债能力 / 杠杆（Solvency / Leverage）
+衡量企业长期偿债压力及资本结构。
+
+**负债比率（Debt Ratio）**
+
+$$
+Debt\ Ratio = \frac{Total\ Liabilities}{Total\ Assets}
+$$
+
+**债务权益比（Debt-to-Equity Ratio）**
+
+$$
+Debt\text{-}to\text{-}Equity =
+\frac{Total\ Debt}{Total\ Equity}
+$$
+
+**利息保障倍数（Interest Coverage）**
+
+$$
+Interest\ Coverage = \frac{EBIT}{Interest\ Expense}
+$$
+
+注意 Debt Ratio 与 Debt-to-Equity Ratio 的分母不同，不要混淆。
+
+### 3. 盈利能力（Profitability）
+衡量企业赚取利润的能力。
+
+**毛利率（Gross Profit Margin）**
+
+$$
+Gross\ Profit\ Margin = \frac{Gross\ Profit}{Revenue}
+$$
+
+**营业利润率（Operating Profit Margin）**
+
+$$
+Operating\ Profit\ Margin = \frac{Operating\ Income}{Revenue}
+$$
+
+**净利率（Net Profit Margin）**
+
+$$
+Net\ Profit\ Margin = \frac{Net\ Income}{Revenue}
+$$
+
+**资产回报率（Return on Assets, ROA）**
+
+$$
+ROA = \frac{Net\ Income}{Average\ Total\ Assets}
+$$
+
+**股东权益回报率（Return on Equity, ROE）**
+
+$$
+ROE = \frac{Net\ Income}{Average\ Shareholders'\ Equity}
+$$
+
+### 4. 经营效率 / 活动能力（Activity / Efficiency）
+衡量企业使用资产创造收入或管理营运资本的效率。
+
+**存货周转率（Inventory Turnover）**
+
+$$
+Inventory\ Turnover = \frac{COGS}{Average\ Inventory}
+$$
+
+**应收账款周转率（Receivables Turnover）**
+
+$$
+Receivables\ Turnover =
+\frac{Net\ Credit\ Sales}{Average\ Receivables}
+$$
+
+若题目未提供赊销额，可能按题目给定口径使用 Revenue。
+
+**总资产周转率（Total Asset Turnover）**
+
+$$
+Total\ Asset\ Turnover =
+\frac{Revenue}{Average\ Total\ Assets}
+$$
+
+周转率通常是“期间流量 ÷ 平均时点余额”。因此在可获得数据时，常使用平均资产、平均存货或平均应收账款，而不是只取期末余额。
+
+## 四、共同比分析与比率分析的区别
+
+| 对比 | Common-Size Analysis | Ratio Analysis |
+|---|---|---|
+| 核心方法 | 每个项目 ÷ 统一基准 | 两个或多个财务项目建立比率 |
+| 主要目的 | 看报表结构、构成比例 | 看流动性、盈利能力、杠杆、效率 |
+| 例子 | COGS / Revenue | Current Assets / Current Liabilities |
+| 常见用途 | 时间序列、横截面比较 | 企业诊断、同业比较、趋势分析 |
+
+两者可以结合使用：先通过共同比报表发现成本结构或资产结构异常，再用具体财务比率深入分析。
+
+## 五、常见考试陷阱
+
+1. 共同比利润表的基准是 **Revenue（营业收入）**，不是 Net Income（净利润）。
+2. 共同比资产负债表的基准是 **Total Assets（总资产）**。
+3. Time-series = 同一公司、不同时期；Cross-sectional = 不同公司、同一时期。
+4. Common-size 不等于同比增长率（Year-over-Year Growth）。
+5. 共同比分析减弱规模差异，但不能消除会计政策和业务模式差异。
+6. 流动比率分子为 Current Assets；速动比率通常剔除 Inventory 和 Prepaids。
+7. Debt Ratio = Total Liabilities / Total Assets；Debt-to-Equity = Total Debt / Total Equity，口径不同。
+8. 周转率及 ROA、ROE 常使用平均余额，因为分子是期间数据、分母是时点数据。
+
+## 六、本次题目记录
+
+题目问哪项表述最不准确。正确答案 A。错误点：将共同比利润表的基准误写成 Net Income；正确基准应为 Revenue。
+
+- [x] 能说出共同比利润表和资产负债表各自的分母
+- [x] 能区分 Time-Series 与 Cross-Sectional Analysis
+- [ ] 能独立计算常见流动性、偿债能力和盈利能力比率
+- [ ] 能解释平均余额在周转率及回报率计算中的作用
+- [ ] 能独立完成一道同类新题
