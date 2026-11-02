@@ -71,22 +71,173 @@ $$
 
 ### 4. 股东权益 Shareholders' Equity
 
-股东权益是资产扣除负债后的剩余权益（Residual Interest）。常见组成：
+股东权益（Shareholders' Equity / Owners' Equity）是企业资产扣除全部负债后的**剩余权益（Residual Interest）**：
 
-- **Common Stock（普通股股本）**：按法律或会计规定确认的股本金额。
-- **Additional Paid-in Capital（资本公积 / 额外实收资本）**：股东投入超过股本面值等形成的资本。
-- **Retained Earnings（留存收益）**：累计净利润扣除分红及其他调整后的留存部分。
-- **Treasury Stock（库存股）**：企业回购的自身股份，通常作为股东权益的抵减项目。
+$$
+Shareholders'\ Equity = Total\ Assets - Total\ Liabilities
+$$
 
-留存收益的简化变动关系：
+它不是“公司账户里剩余的现金”，也不等于公司股票的市场价值（Market Capitalization）。它是资产负债表上的会计账面权益（Book Equity）。
+
+#### 4.1 股东权益的主要组成
+
+不同国家、公司类型和会计准则下，报表列示名称可能不同。CFA 常见项目可按以下结构理解：
+
+| 组成 | 英文 | 正常方向 | 核心含义 |
+|---|---|---:|---|
+| 普通股股本 | Common Stock / Ordinary Share Capital | 增加权益 | 按面值或法定 / 列报金额确认的已发行普通股资本 |
+| 资本公积 / 额外实收资本 | Additional Paid-in Capital (APIC) / Share Premium | 增加权益 | 股东投入超过股票面值的部分及符合规定的其他资本投入 |
+| 留存收益 | Retained Earnings | 可正可负 | 累计利润扣除股利及相关调整后的留存金额 |
+| 累计其他综合收益 | Accumulated Other Comprehensive Income (AOCI) | 可正可负 | 以前期间和本期计入 OCI、累计留在权益中的金额 |
+| 库存股 | Treasury Stock | **抵减权益** | 公司回购的自身股份，通常以负数列示 |
+
+此外，报表还可能出现优先股（Preferred Stock）、股份支付储备（Share-based Payment Reserve）、重估盈余（Revaluation Surplus）等项目。合并财务报表还可能单独列示非控制性权益（Non-controlling Interest, NCI）。
+
+#### 4.2 普通股股本与资本公积：股东投入的资本
+
+**Common Stock（普通股股本）**
+- 代表公司发行普通股所确认的股本金额，通常按股票面值（Par Value）或适用法律规定的列报金额记录。
+- 它不是股票当前市场价格，也不等于公司收到的全部发行款。
+
+**Additional Paid-in Capital, APIC（额外实收资本 / 资本公积）**
+- 股东发行认购价超过股票面值的部分，通常计入 APIC；IFRS 报表常见名称为 Share Premium（股本溢价）。
+- APIC 还可能包含其他符合准则的资本性投入或权益交易金额，具体看当地准则和报表列示。
+
+例：公司发行 100,000 股普通股，每股面值 $1，发行价 $10：
+
+$$
+Cash\ Received=100,000\times10=\$1,000,000
+$$
+
+$$
+Common\ Stock=100,000\times1=\$100,000
+$$
+
+$$
+APIC=100,000\times(10-1)=\$900,000
+$$
+
+简化分录：
+
+| 科目 | Debit 借方 | Credit 贷方 |
+|---|---:|---:|
+| Cash（现金） | $1,000,000 | |
+| Common Stock（普通股股本） | | $100,000 |
+| APIC（资本公积） | | $900,000 |
+
+**考试重点：** 股东投入公司是权益融资（Equity Financing），不是营业收入（Revenue），因此不会因为发行股票而直接增加当期净利润（Net Income）。
+
+#### 4.3 留存收益 Retained Earnings：公司赚取并留存的累计利润
+
+留存收益是企业历年累计净利润中没有通过股利等方式分配出去、并经相关调整后的金额。
+
+简化变动公式：
 
 $$
 Ending\ Retained\ Earnings
-= Beginning\ Retained\ Earnings + Net\ Income - Dividends
+=Beginning\ Retained\ Earnings
++Net\ Income
+-Dividends
 $$
 
-实际报表还可能包含其他综合收益、会计政策调整等项目。
+若当期发生净亏损（Net Loss），应以负数影响留存收益。实际报表还可能涉及前期差错更正、会计政策变更的追溯调整及其他准则规定的项目。
 
+例：
+- 期初留存收益：$200,000
+- 本期净利润：$80,000
+- 本期宣告股利：$30,000
+
+$$
+Ending\ RE=200,000+80,000-30,000=\$250,000
+$$
+
+注意：
+- **Net Income（净利润）**先在利润表计算，期末结转后通常增加 Retained Earnings。
+- **Dividends（股利）**是利润分配，不是利润表费用；宣告股利会减少留存收益并通常确认应付股利，支付时减少现金和应付股利。
+- 留存收益不代表公司持有同等金额的现金；利润可能已用于购买设备、存货或偿还债务。
+
+#### 4.4 累计其他综合收益 AOCI
+
+**Other Comprehensive Income (OCI，其他综合收益)** 是按适用准则不直接计入当期净利润、而列入其他综合收益的特定收益和损失。
+
+**Accumulated Other Comprehensive Income (AOCI，累计其他综合收益)** 是这些 OCI 项目在权益中累计形成的余额。
+
+可能涉及的项目（取决于准则和具体分类）：
+- 外币报表折算差额（Foreign Currency Translation Differences）；
+- 某些金融资产的公允价值变动；
+- 现金流量套期储备（Cash Flow Hedge Reserve）；
+- 某些设定受益计划的重新计量（Remeasurements of Defined Benefit Plans）。
+
+关系：
+
+$$
+Comprehensive\ Income=Net\ Income+OCI
+$$
+
+当期 OCI 会影响综合收益，并在适用情况下累计进入 AOCI；它不等于 Investment Income（投资收益），也不一定会在未来重分类进损益，具体取决于项目和会计准则。
+
+#### 4.5 库存股 Treasury Stock：股东权益的抵减项
+
+Treasury Stock 是公司已经回购、但尚未注销的自身股份。
+
+- 通常作为股东权益的抵减项（Contra-equity），在权益部分以负数列示。
+- 回购自身股份通常减少现金（Assets）和股东权益（Equity）。
+- 库存股通常不享有股息分配权和表决权（具体法律安排除外）。
+- 回购、再发行自身股份产生的差额通常作为权益内部项目处理，而不是确认普通经营收入或费用；应按适用准则判断。
+
+例：公司用 $50,000 现金回购自身股份：
+
+- Cash 减少 $50,000；
+- Treasury Stock（抵减权益）增加 $50,000；
+- 总股东权益减少 $50,000；
+- 不因此确认经营费用。
+
+#### 4.6 非控制性权益 NCI（合并报表补充）
+
+**Non-controlling Interest (NCI，非控制性权益)** 是子公司权益中不归属于母公司股东的部分。
+
+在合并资产负债表中，NCI 通常作为股东权益的一部分单独列示，但它不属于母公司股东应占权益（Equity Attributable to Owners of the Parent）。
+
+#### 4.7 股东权益结构示例
+
+假设某公司资产负债表列示：
+
+| 项目 | 金额 |
+|---|---:|
+| Common Stock（普通股股本） | $100 |
+| APIC（资本公积） | $400 |
+| Retained Earnings（留存收益） | $250 |
+| AOCI（累计其他综合收益） | $30 |
+| Treasury Stock（库存股） | ($50) |
+| **Total Shareholders' Equity（股东权益合计）** | **$730** |
+
+计算：
+
+$$
+100+400+250+30-50=730
+$$
+
+这张表帮助记忆：股东投入、累计留存利润和累计 OCI 增加权益；库存股通常抵减权益。
+
+#### 4.8 本题易错点：Investment Income 不等于 Equity Account
+
+**Investment Income（投资收益）**通常是利润表（Income Statement）中的收益 / 利得项目，而不是资产负债表中直接列示的股东权益组成科目。
+
+但它可能通过以下路径间接影响股东权益：
+
+$$
+Investment\ Income
+\rightarrow Net\ Income
+\rightarrow Retained\ Earnings
+\rightarrow Shareholders'\ Equity
+$$
+
+因此：
+- Paid-In Capital（投入资本）是股东权益组成；
+- Retained Earnings（留存收益）是股东权益组成；
+- Investment Income（投资收益）是利润表项目，确认后通过净利润结转影响留存收益。
+
+**本题问“哪个科目最不可能属于 Owners' Equity”，正确答案是 B：Investment Income。**
 ## 资产与负债的分类
 
 ### 1. 流动资产 Current Assets
@@ -188,7 +339,6 @@ $$
 - [[Income-Statement-Fundamentals|利润表基础概念]]
 - [[Cash-Flow-Statement-Fundamentals|现金流量表基础概念]]
 - [[Financial-Ratio-Analysis|财务比率分析]]
-- [[Oligopoly-Price-Leadership-and-Price-War|寡头垄断：价格领导与价格战]]（不同科目，仅为库内链接示例，不属于本知识点）
 
 
 ## 股东投入资本、债务融资与经营收入的区别
@@ -280,6 +430,10 @@ Dr. Cash（借：现金）             500,000
 本次题目：问资产负债表**不具备**哪项功能。正确答案为“展示公司在某一期间的盈利能力”，因为盈利能力属于利润表的分析范围。
 
 - [ ] 不看解析能独立解释资产、负债、股东权益及会计恒等式
+- [ ] 能区分 Common Stock、APIC、Retained Earnings、AOCI 和 Treasury Stock
+- [ ] 能解释 Investment Income 如何通过 Net Income 间接影响 Retained Earnings
+- [ ] 能计算发行股票时 Common Stock 与 APIC 的金额
+- [ ] 能解释 Treasury Stock 为什么是抵减权益项目
 - [ ] 能区分流动 / 非流动资产与负债
 - [ ] 能区分三大报表的时点与期间属性
 - [ ] 能独立完成一道同类新题
