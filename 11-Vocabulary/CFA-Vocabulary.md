@@ -728,3 +728,78 @@ tags: [CFA-L1, Vocabulary]
 
 - **Distinct Performance Obligation** — 可明确区分的履约义务
   - 需同时满足可独立受益和在合同背景下可单独识别两个条件
+
+
+## Financial Statement Analysis｜EPS 补充
+
+- **Earnings Per Share (EPS)** — 每股收益
+  - 归属于普通股股东的利润平均分配到每股普通股上的金额
+
+- **Basic EPS** — 基本每股收益
+  - (Net Income − Preferred Dividends) / Weighted Average Common Shares
+
+- **Diluted EPS** — 稀释每股收益
+  - 考虑具有稀释作用的潜在普通股后的每股收益
+
+- **Weighted Average Common Shares Outstanding** — 发行在外普通股加权平均股数
+  - 根据普通股在本期发行在外的时间加权计算
+
+- **Preferred Dividends** — 优先股股息
+  - 计算 Basic EPS 时从净利润中扣除
+
+- **Cumulative Preferred Shares** — 累积优先股
+  - 当期应计优先股股息通常需扣除，即使尚未宣告
+
+- **Non-cumulative Preferred Shares** — 非累积优先股
+  - 通常扣除当期已宣告的优先股股息
+
+- **Potential Common Shares** — 潜在普通股
+  - 可能转换或行权为普通股的金融工具
+
+- **Dilutive** — 具有稀释作用的
+  - 纳入后使 EPS 下降
+
+- **Anti-dilutive** — 反稀释的
+  - 纳入后使 EPS 上升或减少每股亏损，应排除
+
+- **If-Converted Method** — 假设转换法
+  - 假设可转换债券或优先股转换为普通股
+
+- **Convertible Debentures** — 可转换债券
+  - 可按约定条件转换为普通股的债务工具
+
+- **Coupon Rate** — 票面利率
+  - 用于计算债券票面利息的利率
+
+- **After-tax Interest** — 税后利息
+  - Interest Expense × (1 − Tax Rate)
+
+- **Conversion Ratio** — 转换比例
+  - 每单位可转换证券可兑换的普通股股数
+
+- **Treasury Stock Method** — 库存股法
+  - 假设期权行权，并用行权所得按平均市价回购股份
+
+- **Stock Options** — 股票期权
+  - 赋予持有人按约定价格购买股票的权利
+
+- **Warrants** — 认股权证
+  - 赋予持有人按约定价格认购股票的权利
+
+- **Exercise Price** — 行权价格
+  - 期权或认股权证购买普通股的约定价格
+
+- **Exercise Proceeds** — 行权所得款项
+  - 行权时公司收到的资金
+
+- **Average Market Price** — 平均市场价格
+  - 库存股法中假设回购股份使用的平均市价
+
+- **Incremental Shares** — 增量股份
+  - 假设行权 / 转换后净增加的普通股股数
+
+- **Stock Split** — 股票拆分
+  - 通常需对加权平均股数及比较期间作追溯调整
+
+- **Stock Dividend** — 股票股利
+  - 通常需对加权平均股数及比较期间作追溯调整
