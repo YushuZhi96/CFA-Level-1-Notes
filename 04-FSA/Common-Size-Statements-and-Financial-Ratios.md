@@ -400,3 +400,44 @@ $$
 - [ ] 能分清 Total Debt 与 Total Liabilities。
 - [ ] 能解释流动资产增加时 Current Ratio 的方向。
 - [ ] 能解释 Equity 增加时 D/E 的方向。
+
+
+## 十、重估对 ROE、净利润率、债务资本比率的影响
+
+### 三个公式
+
+**ROE（Return on Equity，股东权益回报率）**
+
+$$
+ROE = Net\ Income / Average\ Shareholders'\ Equity
+$$
+
+**Net Profit Margin（净利润率）**
+
+$$
+Net\ Profit\ Margin = Net\ Income / Revenue
+$$
+
+**Debt-to-Capital Ratio（债务资本比率）**
+
+$$
+Debt\text{-}to\text{-}Capital = Total\ Debt / (Total\ Debt + Total\ Equity)
+$$
+
+### 重估题的判断
+
+Golden 公司出租计算机系统，假设依据 IFRS IAS 16 对仍持有的固定资产向上重估 10,000 欧元；此前没有计入损益的重估减值需要转回，忽略税款及其他变化。
+
+- Assets 上升 10,000 欧元；Equity 通过 OCI 中的 Revaluation Surplus 上升；Debt 不变；Net Income 通常不变。
+- ROE：Net Income 不变、Average Equity 上升，若净利润为正则 ROE 下降。
+- Net Profit Margin：Net Income 和 Revenue 都不变，因此不变。
+- Debt-to-Capital：Total Debt 不变，Debt + Equity 上升，因此比率下降。
+
+**本题答案 C：Debt-to-Capital Ratio will be lower。**
+
+### 注意事项
+
+1. ROE 通常使用平均股东权益；重估发生在年末时，全年平均值的处理取决于题目口径。
+2. Debt-to-Capital 与 Debt-to-Equity 不同：前者分母为 Debt + Equity，后者分母仅为 Equity。
+3. 重估增值通常计入 OCI，但转回此前计入损益的重估减值可能影响净利润；还需视具体情况考虑递延税项与未来折旧。
+4. 计算机系统属于有形固定资产 PP&E，适用 IAS 16 重估逻辑，而不是无形资产的 IAS 38。
