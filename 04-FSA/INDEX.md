@@ -16,3 +16,4 @@
 - [[FCFF-and-FCFE|企业自由现金流与股权自由现金流（FCFF & FCFE）]]（2026-11-03，🟡）
 - [[Inventory-Cost-Flow-Methods|存货成本流转方法：FIFO、LIFO、WAC]]（2026-11-03，🟡）
 - [[Intangible-Assets-IAS-38|无形资产（Intangible Assets — IAS 38）]]（2026-11-03，🟡）
+- [[Defined-Benefit-Pension-Net-Position|设定受益养老金计划与净养老金头寸（Defined Benefit Pension Plan & Net Pension Position）]]（2026-11-03，🟡）
