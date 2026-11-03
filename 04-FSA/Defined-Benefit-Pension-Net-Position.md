@@ -19,11 +19,18 @@ tags: [CFA-L1, FSA, Long-Term-Liabilities, Pension, IAS-19]
 
 ## 二、两个必须区分的金额
 
-### 1. 养老金义务现值（Present Value of Defined Benefit Obligation, DBO）
+### 1. 设定受益义务（Defined Benefit Obligation, DBO）
 
-企业根据员工已提供的服务，预计未来需要支付的养老金福利，按照适用折现率折算到报告日的现值。
+**DBO 是 Defined Benefit Obligation 的缩写，中文为“设定受益义务”。** 在养老金会计中，它指企业因员工截至报告日已经提供的服务，而承担的未来设定受益养老金支付义务的**现值（Present Value）**。
 
-直观理解：**未来承诺要支付的钱，折算成今天值多少钱。**
+换句话说：
+- Defined Benefit：设定受益 / 约定福利；
+- Obligation：义务 / 责任；
+- Present Value：将未来预计支付的福利折现到报告日。
+
+因此，DBO 不是未来养老金支付金额的简单总和，而是按精算假设和折现率计算出的报告日现值。
+
+**直观理解：员工已经为公司工作所赚取的未来养老金承诺，折算成今天值多少钱。**
 
 ### 2. 计划资产公允价值（Fair Value of Plan Assets）
 
@@ -50,7 +57,7 @@ $$
 ### 情况一：计划资产不足（Deficit）
 
 假设：
-- DBO = €12 million
+- DBO（Defined Benefit Obligation，设定受益义务现值）= €12 million
 - Plan Assets = €8 million
 
 $$
@@ -62,7 +69,7 @@ $$
 ### 情况二：计划资产超过义务（Surplus）
 
 假设：
-- DBO = €15 million
+- DBO（Defined Benefit Obligation，设定受益义务现值）= €15 million
 - Plan Assets = €18 million
 
 $$
