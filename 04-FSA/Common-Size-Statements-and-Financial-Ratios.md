@@ -356,3 +356,47 @@ $$
 - [ ] 能默写三个比率公式
 - [ ] 能说出 Quick Ratio 与 Current Ratio 在 Inventory 上的区别
 - [ ] 能说明 COGS 对 EBIT Margin 的作用
+
+
+## 九、流动比率与债务权益比率对照（Current Ratio vs Debt-to-Equity Ratio）
+
+### 1. 流动比率（Current Ratio）
+
+$$
+\boxed{Current\ Ratio=\frac{Current\ Assets}{Current\ Liabilities}}
+$$
+
+- **Current Assets（流动资产）**：包括现金、应收账款、存货等。
+- **Current Liabilities（流动负债）**：包括应付账款、短期借款等。
+- 用途：衡量企业的**短期偿债能力（Short-term Liquidity）**。
+- 假设流动负债不变，流动资产越高，Current Ratio 越高。
+
+### 2. 债务权益比率（Debt-to-Equity Ratio, D/E）
+
+$$
+\boxed{Debt\text{-}to\text{-}Equity\ Ratio=\frac{Total\ Debt}{Total\ Equity}}
+$$
+
+- **Total Debt（总债务）**：通常指有息债务，具体口径要遵循题目定义。
+- **Total Equity（股东权益）**：资产减去负债后的所有者权益。
+- 用途：衡量**财务杠杆（Financial Leverage）**及债务融资相对权益融资的程度。
+- 假设债务不变，股东权益越高，D/E 越低。
+- 不要和 Total Liabilities / Total Equity（总负债权益比）混为一谈；题目如明确指定不同债务口径，应按题目计算。
+
+### 与 FIFO/LIFO 的联系：价格上涨时的典型比较
+
+在持续涨价、其他条件相同且忽略特殊存货清算等影响时：
+- **FIFO 期末存货通常较高**，因存货计入流动资产，Current Ratio 通常较高（具体仍受现金税款及流动负债等变化影响）。
+- **FIFO 的 COGS 通常较低**，净利润及留存收益通常较高；在债务不变等假设下，Equity 增加会使 D/E 通常较低。
+- 记住：**Current Ratio 分子是 Current Assets；D/E 分母是 Total Equity**。
+
+### 速查与自测
+
+| 指标 | 公式 | 考察重点 |
+|---|---|---|
+| Current Ratio | Current Assets / Current Liabilities | 短期偿债能力 |
+| Debt-to-Equity Ratio | Total Debt / Total Equity | 杠杆与债务融资程度 |
+
+- [ ] 能分清 Total Debt 与 Total Liabilities。
+- [ ] 能解释流动资产增加时 Current Ratio 的方向。
+- [ ] 能解释 Equity 增加时 D/E 的方向。
