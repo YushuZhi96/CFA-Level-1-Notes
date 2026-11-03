@@ -121,3 +121,61 @@ $$
 - **Quick Ratio（速动比率）**：分子通常不含存货，因此存货减记不会直接减少速动资产；仍须留意其他调整。
 
 关联：[[Common-Size-Statements-and-Financial-Ratios|财务比率分析]]。
+
+
+## 销售成本（Cost of Goods Sold，COGS）基础概念
+
+**一句话理解：COGS 是本期已销售商品所对应的存货成本，而不是本期全部采购成本，也不是商品售价。**
+
+### Revenue、COGS 和 Inventory 的区别
+
+| 项目 | 英文 | 所属报表 | 含义 |
+|---|---|---|---|
+| 营业收入 | Revenue | 利润表 | 已满足收入确认条件的商品或服务销售收入 |
+| 销售成本 | Cost of Goods Sold (COGS) | 利润表 | 本期已经售出商品对应的成本 |
+| 存货 | Inventory | 资产负债表 | 截至报告日尚未售出商品等的成本 |
+| 毛利润 | Gross Profit | 利润表 | Revenue 减 COGS |
+
+### 公式一：毛利润
+
+$$
+\boxed{Gross\ Profit=Revenue-COGS}
+$$
+
+其他条件不变时，COGS 上升会使毛利润下降；COGS 下降会使毛利润上升。
+
+### 公式二：零售企业简化的存货流转公式（BASE）
+
+$$
+Beginning\ Inventory+Purchases-COGS=Ending\ Inventory
+$$
+
+因此：
+
+$$
+\boxed{COGS=Beginning\ Inventory+Purchases-Ending\ Inventory}
+$$
+
+例如：期初存货20,000，本期采购100,000，期末存货40,000，则 COGS = 80,000。
+
+该简化公式假设没有存货跌价、损耗、退货、转移等其他调整。生产企业还需要考虑制造成本、在产品和完工产品等。
+
+### 实例：采购不等于销售成本
+
+手机店采购100台手机，每台进货成本1,000元，其中卖出60台、每台售价1,500元：
+- Purchases（采购成本）：100,000元；
+- Revenue（营业收入）：60×1,500 = 90,000元；
+- COGS（销售成本）：60×1,000 = 60,000元；
+- Ending Inventory（期末存货）：40×1,000 = 40,000元；
+- Gross Profit（毛利润）：90,000−60,000 = 30,000元。
+
+**易错点：**买了100台不等于卖了100台；只有卖出去的60台对应的成本计入本期 COGS，未售的40台仍留在 Inventory。
+
+### 与 FIFO、LIFO 的联系
+
+FIFO、LIFO、WAC 是 **Cost Flow Assumptions（成本流转假设）**，决定哪些采购批次的成本进入 COGS，哪些留在 Ending Inventory，并不一定代表商品的实际物理出库顺序。
+
+### 自测
+- [ ] 能区分 Revenue、Purchases、COGS、Inventory
+- [ ] 能用 BASE 推出 COGS
+- [ ] 能解释为什么未售出的商品成本不计入 COGS
