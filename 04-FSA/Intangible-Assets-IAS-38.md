@@ -195,52 +195,85 @@ Gain\ or\ Loss\ on\ Disposal = Net\ Disposal\ Proceeds - Carrying\ Amount
 - [ ] 能计算摊销、减值和处置损益
 
 
-## 十二、研发费用：IFRS 与 US GAAP 的资本化差异（R&D Costs）
+## 十二、研发支出：IFRS 与 US GAAP 对比（Research and Development Costs）
 
-### 1. 研究阶段与开发阶段
+### 1. 核心对比表
+
+先记住最重要的总规则：**研究阶段两套准则都费用化；开发阶段 IFRS 有条件允许资本化，US GAAP 通常费用化，但软件开发有专门例外。**
+
+| 研发支出类型 | IFRS（IAS 38） | US GAAP | 核心判断 |
+|---|---|---|---|
+| Research Costs（研究支出） | 发生时费用化，不得资本化 | 通常发生时费用化 | 两套准则一致 |
+| Development Costs（一般开发支出，非软件） | 六项条件全部满足后，满足条件的支出可资本化 | 通常发生时费用化 | 主要差异 |
+| Software to be Sold / Leased / Marketed（对外销售、出租或营销的软件） | 研究阶段费用化；开发阶段满足 IAS 38 六项条件后可资本化 | ASC 985-20：达到 Technological Feasibility 后至产品可供一般发布前，符合条件的成本资本化 | US GAAP 有软件专门规则 |
+| Internal-use Software（内部使用软件） | 按 IAS 38：研究阶段费用化；开发阶段满足六项条件后可资本化 | ASC 350-40：满足条件的 Application Development Stage（应用开发阶段）成本可资本化 | 两套准则的具体资本化门槛不同 |
+
+**一句话记忆：**
+- IFRS：Research Expense；Development 过六关后 Capitalize。
+- US GAAP：R&D 通常 Expense；Software 有特定 Capitalization Exception。
+
+### 2. IFRS：研究与开发如何划分？
 
 - **Research（研究）**：旨在获取新科学或技术知识的原创性、有计划调查，技术与商业结果仍存在较大不确定性。
-- **Development（开发）**：将研究成果或其他知识用于商业化生产、使用前的设计与开发，如原型、工艺或产品。
+- **Development（开发）**：将研究成果或其他知识用于商业化生产或使用前的设计与开发，例如原型、工艺或产品。
 
-**IFRS / IAS 38**：
-- Research Costs 必须在发生时**费用化（Expensed as Incurred）**。
-- Development Costs 只有从能够证明前述六项资本化条件**同时满足之日**起，才能确认合格支出为无形资产。此前已费用化的支出不能因为后续开发成功而重新资本化。
-- 若无法可靠地区分 Research 与 Development，全部按研究阶段费用化。
+**IFRS / IAS 38 的规则：**
+1. Research Costs 必须在发生时 **Expensed as Incurred（发生时费用化）**。
+2. Development Costs 只有从企业能够证明 IAS 38 六项资本化条件**同时满足之日**起，才可将之后符合条件的支出确认为无形资产。
+3. 在六项条件满足之前已经费用化的支出，不得因为后续项目成功而重新资本化。
+4. 若无法可靠地区分 Research 与 Development，全部支出按研究阶段费用化。
 
-**US GAAP（一般规则，ASC 730）**：
-- Research 与 Development 支出通常在发生时费用化。
-- **软件开发有特定例外**：
-  - **对外销售、出租或营销的软件（ASC 985-20）**：达到技术可行性后，到产品可供一般发布前，符合条件的开发成本资本化；技术可行性之前的支出通常费用化。
-  - **内部使用软件（ASC 350-40）**：满足相关条件的应用开发阶段成本可资本化；初步项目阶段及维护、培训等成本通常费用化。
-- 因此不能简化为“US GAAP 所有软件研发费用均资本化”。
+开发阶段资本化六项条件见本笔记第三章：Technical Feasibility、Intention to Complete、Ability to Use or Sell、Probable Future Economic Benefits、Adequate Resources、Reliable Measurement。
 
-### 2. 外购无形资产（Externally Acquired Intangibles）
+### 3. US GAAP：软件开发的两类例外
 
-符合确认条件的单独购买无形资产，在 IFRS 与 US GAAP 下通常均以购买成本为基础初始确认。内部开发则常有大量研究或未达条件的开发支出必须费用化，因此企业**通常**确认的内部生成无形资产金额相对较少；但这不是每笔项目必然存在的数值关系。
+US GAAP 的一般研究与开发规则见 ASC 730：Research and Development Costs 通常在发生时费用化。但软件开发受专门准则约束，不能简单地说所有软件成本都费用化或都资本化。
 
-### 3. 费用化与资本化对报表的影响
+**A. 对外销售、出租或营销的软件（ASC 985-20）**
+- Technological Feasibility（技术可行性）达到之前：相关软件开发成本通常费用化。
+- 达到技术可行性之后：到产品可供一般发布（Available for General Release）之前，符合条件的开发成本资本化。
+- 产品可供一般发布之后：通常费用化后续维护和客户支持成本；符合条件的升级 / 增强成本另按规则判断。
 
-在其他条件相同、资本化条件满足且尚未发生摊销或减值的简化情形下：
+**B. 内部使用软件（ASC 350-40）**
+- Preliminary Project Stage（初步项目阶段）：通常费用化。
+- Application Development Stage（应用开发阶段）：在项目已完成初步阶段、管理层授权并承诺资金，且完成和使用软件具有合理可能性等条件下，符合条件的直接成本资本化。
+- Post-implementation / Operation Stage（实施后 / 运行阶段）：维护、培训等成本通常费用化，具体按准则判断。
 
-| 比较 | Expensing（费用化） | Capitalization（资本化） |
+### 4. 为什么 CFA 本题答案是 C？
+
+题目比较 Hagar（US GAAP）与 Salome（IFRS）：
+
+- A 错：IFRS 的 Research Phase 不会因为达到 Technical Feasibility 就变成可资本化的研究支出。技术可行性是开发阶段资本化条件之一；一旦项目进入开发阶段并且六项条件全部满足，才资本化符合条件的开发支出。
+- B 错：IFRS 并非只有软件开发成本可以资本化；符合 IAS 38 六项条件的一般开发支出也可以资本化。
+- C 对：Research Costs 在 IFRS 与 US GAAP 下通常都不得资本化，应在发生时费用化。
+
+**正确答案：C。**
+
+### 5. 费用化与资本化对财务报表的影响
+
+在其他条件相同、资本化条件满足且暂不考虑后续摊销和减值的简化情形下：
+
+| 影响 | Expensing（费用化） | Capitalization（资本化） |
 |---|---|---|
-| Income Statement（利润表） | 当期费用较高、利润较低 | 初始费用较少、利润较高；未来可能确认摊销或减值 |
-| Balance Sheet（资产负债表） | 不确认对应无形资产 | 资产账面价值较高，初始权益通常较高 |
-| Cash Flow Statement（现金流量表） | 现金支出仍真实发生 | 现金支出同样真实发生，但现金流**分类**可能不同 |
+| Income Statement（利润表） | 当期费用较高、当期利润较低 | 初始费用较少、当期利润较高；未来确认摊销或减值 |
+| Balance Sheet（资产负债表） | 不确认对应开发资产 | 确认无形资产，初始资产及权益通常较高 |
+| Cash Flow Statement（现金流量表） | 现金支出仍真实发生 | 现金支出仍真实发生；现金流分类需按准则判断 |
 
-现金流量表分类提醒：按 IFRS，符合条件且资本化的开发支出通常列为投资活动现金流（CFI），费用化的研发支出通常列为经营活动现金流（CFO）；US GAAP 下软件支出的现金流归类需要结合适用规则与交易事实，不要仅凭“资本化”一词机械套用。**资本化不是让现金流出消失，而是改变会计确认、利润确认时间及可能的现金流列报分类。**
+现金流量表提醒：IFRS 下符合条件并资本化的开发支出通常列为投资活动现金流（CFI），费用化的研发支出通常列为经营活动现金流（CFO）。US GAAP 下软件支出的现金流分类应结合具体规则和事实判断，不要仅凭“资本化”一词机械套用。**资本化不会让现金流出消失，只改变会计确认时点、利润确认节奏及可能的现金流列报分类。**
 
-### 4. 本次 CFA 题目：最不准确的陈述
+### 6. 考试速记
 
-- **A（正确答案）**：声称 IFRS 下 Research Costs 在发生时资本化——**错误**；研究阶段支出必须费用化。
-- **B**：内部开发无形资产确认金额通常少于外购——一般性趋势正确，因为内部研发有较多费用化限制；不是绝对数量关系。
-- **C**：US GAAP 下 R&D 通常费用化，软件开发存在特殊规则——作为 CFA 一级一般原则正确，但资本化仅适用于满足具体条件的支出。
+| 看到题目关键词 | 快速判断 |
+|---|---|
+| Research costs under IFRS | Expense as incurred |
+| Development costs under IFRS | 六项条件全部满足后可资本化 |
+| R&D costs under US GAAP | 通常费用化 |
+| Software under US GAAP | 先判断外售软件还是内部使用软件，再套专门准则 |
+| Technical feasibility | IFRS 开发阶段六项条件之一；外售软件 US GAAP 的重要资本化起点 |
 
-**考试口诀**：IFRS：Research 一律费用化，Development 满足六条件后资本化；US GAAP：R&D 通常费用化，Software 有特例。
+### 7. 自测
 
-### 5. 自测
-
-- [ ] 不看笔记讲出 IFRS Research 与 Development 的处理区别
-- [ ] 能列出 IAS 38 开发资本化的六项条件
-- [ ] 能区分 US GAAP 对外销售软件与内部使用软件的资本化起点
-- [ ] 能解释费用化 / 资本化影响利润和资产但不改变实际现金支出
+- [ ] 能说出 IFRS 与 US GAAP 对 Research Costs 的共同处理
+- [ ] 能解释 IFRS 为什么允许符合条件的 Development Costs 资本化
+- [ ] 能区分 US GAAP 外售软件与内部使用软件的资本化门槛
+- [ ] 能解释费用化 / 资本化对利润表、资产负债表和现金流量表的影响
