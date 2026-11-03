@@ -84,6 +84,29 @@ $$
 
 **不要把承租人的 IFRS 单一模型套用到出租人：IFRS 出租人仍有两种分类。**
 
+### 经营租赁与融资租赁：出租人的折旧和利息收入
+
+从 **Lessor（出租人）** 的角度比较：
+
+| 项目 | Operating Lease（经营租赁） | Finance Lease（融资租赁） |
+|---|---|---|
+| 是否继续确认原租赁资产 | 通常是 | 通常否，改为确认租赁净投资 |
+| Depreciation Expense（原资产折旧费用） | 通常 Yes | 通常 No |
+| Lease/Rental Income（租金收入） | Yes | 不按经营租赁方式确认 |
+| Interest Revenue（利息收入） | 通常不单独确认 | Yes |
+| Net Investment in Lease（租赁净投资） | 通常不确认 | 通常确认 |
+
+**为什么融资租赁出租人不计提原设备折旧？** 融资租赁的出租方通常终止确认原设备，改为确认租赁净投资；既然不再继续确认原设备，就不再对该设备计提折旧。融资收益则在租赁期间体现为利息收入。
+
+**本次题目：** GMT 将设备租给 Johnson，并按融资租赁处理。GMT 是 Lessor，Johnson 是 Lessee。问 GMT 是否确认原设备折旧及利息收入：
+
+- Depreciation Expense：No。
+- Interest Revenue：Yes。
+- **正确答案 B（No / Yes）。**
+
+这与承租人 Finance Lease 计提使用权资产折旧/摊销、确认 Interest Expense 的情况相反。注意 US GAAP 出租人还有 Sales-type / Direct Financing 细分类别；以上按典型融资租赁处理。
+
+
 ## 五、典型题型 / 判断路径
 
 本次题目询问：在 **US GAAP** 下，承租人使用 Operating Lease 而不是 Finance Lease，最不可能出现什么结果？
@@ -123,6 +146,7 @@ $$
 
 本题关键是将“经营租赁不单列利息与摊销费用”与“经营租赁不确认负债”区分开。后者是旧准则常见印象，不适用于现行 ASC 842 的一般承租人租赁。
 
+- [ ] 能解释融资租赁出租人为何不计提原设备折旧、而确认 Interest Revenue
 - [ ] 能区分 Lessee / Lessor
 - [ ] 能解释 IFRS 承租人模型和 US GAAP 双分类
 - [ ] 能写出 Lease Liability = PV(Lease Payments)
