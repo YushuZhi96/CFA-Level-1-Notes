@@ -225,3 +225,53 @@ $$
 - [ ] 能独立计算常见流动性、偿债能力和盈利能力比率
 - [ ] 能解释平均余额在周转率及回报率计算中的作用
 - [ ] 能独立完成一道同类新题
+
+
+## 七、共同比现金流量表（Common-Size Cash Flow Statement）
+
+与共同比利润表（Revenue 为基准）和共同比资产负债表（Total Assets 为基准）相比，现金流量表可根据分析目的使用两种常见标准化方法。
+
+### 方法一：各现金流项目除以营业收入（Revenue）
+
+$$
+Common\text{-}Size\ Cash\ Flow\ Percentage
+=\frac{Cash\ Flow\ Item}{Revenue}\times100\%
+$$
+
+例如 Revenue = 1,000，CFO = 200，则 CFO / Revenue = 20%。这种方法适合跨期或跨公司衡量现金流相对于收入的规模。
+
+### 方法二：现金流入和流出分别以各自总额为基准
+
+现金流入项目：
+
+$$
+Cash\ Inflow\ Percentage
+=\frac{Individual\ Cash\ Inflow}{Total\ Cash\ Inflows}\times100\%
+$$
+
+现金流出项目：
+
+$$
+Cash\ Outflow\ Percentage
+=\frac{Individual\ Cash\ Outflow}{Total\ Cash\ Outflows}\times100\%
+$$
+
+例：客户收款 600、债务融资流入 400，则现金流入总额 1,000，客户收款占 60%；支付供应商 500、购买设备 300，则现金流出总额 800，供应商付款占 62.5%。
+
+### 必须区分三个概念
+
+| 英文 | 中文 | 含义 |
+|---|---|---|
+| Total Cash / Cash Balance | 现金余额 | 某一时点持有的现金存量 |
+| Total Cash Inflows | 现金流入总额 | 一段期间所有现金流入之和 |
+| Total Cash Outflows | 现金流出总额 | 一段期间所有现金流出金额之和 |
+| Net Cash Flow | 现金净流量 | 现金流入减现金流出 |
+
+**本题易错点：**“Divide each item by total cash”并非通常的共同比现金流量表编制方法，因为期末现金余额是时点存量，与当期总现金流入不同。现金净流量也不宜机械作为统一分母，可能为零或极小。
+
+**判断要点：**
+- 按 Revenue 标准化：合理。
+- 流入除以 Total Cash Inflows、流出除以 Total Cash Outflows：合理。
+- 所有项目统一除以 Total Cash Balance：不是本题所指的常规共同比分析方法。
+
+特殊现金比率分析也可能采用现金余额作为分母，但这不等于标准的共同比现金流量表。
