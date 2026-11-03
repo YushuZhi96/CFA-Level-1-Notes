@@ -1032,3 +1032,21 @@ tags: [CFA-L1, Vocabulary]
 - **Cash Flow from Operations (CFO)** — 经营活动现金流
   - 从CFO计算FCFF、FCFE时注意利息分类
 
+
+
+## Financial Statement Analysis｜共同比现金流量表补充
+
+- **Common-Size Cash Flow Statement** — 共同比现金流量表
+  - 可按营业收入标准化，或流入与流出分别按各自总额标准化
+
+- **Total Cash Inflows** — 现金流入总额
+  - 用于计算各现金流入项目的构成比例
+
+- **Total Cash Outflows** — 现金流出总额
+  - 用于计算各现金流出项目的构成比例
+
+- **Cash Balance** — 现金余额
+  - 某一时点的现金存量，不是常规共同比现金流量表分母
+
+- **Net Cash Flow** — 现金净流量
+  - 现金流入减现金流出，不宜机械作为共同比统一分母
