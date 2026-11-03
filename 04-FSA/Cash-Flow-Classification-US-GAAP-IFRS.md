@@ -191,3 +191,32 @@ $
 - [ ] 记住 IFRS（2026 口径）下利息/股息的分类选择
 - [ ] 知道 2027 IFRS 18 对 IAS 7 的分类修改，避免跨版本混淆
 - [ ] 能把 Gordon Co. 的 Tax Payment 排除在 CFF 之外
+
+## 八、现金流量表分析步骤（Steps in Cash Flow Statement Analysis）
+
+分析顺序建议：**Identify → Analyze → Compare → Evaluate**。这是一种实用分析框架，不是要求所有分析都必须严格遵守的法定程序。
+
+### 1. Identify Primary Sources and Uses of Cash（识别主要现金来源与用途）
+先看 CFO、CFI、CFF 的金额及正负号。确定现金主要来自经营、投资资产出售还是筹资，以及现金主要用于经营、资本支出、偿债或分红。
+
+**考试重点：问分析现金流量表应该从哪里开始，优先选择识别主要现金来源与用途。**
+
+### 2. Analyze Determinants of Cash Flows（分析现金流驱动因素）
+分析 CFO 的变化原因：销售回款、应收账款（AR）、存货（Inventory）、应付账款（AP）、非现金费用及营运资本变动。检查净利润（Net Income）与经营现金流的差异。
+
+### 3. Assess Comparability（检查可比性）
+通过 Time-Series Analysis（同一企业不同期间）和 Cross-Sectional Analysis（不同企业之间）进行比较。注意 US GAAP 与 IFRS 的利息、股息分类差异，必要时采用共同比分析。
+
+### 4. Evaluate Cash Flow Quality and Sustainability（评估现金流质量与可持续性）
+判断经营现金流能否支持必要资本支出；自由现金流是否稳定；是否依赖新增借款、发行股票或出售资产维持现金流。注意一次性事项和非现金交易。
+
+### 速记
+**先看钱从哪来、花到哪去，再分析为什么、能否持续。**
+
+关联：[[Common-Size-Statements-and-Financial-Ratios|共同比财务报表与财务比率]]；[[FCFF-and-FCFE|FCFF 与 FCFE]]。
+
+### 自测
+- [ ] 能解释为什么 Sources and Uses 是第一步
+- [ ] 能区分现金流驱动因素和总体现金来源
+- [ ] 能比较跨期、跨企业的现金流
+- [ ] 能判断现金流的持续性
