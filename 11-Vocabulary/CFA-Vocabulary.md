@@ -1203,3 +1203,38 @@ tags: [CFA-L1, Vocabulary]
 
 - **Actuarial Risk** — 精算风险
   - 因寿命、工资增长、离职率等精算假设变化产生的风险
+
+## FSA｜股份支付计划
+
+- **Share-Based Compensation** — 股份支付
+  - 使用股票或股价相关权利向员工提供报酬
+
+- **Stock Grant** — 股票授予
+  - 直接授予公司股票
+
+- **Share Options** — 股票期权
+  - 赋予按约定行权价格购买股票的权利
+
+- **Stock Appreciation Rights (SARs)** — 股票增值权
+  - 提供与股票升值幅度挂钩的收益
+
+- **Equity-Settled** — 权益结算
+  - 股份支付通常增加权益并确认薪酬费用
+
+- **Cash-Settled** — 现金结算
+  - 股份支付确认负债并持续重估
+
+- **Weighted Average Fair Value** — 加权平均公允价值
+  - IFRS 2 中股份支付工具的披露指标
+
+- **Weighted Average Exercise Price** — 加权平均行权价格
+  - 股票期权披露中与公允价值不同的指标
+
+- **Compensation Expense** — 薪酬费用
+  - 股份支付在员工服务期间确认的费用
+
+- **Alignment of Interests** — 利益一致性
+  - 股权激励有助于协调员工与股东利益
+
+- **Share Dilution** — 股份稀释
+  - 期权行权可能降低原股东持股比例
