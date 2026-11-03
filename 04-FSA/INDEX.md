@@ -19,3 +19,4 @@
 - [[Defined-Benefit-Pension-Net-Position|设定受益养老金计划与净养老金头寸（Defined Benefit Pension Plan & Net Pension Position）]]（2026-11-03，🟡）
 
 - [[Share-Based-Compensation-Plans|股份支付计划（Share-Based Compensation Plans）]]（2026-11-03，🟡）
+- [[Lease-Accounting-IFRS-vs-US-GAAP|租赁会计（Lease Accounting）：IFRS 16 vs US GAAP ASC 842]]（2026-11-03，🟡）
