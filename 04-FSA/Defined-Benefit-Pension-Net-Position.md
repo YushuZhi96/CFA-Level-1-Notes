@@ -36,7 +36,7 @@ tags: [CFA-L1, FSA, Long-Term-Liabilities, Pension, IAS-19]
 先比较企业的养老金义务和计划资产：
 
 $$
-Net\\ Pension\\ Position = DBO - Fair\\ Value\\ of\\ Plan\\ Assets
+\text{Net Pension Position} = \text{DBO} - \text{Fair Value of Plan Assets}
 $$
 
 其中：
