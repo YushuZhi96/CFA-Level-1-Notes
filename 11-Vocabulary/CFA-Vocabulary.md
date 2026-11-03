@@ -986,3 +986,21 @@ tags: [CFA-L1, Vocabulary]
 
 - **Bank Overdraft** — 银行透支
   - 符合条件时 IFRS 可纳入现金等价物，US GAAP 通常不可
+
+- **Free Cash Flow to the Firm (FCFF)** — 企业自由现金流
+  - NI+NCC+Int(1-T)-FCInv-WCInv
+
+- **Free Cash Flow to Equity (FCFE)** — 股权自由现金流
+  - NI+NCC-FCInv-WCInv+Net Borrowing
+
+- **Non-cash Charges (NCC)** — 非现金费用
+  - 如折旧，计算自由现金流时通常加回
+
+- **Fixed Capital Investment (FCInv)** — 固定资本投资
+  - 自由现金流计算中的资本性投入
+
+- **Working Capital Investment (WCInv)** — 营运资本投入
+  - 非现金经营营运资本净投入
+
+- **Net Borrowing** — 净借款
+  - 新增债务减去偿还的债务本金
