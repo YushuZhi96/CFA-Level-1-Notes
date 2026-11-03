@@ -275,3 +275,84 @@ $$
 - 所有项目统一除以 Total Cash Balance：不是本题所指的常规共同比分析方法。
 
 特殊现金比率分析也可能采用现金余额作为分母，但这不等于标准的共同比现金流量表。
+
+
+## 八、三项核心财务比率：Quick Ratio、EBIT Margin、Current Ratio
+
+### 1. Quick Ratio（速动比率）
+
+$$
+\boxed{Quick\ Ratio=\frac{Quick\ Assets}{Current\ Liabilities}}
+$$
+
+常见展开式：
+
+$$
+Quick\ Ratio=\frac{Cash+Marketable\ Securities+Receivables}{Current\ Liabilities}
+$$
+
+或按题目给定科目口径：
+
+$$
+Quick\ Ratio=\frac{Current\ Assets-Inventory-Prepaid\ Expenses}{Current\ Liabilities}
+$$
+
+- **Quick Assets（速动资产）**：通常包括现金、短期有价证券、应收款等。
+- **Current Liabilities（流动负债）**：通常需在营业周期内或短期内清偿的负债。
+- **作用**：衡量不依赖出售存货等流动性较弱资产的短期偿债能力。
+- **关键**：Inventory（存货）不计入速动比率分子。
+
+### 2. EBIT Margin（息税前利润率）
+
+$$
+\boxed{EBIT\ Margin=\frac{EBIT}{Revenue}\times100\%}
+$$
+
+$$
+EBIT=Earnings\ Before\ Interest\ and\ Taxes
+$$
+
+简化经营情形：
+
+$$
+EBIT=Revenue-COGS-Other\ Operating\ Expenses
+$$
+
+- **Revenue（营业收入）**：公司销售商品或提供服务产生的收入。
+- **COGS（销售成本）**：已销售商品计入当期的成本。
+- **作用**：衡量每单位收入对应多少息税前利润。
+- **关键**：在收入与其他费用不变时，COGS 下降会使 EBIT 及 EBIT Margin 上升。
+
+### 3. Current Ratio（流动比率）
+
+$$
+\boxed{Current\ Ratio=\frac{Current\ Assets}{Current\ Liabilities}}
+$$
+
+- **Current Assets（流动资产）**：包括现金、应收账款、存货、预付费用等。
+- **作用**：衡量流动资产覆盖流动负债的程度。
+- **关键**：与 Quick Ratio 不同，Current Ratio 的分子**包含 Inventory**。
+
+### 三个指标的比较
+
+| 指标 | 分子 | 分母 | 是否直接包含存货 |
+|---|---|---|---|
+| Quick Ratio | Quick Assets | Current Liabilities | 否 |
+| EBIT Margin | EBIT | Revenue | 存货计价通过 COGS 间接影响 EBIT |
+| Current Ratio | Current Assets | Current Liabilities | 是 |
+
+### 与 FIFO/LIFO 的联系（简化情形）
+
+如果使用 FIFO 相比 LIFO 使期末存货账面价值增加：
+- **Current Ratio**：通常提高，因为 Inventory 计入流动资产。
+- **Quick Ratio**：不会因为 Inventory 增加而直接提高；若考虑历史上已实际支付的额外所得税，现金可能减少，从而使速动比率下降。
+- **EBIT Margin**：若 FIFO 使当期 COGS 降低，EBIT Margin 提高。
+
+注意：涉及税额、现金或递延所得税负债时，须区分“实际使用 FIFO 所产生的现金税影响”和“分析师将 LIFO 报表重列为 FIFO 的非现金调整”，不可无条件认为 Cash 必然下降。
+
+关联：[[Inventory-Cost-Flow-Methods|FIFO、LIFO 与 WAC 存货计价方法]]。
+
+### 自测
+- [ ] 能默写三个比率公式
+- [ ] 能说出 Quick Ratio 与 Current Ratio 在 Inventory 上的区别
+- [ ] 能说明 COGS 对 EBIT Margin 的作用
