@@ -1125,3 +1125,36 @@ tags: [CFA-L1, Vocabulary]
 
 - **Derecognition** — 终止确认
   - 资产出售或不再预期产生未来经济利益时从账面移除
+
+
+## Financial Statement Analysis｜R&D 费用化与资本化
+
+- **Research Costs** — 研究支出
+  - IFRS 下研究阶段支出在发生时费用化
+
+- **Development Costs** — 开发支出
+  - IFRS 下同时满足 IAS 38 六项条件后可资本化
+
+- **Expensing** — 费用化
+  - 将支出计入当期损益而非确认为资产
+
+- **Capitalization** — 资本化
+  - 符合条件的支出计入资产并在后续摊销或减值
+
+- **Research and Development (R&D)** — 研究与开发
+  - US GAAP 通常费用化，符合条件的软件成本有例外
+
+- **Software Development Costs** — 软件开发成本
+  - US GAAP 下须按软件用途和阶段判断资本化
+
+- **Technological Feasibility** — 技术可行性
+  - 对外销售软件在 US GAAP 下的重要资本化起点
+
+- **Application Development Stage** — 应用开发阶段
+  - 符合条件的内部使用软件开发成本可资本化
+
+- **Externally Acquired Intangibles** — 外购无形资产
+  - 符合条件时按购买成本初始确认
+
+- **Internally Generated Intangibles** — 内部生成无形资产
+  - 研究费用化及开发资本化条件限制确认金额
