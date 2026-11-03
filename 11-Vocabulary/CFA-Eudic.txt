@@ -320,3 +320,8 @@
 "Net Fixed Capital Investment","固定资本净投资；提示：资本支出减去出售固定资产所得现金"
 "Proceeds from Asset Sales","出售资产所得现金；提示：计算净固定资本投资时从资本支出中扣除"
 "Cash Flow from Operations (CFO)","经营活动现金流；提示：从CFO推导FCFF和FCFE时注意利息现金流分类"
+"Common-Size Cash Flow Statement","共同比现金流量表；提示：可按营业收入标准化，或流入与流出分别按各自总额标准化"
+"Total Cash Inflows","现金流入总额；提示：用于计算各现金流入项目的构成比例"
+"Total Cash Outflows","现金流出总额；提示：用于计算各现金流出项目的构成比例"
+"Cash Balance","现金余额；提示：某一时点的现金存量，不是常规共同比现金流量表分母"
+"Net Cash Flow","现金净流量；提示：现金流入减现金流出，不宜机械作为共同比统一分母"
