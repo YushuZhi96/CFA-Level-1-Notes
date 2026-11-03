@@ -1071,3 +1071,57 @@ tags: [CFA-L1, Vocabulary]
 
 - **LIFO Liquidation** — 后进先出存货层清算
   - LIFO 下旧成本层被释放可能改变利润
+
+
+## Financial Statement Analysis｜无形资产补充
+
+- **Identifiable** — 可辨认的
+  - 满足可分离性或源自合同 / 法定权利之一
+
+- **Separable** — 可分离的
+  - 能够从企业中分离并单独或连同相关项目转让、许可、出租或交换
+
+- **Research Phase** — 研究阶段
+  - 研究支出发生时费用化，不确认为无形资产
+
+- **Development Phase** — 开发阶段
+  - 满足 IAS 38 六项条件后，相关支出才可资本化
+
+- **Technical Feasibility** — 技术可行性
+  - 完成资产使其可使用或出售在技术上可行
+
+- **Revaluation Model** — 重估模型
+  - IAS 38 后续计量模型之一，需参考活跃市场确定公允价值
+
+- **Cost Model** — 成本模型
+  - 成本减累计摊销及累计减值损失
+
+- **Fair Value Model** — 公允价值模型
+  - 不是 IAS 38 规定的独立无形资产后续计量模型
+
+- **Active Market** — 活跃市场
+  - 交易频率和交易量足以持续提供定价信息的市场
+
+- **Finite Useful Life** — 有限使用寿命
+  - 在使用寿命内摊销的无形资产
+
+- **Indefinite Useful Life** — 不确定使用寿命
+  - 不进行定期摊销，但至少每年减值测试
+
+- **Amortization** — 摊销
+  - 在有限使用寿命内系统分摊无形资产的可摊销金额
+
+- **Available for Use** — 可供使用
+  - 资产达到管理层预定的可运行状态时开始摊销
+
+- **Residual Value** — 残值
+  - 资产使用寿命结束时预计处置所得的净额
+
+- **Recoverable Amount** — 可收回金额
+  - 公允价值减处置费用与使用价值两者中的较高者
+
+- **Revaluation Surplus** — 重估盈余
+  - 重估增值按准则计入 OCI 后累计的权益项目
+
+- **Derecognition** — 终止确认
+  - 资产出售或不再预期产生未来经济利益时从账面移除
