@@ -1283,3 +1283,28 @@ tags: [CFA-L1, Vocabulary]
 
 - **Lease Incentives** — 租赁激励
   - 可能减少使用权资产初始成本的出租方激励
+
+## Fixed Income｜债券溢价与折价摊销补充
+
+- **Bond Premium** — 债券溢价
+  - 债券发行 / 交易价格高于面值；Coupon Rate 通常高于 YTM
+- **Bond Discount** — 债券折价
+  - 债券发行 / 交易价格低于面值；Coupon Rate 通常低于 YTM
+- **Face Value (Par Value)** — 债券面值
+  - 发行人到期通常需要偿还的本金
+- **Coupon Payment** — 票面利息支付
+  - Face Value × Coupon Rate，实际支付的现金利息
+- **Yield to Maturity (YTM)** — 到期收益率
+  - 根据债券价格和约定现金流反推的收益率
+- **Effective Interest Method** — 实际利率法
+  - 以期初债券账面价值乘有效利率计算利息费用
+- **Beginning Carrying Value** — 期初账面价值
+  - 计算当期 Interest Expense 的基础
+- **Ending Carrying Value** — 期末账面价值
+  - 期初账面价值 + 利息费用 − 现金票息
+- **Bond Premium Amortization** — 债券溢价摊销
+  - 票息大于利息费用，逐期减少债券账面价值
+- **Bond Discount Amortization** — 债券折价摊销
+  - 利息费用大于票息，逐期增加债券账面价值
+- **Bond Redemption at Maturity** — 债券到期赎回
+  - 到期偿还本金通常按 Face Value
