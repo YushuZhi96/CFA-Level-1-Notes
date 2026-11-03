@@ -15,3 +15,4 @@
 - [[Cash-Flow-Classification-US-GAAP-IFRS|现金流量表分类：CFO、CFI、CFF 与 US GAAP / IFRS]]（2026-11-03，🟡）
 - [[FCFF-and-FCFE|企业自由现金流与股权自由现金流（FCFF & FCFE）]]（2026-11-03，🟡）
 - [[Inventory-Cost-Flow-Methods|存货成本流转方法：FIFO、LIFO、WAC]]（2026-11-03，🟡）
+- [[Intangible-Assets-IAS-38|无形资产（Intangible Assets — IAS 38）]]（2026-11-03，🟡）
