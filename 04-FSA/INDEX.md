@@ -13,3 +13,4 @@
 - [[Goodwill-Initial-Recognition-and-Measurement|商誉的初始确认与计量（Goodwill: Initial Recognition & Measurement）]]（2026-11-02，🟡）
 - [[BASE-Account-Reconciliation|BASE 法则：账户余额变动与现金流量表直接法]]（2026-11-03，🟡）
 - [[Cash-Flow-Classification-US-GAAP-IFRS|现金流量表分类：CFO、CFI、CFF 与 US GAAP / IFRS]]（2026-11-03，🟡）
+- [[FCFF-and-FCFE|企业自由现金流与股权自由现金流（FCFF & FCFE）]]（2026-11-03，🟡）
