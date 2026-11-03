@@ -1004,3 +1004,18 @@ tags: [CFA-L1, Vocabulary]
 
 - **Net Borrowing** — 净借款
   - 新增债务减去偿还的债务本金
+
+- **Primary Sources and Uses of Cash** — 主要现金来源与用途
+  - 现金流分析首先判断现金从哪里来、流向哪里
+
+- **Determinants of Operating Cash Flows** — 经营现金流的驱动因素
+  - 进一步分析应收、存货、应付及收支变化
+
+- **Cash Flow Comparability** — 现金流可比性
+  - 比较不同期间与不同企业时需统一会计分类口径
+
+- **Cash Flow Quality** — 现金流质量
+  - 关注现金流的真实性、经常性及与利润的关系
+
+- **Cash Flow Sustainability** — 现金流可持续性
+  - 考察现金流能否持续覆盖经营与投资需求
