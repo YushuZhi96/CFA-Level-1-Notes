@@ -1050,3 +1050,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Net Cash Flow** — 现金净流量
   - 现金流入减现金流出，不宜机械作为共同比统一分母
+
+
+## Financial Statement Analysis｜存货计价补充
+
+- **First In, First Out (FIFO)** — 先进先出法
+  - 旧成本先进入销售成本，近期成本留作期末存货
+
+- **Last In, First Out (LIFO)** — 后进先出法
+  - 近期采购成本先进入销售成本；IFRS 不允许
+
+- **Weighted Average Cost (WAC)** — 加权平均成本法
+  - 以平均单位成本计量销售成本和存货
+
+- **Cost Flow Assumption** — 成本流转假设
+  - 会计成本归属不一定等于实物流转
+
+- **Ending Inventory** — 期末存货
+  - 资产负债表上的期末存货成本
+
+- **LIFO Liquidation** — 后进先出存货层清算
+  - LIFO 下旧成本层被释放可能改变利润
