@@ -1238,3 +1238,48 @@ tags: [CFA-L1, Vocabulary]
 
 - **Share Dilution** — 股份稀释
   - 期权行权可能降低原股东持股比例
+
+
+## Financial Statement Analysis｜租赁会计
+
+- **Lease Accounting** — 租赁会计
+  - IFRS 16 与 US GAAP ASC 842 对租赁的确认与分类
+
+- **Lessee** — 承租人
+  - 租入标的资产并取得使用权的一方
+
+- **Lessor** — 出租人
+  - 出租标的资产的一方
+
+- **Operating Lease** — 经营租赁
+  - US GAAP 承租人通常以单项租赁费用列报
+
+- **Finance Lease** — 融资租赁
+  - US GAAP 承租人通常单列利息和使用权资产摊销
+
+- **Right-of-Use Asset (ROU Asset)** — 使用权资产
+  - 承租人租赁期内使用标的资产的权利
+
+- **Lease Liability** — 租赁负债
+  - 未来未付租赁付款额现值
+
+- **Lease Commencement Date** — 租赁期开始日
+  - 标的资产可供承租人使用之日
+
+- **Single Lease Cost** — 单项租赁费用
+  - US GAAP 经营租赁通常列报的单项费用
+
+- **Net Investment in Lease** — 租赁净投资
+  - 融资租赁出租方的相关租赁资产计量
+
+- **Sales-type Lease** — 销售型租赁
+  - US GAAP 出租人融资性质租赁分类
+
+- **Direct Financing Lease** — 直接融资租赁
+  - US GAAP 出租人分类之一
+
+- **Lease Payments** — 租赁付款额
+  - 计算租赁负债现值的基础
+
+- **Lease Incentives** — 租赁激励
+  - 可能减少使用权资产初始成本的出租方激励
