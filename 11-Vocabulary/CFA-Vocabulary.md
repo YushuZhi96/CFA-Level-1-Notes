@@ -890,3 +890,42 @@ tags: [CFA-L1, Vocabulary]
 
 - **Impairment Test** — 减值测试
   - 评估资产或资产组账面价值是否发生减值
+
+
+## Financial Statement Analysis｜BASE 法则与现金流量表
+
+- **Beginning Balance** — 期初余额
+  - BASE 中 B，期间开始时的账户余额
+
+- **Additions** — 本期增加
+  - BASE 中 A，使所分析账户余额增加的变动
+
+- **Subtractions** — 本期减少
+  - BASE 中 S，使所分析账户余额减少的变动
+
+- **Ending Balance** — 期末余额
+  - BASE 中 E，期末账户余额
+
+- **Account Balance Reconciliation** — 账户余额调节
+  - 通过期初＋增加－减少＝期末推导未知项目
+
+- **Cash Paid to Suppliers** — 支付给供应商的现金
+  - 简化公式 COGS + ΔInventory − ΔAP
+
+- **Cash Collected from Customers** — 向客户收取的现金
+  - 简化公式 Credit Sales − ΔAR
+
+- **Purchases** — 本期采购
+  - 简化公式 COGS + ΔInventory
+
+- **Beginning Accounts Payable** — 期初应付账款
+  - BASE 中 AP 的 B
+
+- **Ending Accounts Payable** — 期末应付账款
+  - BASE 中 AP 的 E
+
+- **Direct Method** — 直接法
+  - 现金流量表逐项列示主要经营现金收付
+
+- **Credit Sales** — 赊销收入
+  - 确认销售时未收到现金，通常形成应收账款
