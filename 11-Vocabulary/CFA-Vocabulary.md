@@ -1019,3 +1019,16 @@ tags: [CFA-L1, Vocabulary]
 
 - **Cash Flow Sustainability** — 现金流可持续性
   - 考察现金流能否持续覆盖经营与投资需求
+
+
+## Financial Statement Analysis｜FCFF FCFE 公式补充
+
+- **Net Fixed Capital Investment** — 固定资本净投资
+  - 资本支出减去出售固定资产取得的现金
+
+- **Proceeds from Asset Sales** — 出售资产所得现金
+  - 计算净固定资本投资时从资本支出中扣除
+
+- **Cash Flow from Operations (CFO)** — 经营活动现金流
+  - 从CFO计算FCFF、FCFE时注意利息分类
+
