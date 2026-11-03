@@ -77,3 +77,47 @@ $$
 - [ ] 价格下降时能正确判断 FIFO 和 LIFO 的 COGS、利润、期末存货
 - [ ] 能解释成本流转假设不必等于实物流转
 - [ ] 能解释 IFRS 与 US GAAP 对 LIFO 的不同规定
+
+## 存货跌价减记（Inventory Write-down）与资产周转率
+
+**存货减记不是商品销售。** Inventory（存货）是资产负债表上的存量；Revenue（营业收入）是利润表中已经履行相应义务而确认的期间收入。存货账面价值下调，不会直接改变已确认的营业收入。
+
+存货减记的典型直接影响：
+- **Inventory / Total Assets（存货 / 总资产）下降**；
+- **Write-down Expense or Loss（跌价费用或损失）增加**；
+- **Net Income（净利润）通常下降**（税后下降幅度受税务影响）；
+- **Revenue（营业收入）不因这项减记本身改变**。
+
+### 总资产周转率（Total Asset Turnover）
+
+$$
+\boxed{Total\ Asset\ Turnover=\frac{Revenue}{Average\ Total\ Assets}}
+$$
+
+其中：
+
+$$
+Average\ Total\ Assets=\frac{Beginning\ Total\ Assets+Ending\ Total\ Assets}{2}
+$$
+
+在收入及其他条件不变时，如果存货减记使期末总资产减少，平均总资产随之下降，则：
+
+$$
+Revenue\ unchanged,\quad Average\ Total\ Assets\downarrow
+\quad\Rightarrow\quad Total\ Asset\ Turnover\uparrow
+$$
+
+**示例**：收入100；期初资产100；减记前期末资产100；减记后期末资产90。
+
+- 减记前：100 / 100 = 1.00 倍。
+- 减记后：100 / [(100+90)/2] = 1.0526 倍。
+
+这只是资产账面金额下降导致的**比率机械上升**，不能自动视为经营效率改善。
+
+### 易混概念
+- **Inventory Write-down（存货跌价减记）**：存货账面金额下降，确认相应损失，不直接确认或减少 Revenue。
+- **Sale of Inventory（销售存货）**：满足收入确认条件时确认 Revenue，并结转相应 COGS。
+- **Current Ratio（流动比率）**：存货减记通常使分子减少。
+- **Quick Ratio（速动比率）**：分子通常不含存货，因此存货减记不会直接减少速动资产；仍须留意其他调整。
+
+关联：[[Common-Size-Statements-and-Financial-Ratios|财务比率分析]]。
