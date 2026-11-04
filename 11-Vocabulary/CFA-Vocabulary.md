@@ -1824,3 +1824,45 @@ tags: [CFA-L1, Vocabulary]
 
 - **Benchmark** — 基准
   - 用于衡量投资组合表现或比较投资结果的参照指标
+
+
+## Fixed Income｜Repo 回购交易
+
+- **Repo / Repurchase Agreement** — 回购协议
+  - 出售证券并约定未来按约定价格买回的交易，经济实质通常是以证券作抵押的融资
+
+- **Reverse Repo** — 逆回购
+  - 从现金提供方／证券买入方视角看待的 Repo 交易
+
+- **Borrower** — 借款方
+  - Repo 中出售证券并取得现金，未来承担回购义务的一方
+
+- **Lender** — 贷款方
+  - Repo 中提供现金并取得证券作为抵押品的一方
+
+- **Collateral** — 抵押品
+  - 为担保融资偿还而提供的资产
+
+- **Collateral Value** — 抵押品价值
+  - 用于衡量抵押品覆盖程度的市场价值
+
+- **Cash Borrowed** — 借入现金
+  - 借款方通过 Repo 初始取得的现金金额
+
+- **Haircut** — 抵押品折扣率
+  - (Collateral Value − Cash Borrowed) / Collateral Value
+
+- **Sale Price** — 初始出售价格
+  - Repo 开始时出售证券所收到的现金金额
+
+- **Repurchase Price** — 回购价格
+  - Repo 到期或约定日期买回证券时支付的金额
+
+- **Repo Interest** — 回购利息
+  - Repurchase Price − Sale Price，代表这笔融资的利息金额
+
+- **Counterparty** — 交易对手
+  - 交易中的另一方，角色需结合观察视角判断
+
+- **Treasury Bonds (T-bonds)** — 美国长期国债
+  - Repo 交易中常见的高质量抵押证券之一
