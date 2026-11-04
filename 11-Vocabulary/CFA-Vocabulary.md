@@ -1581,3 +1581,36 @@ tags: [CFA-L1, Vocabulary]
 
 - **Conversion Value** — 转换价值
   - 债券按转换比例转为股票后的价值
+
+
+## Fixed Income｜国际债券与市政债券
+
+- **Foreign Bond** — 外国债券
+  - 外国发行人在某国国内债券市场发行、以该国本币计价的债券
+
+- **Eurobond** — 欧洲债券 / 国际债券
+  - 在计价货币所属国以外的市场发行的债券；不一定在欧洲发行，也不一定以欧元计价
+
+- **Municipal Bond** — 市政债券
+  - 由地方政府或地方公共实体发行，常用于公共基础设施融资
+
+- **Domestic Market** — 国内债券市场
+  - 某国本土债券市场；Foreign Bond 在此由外国发行人进入发行
+
+- **Local Currency** — 当地货币 / 本币
+  - Foreign Bond 通常以发行市场所在国的本币计价
+
+- **Yankee Bond** — 扬基债券
+  - 外国发行人在美国发行的美元债券，属于 Foreign Bond
+
+- **Samurai Bond** — 武士债券
+  - 外国发行人在日本发行的日元债券，属于 Foreign Bond
+
+- **Tax-Exempt Interest** — 免税利息
+  - 美国部分市政债券利息可能享有的税收优惠，并非所有市政债券均免税
+
+- **Municipality** — 市 / 自治市 / 地方政府辖区
+  - Municipal Bond 发行主体相关术语
+
+- **Public Infrastructure** — 公共基础设施
+  - 市政债券常见融资用途，如道路、学校、医院和公共交通
