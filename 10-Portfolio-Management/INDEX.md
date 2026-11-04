@@ -5,3 +5,5 @@
 ## 知识点目录
 
 > 待后续从章节题与错题中逐步收录。
+
+- [[Base-Rate-Neglect-Outside-Inside-View|基础比率忽视与内外部视角（Base-Rate Neglect, Outside View & Inside View）]]（2026-11-04，🟡）
