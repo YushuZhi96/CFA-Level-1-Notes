@@ -1350,3 +1350,39 @@ tags: [CFA-L1, Vocabulary]
 
 - **Valuation Allowance** — 估值备抵
   - US GAAP 下反映递延所得税资产无法实现部分
+
+
+## Financial Statement Analysis｜Non-GAAP 补充
+
+- **Non-GAAP Financial Measures** — 非 GAAP 财务指标
+  - 公司定义的调整后财务指标，仍受 SEC 披露监管
+
+- **GAAP Measures** — GAAP 财务指标
+  - 根据公认会计原则计算的财务指标
+
+- **Most Directly Comparable GAAP Measure** — 最直接可比的 GAAP 指标
+  - SEC 非 GAAP 披露中的比较基础
+
+- **Adjusted Net Income** — 调整后净利润
+  - 在 GAAP 净利润基础上按披露口径进行调整
+
+- **Adjusted EPS** — 调整后每股收益
+  - 按 Non-GAAP 调整口径列示的每股收益
+
+- **Adjusted EBITDA** — 调整后息税折旧摊销前利润
+  - 按特定 Non-GAAP 口径调整的 EBITDA
+
+- **Nonrecurring** — 非经常性的
+  - SEC 对将重复发生项目标为非经常性设有限制
+
+- **Securities and Exchange Commission (SEC)** — 美国证券交易委员会
+  - 监管美国证券市场及相关信息披露
+
+- **SEC Filings** — SEC 申报文件
+  - 公司向 SEC 提交的财务及其他报告
+
+- **Regulation G** — SEC Regulation G
+  - 适用于有关公开披露的 Non-GAAP 规则
+
+- **Regulation S-K Item 10(e)** — Regulation S-K 第10(e)项
+  - SEC 申报文件 Non-GAAP 指标披露的相关要求
