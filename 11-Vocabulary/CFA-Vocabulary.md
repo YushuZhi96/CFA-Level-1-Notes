@@ -1614,3 +1614,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **Public Infrastructure** — 公共基础设施
   - 市政债券常见融资用途，如道路、学校、医院和公共交通
+
+
+## Fixed Income｜偿债基金与英文表达
+
+- **Sinking Fund** — 偿债基金
+  - 通过契约安排分期偿债或为债券偿还积累资金
+
+- **Sinking Fund Arrangement** — 偿债基金安排
+  - 债券到期前按契约规定逐步偿还或购回债券
+
+- **Sinking Fund Provision** — 偿债基金条款
+  - 规定发行人分期偿还／购回债务的契约条款
+
+- **Default Risk** — 违约风险
+  - 发行人无法按合同约定偿还债务的风险
+
+- **Early Repayment** — 提前偿还
+  - 在原定最终到期日之前偿还本金
+
+- **Repayment** — 偿还／还款
+  - 归还债务本金或按合同偿还款项
+
+- **Bondholder** — 债券持有人
+  - 拥有债券并享有合同约定本息请求权的投资者
+
+- **Prefer** — 更倾向于／更希望
+  - prefer + 名词 + to be + 过去分词 表示希望某物被处理
+
+- **To Be Repaid** — 被偿还
+  - 被动结构；在题目中指债券本金被归还
