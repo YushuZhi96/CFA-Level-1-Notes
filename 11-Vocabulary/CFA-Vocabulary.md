@@ -1446,3 +1446,21 @@ tags: [CFA-L1, Vocabulary]
 
 - **Fixed Charge Coverage Ratio (FCC)** — 固定支出覆盖率
   - 传统简化公式 (EBIT + Lease Payments) / (Interest Expense + Lease Payments)
+
+
+## Portfolio Management｜行为偏差与预测视角
+
+- **Base-Rate Neglect** — 基础比率忽视偏差
+  - 过度关注个体信息而忽视群体基础概率或历史统计规律
+
+- **Outside View** — 外部视角
+  - 用同类对象或参考类别的历史数据建立预测基准
+
+- **Inside View** — 内部视角
+  - 根据具体公司或项目自身信息与特殊条件预测
+
+- **Reference Class** — 参考类别
+  - 与当前公司或项目相似、可用于比较的历史对象群体
+
+- **Representativeness Bias** — 代表性偏差
+  - 根据对象与典型形象的相似程度判断，可能忽略基础概率
