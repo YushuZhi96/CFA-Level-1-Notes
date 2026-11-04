@@ -1464,3 +1464,36 @@ tags: [CFA-L1, Vocabulary]
 
 - **Representativeness Bias** — 代表性偏差
   - 根据对象与典型形象的相似程度判断，可能忽略基础概率
+
+
+## Fixed Income｜嵌入式期权债券
+
+- **Embedded Option** — 嵌入式期权
+  - 附加在债券合同中的期权条款，会影响债券价值
+
+- **Option-Free Bond** — 无期权债券
+  - 不含嵌入式期权，作为 Callable 与 Putable 债券的比较基准
+
+- **Callable Bond** — 可赎回债券
+  - 发行人拥有提前赎回权；相对普通债券价格更低、收益率更高
+
+- **Putable Bond** — 可回售债券
+  - 投资者拥有提前回售权；相对普通债券价格更高、收益率更低
+
+- **Call Option** — 看涨期权
+  - Callable Bond 中赋予发行人提前赎回债券的权利
+
+- **Put Option** — 看跌期权
+  - Putable Bond 中赋予投资者按约定价格回售债券的权利
+
+- **Issuer** — 发行人
+  - 债券融资的一方；Callable Bond 的赎回权属于发行人
+
+- **Investor** — 投资者
+  - 债券持有人；Putable Bond 的回售权属于投资者
+
+- **Higher Yield** — 更高收益率
+  - Callable Bond 相对同等条件的 Option-Free Bond 通常要求更高收益率
+
+- **Lower Yield** — 更低收益率
+  - Putable Bond 相对同等条件的 Option-Free Bond 通常具有更低收益率
