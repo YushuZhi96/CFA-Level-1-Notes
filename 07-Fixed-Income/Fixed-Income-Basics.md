@@ -111,7 +111,56 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 2. 多国共同建立的国际机构发行 → Supranational Bond。
 3. 政府关联机构发行，但发行人不是中央政府 → Quasi-government Bond。
 
-## 4. 做题提醒
+## 4. 国际债券与市政债券
+
+本节介绍 Foreign Bond、Eurobond 与 Municipal Bond。前两者主要按发行市场、发行人所在地及计价货币的关系分类；Municipal Bond 则主要按发行主体分类，二者不是完全相同的分类维度。
+
+### Foreign Bond｜外国债券
+
+- **定义**：外国发行人在某一国家的国内债券市场发行，并以该国本币计价的债券。
+- **识别要素**：
+  1. 发行人（Issuer）来自发行市场所在国以外。
+  2. 在该国国内市场发行（Domestic Market）。
+  3. 以该国本币（Local Currency）计价。
+- **例子**：中国企业在美国国内市场发行美元债券。
+- **典型名称**：
+  - **Yankee Bond（扬基债券）**：外国发行人在美国发行的美元债券。
+  - **Samurai Bond（武士债券）**：外国发行人在日本发行的日元债券。
+
+### Eurobond｜欧洲债券／国际债券
+
+- **定义**：以某种货币计价，但在该货币所属国以外的市场发行的债券。
+- **识别要素**：发行市场位于计价货币所属国之外（Outside the Currency's Home Country）。
+- **例子**：中国企业在伦敦发行美元债券；日本企业在伦敦发行日元债券。
+- **注意**：
+  - Eurobond 不要求在欧洲发行。
+  - Eurobond 不要求以欧元（EUR）计价。
+  - 名称中的 Euro 是历史形成的国际债券市场术语，不等同于 Euro Currency（欧元）。
+
+### Municipal Bond｜市政债券
+
+- **定义**：由地方政府（Local Government / Municipality）或符合相关市场定义的地方公共实体发行的债券。
+- **常见用途**：道路、学校、医院、公共交通、供水及其他公共基础设施融资。
+- **美国市场补充**：部分市政债券的利息可能享有联邦所得税优惠（Tax-Exempt Interest），但并非所有市政债券都免税，具体取决于债券类型及适用税法。
+- **识别关键词**：Local Government、Municipality、Public Infrastructure。
+
+### 三类概念对比
+
+| 概念 | 主要分类依据 | 发行人 | 发行地点与货币关系 |
+|---|---|---|---|
+| Foreign Bond | 外国发行人进入当地国内债券市场 | 发行市场所在国以外的发行人 | 在当地市场发行，并以当地本币计价 |
+| Eurobond | 发行市场与计价货币所属国的关系 | 可以来自不同国家或机构 | 在计价货币所属国以外的市场发行 |
+| Municipal Bond | 发行主体 | 地方政府或地方公共实体 | 不由发行地点与货币关系定义 |
+
+**重要区别**：Foreign Bond 与 Eurobond 是跨境债券发行安排的分类；Municipal Bond 是按发行主体分类。因此，Municipal Bond 与前两者并非严格互斥的类别。
+
+### 考试识别方法
+
+- Foreign issuer + domestic market + local currency → **Foreign Bond**。
+- Issued outside the home country of the currency → **Eurobond**。
+- Local government / municipality / public infrastructure → **Municipal Bond**。
+
+## 5. 做题提醒
 
 - 题目问 **Tenor** 或剩余到期时间时，先判断债券已经发行多久，再用原始期限减去已过去时间。
 - 面值（Par Value）和票面利率（Coupon Rate）通常不是计算 Tenor 所必需的数据；若题目只问期限，不要被无关数据干扰。
