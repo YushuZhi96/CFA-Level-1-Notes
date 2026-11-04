@@ -1758,3 +1758,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Priority of Claims** — 清偿优先顺序
   - 清算或重组时不同债权与股权的受偿次序
+
+
+## Fixed Income｜债券发行方式
+
+- **Shelf Registration** — 储架注册
+  - 一次注册或统一披露安排，在监管允许范围内根据需要分批发行证券
+
+- **Syndicated Offering** — 承销团发行
+  - 多家承销商组成承销团共同协助发行债券
+
+- **Auction** — 拍卖发行
+  - 通过竞价确定债券发行价格、收益率或配售
+
+- **Underwriting Syndicate** — 承销团
+  - 由多家承销商组成的证券发行承销组织
+
+- **Offering Circular** — 发行说明文件
+  - 向投资者披露证券发行条款及相关信息的文件
+
+- **Multiple Issues** — 分批发行
+  - 根据资金需求和市场条件分多次发行证券
