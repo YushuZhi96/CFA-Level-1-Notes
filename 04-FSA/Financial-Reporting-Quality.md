@@ -47,7 +47,64 @@ tags: [CFA-L1, FSA, Financial-Reporting-Quality, Fraud-Triangle]
 - Opportunity = 能做
 - Rationalization = 说服自己做
 
-## 六、复习检查
+## 六、资本化与费用化对财务报表的影响（Capitalization vs. Expensing）
+
+### 1. 两种会计处理
+
+- **Capitalization（资本化）**：将符合资产确认条件的支出计入资产，在后续期间视资产性质进行折旧、摊销或减值。
+- **Expensing（费用化）**：将不符合资产确认条件或应计入本期损益的支出确认为当期费用。
+- **Inappropriate Capitalization（不恰当资本化）**：将本应费用化的开支错误确认为资产，可能导致财务报告质量下降。
+
+### 2. 典型影响对比
+
+假设同额支出、当期没有折旧或摊销，并暂不考虑所得税及其他差异：
+
+| 财务项目 | 资本化相对于费用化 |
+|---|---|
+| Current Expenses（当期费用） | 较低 |
+| Current Profit（当期利润） | 较高 |
+| Total Assets（总资产） | 较高 |
+| Shareholders' Equity（股东权益） | 较高 |
+| Later-period Expenses（后续期间费用） | 可能因折旧、摊销或减值而较高 |
+| Total Cash Flow（总现金流） | 支付金额相同，资本化本身不改变实际现金支出 |
+
+**现金流分类：** 若原本属于 CFO（经营活动现金流）的付款被错误列为 CFI（投资活动现金流），则 CFO 被高估，CFI 被低估（现金流出更多，净额更负）。但**资本化错误不必然导致现金流分类错误**，需要单独检查列报。
+
+### 3. 常用公式
+
+资本化资产的简化账面价值：
+
+$
+\begin{aligned}
+\text{Carrying Amount}={}&\text{Capitalized Cost}\\
+&-\text{Accumulated Depreciation/Amortization}\\
+&-\text{Accumulated Impairment Losses}
+\end{aligned}
+$
+
+若本应费用化的支出全部被错误资本化，且当期无折旧、摊销或减值，并忽略所得税等影响：
+
+$
+\text{Pretax Profit Overstatement}
+=\text{Improperly Capitalized Expenditure}
+$
+
+这是简化情形下的**税前利润**高估金额；净利润高估额还应考虑所得税等影响。
+
+### 4. 财报质量判断
+
+不恰当资本化通常导致：
+- **Expenses Understated（费用低估）**
+- **Profit Overstated（利润高估）**
+- **Assets Overstated（资产高估）**
+- **Equity Overstated（权益高估）**
+
+后续年度还可能因不恰当资本化资产计提折旧或摊销而压低未来利润。资本化本身是合法会计处理，只有在不符合确认条件时才构成不恰当资本化。
+
+## 七、复习检查
+- [ ] 能区分 Capitalization 与 Expensing
+- [ ] 能判断不恰当资本化对利润、资产和权益的影响
+- [ ] 能说明资本化不改变实际现金支出、CFO/CFI 分类须单独判断
 - [ ] 能独立判断三种因素
 - [ ] 能区分合法会计裁量与财报舞弊
 - [ ] 能说明个人奖金压力属于动机，而非机会
