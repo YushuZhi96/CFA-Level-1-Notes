@@ -1386,3 +1386,39 @@ tags: [CFA-L1, Vocabulary]
 
 - **Regulation S-K Item 10(e)** — Regulation S-K 第10(e)项
   - SEC 申报文件 Non-GAAP 指标披露的相关要求
+
+
+## Financial Statement Analysis｜财务报告质量
+
+- **Fraud Triangle** — 欺诈三角
+  - 由动机或压力、机会、合理化三个因素组成
+
+- **Incentive / Pressure** — 动机或压力
+  - 奖金目标、业绩压力或债务契约压力
+
+- **Opportunity** — 机会
+  - 会计裁量空间及内部控制不足
+
+- **Rationalization** — 合理化
+  - 为不当财务处理寻找正当理由
+
+- **Financial Reporting Quality** — 财务报告质量
+  - 财务信息真实完整且中立地反映企业活动的程度
+
+- **Low-quality Financial Reporting** — 低质量财务报告
+  - 可能存在偏差或误导性呈现，未必均构成舞弊
+
+- **Earnings Management** — 盈余管理
+  - 利用会计判断或实际活动影响报告利润
+
+- **Aggressive Accounting** — 激进会计处理
+  - 偏激进的确认与估计，需结合准则判断
+
+- **Fraudulent Financial Reporting** — 欺诈性财务报告
+  - 故意作出重大虚假陈述或遗漏
+
+- **Accounting Discretion** — 会计裁量空间
+  - 会计准则允许的估计和政策选择
+
+- **Management Override** — 管理层凌驾于控制之上
+  - 管理层绕过正常控制程序的风险
