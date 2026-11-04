@@ -1308,3 +1308,45 @@ tags: [CFA-L1, Vocabulary]
   - 利息费用大于票息，逐期增加债券账面价值
 - **Bond Redemption at Maturity** — 债券到期赎回
   - 到期偿还本金通常按 Face Value
+
+
+## Financial Statement Analysis｜递延所得税
+
+- **Deferred Tax Asset (DTA)** — 递延所得税资产
+  - 未来可抵减所得税，典型如会计先计提、税法以后扣除的保修费用
+
+- **Deferred Tax Liability (DTL)** — 递延所得税负债
+  - 未来因暂时性差异转回而产生额外所得税负担
+
+- **Temporary Difference** — 暂时性差异
+  - 账面价值与计税基础的差异，未来将转回
+
+- **Permanent Difference** — 永久性差异
+  - 会计与税法的差异未来不转回，不形成递延所得税
+
+- **Deductible Temporary Difference** — 可抵扣暂时性差异
+  - 未来产生税前扣除，通常形成 DTA
+
+- **Taxable Temporary Difference** — 应纳税暂时性差异
+  - 未来形成应纳税金额，通常形成 DTL
+
+- **Tax Base** — 计税基础
+  - 税法确定的资产或负债的税务计量基础
+
+- **Carrying Amount** — 账面价值
+  - 资产或负债在资产负债表中确认的金额
+
+- **Warranty Expense** — 保修费用
+  - 会计先确认、未来实际支付时可税前扣除的典型 DTA 情形
+
+- **Warranty Liability** — 保修负债
+  - 已计提但尚未履行的产品保修义务
+
+- **Taxable Income** — 应纳税所得额
+  - 依税法计算用于确定当期税额的所得
+
+- **Income Tax Expense** — 所得税费用
+  - 当期所得税费用与递延所得税影响之和
+
+- **Valuation Allowance** — 估值备抵
+  - US GAAP 下反映递延所得税资产无法实现部分
