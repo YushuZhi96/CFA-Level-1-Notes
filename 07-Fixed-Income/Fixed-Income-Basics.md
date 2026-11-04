@@ -347,3 +347,37 @@ Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
 - CFA 此类语境中重点识别 **Distressed Debt（困境债务）**：对冲基金可能以很低价格购买高风险债权，追求重组或恢复带来的高回报。
 - 困境公司的股票也可能交易并有波动，但题目考查的典型策略是购买困境债务，而不是仅因出现 equity-like 就选择 Stocks。
 - **速记：Distressed Debt = Debt Instrument + Potential Equity-like Return + High Risk。**
+
+
+## 10. Bond Issuance Methods｜债券发行方式
+
+### Shelf Registration｜储架注册
+
+- **定义**：发行人一次办理符合适用法规的发行注册／披露安排，在允许的期限与额度内，根据融资需要分次发行证券。
+- **核心特征**：Single Registration / Single Offering Circular（一次注册／统一发行说明资料） + Multiple Issues（分批发行）。
+- **优势**：发行时间安排更灵活（Flexibility）、可以配合融资需求与市场环境、减少重复注册成本。
+- **注意**：分批发行不代表后续每期完全不需要补充披露；具体以适用监管规则为准。
+
+### Syndicated Offering｜承销团发行
+
+- **定义**：多家承销商（Underwriters）组成承销团（Underwriting Syndicate），共同协助发行人承销和分销债券。
+- **核心关键词**：Multiple Underwriters（多个承销商）。
+- 主要描述**承销组织方式**，不是注册批次。
+
+### Auction｜拍卖发行
+
+- **定义**：投资者通过提交竞价（Bids）参与债券发行，按拍卖规则确定价格／收益率与配售。
+- **核心关键词**：Bidding / Competitive Auction（竞价）。
+- 主要描述**定价与配售方式**。
+
+### 对比与考试识别
+
+| 发行方式 | 主要关注点 | 题目关键词 |
+|---|---|---|
+| Shelf Registration | 一次注册，按需要分批发行 | Single Circular + Series of Bonds |
+| Syndicated Offering | 多家承销商合作 | Underwriting Syndicate |
+| Auction | 通过竞价确定发行条件 | Bids / Auction |
+
+三者不一定互斥：注册安排、承销组织方式、定价配售方式属于不同维度。
+
+**本题**：Golden Finance 使用一份统一的发行说明资料，随后按需分批发行债券。正确答案为 **A. Shelf Registration**。
