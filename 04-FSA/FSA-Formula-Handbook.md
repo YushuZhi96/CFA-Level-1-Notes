@@ -238,6 +238,68 @@ $$
 
 资产周转率约 **0.54 次（或 54%）**。它表示每 1 美元平均资产创造约 0.54 美元收入，**不是净利润率**。
 
+### 4. 两因素杜邦公式（Two-factor ROE Identity）
+
+$
+\text{ROE}=\text{ROA}\times\text{Financial Leverage}
+$
+
+这里采用：
+
+$
+\text{ROA}=\frac{\text{Net Income}}{\text{Average Assets}}
+\qquad
+\text{Financial Leverage}=
+\frac{\text{Average Assets}}{\text{Average Equity}}
+$
+
+两式相乘时，Average Assets 约掉，得到 Net Income / Average Equity，即 ROE。**该等式要求 ROA 使用净利润口径，且资产与权益使用相同期间的平均余额。** 如果 ROA 用税后利息调整的不同口径，就不能不加调整地直接相乘。
+
+### 5. 五因素杜邦分析（Five-factor DuPont Analysis）
+
+在三因素 DuPont 中，将 Net Profit Margin 进一步拆分为 Tax Burden、Interest Burden 和 EBIT Margin：
+
+$
+\boxed{
+\text{ROE}=
+\text{Tax Burden}\times
+\text{Interest Burden}\times
+\text{EBIT Margin}\times
+\text{Asset Turnover}\times
+\text{Equity Multiplier}
+}
+$
+
+| 因素 | 英文全称 | 定义 | 经济含义 |
+|---|---|---|---|
+| TB | Tax Burden（税收负担系数） | NI / EBT | 税前利润最终留下多少净利润 |
+| IB | Interest Burden（利息负担系数） | EBT / EBIT | 利息等融资成本后的利润保留比例 |
+| EBIT Margin | EBIT Margin（息税前利润率） | EBIT / Revenue | 每单位收入带来多少息税前利润 |
+| AT | Asset Turnover（资产周转率） | Revenue / Average Assets | 平均资产创造收入的效率 |
+| EM | Equity Multiplier（权益乘数） | Average Assets / Average Equity | 财务杠杆程度 |
+
+**术语：** NI = Net Income（净利润）；EBT = Earnings Before Taxes（税前利润）；EBIT = Earnings Before Interest and Taxes（息税前利润）；Revenue = 营业收入。
+
+#### 为什么第三项必须是 EBIT Margin？
+
+$
+\begin{aligned}
+\text{ROE}
+={}&\frac{\text{NI}}{\text{EBT}}
+\times\frac{\text{EBT}}{\text{EBIT}}
+\times\frac{\text{EBIT}}{\text{Revenue}}\\
+&\times\frac{\text{Revenue}}{\text{Average Assets}}
+\times\frac{\text{Average Assets}}{\text{Average Equity}}\\
+={}&\frac{\text{NI}}{\text{Average Equity}}
+\end{aligned}
+$
+
+EBT、EBIT、Revenue、Average Assets 顺次约掉，最后留下 ROE 的定义式。
+
+**易错点：** 若保留 Tax Burden 与 Interest Burden，却把第三项错写成 EBT Margin（EBT / Revenue），EBIT 就不能正确约分，五因素恒等式不再成立。
+
+上述拆分在 EBT、EBIT 等分母有意义且口径一致时适用；出现零值或特殊损益分类时需谨慎解读比率。
+
 ## 五、偿债能力与杠杆（Solvency & Leverage）
 
 ### 1. 资产负债率（Debt Ratio）
@@ -272,6 +334,43 @@ $$
 $$
 
 EBIT = Earnings Before Interest and Taxes（息税前利润）。反映经营收益覆盖利息费用的程度。
+
+### 5. 固定支出覆盖率（Fixed Charge Coverage Ratio, FCC）
+
+该指标衡量企业通过经营收益覆盖 **Interest（利息）及 Lease Payments（租赁付款等固定支出）** 的能力。CFA 常见的传统简化形式是：
+
+$
+\boxed{
+\text{FCC}=
+\frac{\text{EBIT}+\text{Lease Payments}}
+{\text{Interest Expense}+\text{Lease Payments}}
+}
+$
+
+- EBIT：Earnings Before Interest and Taxes（息税前利润）。
+- Interest Expense：利息费用。
+- Lease Payments：租赁付款额，简化公式通常假定相关租赁费用已从 EBIT 中扣除，因而先加回。
+
+**为什么分子加回租赁费用？** 为了计算在支付利息和租赁支出前可用于覆盖固定支出的收益；分母则表示需要覆盖的固定支出规模。
+
+**例子：** EBIT = 500，利息费用 = 100，租赁付款 = 50，则：
+
+$
+\text{FCC}=\frac{500+50}{100+50}\approx3.67
+$
+
+意味着收益约可覆盖相关固定支出的 3.67 倍。比率越高通常表示覆盖能力越强，但不是现金流量的直接度量。
+
+**会计准则提醒：** 该公式是传统简化口径。IFRS 16 与 US GAAP ASC 842 下租赁费用与利息可能被不同方式列报，计算时应按题目给定的费用口径调整，避免重复加回或重复计入。
+
+#### 与其他指标的区别
+
+| 指标 | 主要衡量 |
+|---|---|
+| ROE（股东权益回报率） | 股东权益产生利润的能力 |
+| EBIT Margin（息税前利润率） | 收入转化为息税前利润的比例 |
+| Interest Coverage（利息保障倍数） | 盈利对利息费用的覆盖 |
+| Fixed Charge Coverage（固定支出覆盖率） | 盈利对利息及租赁等固定支出的覆盖 |
 
 ## 六、经营效率（Activity Ratios）
 
