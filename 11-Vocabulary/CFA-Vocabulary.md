@@ -1740,3 +1740,21 @@ tags: [CFA-L1, Vocabulary]
 
 - **High-Yield Bond** — 高收益债券
   - Speculative-Grade Bond 的另一常见称呼，较高收益率用于补偿较高信用风险
+
+
+## Fixed Income｜困境债务
+
+- **Distressed Debt** — 困境债务
+  - 发行人陷入严重财务困难、违约或高违约风险时的债务工具
+
+- **Distressed Debt Investing** — 困境债务投资
+  - 低价投资高风险债权并寻求重组或价值恢复机会
+
+- **Debt Restructuring** — 债务重组
+  - 调整债务期限、利率、本金或偿付方式
+
+- **Equity-like Return** — 类股权收益
+  - 债务投资也可能出现类似股权的大幅收益或损失
+
+- **Priority of Claims** — 清偿优先顺序
+  - 清算或重组时不同债权与股权的受偿次序
