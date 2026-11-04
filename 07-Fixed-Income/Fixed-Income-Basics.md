@@ -328,3 +328,22 @@ Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
   - Senior：先收现金流、后承担损失 → 风险较低。
   - Junior：后收现金流、先承担损失 → 风险较高。
   - Waterfall：现金流从 Senior 向 Junior 分配；损失通常从 Junior 向 Senior 传递。
+
+
+## 9. Distressed Debt｜困境债务
+
+### Distressed Debt（困境债务）
+
+- **定义**：由陷入严重财务困境、违约或面临较高违约风险的发行人所发行或尚未偿还的债务工具，通常以显著折价交易。
+- **投资方式**：投资者（包括 Hedge Fund，对冲基金）可能低价购入困境债务，期待企业经营恢复、债务重组（Debt Restructuring）或债权回收价值提升。
+- **Equity-like Return（类股权收益）**：由于买入价格很低且结果高度不确定，债券价格可能产生大幅涨跌，收益风险特征可能类似股权；这**不表示困境债务本身就是股票**。
+- **Priority of Claims（清偿顺序）**：债权通常在普通股之前受偿，但具体回收金额取决于担保、债权优先级、破产程序与资产价值。
+- **风险**：违约、重组失败和本金大幅损失均可能发生。低价不等于便宜或安全。
+
+### 考试识别
+
+题目：Hedge fund seeks equity-like returns from a deeply distressed company.
+
+- CFA 此类语境中重点识别 **Distressed Debt（困境债务）**：对冲基金可能以很低价格购买高风险债权，追求重组或恢复带来的高回报。
+- 困境公司的股票也可能交易并有波动，但题目考查的典型策略是购买困境债务，而不是仅因出现 equity-like 就选择 Stocks。
+- **速记：Distressed Debt = Debt Instrument + Potential Equity-like Return + High Risk。**
