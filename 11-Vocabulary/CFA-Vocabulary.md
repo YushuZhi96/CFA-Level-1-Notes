@@ -1524,3 +1524,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Annual Coupon** — 年度票息
   - Par Value × Coupon Rate
+
+
+## Fixed Income｜债券发行主体分类
+
+- **Sovereign Bond** — 主权债券
+  - 由国家中央政府发行
+
+- **Supranational Bond** — 超国家机构债券
+  - 由多个国家共同建立或支持的国际机构发行
+
+- **Quasi-government Bond** — 准政府债券
+  - 由与政府存在密切联系或具有政府支持背景的机构发行
+
+- **National Government** — 国家中央政府
+  - Sovereign Bond 的发行主体
+
+- **Supranational Organization** — 超国家机构 / 国际组织
+  - 由多个国家共同建立或支持的国际机构
+
+- **Government-Sponsored Enterprise (GSE)** — 政府支持企业
+  - 与政府有关联或获得政府支持的机构；其发行债券不等同于中央政府直接发行的主权债券
