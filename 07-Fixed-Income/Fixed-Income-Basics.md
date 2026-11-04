@@ -160,13 +160,63 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 - Issued outside the home country of the currency → **Eurobond**。
 - Local government / municipality / public infrastructure → **Municipal Bond**。
 
-## 5. 做题提醒
+## 5. Principal Repayment Structures｜债券本金偿还方式
+
+本节按照债券本金（Principal）在存续期间及到期日的偿还安排，区分 Bullet Bond、Partially Amortizing Bond 与 Fully Amortizing Bond。
+
+### Bullet Bond｜到期一次还本债券
+
+- **定义**：债券存续期间不分期偿还本金，全部本金在到期日（Maturity Date）一次性偿还。
+- **识别特征**：No principal repayment before maturity；full principal repaid at maturity。
+- **例子**：本金为 1,000,000 美元，存续期间不偿还本金，到期日一次偿还 1,000,000 美元。
+
+### Partially Amortizing Bond｜部分摊还债券
+
+- **定义**：债券存续期间分期偿还部分本金，到期日仍有未偿还本金，需要支付剩余本金。
+- **识别特征**：部分本金在存续期间偿还，剩余本金在到期日偿还。
+- **Balloon Payment（气球式付款／到期大额尾款）**：到期时集中偿还的剩余本金。
+- **例子**：本金为 1,000,000 美元，存续期间偿还 600,000 美元，到期日偿还剩余 400,000 美元。
+
+### Fully Amortizing Bond｜完全摊还债券
+
+- **定义**：本金通过存续期间的定期付款逐步全部偿还；到期时本金余额为零。
+- **识别特征**：Scheduled payments fully amortize the principal by maturity。
+- **例子**：本金为 1,000,000 美元，通过多期还款逐步偿还全部本金，到期时不再有剩余本金。
+
+### 三种债券对比
+
+| 债券类型 | 存续期间本金偿还 | 到期日偿还 | 到期时本金余额 |
+|---|---|---|---|
+| Bullet Bond | 不分期偿还本金 | 一次偿还全部本金 | 到期前保持全部本金 |
+| Partially Amortizing Bond | 偿还部分本金 | 偿还剩余本金（Balloon Payment） | 大于 0 |
+| Fully Amortizing Bond | 分期偿还全部本金 | 如有最后一期付款则结清 | 0 |
+
+### 本题考点
+
+题干给出面值（Par Value）为 10,000,000 美元，其中 60% 的本金在到期日偿还。按题目所考查的部分摊还结构理解，剩余 40% 已在债券存续期间偿还：
+
+\[
+Principal\ repaid\ at\ maturity=10,000,000\times60\%=6,000,000
+\]
+
+\[
+Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
+\]
+
+因此，到期日仍有本金需要偿还，但并非全部本金都留到到期日，也不是全部本金都已摊还完毕，属于 **Partially Amortizing Bond**。
+
+**考试速记：**
+- 全部本金到期一次偿还 → Bullet Bond。
+- 部分本金提前摊还，剩余本金到期偿还 → Partially Amortizing Bond。
+- 全部本金在到期前／到期时通过分期付款摊还完毕 → Fully Amortizing Bond。
+
+## 6. 做题提醒
 
 - 题目问 **Tenor** 或剩余到期时间时，先判断债券已经发行多久，再用原始期限减去已过去时间。
 - 面值（Par Value）和票面利率（Coupon Rate）通常不是计算 Tenor 所必需的数据；若题目只问期限，不要被无关数据干扰。
 
 
-## 6. Sinking Fund｜偿债基金
+## 7. Sinking Fund｜偿债基金
 
 ### Sinking Fund Arrangement（偿债基金安排）
 
