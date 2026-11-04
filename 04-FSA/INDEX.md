@@ -22,3 +22,5 @@
 - [[Lease-Accounting-IFRS-vs-US-GAAP|租赁会计（Lease Accounting）：IFRS 16 vs US GAAP ASC 842]]（2026-11-03，🟡）
 
 - [[Deferred-Income-Taxes|递延所得税：DTA、DTL 与暂时性差异（Deferred Income Taxes）]]（2026-11-04，🟡）
+
+- [[Non-GAAP-Financial-Measures|非 GAAP 财务指标与 SEC 披露（Non-GAAP Financial Measures）]]（2026-11-04，🟡）
