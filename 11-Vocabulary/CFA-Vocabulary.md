@@ -1644,3 +1644,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **To Be Repaid** — 被偿还
   - 被动结构；在题目中指债券本金被归还
+
+
+## Fixed Income｜债券本金偿还方式
+
+- **Principal** — 本金
+  - 债券发行人依据合同需要偿还的借款金额
+
+- **Principal Repayment** — 本金偿还
+  - 发行人向债券持有人归还本金
+
+- **Amortization** — 摊还
+  - 通过分期付款逐步偿还债务本金
+
+- **Bullet Bond** — 到期一次还本债券
+  - 存续期间不分期偿还本金，到期日一次偿还全部本金
+
+- **Partially Amortizing Bond** — 部分摊还债券
+  - 存续期间偿还部分本金，到期日偿还剩余本金
+
+- **Fully Amortizing Bond** — 完全摊还债券
+  - 通过定期付款在到期时将全部本金偿还完毕
+
+- **Balloon Payment** — 气球式付款 / 到期大额尾款
+  - 部分摊还债券到期时集中偿还的剩余本金
+
+- **Remaining Principal** — 剩余本金
+  - 某一时点尚未偿还的本金余额
+
+- **Principal Balance** — 本金余额
+  - 尚未偿还的债务本金金额
