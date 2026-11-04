@@ -222,6 +222,14 @@ Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
 
 发行人依据债券契约逐步偿还部分债券本金，或积累用于偿还债券的资金。偿债方式可能包括按计划赎回部分债券或在二级市场购回债券。
 
+### Sinking Fund 对信用风险的影响
+
+- 偿债基金安排使发行人在债券到期前逐步偿还或购回部分债券，因此 **Outstanding Principal（未偿还本金）** 会下降。
+- 未偿还债务规模下降，债权人的本金风险敞口（Exposure）通常随之下降，也减轻发行人到期集中偿债的压力。
+- 需要区分：这并不必然意味着发行人发生违约的概率（Probability of Default）下降；更准确地说，是未偿本金及潜在损失敞口降低。
+- 投资者可能因此面临提前收回本金后的再投资风险（Reinvestment Risk）。
+
+
 - **Default Risk（违约风险）**：逐步偿债通常减轻最终到期时集中偿还本金的压力。
 - **Reinvestment Risk（再投资风险）**：若债券持有人提前收回本金，而市场利率已经下降，可能只能以较低收益率重新投资。
 - 利率下降不意味着每位持有人的本金一定提前返还，具体由偿债基金条款决定。
@@ -242,3 +250,40 @@ Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
 - **prefer + 名词 + to be + 过去分词**：希望某物被……。
 - **repay**：偿还；**be repaid**：被偿还。
 - 利率下降时，投资者一般更希望继续持有高票息债券，而不是提前收回本金。
+
+
+## 8. Securitization and Tranche Structure｜证券化与分层结构
+
+### Securitization｜资产证券化
+
+- **定义**：将贷款、应收款等资产汇集并以其产生的现金流为基础发行证券的融资安排。
+- 资产证券化产品可能根据不同的偿付优先级和风险承担顺序划分为多个分层（Tranches）。
+
+### Tranche｜分层
+
+- **定义**：资产证券化交易中，按照现金流分配顺序、损失承担顺序及风险特征划分的证券层级。
+- 不同 Tranche 对底层资产现金流和信用损失承担的优先级不同。
+
+### Waterfall Structure｜现金流瀑布结构
+
+- **定义**：按照合同约定的优先顺序分配底层资产产生的现金流，并按约定顺序分配损失。
+- **现金流分配（Payment Priority）**：通常先支付 Senior Tranche，再支付 Mezzanine Tranche，最后支付 Junior / Equity Tranche。
+- **损失承担（Loss Allocation）**：通常先由 Junior / Equity Tranche 承担损失，再依次影响 Mezzanine，最后才影响 Senior。
+- 具体分配和损失顺序以证券化交易文件为准。
+
+### 三种常见 Tranche
+
+| Tranche | 中文 | 现金流偿付优先级 | 通常信用风险 |
+|---|---|---|---|
+| Senior Tranche | 优先级分层 | 最高 | 最低 |
+| Mezzanine Tranche | 夹层 | 中间 | 中等 |
+| Junior / Equity Tranche | 劣后级／权益级 | 最低 | 最高 |
+
+### 本题考点
+
+- **Statement 1：正确。** Sinking Fund Arrangement 在到期前逐步减少 Outstanding Principal，降低未偿债务规模及债权人的本金风险敞口，并缓解到期集中偿债压力。
+- **Statement 2：错误。** Higher-ranked tranche（较高优先级分层）通常拥有更高的现金流偿付优先级，并在损失分配中受到更多保护，因此其信用风险通常较低，而不是较高。
+- **考试速记**：
+  - Senior：先收现金流、后承担损失 → 风险较低。
+  - Junior：后收现金流、先承担损失 → 风险较高。
+  - Waterfall：现金流从 Senior 向 Junior 分配；损失通常从 Junior 向 Senior 传递。
