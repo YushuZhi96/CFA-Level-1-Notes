@@ -1422,3 +1422,27 @@ tags: [CFA-L1, Vocabulary]
 
 - **Management Override** — 管理层凌驾于控制之上
   - 管理层绕过正常控制程序的风险
+
+
+## Financial Statement Analysis｜杜邦与固定支出覆盖率
+
+- **Two-factor DuPont Identity** — 两因素杜邦恒等式
+  - ROE = ROA × Financial Leverage，ROA须用净利润口径
+
+- **Five-factor DuPont Analysis** — 五因素杜邦分析
+  - 税收负担 × 利息负担 × EBIT利润率 × 资产周转率 × 权益乘数
+
+- **Tax Burden** — 税收负担系数
+  - Net Income / EBT
+
+- **Interest Burden** — 利息负担系数
+  - EBT / EBIT
+
+- **EBIT Margin** — 息税前利润率
+  - EBIT / Revenue，五因素杜邦中不能误写为 EBT Margin
+
+- **Equity Multiplier** — 权益乘数
+  - Average Assets / Average Equity
+
+- **Fixed Charge Coverage Ratio (FCC)** — 固定支出覆盖率
+  - 传统简化公式 (EBIT + Lease Payments) / (Interest Expense + Lease Payments)
