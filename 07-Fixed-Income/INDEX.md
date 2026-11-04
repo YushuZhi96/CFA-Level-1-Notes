@@ -8,3 +8,4 @@
 - [[Key-Rate-Duration]]
 - [[CDS-Credit-Spread]]
 - [[Bond-Premium-and-Discount-Amortization|债券溢价与折价摊销（Bond Premium and Discount Amortization）]]
+- [[Embedded-Options-in-Bonds|嵌入式期权债券（Embedded Options in Bonds）]]
