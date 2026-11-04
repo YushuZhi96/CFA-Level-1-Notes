@@ -73,7 +73,45 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 
 - 注意：Coupon Rate 不等于 Yield（收益率）；票面利率以面值计算，而收益率反映债券价格与现金流之间的回报关系。
 
-## 3. 做题提醒
+## 3. 债券发行主体分类
+
+债券可根据发行主体（Issuer）进行分类。做题时首先识别是谁发行债券，而不是只看债券名称或是否有政府支持。
+
+### Sovereign Bond｜主权债券
+
+- **发行主体**：国家中央政府（National Government）。
+- **含义**：由一个国家的主权政府发行的债券。
+- **例子**：美国国债（U.S. Treasury Securities）、中国国债、日本国债。
+- **识别关键词**：National Government / Central Government。
+
+### Supranational Bond｜超国家机构债券
+
+- **发行主体**：由多个国家共同建立或支持的国际机构（Supranational Organization）。
+- **含义**：由跨国或超国家机构发行，而不是由某一个国家的中央政府直接发行。
+- **例子**：世界银行（World Bank）、欧洲投资银行（European Investment Bank）。
+- **识别关键词**：International Organization / Multiple Countries。
+
+### Quasi-government Bond｜准政府债券
+
+- **发行主体**：与政府有密切联系、具有政府支持背景的机构或政府关联实体（Government-related Entity）。
+- **含义**：发行人并非国家中央政府本身，但与政府存在制度、所有权或支持关系。
+- **例子**：美国政府支持企业（Government-Sponsored Enterprises, GSEs）发行的相关债券。
+- **识别关键词**：Government-related Agency / Government-sponsored Entity。
+
+### 三类债券对比
+
+| 债券类型 | 发行主体 | 判断关键词 |
+|---|---|---|
+| Sovereign Bond | 国家中央政府 | National Government |
+| Supranational Bond | 多国共同建立的国际机构 | International Organization |
+| Quasi-government Bond | 政府关联机构或实体 | Government-related Entity |
+
+**考试判断顺序：**
+1. 国家中央政府直接发行 → Sovereign Bond。
+2. 多国共同建立的国际机构发行 → Supranational Bond。
+3. 政府关联机构发行，但发行人不是中央政府 → Quasi-government Bond。
+
+## 4. 做题提醒
 
 - 题目问 **Tenor** 或剩余到期时间时，先判断债券已经发行多久，再用原始期限减去已过去时间。
 - 面值（Par Value）和票面利率（Coupon Rate）通常不是计算 Tenor 所必需的数据；若题目只问期限，不要被无关数据干扰。
