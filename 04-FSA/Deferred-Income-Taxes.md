@@ -169,7 +169,99 @@ $$
 
 此处仅作 CFA 一级识别层面的简要对比；具体税收亏损结转、初始确认豁免等情形另有要求。
 
-## 八、考试易错点
+## 八、法定税率与有效税率（Statutory vs Effective Tax Rate）
+
+### 1. 两种税率
+
+- **Statutory Tax Rate（法定税率）**：税法规定的企业所得税税率。
+- **Effective Tax Rate, ETR（有效税率）**：利润表中的所得税费用占税前会计利润的比率。
+
+$
+\text{Effective Tax Rate}=
+\frac{\text{Income Tax Expense}}{\text{Pretax Accounting Income}}
+$
+
+特别注意：分子是 **Income Tax Expense（所得税费用）**，包括适用的当期与递延所得税影响；不是仅使用现金实缴所得税或当期应交所得税。
+
+### 2. 哪些因素可能使 ETR 与法定税率不同？
+
+| 影响因素 | 对 ETR 的典型影响 | 原因 |
+|---|---|---|
+| Permanent Differences（永久性差异） | 通常会造成差异 | 某些收入永久免税或费用永久不可扣除 |
+| Different Tax Jurisdictions（不同税收辖区） | 通常会造成差异 | 跨国公司及海外子公司适用不同税率 |
+| Temporary Differences（暂时性差异） | **在税率不变且完整确认递延所得税等简化条件下，通常不单独改变 ETR** | 当期税额变化被递延所得税费用 / 收益抵销 |
+
+**重要限定：** 暂时性差异并非任何情况下都不会影响 ETR。税率变动、DTA 可回收性及估值备抵变化、确认豁免、不同税收辖区等因素都可能使 ETR 发生变化。
+
+### 3. 永久性差异示例
+
+税前会计利润 $100，内含永久免税收入 $10，税率 25%，无其他调整：
+
+$
+\text{Taxable Income}=100-10=90
+$
+
+$
+\text{Income Tax Expense}=90\times25\%=22.5
+$
+
+$
+\text{ETR}=\frac{22.5}{100}=22.5\%
+$
+
+因此 ETR 22.5% 低于法定税率 25%。
+
+### 4. 暂时性差异示例：与保修费用 DTA 相联系
+
+假设：
+- 扣除保修费用后的税前会计利润：$9,000；
+- 保修费用：$1,000，会计已经计提，税法规定未来实际支付时才能扣除；
+- 应纳税所得额：$10,000；
+- 税率：30%，并假设未来税率不变、DTA 可以全额确认、没有其他差异。
+
+当期所得税（Current Tax Expense）：
+
+$
+10,000\times30\%=3,000
+$
+
+确认递延所得税资产（DTA）：
+
+$
+1,000\times30\%=300
+$
+
+当期确认 DTA 带来递延所得税收益，因此利润表的所得税费用：
+
+$
+\text{Income Tax Expense}=3,000-300=2,700
+$
+
+有效税率：
+
+$
+\text{ETR}=\frac{2,700}{9,000}=30\%
+$
+
+**结论：** 当期应交税款可能高于以会计利润计算的金额，但在上述假设下，递延所得税调整后 ETR 仍等于法定税率。
+
+### 5. 这类 CFA 题目怎么判断？
+
+问“以下哪一项最不可能使法定税率与有效税率产生差异？”
+
+- A：未来不转回的税会差异 → Permanent Differences，会影响 ETR。
+- B：存在海外子公司的跨国公司 → 可能受 Foreign Tax Rates 影响 ETR。
+- C：Temporary Differences → 在标准简化情境下通常只是当期与递延所得税之间的时间分配，不单独改变 ETR。
+
+**正确答案：C。**
+
+### 6. 速记
+
+- **Permanent Difference → ETR 通常改变。**
+- **Foreign Tax Rate Differences → ETR 可能改变。**
+- **Temporary Difference → Current Tax 与 Deferred Tax 的时间差；通常不单独改变 ETR（有前提）。**
+
+## 九、考试易错点
 
 1. **DTA 不是“会计费用越大就一定产生”**；核心是未来是否存在可利用的税收扣除或其他可抵扣差异。
 2. **DTL 不是当期应交税款**；它表示未来相关暂时性差异转回带来的税务负担。
@@ -179,8 +271,11 @@ $$
 6. **不能将未提供的税率当作题目数据**；先判断性质，再算金额。
 7. **Tax Base 不是账面价值**，二者差异才是递延所得税分析的核心。
 
-## 九、复习检查
+## 十、复习检查
 
+- [ ] 能区分 Statutory Tax Rate 与 Effective Tax Rate
+- [ ] 能解释 Permanent Differences 和 Foreign Tax Rates 为什么改变 ETR
+- [ ] 能说明 Temporary Differences 通常不单独改变 ETR 的前提
 - [ ] 能解释 DTA 与 DTL 的未来税收影响
 - [ ] 能区分 Temporary Difference 和 Permanent Difference
 - [ ] 能解释 Tax Base 与 Carrying Amount 的关系
