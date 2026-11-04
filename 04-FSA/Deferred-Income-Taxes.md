@@ -261,7 +261,125 @@ $
 - **Foreign Tax Rate Differences → ETR 可能改变。**
 - **Temporary Difference → Current Tax 与 Deferred Tax 的时间差；通常不单独改变 ETR（有前提）。**
 
-## 九、考试易错点
+## 九、递延所得税资产估值备抵（Valuation Allowance）
+
+### 1. 定义与用途
+
+在 **US GAAP（ASC 740）** 下，Valuation Allowance（估值备抵，VA）是对递延所得税资产（Deferred Tax Asset，DTA）的抵减项目（Contra-asset）。当已有证据表明部分或全部 DTA 的税收利益**更有可能无法实现（More Likely Than Not）**时，确认估值备抵。
+
+- **Gross DTA（递延所得税资产总额）**：尚未扣除估值备抵的 DTA。
+- **Valuation Allowance（估值备抵）**：预计无法实现的 DTA 部分。
+- **Net DTA（递延所得税资产净额）**：扣除估值备抵后可列报的 DTA 金额。
+
+估值备抵是 DTA 的抵减项，**不是 Deferred Tax Liability（递延所得税负债）**，不会因为计提 VA 就产生一项额外的欠税义务。
+
+### 2. 核心公式
+
+**公式一：递延所得税资产净额**
+
+$
+\text{Net DTA}=\text{Gross DTA}-\text{Valuation Allowance}
+$
+
+**公式二：估值备抵变动**
+
+$
+\Delta\text{VA}=\text{Ending VA}-\text{Beginning VA}
+$
+
+**公式三：估值备抵对当期所得税费用的增量影响**
+
+若 **Gross DTA 及其他条件不变，且 VA 的变动全部计入当期损益**：
+
+$
+\Delta\text{Income Tax Expense}=\Delta\text{VA}
+$
+
+**公式四：净利润**
+
+$
+\text{Net Income}=\text{Pretax Income}-\text{Income Tax Expense}
+$
+
+因此，在上述简化前提下：
+
+$
+\text{VA}\uparrow
+\Rightarrow\text{Net DTA}\downarrow
+\Rightarrow\text{Tax Expense}\uparrow
+\Rightarrow\text{Net Income}\downarrow
+$
+
+注意：以上第三个公式只是**估值备抵变动带来的所得税费用增量**，不是计算全部所得税费用的通用公式；涉及 OCI、权益或收购等特殊事项时，计入位置可能不同。
+
+### 3. 什么时候需要估值备抵？
+
+公司需要综合考虑未来 DTA 税收利益实现的正面和负面证据，例如：
+
+- Future Taxable Income（未来应纳税所得额）是否充足；
+- 历史及预计亏损是否持续；
+- 税务亏损结转能否在到期前使用；
+- Tax-planning Strategies（税务筹划策略）是否可行；
+- 是否有可用的应纳税暂时性差异转回支持 DTA 实现。
+
+**More Likely Than Not** 对应超过 50% 的判断门槛；是否计提 VA 以及金额，应根据证据评估，不是随意估算。
+
+### 4. 题目案例：Gordon Co.（金额单位：千美元）
+
+| 项目 | 原报告金额 | 假设提高 VA 后 |
+|---|---:|---:|
+| Gross DTA | 18,000 | 18,000 |
+| Valuation Allowance | (1,250) | (2,000) |
+| **Net DTA** | **16,750** | **16,000** |
+| VA 增加额 | — | 750 |
+
+$
+\text{Original Net DTA}=18,000-1,250=16,750
+$
+
+$
+\text{New Net DTA}=18,000-2,000=16,000
+$
+
+$
+\Delta\text{VA}=2,000-1,250=750
+$
+
+假设新增 VA 全部计入损益，且其他项目不变，则：
+- Net DTA **减少 750**；
+- Income Tax Expense **增加 750**；
+- Net Income **减少 750**。
+
+**正确选项：C — Income Tax Expense（所得税费用）**。
+
+### 5. 简化会计分录（US GAAP）
+
+假设增加 VA 750 且该变化全部计入当期损益：
+
+| 科目 | 借方 Debit | 贷方 Credit |
+|---|---:|---:|
+| Income Tax Expense（所得税费用） | 750 | |
+| Valuation Allowance（估值备抵） | | 750 |
+
+贷记估值备抵意味着抵减资产的余额增大，Net DTA 下降。
+
+### 6. IFRS 与 US GAAP 对比
+
+| 对比 | US GAAP（ASC 740） | IFRS（IAS 12） |
+|---|---|---|
+| DTA 可实现性 | 评估未来税收利益可实现程度 | 仅在未来很可能有足够应纳税利润可利用时确认 DTA |
+| 可收回性不足 | 以 **Valuation Allowance** 抵减 DTA | 限制或减少已确认的 DTA，不采用完全相同的单列 VA 机制 |
+| 核心目的 | 避免高估税收资产 | 避免高估税收资产 |
+
+### 7. CFA 考试易错点
+
+1. VA ↑ 不代表 DTA ↑，而是 **Net DTA ↓**。
+2. VA 属于 **Contra-asset（抵减资产）**，不是 DTL。
+3. VA 增加通常使所得税费用上升、净利润下降，但要注意入账位置和其他条件。
+4. 题目单位若为 **$ thousands（千美元）**，计算金额需保持单位一致。
+5. 若题目说 **valuation allowance is higher**，通常考其抵减作用，而不是新增的未来应纳税义务。
+
+## 十、考试易错点
 
 1. **DTA 不是“会计费用越大就一定产生”**；核心是未来是否存在可利用的税收扣除或其他可抵扣差异。
 2. **DTL 不是当期应交税款**；它表示未来相关暂时性差异转回带来的税务负担。
@@ -271,8 +389,11 @@ $
 6. **不能将未提供的税率当作题目数据**；先判断性质，再算金额。
 7. **Tax Base 不是账面价值**，二者差异才是递延所得税分析的核心。
 
-## 十、复习检查
+## 十一、复习检查
 
+- [ ] 能解释 Valuation Allowance 的含义并计算 Net DTA
+- [ ] 能解释 VA 增加对 Income Tax Expense 与 Net Income 的影响
+- [ ] 能区分 US GAAP 的 VA 与 IFRS 的 DTA 可回收性处理
 - [ ] 能区分 Statutory Tax Rate 与 Effective Tax Rate
 - [ ] 能解释 Permanent Differences 和 Foreign Tax Rates 为什么改变 ETR
 - [ ] 能说明 Temporary Differences 通常不单独改变 ETR 的前提
