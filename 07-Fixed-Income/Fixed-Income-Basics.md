@@ -457,3 +457,84 @@ Principal\ amortized\ before\ maturity=10,000,000\times40\%=4,000,000
 - **考试速记**：
   - Bond Index：通常 turnover 更高。
   - Bond Index：通常 replication 更难。
+
+
+## 11. Repo Transactions｜回购交易基础
+
+### Repo / Repurchase Agreement｜回购协议
+
+- **定义**：一方出售证券并约定在未来某一日期按约定价格买回相同或等同证券的交易。
+- **经济实质**：通常是一种以证券作抵押的短期融资安排（Secured Financing）。
+- **借款方（Borrower）**：现在出售证券并取得现金，未来支付回购价格买回证券。
+- **贷款方（Lender）**：现在支付现金并取得证券作为抵押，未来收回现金及约定收益。
+- 从证券出售方角度看是 Repo；从现金提供方角度看是 Reverse Repo（逆回购）。
+
+### Repo Participants｜回购交易参与方
+
+- **Borrower（借款方）**：出售证券、取得现金的一方；承担未来回购证券的义务。
+- **Lender（贷款方）**：提供现金、取得抵押品的一方。
+- **Counterparty（交易对手）**：交易中的另一方，具体角色取决于观察视角。
+
+### Collateral｜抵押品
+
+- **定义**：为担保融资偿还而提供的资产。
+- Repo 中通常由借款方交付证券作为抵押品。
+- **Collateral Value（抵押品价值）**：用于计算抵押品覆盖程度的市场价值。
+- **Cash Borrowed（借入现金）**：借款方通过 Repo 实际取得的现金金额。
+
+### Haircut｜抵押品折扣率
+
+- **定义**：抵押品市场价值超过实际借出现金金额的比例，用于为贷款方提供价格波动缓冲。
+- **公式**：
+
+\[
+Haircut=\frac{Collateral\ Value-Cash\ Borrowed}{Collateral\ Value}
+\]
+
+- Haircut 越高，表示相对于抵押品价值，借款方能够取得的现金越少，贷款方通常获得的缓冲越大。
+- **本题例子**：T-bonds 市场价值 3.2 million，借入现金 3.0 million：
+
+\[
+Haircut=\frac{3.2-3.0}{3.2}=0.0625=6.25\%
+\]
+
+- 注意：分母是抵押品价值，不是借入现金金额，也不是回购价格。
+
+### Repo Price and Repo Interest｜回购价格与回购利息
+
+- **Sale Price（初始出售价格）**：借款方在交易开始时收到的现金。
+- **Repurchase Price（回购价格）**：借款方在约定日期买回证券时支付的金额。
+- **Repo Interest（回购利息）**：回购价格与初始出售价格之间的差额。
+
+\[
+Repo\ Interest=Repurchase\ Price-Sale\ Price
+\]
+
+- **本题例子**：初始出售价格为 3.0 million，三个月后回购价格为 3.1 million：
+
+\[
+Repo\ Interest=3.1-3.0=0.1\text{ million}
+\]
+
+即 100,000 美元。
+
+### Haircut 与 Repo Interest 的区别
+
+| 项目 | Haircut | Repo Interest |
+|---|---|---|
+| 中文 | 抵押品折扣率 | 回购利息 |
+| 衡量内容 | 抵押品价值相对融资金额的缓冲 | 初始融资金额对应的融资成本 |
+| 计算 | (Collateral Value − Cash Borrowed) / Collateral Value | Repurchase Price − Sale Price |
+| 本题结果 | 6.25% | $100,000 |
+
+### 本题考点与做题步骤
+
+1. 识别抵押品市场价值：3.2 million。
+2. 识别实际借入现金（初始出售价格）：3.0 million。
+3. 用两者差额除以抵押品价值，得到 Haircut = 6.25%。
+4. 若题目问 Repo Interest，则用回购价格减初始出售价格，得到 100,000 美元。
+
+**考试速记：**
+- Haircut 看抵押品价值与实际融资金额。
+- Repo Interest 看回购价格与初始出售价格。
+- Repo 是借款方视角；Reverse Repo 是现金提供方视角。
