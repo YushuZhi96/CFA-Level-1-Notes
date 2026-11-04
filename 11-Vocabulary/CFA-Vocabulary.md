@@ -1674,3 +1674,42 @@ tags: [CFA-L1, Vocabulary]
 
 - **Principal Balance** — 本金余额
   - 尚未偿还的债务本金金额
+
+
+## Fixed Income｜证券化与分层结构
+
+- **Securitization** — 资产证券化
+  - 将贷款、应收款等资产汇集，并以其现金流为基础发行证券
+
+- **Tranche** — 分层
+  - 资产证券化产品中按偿付优先级、损失承担顺序和风险特征划分的证券层级
+
+- **Waterfall Structure** — 现金流瀑布结构
+  - 按合同优先顺序分配现金流，并按约定顺序分配损失
+
+- **Senior Tranche** — 优先级分层
+  - 现金流偿付优先级较高，通常信用风险较低
+
+- **Mezzanine Tranche** — 夹层
+  - 偿付优先级与信用风险通常介于 Senior 与 Junior 之间
+
+- **Junior Tranche** — 劣后级分层
+  - 现金流偿付优先级较低，通常先承担信用损失
+
+- **Equity Tranche** — 权益级
+  - 通常处于最劣后位置，首先吸收底层资产损失
+
+- **Payment Priority** — 偿付优先级
+  - 决定不同 Tranche 获得现金流的先后顺序
+
+- **Loss Allocation** — 损失分配
+  - 按合同约定由不同 Tranche 依次承担信用损失
+
+- **Outstanding Principal** — 未偿还本金
+  - 债券或贷款在某一时点尚未归还的本金余额
+
+- **Credit Risk** — 信用风险
+  - 发行人或债务人不能按约履行合同义务、导致投资者遭受损失的风险
+
+- **Exposure** — 风险敞口
+  - 在违约或其他风险事件下可能面临损失的金额或风险暴露程度
