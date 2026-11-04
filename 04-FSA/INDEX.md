@@ -4,6 +4,8 @@
 
 ## 知识点目录
 
+- [[FSA-Formula-Handbook|FSA 常用公式总表（FSA Formula Handbook）]]（2026-11-04，🟡）
+
 - [[Balance-Sheet-Fundamentals|资产负债表基础概念（Balance Sheet Fundamentals）]]（2026-11-02，🟡）
 - [[Internal-Control-and-Auditors-Responsibilities|内部控制系统与审计师职责（Internal Control System & Auditors' Responsibilities）]]（2026-11-02，🟡）
 - [[Common-Size-Statements-and-Financial-Ratios|共同比财务报表与财务比率分析（Common-Size Statements & Financial Ratio Analysis）]]（2026-11-02，🟡）
@@ -27,4 +29,3 @@
 
 - [[Financial-Reporting-Quality|财务报告质量与欺诈三角（Financial Reporting Quality & Fraud Triangle）]]（2026-11-04，🟡）
 
-- [[Financial-Reporting-Quality|财务报告质量与欺诈三角（Financial Reporting Quality & Fraud Triangle）]]（2026-11-04，🟡）
