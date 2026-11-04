@@ -111,6 +111,47 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 2. 多国共同建立的国际机构发行 → Supranational Bond。
 3. 政府关联机构发行，但发行人不是中央政府 → Quasi-government Bond。
 
+### Corporate Bond｜公司债券
+
+- **发行主体**：公司或其他商业企业（Corporation / Company）。
+- **含义**：由企业为经营、投资或再融资等目的发行的债券。
+- **例子**：Apple 公司发行的债券。
+- **识别关键词**：Corporation / Company / Corporate Issuer。
+
+### 按信用质量分类｜Credit Quality Classification
+
+与按发行主体分类不同，信用质量分类关注发行人按时偿付本金和利息的能力，以及债券的违约风险。
+
+#### Investment-Grade Bond｜投资级债券
+
+- **含义**：信用评级达到投资级门槛的债券，通常被认为信用风险相对较低。
+- **评级门槛**：
+  - S&P：BBB− 及以上。
+  - Moody's：Baa3 及以上。
+
+#### Speculative-Grade Bond / Junk Bond｜投机级债券／垃圾债券
+
+- **含义**：信用评级低于投资级门槛的债券，通常具有较高信用风险。
+- **其他名称**：High-Yield Bond（高收益债券）。
+- **注意**：高收益是对较高信用风险所要求的收益补偿，并不代表投资一定能获得更高的实际回报。
+- **评级门槛**：
+  - S&P：低于 BBB−。
+  - Moody's：低于 Baa3。
+
+### 两种分类维度不要混淆
+
+| 分类依据 | 债券类别 | 判断问题 |
+|---|---|---|
+| 发行主体（Issuer） | Government Bond、Sovereign Bond、Supranational Bond、Quasi-government Bond、Corporate Bond | 谁发行了债券？ |
+| 信用质量（Credit Quality） | Investment-Grade Bond、Speculative-Grade / Junk Bond | 发行人的偿债信用如何？ |
+
+**同一只债券可以同时拥有不同维度的标签。** 例如，美国政府发行的债券属于 Government / Sovereign Bond（按发行主体分类），同时也可以被评为 Investment-Grade Bond（按信用质量分类）。
+
+**考试识别：**
+- Investment-Grade / Junk / High-Yield → 按信用质量分类。
+- Government / Corporate / Municipal → 主要按发行主体分类。
+- 题目问“哪一种不是根据信用质量命名”，Government Bond 是按发行主体命名。
+
 ## 4. 国际债券与市政债券
 
 本节介绍 Foreign Bond、Eurobond 与 Municipal Bond。前两者主要按发行市场、发行人所在地及计价货币的关系分类；Municipal Bond 则主要按发行主体分类，二者不是完全相同的分类维度。
