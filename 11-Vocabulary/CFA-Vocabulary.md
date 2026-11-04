@@ -1545,3 +1545,39 @@ tags: [CFA-L1, Vocabulary]
 
 - **Government-Sponsored Enterprise (GSE)** — 政府支持企业
   - 与政府有关联或获得政府支持的机构；其发行债券不等同于中央政府直接发行的主权债券
+
+
+## Fixed Income｜转换条款与 CoCo 补充
+
+- **Conversion Provision** — 转换条款
+  - 普通可转债中通常给予持有人按约定条件选择转股的权利
+
+- **Convertible Bond** — 可转换债券
+  - 通常赋予投资者选择转换为发行人股票的权利
+
+- **Contingent Convertible Bond (CoCo Bond)** — 应急／或有可转换债券
+  - 触发资本或监管条件后可能强制转股或本金减记
+
+- **Trigger Event** — 触发事件
+  - CoCo 按合同约定实施转换或减记的条件
+
+- **Loss Absorption** — 损失吸收
+  - CoCo 以股权转换或本金减记吸收发行人损失
+
+- **Principal Write-down** — 本金减记
+  - 减少债券本金，投资者可能承担损失
+
+- **Equity Conversion** — 股权转换
+  - 按合同约定将债务转为股权
+
+- **Common Equity Tier 1 Ratio (CET1 Ratio)** — 普通股一级资本充足率
+  - 某些 CoCo 的资本触发指标
+
+- **Reinvestment Risk** — 再投资风险
+  - 债券提前赎回后可能只能以更低利率再投资
+
+- **Conversion Option** — 转换期权
+  - 普通可转债中给予债券持有人的转股选择权
+
+- **Conversion Value** — 转换价值
+  - 债券按转换比例转为股票后的价值
