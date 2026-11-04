@@ -1713,3 +1713,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **Exposure** — 风险敞口
   - 在违约或其他风险事件下可能面临损失的金额或风险暴露程度
+
+
+## Fixed Income｜信用质量与发行主体分类补充
+
+- **Government Bond** — 政府债券
+  - 按发行主体分类，由政府发行；名称本身不直接表示信用评级等级
+
+- **Corporate Bond** — 公司债券
+  - 由公司或商业企业发行
+
+- **Credit Quality** — 信用质量
+  - 衡量发行人按时偿还本金和利息的信用状况
+
+- **Credit Rating** — 信用评级
+  - 评级机构对发行人或债务工具信用风险作出的等级评估
+
+- **Investment-Grade Bond** — 投资级债券
+  - S&P 评级 BBB− 及以上，或 Moody's 评级 Baa3 及以上
+
+- **Speculative-Grade Bond** — 投机级债券
+  - S&P 评级低于 BBB−，或 Moody's 评级低于 Baa3
+
+- **Junk Bond** — 垃圾债券
+  - Speculative-Grade Bond 的常见称呼，信用风险通常较高
+
+- **High-Yield Bond** — 高收益债券
+  - Speculative-Grade Bond 的另一常见称呼，较高收益率用于补偿较高信用风险
