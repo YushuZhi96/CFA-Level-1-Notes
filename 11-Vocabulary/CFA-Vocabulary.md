@@ -1497,3 +1497,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **Lower Yield** — 更低收益率
   - Putable Bond 相对同等条件的 Option-Free Bond 通常具有更低收益率
+
+
+## Fixed Income｜基础概念
+
+- **Tenor** — 剩余期限
+  - 从当前时点到债券到期日的剩余时间
+
+- **Original Maturity** — 原始期限
+  - 债券发行日至到期日之间的总期限
+
+- **Elapsed Time** — 已过去时间
+  - 从债券发行日至当前时点已经经过的时间
+
+- **Maturity Date** — 到期日
+  - 债券合同约定偿还本金的日期
+
+- **Time to Maturity** — 到期剩余时间
+  - 当前时点至债券到期日的时间；常与 Tenor 同义使用
+
+- **Par Value / Face Value** — 面值
+  - 债券合同约定的本金金额，通常为到期偿还本金
+
+- **Coupon Rate** — 票面利率
+  - 用于按债券面值计算票息的利率
+
+- **Annual Coupon** — 年度票息
+  - Par Value × Coupon Rate
