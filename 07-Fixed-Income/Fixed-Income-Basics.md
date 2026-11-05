@@ -900,3 +900,39 @@ Y_{5}=4\%+\frac{5-4}{6-4}(5\%-4\%)=4.5\%
 - **答案 C**。
 
 **速记：交易不活跃 → 找相似债券 → 估计收益率或利差 → 折现估值。**
+
+
+## 14. Bond Market Participants｜债券市场参与者
+
+### Sovereign Bond vs Corporate Bond Trading｜主权债券与公司债券交易
+
+- **Sovereign Bond（主权债券）**：由国家中央政府发行。其市场中一些具有重要影响力的投资者，尤其是中央银行及政府相关机构，交易目的可能不完全以投资收益最大化为目标。
+- **Corporate Bond（公司债券）**：由公司发行。公司债投资者通常更侧重经济性投资目标，例如风险调整后收益、信用风险、违约概率和流动性。
+
+### Non-economic Objectives｜非经济目的
+
+- **定义**：投资者进行债券交易时，目标不完全是获得最高投资回报，还可能服务于货币政策、外汇管理、储备管理或其他公共政策目标。
+- **典型参与者**：Central Banks（中央银行）、部分 Government Entities（政府机构）。
+- **例子**：
+  - **Monetary Policy（货币政策）**：中央银行通过买卖政府债券影响金融体系流动性及货币条件。
+  - **Foreign Exchange Management（外汇管理）**：管理外汇储备及相关资产，支持外汇政策目标。
+  - **Reserve Management（储备管理）**：在安全性、流动性和收益性之间管理官方储备资产。
+
+### Economic Objectives｜经济目的
+
+- **定义**：以投资回报和风险为核心进行投资决策。
+- **公司债投资者常见关注点**：
+  - **Yield / Expected Return（收益率／预期回报）**
+  - **Credit Risk（信用风险）**
+  - **Default Probability（违约概率）**
+  - **Liquidity（流动性）**
+  - **Risk-adjusted Return（风险调整后收益）
+
+### 考试辨析
+
+- **Statement：Some influential sovereign debt investors trade with non-economic objectives, while corporate bond investors do not.**
+- 题目强调的区别是：主权债市场中，部分重要投资者（例如中央银行）可能出于货币政策、外汇管理或储备管理等非经济目标交易；公司债投资者通常主要依据风险与收益作出投资决策。
+- 不要把这一考点扩大为“所有主权债投资者都没有经济目标”或“所有公司债投资者只追求利润”。这是市场参与者动机的典型差异，而不是对每一位投资者的绝对判断。
+- **本题答案：C。**
+
+**考试速记**：Central Bank + Monetary Policy / Reserve Management → Sovereign Bond Market 中可能存在 Non-economic Objectives。
