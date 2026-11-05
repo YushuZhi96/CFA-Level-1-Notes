@@ -2050,7 +2050,7 @@ tags: [CFA-L1, Vocabulary]
 ## Fixed Income｜三种收益率与债券价格关系
 
 - **Current Yield** — 当期收益率
-  - Annual Coupon / Current Bond Price，只看票息与市场价格
+  - Annual Coupon Payments / Flat Price (Clean Price)；分子为年度票息总额，分母为不含应计利息的净价
 
 - **Premium Bond** — 溢价债券
   - 价格高于面值；Coupon Rate > Current Yield > YTM
