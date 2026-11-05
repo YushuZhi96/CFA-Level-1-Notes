@@ -2134,3 +2134,9 @@ tags: [CFA-L1, Vocabulary]
 
 - **Risk-adjusted Return** — 风险调整后收益
   - 考虑所承担风险后衡量的投资回报
+
+
+## Fixed Income｜净价别称补充
+
+- **Flat Price** — 净价
+  - 与 Clean Price 同义，不含应计利息；结算时通常支付 Full Price
