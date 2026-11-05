@@ -2170,3 +2170,27 @@ tags: [CFA-L1, Vocabulary]
 
 - **360-day Basis** — 360天计息基础
   - 按一年360天进行年化
+
+
+## Fixed Income｜复利频率转换
+
+- **Compounding Frequency** — 复利频率
+  - 一年内复利计息的次数
+
+- **Periodicity** — 每年复利次数
+  - 半年复利为2，季度复利为4
+
+- **Effective Annual Rate (EAR)** — 有效年收益率
+  - 跨复利频率转换时保持不变的实际年化收益率
+
+- **Nominal Annual Yield** — 名义年收益率
+  - 按指定复利次数报价的年化收益率
+
+- **Semiannual Compounding** — 半年复利
+  - 每年复利2次
+
+- **Quarterly Compounding** — 季度复利
+  - 每年复利4次
+
+- **ICONV** — 利率转换功能
+  - BA II Plus 中通过 NOM、EFF、C/Y 转换复利频率
