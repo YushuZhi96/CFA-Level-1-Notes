@@ -2072,3 +2072,32 @@ tags: [CFA-L1, Vocabulary]
 
 - **Yield to Maturity (YTM)** — 到期收益率
   - 将约定未来现金流折现至当前价格的收益率
+
+## Fixed Income｜债券报价与应计利息
+
+- **Clean Price** — 净价
+  - 不包含应计利息的债券报价
+
+- **Dirty Price / Full Price** — 全价
+  - 包含应计利息，通常是结算时支付的价格
+
+- **Quoted Price** — 报价
+  - 债券市场常按净价报价，具体遵循市场惯例
+
+- **Accrued Interest (AI)** — 应计利息
+  - 上次付息日至结算日已累计但尚未支付的利息
+
+- **Semiannual Coupon** — 半年付息／每半年票息
+  - 一年付息两次，每期票息通常为面值乘年度票息率后除以2
+
+- **Coupon per Period** — 每期票息
+  - 计算应计利息的基础
+
+- **Day-Count Convention** — 计息天数惯例
+  - 规定利息期间天数及应计利息计算规则，如 Actual/Actual、30/360
+
+- **Actual/Actual** — 实际天数／实际天数
+  - 按适用规则使用实际日数计算计息比例
+
+- **30/360** — 30／360 计息法
+  - 以每月30天、每年360天为基础计算计息比例
