@@ -1866,3 +1866,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **Treasury Bonds (T-bonds)** — 美国长期国债
   - Repo 交易中常见的高质量抵押证券之一
+
+
+## Fixed Income｜回购协议类型补充
+
+- **Term Repo** — 固定期限回购
+  - 约定明确的回购到期日
+
+- **Open Repo** — 开放式回购
+  - 无预先固定的最终到期日，通常可依协议通知终止
+
+- **General Collateral Repo** — 一般抵押品回购
+  - 可从符合约定标准的一组证券中选择抵押品
+
+- **Special Collateral Repo** — 特定抵押品回购
+  - 以指定的某只证券作为抵押品
+
+- **Eligible Collateral** — 合格抵押品
+  - 满足合同规定的期限、信用等条件的证券
+
+- **Maturity Criteria** — 期限标准
+  - 抵押品必须满足的剩余期限或到期特征要求
+
+- **Credit Criteria** — 信用标准
+  - 抵押品必须满足的信用质量要求
+
+- **Specific Security** — 特定证券
+  - Special Collateral Repo 中指定必须交付的证券
+
+- **Money Market Fund** — 货币市场基金
+  - 主要投资短期、高流动性货币市场工具的基金
