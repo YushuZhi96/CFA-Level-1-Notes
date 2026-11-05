@@ -1020,3 +1020,47 @@ BEY = Add-on Yield = 3.5%
 - 365-day Add-on Yield：可直接作为 BEY。
 - 360-day Discount Yield：使用转换公式换算 BEY。
 
+
+
+## Compounding Frequency Conversion｜复利频率转换
+
+### 核心原则
+
+**Compounding Frequency（复利频率）** 或 **Periodicity（每年复利次数）**：一年内计息复利的次数，例如 Semiannual（半年复利）m = 2，Quarterly（季度复利）m = 4。
+
+转换同一经济收益率在不同复利频率下的**名义年收益率（Nominal Annual Yield）**时，保持 **Effective Annual Rate（EAR，有效年收益率）** 不变。
+
+\[
+\left(1+\frac{YTM_1}{m_1}\right)^{m_1}
+=
+\left(1+\frac{YTM_2}{m_2}\right)^{m_2}
+\]
+
+由此得到：
+
+\[
+YTM_2=m_2\left[\left(1+\frac{YTM_1}{m_1}\right)^{m_1/m_2}-1\right]
+\]
+
+其中 \(YTM_1,YTM_2\) 是对应复利频率下的**名义年化 YTM**，\(m_1,m_2\) 为每年复利次数。
+
+### BA II Plus 计算器：ICONV
+
+- 按 \`2nd\` → \`ICONV\`，再按 \`2nd\` → \`CLR WORK\` 清除原始数据。
+- 输入 \`NOM = 4\`、\`C/Y = 2\`，将光标移到 \`EFF\` 后按 \`CPT\`，得到 **EFF = 4.04**。
+- 保留 \`EFF\`，将 \`C/Y\` 改为 **4**，移到 \`NOM\` 按 \`CPT\`，得到 **NOM ≈ 3.9802**（%）。
+- 计算开四次方时，使用幂键 \`yˣ\`：\(\sqrt[4]{x}=x^{1/4}=x^{0.25}\)。
+
+### 考试例题：半年复利转换为季度复利
+
+已知半年复利 YTM = 4%，求每年复利 4 次对应的名义年化 YTM：
+
+\[
+YTM_4=4\left[\left(1+\frac{0.04}{2}\right)^{2/4}-1\right]
+=4\left[\sqrt{1.02}-1\right]
+\approx 3.98\%
+\]
+
+**答案：A. 3.98%。**
+
+**速记**：保持 EAR 不变时，复利次数增加 → 对应的名义年收益率下降。不要把“名义 YTM 下降”误认为实际投资收益降低。
