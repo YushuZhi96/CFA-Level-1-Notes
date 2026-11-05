@@ -1917,3 +1917,36 @@ tags: [CFA-L1, Vocabulary]
 
 - **Credit Spread** — 信用利差
   - 债券收益率相对可比基准收益率的差额，反映信用与相关风险补偿
+
+
+## Fixed Income｜非主权政府债务与偿债来源
+
+- **Non-Sovereign Government Debt** — 非主权政府债务
+  - 州、省、市等非中央政府主体发行的债务
+
+- **General Obligation Bond (GO Bond)** — 一般责任债券
+  - 通常以政府一般财政资源、整体信用及适用的征税权支持偿债
+
+- **Revenue Bond** — 收益债券
+  - 主要依靠特定项目或业务产生的指定收入偿债
+
+- **Source of Repayment** — 偿债来源
+  - 支付债券利息和偿还本金的资金来源
+
+- **Credit Support** — 信用支持
+  - 对债务偿付提供保障的信用、征税权、担保或其他安排
+
+- **Full Faith and Credit** — 政府全面信用支持
+  - 通常描述 GO Bond 由政府整体信用及适用征税权支持
+
+- **Tax Revenues** — 税收收入
+  - GO Bond 的典型一般财政偿债来源之一
+
+- **Project Revenues** — 项目收入
+  - Revenue Bond 典型的指定偿债来源
+
+- **Toll Revenues** — 通行费收入
+  - 收费公路收益债的常见偿债来源
+
+- **Local Government** — 地方政府
+  - 非主权政府债务的常见发行人
