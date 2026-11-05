@@ -729,3 +729,52 @@ Repo\ Interest=3.1-3.0=0.1\text{ million}
 - Statement 1：银行间资金市场是银行之间的贷款和存款市场，**正确**。
 - Statement 2：准备金不足的银行可向资金充裕的银行借款，**正确**。
 - **答案 C：Both statements are correct**。
+
+
+## 13. Matrix Pricing｜矩阵定价法
+
+### Matrix Pricing｜矩阵定价法
+
+- **定义**：当债券交易不活跃、缺少可靠的当前市场报价时，利用期限、信用质量等特征相近且具有可观察交易数据的债券，估计该债券的必要收益率（Required Yield）、利差（Required Yield Spread）或价格。
+- **适用场景**：Inactively Traded Bonds（交易不活跃债券），不以经常交易且具有可靠报价的债券为典型应用对象。
+
+### Comparable Bonds｜可比债券
+
+- **定义**：用于估值参照、具有相似信用风险及现金流特征的债券。
+- **选择要点**：相近的 Time to Maturity（剩余期限）、Credit Quality（信用质量），并考虑 Coupon Rate（票面利率）、流动性及其他条款。
+- 对期限存在小幅差异的可比债券，可以根据适当假设进行 Linear Interpolation（线性插值）；信用质量差异较大时不可不加调整地直接比较。
+
+### Benchmark Yield + Required Spread｜必要收益率简化分解
+
+\[
+Required\ Yield\approx Benchmark\ Yield+Required\ Yield\ Spread
+\]
+
+- **Benchmark Yield（基准收益率）**：同期限或可比条件下的参考收益率。
+- **Required Yield Spread（必要收益率利差）**：相对基准收益率要求的额外补偿，可能反映信用、流动性及其他风险。
+- **简化示例**：5年期基准收益率为3%，可比债券显示需要2%的利差，则估计必要收益率约为5%。
+
+### 基本步骤
+
+1. Identify Comparable Bonds：寻找信用质量、期限及其他特征相近的可比债券。
+2. Estimate Yield or Spread：从可比债券数据估计必要收益率或相对基准的利差。
+3. Discount Cash Flows：以估计的收益率折现目标债券未来现金流，获得估计价格。
+
+### Linear Interpolation｜线性插值法（简化示例）
+
+假设两只 AA 级可比债券：4年期收益率4%，6年期收益率5%。若5年期待估债券其他特征相近，则：
+
+\[
+Y_{5}=4\%+\frac{5-4}{6-4}(5\%-4\%)=4.5\%
+\]
+
+此例仅用来说明期限插值的计算方式，不代表市场收益率曲线一定线性。
+
+### 本题考点
+
+- A 错误：Matrix Pricing 主要应用于交易不活跃、缺少可观察报价的债券。
+- B 错误：估值需要参考特征相近的可比债券，不能直接忽略期限和信用质量差异。
+- C 正确：可用 Matrix Pricing 为交易不活跃债券估计相对 Benchmark 的 Required Yield Spread。
+- **答案 C**。
+
+**速记：交易不活跃 → 找相似债券 → 估计收益率或利差 → 折现估值。**
