@@ -944,3 +944,79 @@ Y_{5}=4\%+\frac{5-4}{6-4}(5\%-4\%)=4.5\%
 - **本题答案：C。**
 
 **考试速记**：Central Bank + Monetary Policy / Reserve Management → Sovereign Bond Market 中可能存在 Non-economic Objectives。
+
+## 15. Money Market Yield Conventions｜货币市场收益率报价惯例
+
+### Commercial Paper｜商业票据
+
+- 企业发行的短期债务融资工具，通常为无担保短期票据。
+- 投资者通常以低于面值的价格买入，到期收回面值。
+
+### Add-on Yield｜加成收益率
+
+- 以购买价格（Purchase Price）为分母，计算收益并按指定天数基础年化。
+- 365-day basis 公式：
+
+```
+Add-on Yield = (FV - P) / P × (365 / Days)
+```
+
+- FV 为面值，P 为购买价格，Days 为距到期天数。
+- 题目若明确给出 365-day Add-on Yield，且要求 BEY，可直接使用该收益率，不需再次转换。
+
+### Discount Yield / Bank Discount Yield｜贴现收益率
+
+- 以面值（Face Value）为分母，按指定天数基础年化折价金额。
+- 常见 360-day basis 公式：
+
+```
+Discount Yield = (FV - P) / FV × (360 / Days)
+```
+
+- 分母是面值，而不是购买价格。
+
+### Bond Equivalent Yield (BEY)｜债券等价收益率
+
+- 将短期货币市场工具的收益率转换为以购买价格为基础、按365天年化的收益率口径，以便与债券收益率比较。
+- 直接按价格计算：
+
+```
+BEY = (FV - P) / P × (365 / Days)
+```
+
+- 从 360-day Discount Yield 转换：
+
+```
+BEY = Discount Yield × 365 / (360 - Discount Yield × Days)
+```
+
+- 转换公式中的 Discount Yield 使用小数，例如 3.5% 输入 0.035。
+
+### Add-on Yield 与 Discount Yield 对比
+
+| 项目 | Add-on Yield | Discount Yield |
+|---|---|---|
+| 分母 | Purchase Price（购买价格） | Face Value（面值） |
+| 常见年化基础 | 365天 | 360天 |
+| 365-day Add-on 转 BEY | 可直接使用 | 不适用 |
+| 360-day Discount 转 BEY | 不适用 | 通常需要转换 |
+
+### 本题：90-day Commercial Paper
+
+- Face Value = $1,000
+- Days = 90
+- 365-day Add-on Yield = 3.5%
+- 因为题目已经给出 365-day Add-on Yield：
+
+```
+BEY = Add-on Yield = 3.5%
+```
+
+**答案：A. 3.5%。**
+
+**考试速记**：
+- Add-on：分母看购买价格 P。
+- Discount：分母看面值 FV。
+- 365-day Add-on Yield：可直接作为 BEY。
+- 360-day Discount Yield：使用转换公式换算 BEY。
+
