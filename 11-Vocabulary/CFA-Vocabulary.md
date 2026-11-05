@@ -2045,3 +2045,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **Time to Maturity** — 到期剩余时间
   - 当前距离债券到期日的时间
+
+
+## Fixed Income｜三种收益率与债券价格关系
+
+- **Current Yield** — 当期收益率
+  - Annual Coupon / Current Bond Price，只看票息与市场价格
+
+- **Premium Bond** — 溢价债券
+  - 价格高于面值；Coupon Rate > Current Yield > YTM
+
+- **Par Bond** — 平价债券
+  - 价格等于面值；Coupon Rate = Current Yield = YTM
+
+- **Discount Bond** — 折价债券
+  - 价格低于面值；Coupon Rate < Current Yield < YTM
+
+- **Current Bond Price** — 债券当前价格
+  - 市场买入价格，是 Current Yield 的分母
+
+- **Annual Coupon** — 年度票息
+  - 年度合同利息；Coupon Rate 和 Current Yield 计算中的分子
+
+- **Coupon Rate** — 票面利率
+  - Annual Coupon / Face Value，按面值计算
+
+- **Yield to Maturity (YTM)** — 到期收益率
+  - 将约定未来现金流折现至当前价格的收益率
