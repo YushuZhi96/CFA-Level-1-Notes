@@ -2018,3 +2018,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **Liquidity** — 流动性
   - 机构及时获得资金并履行支付义务的能力
+
+
+## Fixed Income｜矩阵定价法
+
+- **Matrix Pricing** — 矩阵定价法
+  - 用特征相似债券的市场数据估算不活跃债券收益率、利差或价格
+
+- **Inactively Traded Bond** — 交易不活跃债券
+  - 交易稀少，缺少可靠市场报价的债券
+
+- **Comparable Bonds** — 可比债券
+  - 在期限、信用质量等特征上相似、用于估值参考的债券
+
+- **Benchmark Yield** — 基准收益率
+  - 债券估值中用于比较的参考收益率
+
+- **Required Yield Spread** — 必要收益率利差
+  - 投资者相对基准收益率要求的额外收益率补偿
+
+- **Required Yield** — 必要收益率
+  - 投资者对债券所要求的收益率
+
+- **Linear Interpolation** — 线性插值法
+  - 根据相邻观测点的数值，在假设线性变化时估计中间值
+
+- **Time to Maturity** — 到期剩余时间
+  - 当前距离债券到期日的时间
