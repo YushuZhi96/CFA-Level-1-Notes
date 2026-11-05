@@ -1896,3 +1896,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Money Market Fund** — 货币市场基金
   - 主要投资短期、高流动性货币市场工具的基金
+
+
+## Fixed Income｜高收益债特征补充
+
+- **Restrictive Covenants** — 限制性条款
+  - 债券契约对额外举债、股息、资产出售等行为的限制；高收益债通常约束更多
+
+- **Bond Indenture** — 债券契约
+  - 规定债券发行人与债券持有人权利义务的合同文件
+
+- **Equity-like Cash Flows** — 类股权现金流特征
+  - 高收益债实际现金流受经营与违约状况影响较大，风险表现可能类似股票
+
+- **Credit Spread Contribution** — 信用利差贡献
+  - 信用利差对债券总收益率的贡献；高收益债通常贡献较大
+
+- **Risk-Free Rate** — 无风险利率
+  - 收益率分解时可作为比较基准的利率概念
+
+- **Credit Spread** — 信用利差
+  - 债券收益率相对可比基准收益率的差额，反映信用与相关风险补偿
