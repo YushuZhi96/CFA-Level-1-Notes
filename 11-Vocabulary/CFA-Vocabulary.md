@@ -1950,3 +1950,41 @@ tags: [CFA-L1, Vocabulary]
 
 - **Local Government** — 地方政府
   - 非主权政府债务的常见发行人
+
+## Fixed Income｜主权债券拍卖
+
+- **Single-Price Auction** — 单一价格拍卖
+  - 所有中标者按同一结算价格或收益率成交
+
+- **Uniform-Price Auction** — 统一价格拍卖
+  - Single-Price Auction 的另一名称
+
+- **Multiple-Price Auction** — 多价格拍卖
+  - 中标者按各自中标报价成交
+
+- **Discriminatory-Price Auction** — 差别价格拍卖
+  - Multiple-Price Auction 的另一名称
+
+- **Competitive Bid** — 竞争性投标
+  - 投资者提交报价竞争债券配售
+
+- **Bid Price** — 投标价格
+  - 价格报价拍卖中通常按从高到低排序
+
+- **Bid Yield** — 投标收益率
+  - 收益率报价拍卖中通常按从低到高排序
+
+- **Stop-Out Price** — 边际中标价格
+  - 最后获配的边际中标价格
+
+- **Stop-Out Yield** — 边际中标收益率
+  - 最后获配的边际中标收益率
+
+- **Cost of Funds** — 融资成本
+  - 发行人融资所需承担的利息及相关成本
+
+- **Allocation** — 配售
+  - 按拍卖规则将发行证券分配给中标者
+
+- **Partial Allocation** — 部分配售
+  - 边际报价等情况下投标数量仅部分中标
