@@ -1988,3 +1988,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **Partial Allocation** — 部分配售
   - 边际报价等情况下投标数量仅部分中标
+
+
+## Fixed Income｜银行短期融资市场
+
+- **Interbank Funds Market** — 银行间资金市场
+  - 银行之间进行短期贷款和存款交易、调剂流动性的市场
+
+- **Central Bank Funds Market** — 央行准备金资金市场
+  - 相关合格机构之间借贷中央银行准备金余额的市场
+
+- **Required Reserves** — 法定准备金
+  - 按适用制度要求必须持有的准备金
+
+- **Excess Reserves** — 超额准备金
+  - 超出适用最低准备金要求持有的准备金
+
+- **Federal Funds Market** — 联邦基金市场
+  - 美国合格机构之间借贷在联邦储备体系持有的余额的市场
+
+- **Federal Funds Rate** — 联邦基金利率
+  - 联邦基金交易所形成的利率
+
+- **Effective Federal Funds Rate (EFFR)** — 有效联邦基金利率
+  - 对联邦基金市场隔夜交易利率的统计指标
+
+- **Discount Window** — 贴现窗口
+  - 合格金融机构直接向美联储借款的机制
+
+- **Liquidity** — 流动性
+  - 机构及时获得资金并履行支付义务的能力
