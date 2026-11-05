@@ -111,6 +111,46 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 2. 多国共同建立的国际机构发行 → Supranational Bond。
 3. 政府关联机构发行，但发行人不是中央政府 → Quasi-government Bond。
 
+### Non-Sovereign Government Debt｜非主权政府债务
+
+- **定义**：由州、省、市等非中央政府层级的政府主体发行的债务。
+- **发行主体**：State Government（州政府）、Provincial Government（省级政府）、Local Government（地方政府）、Municipality（市政政府）等。
+- 在美国地方政府债券中，常见的两类是 **General Obligation Bond（一般责任债券）** 与 **Revenue Bond（收益债券）**。
+
+#### Source of Repayment｜偿债来源
+
+- **定义**：发行人用于支付债券利息（Interest）和偿还本金（Principal）的资金来源，回答“钱从哪里来”。
+- **Credit Support（信用支持）**：指保障偿债的政府信用、征税权、抵押、担保或其他支持安排，回答“偿债能力有哪些保障”。
+- **重要区别**：偿债来源不等于发行主体；地方政府发行的债券不一定由一般税收偿还，应核对具体 Bond Indenture（债券契约）。
+
+#### General Obligation Bond (GO Bond)｜一般责任债券
+
+- **定义**：通常由地方政府以其一般财政资源、整体信用及适用的征税能力支持偿还的债券。
+- **典型偿债来源**：Tax Revenues（税收收入）及其他可用的一般财政收入。
+- **Full Faith and Credit（全面信用支持）**：通常用于描述发行政府以整体信用及适用的征税权支持债务的承诺；具体范围与法律限制取决于发行条款。
+
+#### Revenue Bond｜收益债券
+
+- **定义**：主要依靠特定项目、公共设施或业务产生的约定收入偿还本息的债券。
+- **典型偿债来源**：Project Revenues（项目收入），例如 Toll Revenues（收费公路通行费）、机场收费、供水收费。
+- **信用支持**：通常依靠指定收入而非政府一般税收及全面信用支持；实际也可能附有额外担保，应以合同为准。
+
+#### GO Bond 与 Revenue Bond 对比
+
+| 项目 | General Obligation Bond | Revenue Bond |
+|---|---|---|
+| 主要偿债来源 | 一般财政资源、税收及其他可用收入 | 指定项目或业务收入 |
+| 典型信用支持 | 政府整体信用、适用征税权 | 约定的项目收入；可能另有担保 |
+| 主要风险分析 | 财政收支、税基和征税能力 | 项目现金流、收费能力及运营成本 |
+| 例子 | 地方政府一般责任债 | 收费公路收益债 |
+
+**例子：地方政府建设收费公路。** GO Bond 依合同由政府一般财政资源支持偿债；Revenue Bond 通常主要用该公路的通行费偿债。发行主体相似，但偿债来源和信用支持不同。
+
+**本题判断**：
+- A：Local Governments 属于 Non-Sovereign Government Issuers，正确。
+- B：GO Bonds 和 Revenue Bonds 是两种常见地方政府债券，正确。
+- C：声称 Revenue Bonds 依靠地方政府 Full Faith and Credit 并由 Tax Revenues 偿还，混淆了 GO Bond 和 Revenue Bond 的典型特征，**错误（答案 C）**。
+
 ### Corporate Bond｜公司债券
 
 - **发行主体**：公司或其他商业企业（Corporation / Company）。
