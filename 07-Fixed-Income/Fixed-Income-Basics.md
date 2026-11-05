@@ -681,3 +681,51 @@ Repo\ Interest=3.1-3.0=0.1\text{ million}
 - **Reverse Repo** 是现金提供方的视角，而题中基金是借入现金的一方。
 
 **考试速记**：Group of Eligible Securities → General Collateral；Specific Security → Special Collateral。
+
+
+## 12. Short-Term Funding Markets｜银行短期融资市场
+
+### Interbank Funds Market｜银行间资金市场
+
+- **定义**：银行之间进行短期贷款与存款交易的市场。
+- **主要用途**：调剂短期资金余缺、管理流动性（Liquidity）。
+- **例子**：银行 A 短期缺少 500 万美元，向资金盈余的银行 B 借入该金额。
+- **本题 Statement 1**：The market of loans and deposits between banks。正确。
+
+### Central Bank Funds Market｜央行准备金资金市场
+
+- **定义**：合格存款机构之间借贷其在中央银行持有的准备金余额的市场（在具体制度下可能有其他合格参与机构）。
+- **主要用途**：满足准备金需求并管理短期流动性。
+- **重要区别**：市场名称涉及中央银行准备金，不代表一定是中央银行直接向商业银行放款。
+- **本题 Statement 2**：准备金不足的银行可以向准备金充裕的其他银行借款。正确。
+
+### Required Reserves｜法定准备金
+
+- **定义**：在适用制度存在法定准备金要求时，银行必须按监管规定持有的准备金。
+- **注意**：各经济体的准备金制度不同，并非所有国家在任何时期都有正的法定准备金比例。
+
+### Excess Reserves｜超额准备金
+
+- **定义**：银行持有的准备金超过适用的最低准备金要求的部分。
+- **例子**：若应持有 1000 万美元而实际持有 1500 万美元，超额部分为 500 万美元。
+
+### Federal Funds Market｜美国联邦基金市场
+
+- **定义**：美国合格存款机构等参与者借贷其在联邦储备体系持有的余额的市场，交易常见为隔夜期限。
+- **Federal Funds Rate（联邦基金利率）**：该市场联邦基金交易的利率；常用的有效联邦基金利率为 Effective Federal Funds Rate（EFFR）。
+- **与 Discount Window（贴现窗口）区别**：联邦基金交易通常发生在市场参与机构之间；贴现窗口是合格机构直接向美联储借款的机制。
+
+### 两种资金市场对比
+
+| 维度 | Interbank Funds Market | Central Bank Funds Market |
+|---|---|---|
+| 中文 | 银行间资金市场 | 央行准备金资金市场 |
+| 交易对象 | 银行间短期资金借贷及存款 | 中央银行准备金余额 |
+| 主要用途 | 流动性管理 | 准备金及短期流动性管理 |
+| 两者关系 | 较广义 | 与银行间交易存在交集 |
+
+### 本题速记
+
+- Statement 1：银行间资金市场是银行之间的贷款和存款市场，**正确**。
+- Statement 2：准备金不足的银行可向资金充裕的银行借款，**正确**。
+- **答案 C：Both statements are correct**。
