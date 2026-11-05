@@ -81,11 +81,14 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 Coupon\ Rate=\frac{Annual\ Coupon}{Face\ Value}
 \]
 
-**Current Yield（当期收益率）**：年度票息除以当前债券市场价格；不考虑到期时面值与买入价格的差额，也不完整考虑货币时间价值。
+**Current Yield（当期收益率）**：年度票息除以债券当前净价（Flat Price / Clean Price），不包含应计利息；不考虑到期时面值与买入价格的资本利得或损失，也不完整考虑货币时间价值。
 
 \[
-Current\ Yield=\frac{Annual\ Coupon}{Current\ Bond\ Price}
+\boxed{Current\ Yield=\frac{Annual\ Coupon\ Payments}{Flat\ Price\ (Clean\ Price)}}
 \]
+
+- **分子**：年度票息总额（Annual Coupon Payments），不是单期票息。
+- **分母**：Flat Price / Clean Price（净价），不是 Dirty Price / Full Price（全价）。
 
 **Yield to Maturity (YTM，到期收益率)**：使债券约定未来现金流现值等于当前市场价格的折现率。对于每年付息、到期按面值还本的普通债券：
 
