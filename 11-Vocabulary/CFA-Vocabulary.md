@@ -2101,3 +2101,36 @@ tags: [CFA-L1, Vocabulary]
 
 - **30/360** — 30／360 计息法
   - 以每月30天、每年360天为基础计算计息比例
+
+
+## Fixed Income｜债券市场参与者与交易目标
+
+- **Non-economic Objectives** — 非经济目的
+  - 交易目的不完全是投资收益最大化，也可能服务于政策或储备管理目标
+
+- **Economic Objectives** — 经济目的
+  - 以收益、风险和流动性等经济因素为核心的投资目标
+
+- **Central Bank** — 中央银行
+  - 可能为货币政策、外汇管理和储备管理而交易主权债券
+
+- **Government Entity** — 政府机构
+  - 可能持有或交易主权债券以满足公共政策或储备管理需要
+
+- **Monetary Policy** — 货币政策
+  - 中央银行通过政策工具影响货币、信用和金融条件
+
+- **Foreign Exchange Management** — 外汇管理
+  - 管理外汇储备及外汇市场相关政策目标
+
+- **Reserve Management** — 储备管理
+  - 管理官方储备资产，兼顾安全性、流动性和收益性
+
+- **Institutional Investor** — 机构投资者
+  - 以机构身份进行投资的金融机构或其他组织
+
+- **Retail Investor** — 零售投资者／散户投资者
+  - 以个人身份参与证券投资的投资者
+
+- **Risk-adjusted Return** — 风险调整后收益
+  - 考虑所承担风险后衡量的投资回报
