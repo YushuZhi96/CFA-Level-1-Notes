@@ -123,7 +123,7 @@ P=\sum_{t=1}^{N}\frac{C}{(1+YTM)^t}+\frac{FV}{(1+YTM)^N}
 
 ### Bond Price Quotation and Accrued Interest｜债券报价与应计利息
 
-#### Clean Price｜净价
+#### Clean Price / Flat Price｜净价
 
 - **定义**：不含应计利息（Accrued Interest）的债券市场报价，也称 Quoted Price（报价）。
 - 交易者看到的常规债券报价通常是净价，具体取决于市场约定。
@@ -144,11 +144,19 @@ Clean\ Price=Dirty\ Price-Accrued\ Interest
 
 - **定义**：债券自上次付息日起至结算日累计但尚未实际支付的利息。
 - **原因**：买方获得下一期完整票息时，通常需要补偿卖方在此前持有期间累积的利息。
+- **支付时间**：买方在交易**结算日（Settlement Date）**把应计利息连同净价支付给卖方，而不是等到下一次付息日再额外付款。
 - **计算公式**（按相应计息惯例计算）：
 
 \[
 AI=Coupon\ per\ Period\times\frac{Days\ Accrued}{Days\ in\ Coupon\ Period}
 \]
+
+#### 小例题：净价与全价已知
+
+- 2020年2月11日，Flat Price = 1,014.1；Full Price = 1,026.2。
+- 应计利息（Accrued Interest）= 1,026.2 − 1,014.1 = **12.1**。
+- 买方在结算时合计支付 **1,026.2**，其中 **12.1** 是支付给卖方的应计利息；不用等下一次付息日。
+- 已给出两个价格时，可直接求差，无须另外计算计息天数。
 
 #### Semiannual Coupon｜半年付息
 
