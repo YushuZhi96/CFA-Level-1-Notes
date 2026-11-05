@@ -538,3 +538,60 @@ Repo\ Interest=3.1-3.0=0.1\text{ million}
 - Haircut 看抵押品价值与实际融资金额。
 - Repo Interest 看回购价格与初始出售价格。
 - Repo 是借款方视角；Reverse Repo 是现金提供方视角。
+
+
+### Types of Repo｜回购协议分类
+
+回购交易可以从**到期期限、交易方向、抵押品要求**三个不同维度分类。以下名称并非完全互斥。
+
+#### Term Repo｜固定期限回购
+
+- **定义**：交易开始时约定明确的回购到期日（Fixed Maturity Date）。
+- **判断关键词**：Specified Maturity / Fixed Term。
+- **例子**：今天借款，约定30天后回购证券。
+
+#### Open Repo｜开放式回购
+
+- **定义**：没有预先约定固定的最终到期日，通常可依协议条款由任一方通知终止。
+- **判断关键词**：No Fixed Maturity / Terminable on Notice。
+
+#### Reverse Repo｜逆回购
+
+- **定义**：从提供现金、取得证券的一方（Cash Lender）的视角看待同一回购交易。
+- **区分**：Repo 一方借入现金并提供证券；Reverse Repo 的交易对手方提供现金并取得证券。
+- **判断关键词**：Lends Cash / Acquires Securities。
+
+#### General Collateral Repo｜一般抵押品回购
+
+- **定义**：允许在某一类或一组合格证券中选择抵押品，而非必须交付某一只指定证券。
+- **合格抵押品（Eligible Collateral）**：按协议满足期限标准（Maturity Criteria）、信用标准（Credit Criteria）等条件的证券。
+- **特点**：融资方通常可从合格抵押品池中选择证券，交易主要关注融资而非某一特定证券。
+- **判断关键词**：Group of Eligible Securities / Maturity and Credit Criteria。
+
+#### Special Collateral Repo｜特定抵押品回购
+
+- **定义**：交易要求交付某一只特定证券（Specific Security），交易的一项关键需求可能是取得该证券。
+- **判断关键词**：Specific Security / Particular Bond。
+
+### 五种概念对比
+
+| 类型 | 分类依据 | 核心识别条件 |
+|---|---|---|
+| Term Repo | 期限 | 约定固定到期日 |
+| Open Repo | 期限 | 无预先固定到期日 |
+| Repo / Reverse Repo | 交易方向 | 借入现金 / 提供现金的视角 |
+| General Collateral Repo | 抵押品要求 | 一组合格证券可供选择 |
+| Special Collateral Repo | 抵押品要求 | 要求特定证券 |
+
+**重要**：同一笔交易既可以是 Term Repo，也可以是 General Collateral Repo，因为期限与抵押品选择是不同的分类维度。
+
+### 本题考点：General Collateral Repo
+
+一家 Money Market Fund（货币市场基金）通过回购协议借入 $10,000,000，协议允许使用满足特定 **Maturity Criteria（期限标准）** 和 **Credit Criteria（信用标准）** 的一组证券作为抵押品。
+
+- 题目强调的是**符合条件的一组证券**，而非某一只指定债券。
+- 因此正确答案是 **C. General Collateral Repo**。
+- **Term Repo** 侧重期限，但题干未给出固定到期日。
+- **Reverse Repo** 是现金提供方的视角，而题中基金是借入现金的一方。
+
+**考试速记**：Group of Eligible Securities → General Collateral；Specific Security → Special Collateral。
