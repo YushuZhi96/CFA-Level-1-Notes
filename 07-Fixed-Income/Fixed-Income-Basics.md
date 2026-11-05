@@ -121,6 +121,80 @@ P=\sum_{t=1}^{N}\frac{C}{(1+YTM)^t}+\frac{FV}{(1+YTM)^N}
 
 **本题答案 B：Coupon Rate > Current Yield > YTM。**
 
+### Bond Price Quotation and Accrued Interest｜债券报价与应计利息
+
+#### Clean Price｜净价
+
+- **定义**：不含应计利息（Accrued Interest）的债券市场报价，也称 Quoted Price（报价）。
+- 交易者看到的常规债券报价通常是净价，具体取决于市场约定。
+
+#### Dirty Price / Full Price｜全价
+
+- **定义**：包含应计利息的债券价格，通常是买方结算时支付的价格。
+
+\[
+Dirty\ Price=Clean\ Price+Accrued\ Interest
+\]
+
+\[
+Clean\ Price=Dirty\ Price-Accrued\ Interest
+\]
+
+#### Accrued Interest (AI)｜应计利息
+
+- **定义**：债券自上次付息日起至结算日累计但尚未实际支付的利息。
+- **原因**：买方获得下一期完整票息时，通常需要补偿卖方在此前持有期间累积的利息。
+- **计算公式**（按相应计息惯例计算）：
+
+\[
+AI=Coupon\ per\ Period\times\frac{Days\ Accrued}{Days\ in\ Coupon\ Period}
+\]
+
+#### Semiannual Coupon｜半年付息
+
+- 一年支付两次票息时，在以面值100报价的情况下，每期票息：
+
+\[
+Coupon\ per\ Period=\frac{100\times Annual\ Coupon\ Rate}{2}
+\]
+
+#### Day-Count Convention｜计息天数惯例
+
+- **定义**：金融市场约定如何计算两日期之间的计息天数和计息年度／付息期间长度。
+- 常见方法包括 Actual/Actual 和 30/360。应计利息的天数比例要遵循债券的具体计息规则。
+- 若题目直接给出已过天数与付息期间总天数，就按提供的数值计算。
+
+#### 本题计算：Quoted Price
+
+- 到期日：2030-03-16；每年 3 月 16 日和 9 月 16 日付息。
+- 购买日：2020-06-15；本付息期已过 91 天，总计 184 天。
+- 年票面利率 6%；每年付息两次；价格按面值 100 报价。
+- 投资者支付的全价（Dirty Price）= 104.45。
+
+**第一步：每期票息**
+
+\[
+Coupon\ per\ Period=\frac{100\times 6\%}{2}=3
+\]
+
+**第二步：应计利息**
+
+\[
+AI=3\times\frac{91}{184}\approx1.4837
+\]
+
+**第三步：净价（Quoted / Clean Price）**
+
+\[
+Clean\ Price=104.45-1.4837=102.9663\approx102.97
+\]
+
+**答案：B. 102.97。**
+
+题中 Required Yield（必要收益率）5.6% 是干扰条件：由于已给出实际支付的全价，不需要用收益率重新折现所有未来现金流。
+
+**考试速记**：Clean Price 不含应计利息；Dirty Price 含应计利息；Quoted Price 通常是 Clean Price。
+
 ## 3. 债券发行主体分类
 
 债券可根据发行主体（Issuer）进行分类。做题时首先识别是谁发行债券，而不是只看债券名称或是否有政府支持。
