@@ -2140,3 +2140,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **Flat Price** — 净价
   - 与 Clean Price 同义，不含应计利息；结算时通常支付 Full Price
+
+
+## Fixed Income｜货币市场收益率报价
+
+- **Commercial Paper** — 商业票据
+  - 企业发行的短期债务融资工具，通常为无担保短期票据
+
+- **Add-on Yield** — 加成收益率
+  - 以购买价格为分母计算收益，并按指定天数基础年化
+
+- **Discount Yield / Bank Discount Yield** — 贴现收益率
+  - 以面值为分母计算折价收益，并通常采用360天年化基础
+
+- **Bond Equivalent Yield (BEY)** — 债券等价收益率
+  - 以购买价格为基础、按365天年化的收益率口径
+
+- **Purchase Price** — 购买价格
+  - 投资者买入货币市场工具时支付的价格
+
+- **Face Value** — 面值
+  - 货币市场工具到期偿还的金额
+
+- **Days to Maturity** — 距到期天数
+  - 从结算／购买日至工具到期日的天数
+
+- **365-day Basis** — 365天计息基础
+  - 按一年365天进行年化
+
+- **360-day Basis** — 360天计息基础
+  - 按一年360天进行年化
