@@ -73,6 +73,54 @@ Annual\ Coupon = Par\ Value \times Coupon\ Rate
 
 - 注意：Coupon Rate 不等于 Yield（收益率）；票面利率以面值计算，而收益率反映债券价格与现金流之间的回报关系。
 
+### Coupon Rate、Current Yield 与 Yield to Maturity｜三种收益率
+
+**Coupon Rate（票面利率）**：按债券面值计算年度票息的比率。
+
+\[
+Coupon\ Rate=\frac{Annual\ Coupon}{Face\ Value}
+\]
+
+**Current Yield（当期收益率）**：年度票息除以当前债券市场价格；不考虑到期时面值与买入价格的差额，也不完整考虑货币时间价值。
+
+\[
+Current\ Yield=\frac{Annual\ Coupon}{Current\ Bond\ Price}
+\]
+
+**Yield to Maturity (YTM，到期收益率)**：使债券约定未来现金流现值等于当前市场价格的折现率。对于每年付息、到期按面值还本的普通债券：
+
+\[
+P=\sum_{t=1}^{N}\frac{C}{(1+YTM)^t}+\frac{FV}{(1+YTM)^N}
+\]
+
+其中 P 为当前价格、C 为每期票息（每年付息时为年度票息）、FV 为到期面值、N 为剩余期数。若付息频率不同，需相应调整每期收益率与期数。
+
+### Premium / Par / Discount Bonds｜三种债券的收益率关系
+
+| 债券类型 | 债券价格与面值 | 收益率关系 |
+|---|---|---|
+| Premium Bond（溢价债券） | Price > Par | **Coupon Rate > Current Yield > YTM** |
+| Par Bond（平价债券） | Price = Par | **Coupon Rate = Current Yield = YTM** |
+| Discount Bond（折价债券） | Price < Par | **Coupon Rate < Current Yield < YTM** |
+
+上述严格不等式适用于有正票息、固定票息、到期按面值还本、无嵌入式期权的普通债券，并按一致年化口径比较；零息债等特殊情况需单独判断。
+
+**原因与记忆**：
+- **Premium**：买入价格高于到期偿还面值，持有至到期面临本金价差损失，因此 YTM < Current Yield；又因为市场价格高于面值，所以 Current Yield < Coupon Rate。
+- **Par**：买入价格等于面值，因此三种收益率相等。
+- **Discount**：买入价格低于到期偿还面值，持有至到期获得本金价差收益，因此 YTM > Current Yield；又因为市场价格低于面值，所以 Current Yield > Coupon Rate。
+
+**例子**：面值 $100、票面利率 8%、当前价格 $110、剩余 5 年、每年付息一次。
+
+- Annual Coupon = $8
+- Coupon Rate = 8 / 100 = 8%
+- Current Yield = 8 / 110 ≈ 7.27%
+- YTM：由 110 = Σ[8 / (1+y)^t]（t=1至5）+ 100/(1+y)^5 求得，约 5.65%
+
+故 **8% > 7.27% > 5.65%**，属于 Premium Bond。
+
+**本题答案 B：Coupon Rate > Current Yield > YTM。**
+
 ## 3. 债券发行主体分类
 
 债券可根据发行主体（Issuer）进行分类。做题时首先识别是谁发行债券，而不是只看债券名称或是否有政府支持。
