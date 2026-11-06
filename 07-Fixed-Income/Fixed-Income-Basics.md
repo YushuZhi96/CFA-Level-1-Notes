@@ -1067,3 +1067,102 @@ YTM_4=4\left[\left(1+\frac{0.04}{2}\right)^{2/4}-1\right]
 **答案：A. 3.98%。**
 
 **速记**：保持 EAR 不变时，复利次数增加 → 对应的名义年收益率下降。不要把“名义 YTM 下降”误认为实际投资收益降低。
+
+
+## 16. Floating-Rate Notes｜浮动利率债券
+
+### Floating-Rate Note (FRN)｜浮动利率债券
+
+- **定义**：票面利率根据某项参考利率（Reference Rate）定期调整的债券，通常在合同规定的利差基础上重新确定票息。
+- **票面利率公式**：
+
+\[
+Coupon\ Rate=Reference\ Rate+Quoted\ Margin
+\]
+
+- **Reset Date（利率重设日）**：按约定参考利率重新确定下一计息期票面利率的日期。
+- **LIBOR（伦敦银行间同业拆借利率）**：本题使用的历史参考利率示例；实际现行产品需看具体合同约定的参考利率。
+
+### Quoted Margin｜报价利差
+
+- 债券合同约定的参考利率之上的固定利差，用于**计算票息**。
+- 本题 Quoted Margin = 2%；当前6个月 LIBOR = 2.2%，因此当前年化票面利率是 4.2%。
+
+### Required Margin｜必要利差
+
+- 市场要求的参考利率之上的收益补偿，用于**折现估值**；相关估值中也会使用 Discount Margin（折现利差）的表述。
+- **区别**：Quoted Margin 是合同票息加点；Required Margin 是市场要求的风险补偿。
+- 在标准条件和其他因素不变的简化模型下：
+
+| 关系 | 债券价格 |
+|---|---|
+| Quoted Margin > Required Margin | 高于面值（Premium） |
+| Quoted Margin = Required Margin | 约等于面值（Par） |
+| Quoted Margin < Required Margin | 低于面值（Discount） |
+
+### Required Yield｜必要收益率（本题简化口径）
+
+假设未来参考利率保持在当前水平，则可把未来票息视为相同金额，用 TVM 计算必要收益率：
+
+\[
+Required\ Yield \approx Reference\ Rate+Required\ Margin
+\]
+
+\[
+Required\ Margin\approx Required\ Yield-Reference\ Rate
+\]
+
+注意：实际 FRN 的精确定价还需考虑未来重设的参考利率、现金流日期和其他条款；上述关系是本题采用的简化估算方法。
+
+### 本题计算：LIBOR + 2%
+
+| 条件 | 数值 |
+|---|---:|
+| Face Value（面值） | 1,000 |
+| Current Price（市场价格） | 1,020 |
+| Coupon Rate（票息） | LIBOR + 2% |
+| 6-month LIBOR | 2.2% |
+| Coupon Frequency | 半年付息一次 |
+| Time to Maturity | 3年 |
+
+**步骤1：确定当前年化票息率**
+
+\[
+Coupon\ Rate=2.2\%+2\%=4.2\%
+\]
+
+**步骤2：计算每半年票息和期数**
+
+\[
+PMT=1{,}000\times4.2\%/2=21
+\]
+
+\[
+N=3\times2=6
+\]
+
+**步骤3：BA II Plus 计算必要收益率**
+
+使用 P/Y = 1、C/Y = 1，按半年为一期：
+
+| TVM | 输入 |
+|---|---:|
+| N | 6 |
+| PV | -1,020 |
+| PMT | 21 |
+| FV | 1,000 |
+| CPT → I/Y | 约 1.746%（每半年） |
+
+**步骤4：年化并求必要利差**
+
+\[
+Required\ Yield\approx1.746\%\times2=3.492\%
+\]
+
+\[
+Required\ Margin\approx3.492\%-2.2\%=1.292\%\approx1.3\%
+\]
+
+**正确答案：C. 1.3%。**
+
+**考点速记**：Quoted Margin 决定票息；Required Margin 反映市场要求的利差；溢价交易时通常 Quoted Margin > Required Margin。
