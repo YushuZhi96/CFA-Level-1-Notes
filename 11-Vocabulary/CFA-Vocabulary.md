@@ -2194,3 +2194,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **ICONV** — 利率转换功能
   - BA II Plus 中通过 NOM、EFF、C/Y 转换复利频率
+
+
+## Fixed Income｜浮动利率债券与必要利差
+
+- **Floating-Rate Note (FRN)** — 浮动利率债券
+  - 票面利率按参考利率加合同利差定期重设
+
+- **Reference Rate** — 参考利率
+  - 计算浮动利率票息所依据的基准利率
+
+- **Quoted Margin** — 报价利差
+  - 债券合同规定的参考利率加点，决定票息
+
+- **Required Margin** — 必要利差
+  - 投资者或市场要求的参考利率之上的收益补偿，用于估值
+
+- **Discount Margin** — 折现利差
+  - 浮动利率债估值时相对于参考利率要求的折现利差
+
+- **Reset Date** — 利率重设日
+  - 按合同确定下一计息期浮动票息利率的日期
+
+- **LIBOR (London Interbank Offered Rate)** — 伦敦银行间同业拆借利率
+  - 题目中的历史参考利率示例
+
+- **Required Yield** — 必要收益率
+  - 投资者所要求的债券收益率，本题以当前参考利率加必要利差近似
