@@ -1541,6 +1541,32 @@ tags: [CFA-L1, Vocabulary]
 - **Initial Public Offering (IPO)** — 首次公开募股
   - 企业首次向公众发行股票，属于一级市场的典型活动
 
+## Equity Investments｜IPO 与承销方式
+
+- **Firm Commitment Underwriting** — 坚定承诺承销／包销
+  - 承销商按合同承诺购买发行证券，并承担未能全部向最终投资者销售的风险
+
+- **Underwritten Offering** — 承销发行
+  - 本题指投资银行承担发行销售风险的承销安排；应结合具体承销合同判断
+
+- **Best Efforts Offering** — 尽力承销／代销
+  - 承销商尽力销售，但通常不负有购买未售出证券的义务
+
+- **Private Placement** — 私募发行
+  - 面向特定合格投资者或有限投资者群体的非公开发行
+
+- **Qualified Investors** — 合格投资者
+  - 符合相关市场资格要求的投资者；题中用于识别私募发行
+
+- **Underwriter** — 承销商
+  - 协助发行证券定价、销售、分销的金融中介，风险依承销类型而异
+
+- **Issuer** — 发行人
+  - 通过发行证券融资或安排证券发售的主体；尽力承销时通常承担募集不足风险
+
+- **Obligated to Buy** — 有义务购买
+  - Firm Commitment 类条款中的关键词，不属于典型 Best Efforts 的剩余证券购买义务
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
