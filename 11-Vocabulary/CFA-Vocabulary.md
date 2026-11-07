@@ -1515,6 +1515,32 @@ tags: [CFA-L1, Vocabulary]
 - **Margin Call** — 追加保证金通知
   - 账户权益不足以满足保证金要求时，可能需要补充资金或减仓
 
+## Equity Investments｜一级二级市场与金融工具
+
+- **Primary Market** — 一级市场／发行市场
+  - 新证券发行环节；本题将新期货合约的创建归入这一类
+
+- **Secondary Market** — 二级市场／流通市场
+  - 已发行证券在投资者之间买卖的市场
+
+- **Derivative Contract** — 衍生品合约
+  - 价值取决于某种标的资产、价格或指数的合约
+
+- **Stock Index Futures** — 股票指数期货
+  - 以股票指数为标的的期货合约，属于衍生品而非直接持有股票
+
+- **Equity Securities** — 权益证券／股票类证券
+  - 代表股份权益或所有权请求权的证券
+
+- **Pooled Investment Vehicle** — 集合投资工具
+  - 汇集多个投资者资金用于共同投资的工具，如基金
+
+- **Underlying Asset** — 标的资产
+  - 决定衍生品价格表现的基础资产或指数
+
+- **Initial Public Offering (IPO)** — 首次公开募股
+  - 企业首次向公众发行股票，属于一级市场的典型活动
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
