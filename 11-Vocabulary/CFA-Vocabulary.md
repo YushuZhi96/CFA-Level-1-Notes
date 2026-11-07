@@ -1489,6 +1489,32 @@ tags: [CFA-L1, Vocabulary]
 - **Long Hedge** — 买入套期保值
   - 未来要买入现货、担心价格上涨，常买入对应远期
 
+## Equity Investments｜融资杠杆与年化收益率
+
+- **Margin Trading / Buying on Margin** — 融资买入 / 保证金交易
+  - 使用自有资金和融资借款买入证券，放大盈亏
+
+- **Leverage Ratio** — 杠杆比率
+  - 本题为总持仓市值 / 初始自有资金；1.6 倍杠杆意味着自有资金占 62.5%
+
+- **Initial Margin** — 初始保证金比例
+  - 自有资金占总持仓价值的比例；等于杠杆比率的倒数
+
+- **Margin Loan** — 融资借款
+  - 融资买入股票时借入的资金本金；卖出股票通常须偿还
+
+- **Holding Period Return (HPR)** — 持有期收益率
+  - 整个持有期间的累计回报，不等于年化收益率
+
+- **Annualized Return / CAGR** — 年化收益率 / 复合年增长率
+  - 无额外现金流时按 (1 + HPR)^(1 / T) − 1 计算复合年化收益率
+
+- **Geometric Annualization** — 几何年化 / 复合年化
+  - 以复利换算持有期收益，不能简单用 HPR 除以年数
+
+- **Margin Call** — 追加保证金通知
+  - 账户权益不足以满足保证金要求时，可能需要补充资金或减仓
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
