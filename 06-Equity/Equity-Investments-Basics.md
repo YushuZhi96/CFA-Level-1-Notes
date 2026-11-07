@@ -263,7 +263,71 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 
 **考试速记**：Futures = Derivatives；New issue = Primary；Existing security trading = Secondary；Pooled fund ≠ Index future。
 
-## 6. 复习清单
+## 6. IPO, Underwriting and Private Placement｜首次公开募股、承销与私募
+
+### Initial Public Offering (IPO)｜首次公开募股
+
+- **定义**：一家企业首次向公众投资者公开发售股份（First Public Offering of Shares），通常是股票进入公开市场的重要环节。
+- **关键词**：First、Public、Offering（首次、公众、发售）。
+- **考试易错点**：题干若说仅向一小组 Qualified Investors（合格投资者）销售证券，通常描述 **Private Placement（私募发行）**，而不是 IPO。
+- **补充**：IPO 发行可能涉及新股，也可能包含现有股东出售的股份，具体取决于发行安排；不能简单认定所有 IPO 销售所得都进入公司。
+
+### Private Placement｜私募发行
+
+- **定义**：证券不面向一般公众公开发售，而是向有限数量的机构或其他符合资格的投资者进行非公开发行／出售。
+- **识别关键词**：Small Group、Qualified Investors、Selected Investors、Not Offered to the General Public。
+- **区别**：IPO 强调首次向公众发售股票；Private Placement 强调非公开方式及特定投资者范围。
+
+### Investment Bank / Underwriter｜投资银行／承销商
+
+- **定义**：协助发行人设计发行方案、定价、销售和分销证券的金融中介机构。承销商是否承担未售出证券的风险，取决于承销协议。
+- **本题考点**：Firm Commitment（坚定承诺／包销）与 Best Efforts（尽力承销／代销）的**未售出证券风险归属**不同。
+
+### Firm Commitment Underwriting / Underwritten Offering｜坚定承诺承销／包销
+
+- **定义**：在典型 Firm Commitment 承销中，投资银行按约定条件向发行人购入整批证券，再向投资者分销。
+- **风险承担者**：投资银行（Investment Bank / Underwriter）承担无法按预期价格或数量转售、留下未售出证券的风险。
+- **识别关键词**：Underwriter purchases the issue、Assumes the risk、Unsold Securities、Firm Commitment。
+- **注意**：题目中的 *underwritten offering* 按标准答案采用承销商承担发行销售风险的口径；具体合同风险仍应以是否为 firm commitment 为准。
+
+### Best Efforts Offering｜尽力承销／代销
+
+- **定义**：投资银行尽合理／约定努力帮助发行人推销证券，但通常不承诺买下未售出的证券。
+- **风险承担者**：发行人（Issuer）通常承担无法完成全部销售的风险。
+- **识别关键词**：Best Efforts、No Obligation to Buy Unsold Securities、No Guarantee of Full Sale。
+- **注意**：Best Efforts 不等于投资银行可以不履行勤勉销售义务，而是其通常不承担包销剩余证券的购买义务。
+
+### Firm Commitment vs Best Efforts｜核心对比
+
+| 比较项目 | Firm Commitment Underwriting | Best Efforts Offering |
+|---|---|---|
+| 中文 | 坚定承诺承销／包销 | 尽力承销／代销 |
+| 承销商买下整批证券？ | 按约定承诺购买 | 通常不需要 |
+| 未售出证券风险主要由谁承担？ | 投资银行／承销商 | 发行人 |
+| 是否保证全部售出给最终投资者？ | 不保证最终售出，但承销商承担库存／转售风险 | 不保证 |
+| CFA 判断关键词 | Takes the risk; Purchases issue | Best efforts; No obligation to purchase unsold |
+
+### 例子：发行 100 万股
+
+假设公司打算发行 100 万股，最终投资者只认购 80 万股：
+
+- **Firm Commitment**：投资银行按承销承诺购买发行证券，再对外销售；剩余 20 万股的风险通常由承销商承担。
+- **Best Efforts**：投资银行仅按约定尽力销售；对于剩余 20 万股通常没有强制购入义务，发行人承受募集不足风险。
+
+### 典型题：With respect to IPO, which statement is most correct?
+
+- **A 错误**：*Sell securities to a small group of qualified investors* 描述 Private Placement（私募），而非 IPO 公开发售。
+- **B 正确**：*Investment bank takes the risk that the entire issue will not be sold under an underwritten offering*。按 Firm Commitment Underwriting 理解，承销商承担销售不足的风险。
+- **C 错误**：截图中的 *Under a best effort offering, the investment bank is obligated to buy the unsold ...* 与 Best Efforts 不承诺买入未售出证券的机制相反。原题选项末尾在截图中被截断，不补写缺失英文原文。
+
+**做题顺序**：
+1. Small group of qualified investors → Private Placement，不是 IPO。
+2. Takes the risk of unsold issue → Firm Commitment / Underwritten Offering。
+3. Best Efforts + Obligated to buy unsold → 错误。
+
+**一句话速记**：Firm Commitment = Bank bears unsold issue risk；Best Efforts = Issuer bears shortfall risk。
+
+## 7. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -273,5 +337,7 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 - [ ] 能区分 HPR 与 Annualized Return，并将杠杆收益复合年化
 - [ ] 能区分一级市场与二级市场
 - [ ] 能区分 Equity Securities、Pooled Investment Vehicles 与 Derivatives
+- [ ] 能区分 IPO 和 Private Placement
+- [ ] 能解释 Firm Commitment 与 Best Efforts 的未售出证券风险由谁承担
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
