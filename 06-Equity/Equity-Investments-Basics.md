@@ -209,7 +209,61 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 
 **考试速记**：Stock HPR × Initial Leverage → Equity HPR → CAGR。
 
-## 5. 复习清单
+## 5. Primary Market, Secondary Market and Instrument Types｜一级、二级市场与金融工具分类
+
+### Primary Market｜一级市场／发行市场
+
+- **定义**：新证券首次发行或新金融合约被创建的市场环节，重点在于**新的金融工具或合约产生**。
+- **典型情形**：企业 IPO（Initial Public Offering，首次公开募股）、新债券发行（New Bond Issue）。
+- **本题用法**：题干为 *issue new stock index futures*，按题目设定将新的期货合约创建归为 **Primary Market**。
+- **提醒**：这是考试对市场分类的简化表述。现实交易所一般负责**上市、提供交易及规则体系**，并非像上市公司那样发行股票募集资本；期货新持仓的建立也不同于公司 IPO，不应机械理解为“投资者把发行款交给交易所”。
+
+### Secondary Market｜二级市场／流通市场
+
+- **定义**：已发行证券在投资者间买卖的市场，主要用于交易和流动性提供。
+- **典型情形**：投资者之间买卖已经上市的股票或流通债券。
+- **考试关键词**：Trading of existing securities、Resale、Between investors。
+- **注意**：金融交易中“买卖股票”不自动等于 Primary Market，需要看是否是**新证券发行**。
+
+### Derivative Contract｜衍生品合约
+
+- **定义**：价值由某种标的资产、价格或指数（Underlying Asset / Underlying）衍生的金融合约。
+- **典型品种**：Forwards（远期）、Futures（期货）、Options（期权）、Swaps（互换）。
+- **Stock Index Futures（股票指数期货）**：以股票指数为标的的期货合约，属于衍生品，不是持有指数成分股票所有权的 Equity Security（股票类证券）。
+- **本题关键词**：Futures → Derivative Contracts。
+
+### Equity Securities｜股票类证券／权益证券
+
+- **定义**：通常代表发行人剩余权益或所有权请求权的证券，如 Common Shares（普通股）、Preferred Shares（优先股）。
+- **与股票指数期货区别**：买入股票通常取得股份权益；持有股票指数期货获得的是基于指数变动的合同权利和义务，并不因此直接持有指数成分股。
+
+### Pooled Investment Vehicles｜集合投资工具
+
+- **定义**：将多个投资者资金汇集后，按共同投资目标或策略统一投资和管理的工具。
+- **例子**：Mutual Funds（共同基金／开放式基金）、ETFs（交易型开放式指数基金）等。
+- **本题易错点**：股票指数期货（Stock Index Futures）是一种衍生品，并非因为标的是整个指数，就成为 Pooled Investment Vehicle。指数本身也不是资金池。
+
+### 两个独立的分类维度
+
+| 分类维度 | 选项举例 | 判断问题 |
+|---|---|---|
+| 市场类型 | Primary / Secondary Market | 是否为新证券发行或新合约形成，还是既有证券流通？ |
+| 金融工具类型 | Equity Securities / Derivatives / Pooled Investment Vehicles | 是股份权益、衍生合约，还是共同投资资金池？ |
+
+### 典型题：Toronto Stock Exchange 推出新的股票指数期货
+
+> The Toronto Stock Exchange plans to issue new stock index futures to the investors. This trading is most likely known as:
+
+- A. Equity securities in primary market：**错误**，Stock Index Futures 不属于 Equity Securities。
+- B. Pooled investment vehicles in secondary market：**错误**，Stock Index Futures 不是 Pooled Investment Vehicles，且题目强调 *new*。
+- C. Derivative contracts in primary market：**按本题标准答案正确**；Futures = Derivative Contracts，且 *new* 表示新合约。
+- **做题顺序**：先看金融工具类型（Futures），再看发行／交易环节（New）。
+
+**谨慎表述**：这道题将期货新合约“发行”视为一级市场，是为选择题分类服务的简化；现实中期货通常由交易所挂牌并通过清算机制建立合约头寸，不完全沿用股票发行/二级转让的概念框架，不能由本题推导出“交易所像上市公司一样募集发行资金”。
+
+**考试速记**：Futures = Derivatives；New issue = Primary；Existing security trading = Secondary；Pooled fund ≠ Index future。
+
+## 6. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -217,5 +271,7 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 - [ ] 能解释套期保值为何可能放弃有利行情带来的额外收益
 - [ ] 能区分 Leverage Ratio、Initial Margin 和 Margin Loan
 - [ ] 能区分 HPR 与 Annualized Return，并将杠杆收益复合年化
+- [ ] 能区分一级市场与二级市场
+- [ ] 能区分 Equity Securities、Pooled Investment Vehicles 与 Derivatives
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
