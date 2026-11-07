@@ -327,7 +327,64 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 
 **一句话速记**：Firm Commitment = Bank bears unsold issue risk；Best Efforts = Issuer bears shortfall risk。
 
-## 7. 复习清单
+## 7. Shelf Registration and Staged Equity Offerings｜储架注册与分批发行股票
+
+### Shelf Registration｜储架注册／储架发行
+
+- **定义**：发行人在适用证券监管规则允许的前提下，提前办理覆盖一定证券数量或规模的发行注册，并在有效期内根据融资需要分次发行证券；英文可称 **Shelf Registration**，分批实际发售称 **Shelf Offering / Takedown**。
+- **核心特征**：**One Registration + Multiple Offerings（一次注册、分批发行）**。
+- **适用范围**：除了债券，也可以用于符合相关规定的股票等证券发行。本章与 [[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]] 中的 Shelf Registration 为同一个跨科目术语。
+- **优点**：发行时间更灵活（Flexibility），能与经营资金需求和市场条件匹配；可以避免每次都从头重复完成整套注册流程。
+- **法规提醒**：招股说明书（Prospectus）与注册申请文件（Registration Statement）不能在法律上简单视为一回事。储架发行并非后续每次发售都无需披露，具体还可能需要招股说明书补充文件（Prospectus Supplement）及满足有效期、资格条件和其他监管要求。
+
+### Prospectus｜招股说明书／发行说明书
+
+- **定义**：为潜在投资者说明证券发行条件、公司或发行人信息、主要风险及其他重要信息的披露文件。
+- **考试关键词**：Published a prospectus、Plans to offer new shares、Public Offering。
+- **注意**：题干说六月公布发行计划，不等于 3 亿股在六月已经全部发行。
+
+### Dividend Reinvestment Plan (DRIP)｜股息再投资计划
+
+- **定义**：股东选择将收到的现金股息（Cash Dividends）自动用于购买更多公司股票，而不是直接领取现金。
+- **核心关键词**：Reinvest Dividends / Buy Additional Shares。
+- **与 Shelf Registration 区别**：DRIP 关注“已有股东如何再投资分红”，而不是公司按资金需求分批向公众发行股票。
+
+### Private Placement｜私募发行（与储架注册辨析）
+
+- **定义**：向特定投资者或有限范围的符合资格投资者非公开发行证券。
+- **关键词**：Selected Investors、Qualified Investors、Not the General Public。
+- **与本题区别**：本题明确写了 **to the public（向公众出售）**，不属于所描述的私募情形。更重要的是，私募／公开是发行对象和方式的维度，储架注册是注册与发行时间安排的维度，两者不能混为同一分类标准。
+
+### 本题时间线：Golden Company 的分批股票发行
+
+题干：
+
+> Golden Company published a prospectus of 300,000,000 new shares offering in June. Since the company plans to launch new products in 4 months, it tends to sell 60,000,000 shares in October and 100,000,000 shares at the end of the year to the public.
+
+| 时间 | 发行安排 | 拟发售股票数 |
+|---|---|---:|
+| 六月（June） | 公布拟发行 3 亿股的说明文件 | 总计划 300,000,000 股 |
+| 十月（October） | 面向公众发售第一批 | 60,000,000 股 |
+| 年底（End of year） | 面向公众发售第二批 | 100,000,000 股 |
+| 未来 | 未明确后续出售时间 | 140,000,000 股（按计划计算的余额） |
+
+**判断**：同一总体发行计划下，根据资金需求分批公开发售新股 → **B. Shelf Registration（储架注册）**。
+
+### 三选项对比与易错点
+
+| 选项 | 关键词 | 是否符合题意 |
+|---|---|---|
+| A. Dividend Reinvestment Plan | 股东将股息再购买股票 | 否：题干没有股息再投资 |
+| B. Shelf Registration | 总体发行计划 + 后续多批发行 | **是：正确答案** |
+| C. Private Placement | 面向特定投资者非公开发行 | 否：题干是 to the public |
+
+- 不能仅因为出现 **Prospectus** 就选 Shelf Registration；必须结合**同一发行计划分多次落实**。
+- **300,000,000 − 60,000,000 − 100,000,000 = 140,000,000**，只是剩余的拟发行额度，不表示已经上市或必定在某天发行。
+- 私募（Private Placement）与储架（Shelf Registration）不是完全互斥的通用法规概念；本题三选一时按照最能体现交易安排的选项来选。
+
+**考试速记**：One registration, several takedowns = Shelf Registration；Dividends reinvested = DRIP；Selected investors = Private Placement。
+
+## 8. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -339,5 +396,6 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 - [ ] 能区分 Equity Securities、Pooled Investment Vehicles 与 Derivatives
 - [ ] 能区分 IPO 和 Private Placement
 - [ ] 能解释 Firm Commitment 与 Best Efforts 的未售出证券风险由谁承担
+- [ ] 能区分 Shelf Registration、Dividend Reinvestment Plan 与 Private Placement
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
