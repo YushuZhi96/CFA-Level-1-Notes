@@ -1567,6 +1567,23 @@ tags: [CFA-L1, Vocabulary]
 - **Obligated to Buy** — 有义务购买
   - Firm Commitment 类条款中的关键词，不属于典型 Best Efforts 的剩余证券购买义务
 
+## Equity Investments｜储架注册与股息再投资
+
+- **Prospectus** — 招股说明书／发行说明书
+  - 向投资者披露证券发行条件、风险和重要信息；不等于注册申请文件
+
+- **Shelf Offering / Takedown** — 储架下的分批发售
+  - 在已生效的储架注册框架内按需要进行具体批次的证券发售
+
+- **Dividend Reinvestment Plan (DRIP)** — 股息再投资计划
+  - 将收到的现金股息用于继续购买股票，而非直接领取现金
+
+- **Public Offering** — 公开发行／公开发售
+  - 面向公众投资者提供证券；与面向特定投资者的 Private Placement 相区分
+
+- **Prospectus Supplement** — 招股说明书补充文件
+  - 具体分次发行时可能需要披露批次条款与更新信息
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
