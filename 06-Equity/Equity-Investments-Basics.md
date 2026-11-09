@@ -968,7 +968,59 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **考试速记**：Cumulative = Allocate/Concentrate Total Votes；Statutory = Per Director Separate Vote；Proxy = Delegate Voting Authority。
 
-## 16. 复习清单
+## 16. Venture Capital vs Leveraged Buyout｜风险投资与杠杆收购
+
+### Private Equity｜私募股权投资
+
+- **定义**：主要投资于非公开交易的企业股权，或通过交易取得公司控制权并进行经营、资本结构调整等的投资活动。Venture Capital（风险投资）和 Buyout（收购投资）是常见策略类别。
+- **本题对比**：不是一看到非公开股权或投资者群体就选 Venture Capital；要看投资目标所处的阶段，以及是否用大量债务融资进行收购。
+
+### Venture Capital (VC)｜风险投资／创业投资
+
+- **定义**：为具有高成长潜力、通常处于种子、初创或扩张等较早发展阶段的企业提供股权或类似股权融资。
+- **最典型关键词**：Seed Capital（种子期资金）、Start-Up Capital（初创期资金）、Early-Stage Company（早期企业）、Growth Potential（成长潜力）。
+- **并不局限于仅种子期**：VC 也可以投资扩张阶段的公司；本题 B 所说的 Seed or Start-Up Capital 是明确的典型特征。
+- **风险特点**：不确定性和失败风险高，投资期限可能较长，通常缺乏随时可交易的公开报价，退出（Exit）可能通过 IPO、出售给其他公司或投资者等渠道实现。
+
+### Leveraged Buyout (LBO)｜杠杆收购
+
+- **定义**：投资者使用大量债务融资（Debt Financing），加上部分权益资本，收购企业或其控制权。收购标的可以是上市公司，收购后可能私有化（Take Private）。
+- **最典型关键词**：Large Amount of Debt、Acquire a Company、Purchase Outstanding Shares、Take Private。
+- **与 VC 主要区别**：LBO 通常针对已有较成熟业务和现金流的企业，通过收购及杠杆实现投资回报；VC 常为初创及早期高成长企业提供发展资金。
+- **本题 A**：一群投资者借入大量资金买下一家上市公司所有已发行在外的普通股，典型对应 Leveraged Buyout，而非 Venture Capital。
+
+### Public Market Quotes vs Private Valuations｜公开报价与私募估值
+
+- **Quoted Market Price（公开市场报价）**：能够在证券交易市场获得的持续或相对及时报价。
+- **VC Investments 通常缺乏公开报价**：VC 主要持有非上市公司权益，投资并不像活跃上市股票那样有连续市场交易价。估值可能参考融资轮价格、可比公司、现金流模型等，需要判断。
+- **注意**：没有公开持续报价不代表完全不能估值，也不代表每笔 VC 投资永远不能转售，只是相较上市证券流动性（Liquidity）较低。
+- **本题 C**：题干说 Venture Capital Investments 有现成的市场报价，是错误的典型特征。
+
+### VC vs LBO 对比
+
+| 维度 | Venture Capital（风险投资） | Leveraged Buyout（杠杆收购） |
+|---|---|---|
+| 典型投资标的 | 初创／早期高成长公司，也可扩张期 | 具有较成熟业务的企业 |
+| 资金用途 | 支持种子期、产品研发、扩张等 | 购买已有公司的股权或控制权 |
+| 融资结构 | 通常以股权或类似股权融资为主 | 使用较多债务融资 |
+| 主要风险 | 创业失败、成长不及预期、退出难 | 高杠杆偿债、经营与退出风险 |
+| 公开报价 | 通常没有连续公开报价 | 交易完成后若非上市，也通常没有 |
+
+### 本题：Which of the following is a characteristic of venture capital investments?
+
+> A. A group of investors uses a large amount of debt to purchase all of the outstanding common shares of a publicly traded company.  
+> B. Venture capital investments provide "seed" or start-up capital.  
+> C. They have available quoted prices in the market.
+
+- **A 错误**：关键词 **Large Amount of Debt + Purchase Outstanding Shares** → Leveraged Buyout（LBO）。
+- **B 正确**：**Seed / Start-Up Capital** → Venture Capital（VC）的典型功能。
+- **C 错误**：VC 投资主要涉及非公开交易公司权益，通常没有持续公开市场报价（Quoted Market Price）。
+
+**考试速记**：VC → Seed/Start-Up Funding；LBO → Debt-Financed Acquisition；VC Valuation → Usually No Continuous Quoted Market Price。
+
+**交叉科目**：[[09-Alternative-Investments/INDEX|Alternative Investments（另类投资）]]。
+
+## 17. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -995,5 +1047,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能区分 Cumulative、Participating、Convertible 的股息和转换权利
 - [ ] 能解释普通优先股的通常固定股息、一般投票权限制及非参与性（包括例外）
 - [ ] 能区分 Cumulative Voting、Statutory Voting、Proxy Voting，以及累积股息与累积选票的区别
+- [ ] 能通过 Seed / Start-Up Capital 识别 VC，通过大量 Debt Acquisition 识别 LBO，并判断 VC 的报价与流动性
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
