@@ -7,6 +7,7 @@
 - [[Equity-Investments-Basics|权益投资基础概念（Equity Investments Basics）]]
 - [[Efficient-Market-Hypothesis|有效市场假说（Efficient Market Hypothesis, EMH）专题]]
 - [[Justified-Price-to-Earnings-Ratio|合理远期市盈率（Justified Leading P/E）专题]]
+- [[Two-Stage-Dividend-Discount-Model|两阶段股息贴现模型（Two-Stage DDM）专题]]
 - [[Asset-Based-Valuation|资产基础估值法（Asset-Based Valuation）专题]]
 
 > 后续章节与错题的基础术语集中补充至此，复杂专项考点另建笔记。
