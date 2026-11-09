@@ -1740,6 +1740,29 @@ tags: [CFA-L1, Vocabulary]
 - **Fiscal Year End** — 财年末
   - 企业或基金会计年度的结束时间，不一定是公历12月31日
 
+## Equity Investments｜市场有效性与资本参与限制
+
+- **Market Efficiency** — 市场有效性
+  - 在信息有效性语境下，证券价格能够迅速反映可获得的相关信息
+
+- **Informational Efficiency** — 信息有效性
+  - 价格反映市场参与者可获得的相关信息的程度
+
+- **Capital Restrictions** — 资本限制
+  - 对跨境资本、投资资格或交易活动等施加的限制；本题特指阻止部分投资者进入市场
+
+- **Barriers to Market Participation** — 市场参与壁垒
+  - 妨碍潜在投资者进入市场或开展交易，可能削弱价格发现
+
+- **Price Discovery** — 价格发现
+  - 通过报价、交易和信息交流形成与调整证券价格的过程
+
+- **Impeding Market Efficiency** — 阻碍市场有效性
+  - 投资者参与受限可能减弱信息反映、竞争和纠正错误定价的机制
+
+- **Liquidity** — 流动性
+  - 在较低成本和价格影响下进行交易的能力；不同于信息有效性
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
