@@ -1607,6 +1607,18 @@ tags: [CFA-L1, Vocabulary]
 - **Market-Capitalization-Weighted Index** — 市值加权指数
   - 按成分股票市值分配权重，而非仅根据每股价格
 
+- **Market Capitalization / Market Value** — 股票总市值／市场价值
+  - 股价 × 流通在外股份数量；市值加权指数的权重依据
+
+- **Shares Outstanding** — 流通在外股份数量
+  - 已发行且未被公司回购注销的在外股份；与自由流通股份数量不完全相同
+
+- **Index Weight** — 指数权重
+  - 成分股在指数中的相对比重；市值加权时等于个股市值 / 成分股市值总和
+
+- **Float-Adjusted Market-Capitalization Weighting** — 自由流通市值加权
+  - 以符合指数规则的自由流通股份计算市值权重，而非全部在外股份
+
 ## Equity Investments｜债券指数与股票指数对比
 
 - **Classification Dimensions** — 分类维度
