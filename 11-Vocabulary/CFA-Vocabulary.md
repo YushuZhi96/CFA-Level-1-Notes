@@ -2080,6 +2080,35 @@ tags: [CFA-L1, Vocabulary]
 - **Economic Sensitivity** — 经济敏感度
   - 公司需求、收入或利润对宏观经济变化的敏感程度
 
+## Equity Investments｜衰退情景与防御性公用事业
+
+- **Scenario Analysis** — 情景分析
+  - 在衰退、基准、扩张等不同假设下，评估公司财务表现的变化
+
+- **Recession** — 经济衰退
+  - 经济活动收缩，消费、投资及就业等可能走弱
+
+- **Earnings Sensitivity** — 盈利敏感度
+  - 公司盈利对宏观经济和行业条件变化的敏感程度
+
+- **Defensive Industry** — 防御性行业
+  - 产品或服务需求对经济周期相对不敏感，衰退时需求通常较稳定
+
+- **Utilities** — 公用事业
+  - 电力、燃气、水务等基础公共服务行业；部分业务具有防御性，但仍受监管、成本与资本开支影响
+
+- **Residential Electricity Provider** — 住宅电力供应商
+  - 向家庭提供基本电力服务，居民用电需求通常相对稳定
+
+- **Non-performing Loans (NPLs)** — 不良贷款
+  - 借款人未按约定偿还本息、信用质量恶化的贷款
+
+- **Loan Loss Provisions** — 贷款损失准备
+  - 银行为预期或已识别的贷款信用损失确认的准备
+
+- **Rate Regulation** — 电价监管
+  - 监管机构对公用事业收费标准或定价机制的约束
+
 ## Equity Investments｜成本下降与毛利率
 
 - **Gross Profit** — 毛利润
