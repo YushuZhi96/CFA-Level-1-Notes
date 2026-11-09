@@ -2031,6 +2031,32 @@ tags: [CFA-L1, Vocabulary]
 - **Porter's Five Forces** — 波特五力模型
   - 新进入者威胁、供应商议价能力、买方议价能力、替代品威胁、现有竞争者竞争强度
 
+## Equity Investments｜周期性与非周期性公司
+
+- **Cyclical Company** — 周期性公司
+  - 收入和利润通常与整体经济周期高度相关
+
+- **Non-cyclical Company** — 非周期性公司
+  - 产品或服务需求对经济周期相对不敏感
+
+- **Defensive Company / Defensive Stock** — 防御型公司／防御型股票
+  - 在经济衰退时需求或盈利相对稳定，但并非完全不受经济影响
+
+- **Business Cycle** — 经济周期
+  - 经济活动扩张、放缓、衰退及复苏的循环变化
+
+- **Discretionary Purchases** — 可选择性消费
+  - 非必需的购买，消费者可根据收入和经济环境推迟或减少
+
+- **Durable Goods** — 耐用品
+  - 使用寿命较长、通常购买金额较大的商品，如汽车和家电
+
+- **Big-ticket Items** — 大额商品／高价商品
+  - 单次购买支出较高、较容易被消费者推迟的商品
+
+- **Economic Sensitivity** — 经济敏感度
+  - 公司需求、收入或利润对宏观经济变化的敏感程度
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
