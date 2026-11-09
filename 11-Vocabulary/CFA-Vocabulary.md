@@ -2187,6 +2187,35 @@ tags: [CFA-L1, Vocabulary]
 
 完整公式、各符号含义及适用假设：[[06-Equity/Justified-Price-to-Earnings-Ratio|P/E 市盈率与合理估值专题]]。
 
+## Equity Investments｜资产基础估值法
+
+- **Asset-Based Valuation** — 资产基础估值法
+  - 基于资产与负债估计价值之差确定股权价值：\(V_E=FV_A-FV_L\)
+
+- **Equity Value (V_E)** — 股权价值
+  - 资产基础法中由资产公允价值减去负债公允价值计算
+
+- **Fair Value of Assets (FV_A)** — 资产公允价值
+  - 根据相关价值计量原则估计企业资产的价值
+
+- **Fair Value of Liabilities (FV_L)** — 负债公允价值
+  - 根据相关价值计量原则估计企业负债的价值
+
+- **Book Value** — 账面价值
+  - 财务报表记录金额，可能不同于公允价值
+
+- **Adjusted Net Asset Value (ANAV)** — 调整后净资产价值
+  - 调整资产负债价值后估算净资产，属于资产基础估值常见实现方式
+
+- **Intangible-Asset-Intensive Company** — 无形资产密集型企业
+  - 价值高度依赖品牌、专利、客户关系等资产，单独估计资产价值可能困难
+
+- **Liquidation Value** — 清算价值
+  - 企业出售资产、清偿负债与费用后可剩余的价值；可能不等于正常交易公允价值
+
+- **Going Concern** — 持续经营
+  - 企业预计在可预见未来继续经营的假设
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
