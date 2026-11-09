@@ -1059,6 +1059,50 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **范围提醒**：商业模式框架在实践中存在不同划分方法，不应推导成“任何商业模式研究都不能涉及定价权”；此处是按用户所做 CFA 题目及其解释进行分类。
 
+### Pricing Power, Price Takers and Commoditization｜定价权、价格接受者与产品同质化
+
+#### Price Taker｜价格接受者
+
+- **定义**：单个企业规模不足以影响所在市场的均衡价格，只能接受由市场供需决定的市场价格（Market Price）。
+- **典型语境**：竞争充分、产品高度同质、市场参与者充分了解报价的完全竞争模型（Perfect Competition）。
+- **为什么不主动定更高或更低的价格**：
+  1. 把价格定得**高于**市场价：客户可以向其他提供完全相同产品的企业购买，企业通常会失去销售。
+  2. 把价格定得**低于**市场价：若已经能够以市场价格卖出原有产量，主动降价只减少每单位收入，没有额外好处。
+- **限定**：这是标准价格接受者模型下的理性行为推论，并不是说现实企业从来不可能实施折扣或因质量、运输等因素有不同成交价。
+
+#### Price Maker / Pricing Power｜价格制定者／定价权
+
+- **Price Maker（价格制定者）**：对定价有一定影响力的企业，不代表可以无限度随意提价。
+- **Pricing Power（定价权）**：企业维持较高价格或提价而不大量失去消费者的能力。
+- **影响因素**：Competitive Positioning（竞争地位）、Product Differentiation（产品差异化）、Availability of Substitutes（替代品可得性）、Price Elasticity of Demand（需求价格弹性）、品牌、客户转移成本等。
+- **本题 A 的问题**：Pricing Power is a function of **only** a company's competitive positioning。这种“仅仅取决于一个因素”的绝对说法过于狭窄，忽略其他需求与竞争因素。
+
+#### Commoditization｜商品化／产品同质化
+
+- **定义**：原本存在差异的产品或服务逐渐趋于标准化、容易相互替代，消费者更容易根据价格选择不同供应商的过程。
+- **典型逻辑**：Less Product Differentiation（差异化下降）→ More Substitutability（可替代性提高）→ Stronger Price Competition（价格竞争增强）→ Weaker Pricing Power（定价权通常减弱）。
+- **例子**：一种原本仅有一家企业生产的特殊零部件，随着其他厂商掌握类似技术，质量和性能变得相似，买方更容易比价与更换供应商。
+- **注意**：同质化增强价格竞争是一种典型倾向；具体结果还受行业集中度、成本、产能和需求等因素影响。
+
+#### 三项判断对比
+
+| 术语 | 英文 | 最关键的含义 |
+|---|---|---|
+| 定价权 | Pricing Power | 有多大能力提高或维持售价而不失去太多客户 |
+| 价格接受者 | Price Taker | 无法单独左右市场价格，接受市场均衡价格 |
+| 产品同质化 | Commoditization | 产品差异下降、替代性提高，价格竞争通常增强 |
+
+#### 典型 CFA 题：Pricing Power — Most Accurate
+
+> Which of the following statements regarding pricing power is most accurate?
+
+- **A. Pricing power is a function of only a company's competitive positioning in its market. — 错误**：Only 过于绝对，定价权还与需求弹性、替代品、差异化等因素有关。
+- **B. When firms are price takers, they would not set prices above the market price, but are willing to set prices below market price. — 错误**：标准价格接受者无需为了正常销售而低于市场价；如果可以按市场价卖出，主动降价只损失收入。
+- **C. A market will become more competitive due to a process known as commoditization. — 正确**：产品趋于同质，提高可替代性，使市场价格竞争更激烈。
+
+**考试速记**：Price Taker = Accept Market Price；Commoditization = More Competition, Less Pricing Power；Only = 注意绝对化论断。
+
+
 ## 18. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
@@ -1088,5 +1132,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能区分 Cumulative Voting、Statutory Voting、Proxy Voting，以及累积股息与累积选票的区别
 - [ ] 能通过 Seed / Start-Up Capital 识别 VC，通过大量 Debt Acquisition 识别 LBO，并判断 VC 的报价与流动性
 - [ ] 能区分 Business Model 中的 Pricing Method 与 Competitive Advantage 里的 Pricing Power
+- [ ] 能区分 Price Taker 和 Pricing Power，并解释 Commoditization 如何增强竞争
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
