@@ -63,6 +63,98 @@ tags: [CFA-L1, Equity-Investments, Valuation, P-E, Gordon-Growth]
 - **同口径比较**：比较不同公司市盈率时，应确认行业、增长率、风险、会计政策和 Trailing/Forward 期间可比。
 
 
+### 1.4 公式符号与英文全称对照表（必背）
+
+以下符号统一使用本专题的时间口径：下标 \(0\) = 当前或本期（Time 0 / Current Period）；下标 \(1\) = 下一期／未来一期（Time 1 / Next Period）。
+
+| 符号或英文 | 英文全称 | 中文含义 | 用于哪种公式 |
+|---|---|---|---|
+| **P/E** | **Price-to-Earnings Ratio** | 市盈率；股价除以每股收益，通常以“倍（×）”表示 | 所有市盈率公式 |
+| \(P\) | **Price per Share** | 每股价格／股价 | 基础 P/E |
+| \(P_0\) | **Price at Time 0 / Current Share Price** | 当前（估值时点）的每股价格；在 Justified 公式中指合理理论价格 | Trailing、Leading、Justified |
+| **Earnings** | **Earnings / Profit Attributable to Common Shareholders** | 盈利；通常关注归属于普通股股东的利润 | P/E 的收益口径 |
+| **EPS** | **Earnings per Share** | 每股收益 | 基础 P/E |
+| \(E_0\) | **Current / Trailing Earnings per Share** | 当期或最近一期／过去12个月每股收益（按具体题目时间口径） | Trailing P/E |
+| \(E_1\) | **Expected Earnings per Share in the Next Period** | 下一期预期每股收益 | Leading P/E |
+| \(D_1\) | **Expected Dividend per Share in the Next Period** | 下一期预期每股股息 | Gordon Growth Model、Payout |
+| \(p\) | **Dividend Payout Ratio** | 股息支付率：预期每股股息占预期每股收益的比例 \(D_1/E_1\) | Justified P/E |
+| \(b\) | **Retention Ratio / Plowback Ratio** | 利润留存率：净利润中未分红、留在企业中的比例 \(1-p\) | Sustainable Growth |
+| \(r\) | **Required Return on Equity / Required Rate of Return** | 股权必要收益率；投资者对该股票要求的回报率／贴现率 | Gordon Growth、Justified P/E |
+| \(g\) | **Sustainable / Constant Growth Rate** | 可持续增长率／恒定增长率（具体公式假设下） | Gordon Growth、Justified P/E |
+| **ROE** | **Return on Equity** | 净资产收益率：公司为普通股股东权益创造收益的能力 | \(g=b\times ROE\) |
+| **TTM** | **Trailing Twelve Months** | 过去连续12个月 | 实务中的 Trailing P/E |
+| **Market Capitalization** | **Market Capitalization** | 股票总市值，通常等于每股市价 × 在外普通股数量 | 总市值口径 P/E |
+| **Net Income** | **Net Income / Earnings Available to Common Shareholders** | 净利润；P/E整体口径应使用归属于普通股股东的利润 | 总市值口径 P/E |
+| **Target P/E** | **Target Price-to-Earnings Multiple** | 目标市盈率；分析师选用的合理或参考估值倍数 | 反推股价 |
+| **Forecast EPS** | **Forecast Earnings per Share** | 预测每股收益 | 反推股价 |
+
+> **时间下标的注意点**：严格的 Trailing P/E 在实务中通常使用最近12个月 EPS，而教材公式写作 \(E_0\) 时可能代表最近一期已实现 EPS；做题以明确期间定义为准。**E 是 Earnings（收益），不是 Equity（股东权益）；P 是 Price（股价），不是 Payout（分红）。**
+
+### 1.5 本专题全部重要公式与口径一览
+
+**① 基础市盈率（Basic P/E）**
+
+\[
+\boxed{P/E=\frac{P}{EPS}}
+\]
+
+**② 市值口径（Aggregate P/E，需股数与盈利口径匹配）**
+
+\[
+\boxed{P/E\approx\frac{Market\ Capitalization}{Earnings\ Available\ to\ Common\ Shareholders}}
+\]
+
+**③ 历史市盈率（Trailing P/E）**
+
+\[
+\boxed{Trailing\ P/E=\frac{P_0}{E_0}}
+\]
+
+**④ 远期市盈率（Leading / Forward P/E）**
+
+\[
+\boxed{Leading\ P/E=\frac{P_0}{E_1}}
+\]
+
+**⑤ 戈登增长模型（Gordon Growth Model）**
+
+\[
+\boxed{P_0=\frac{D_1}{r-g}}
+\]
+
+**⑥ 股息支付率与留存率（Payout and Retention）**
+
+\[
+\boxed{p=\frac{D_1}{E_1}\qquad b=1-p}
+\]
+
+**⑦ 可持续增长率（Sustainable Growth Rate，简化条件）**
+
+\[
+\boxed{g=b\times ROE=(1-p)\times ROE}
+\]
+
+**⑧ 合理远期市盈率（Justified Leading P/E）**
+
+\[
+\boxed{\frac{P_0}{E_1}=\frac{p}{r-g}}
+\]
+
+**⑨ 合理历史市盈率（Justified Trailing P/E，稳定增长条件）**
+
+\[
+\boxed{\frac{P_0}{E_0}=\frac{p(1+g)}{r-g}}
+\]
+
+**⑩ 目标市盈率估算合理股价（Implied Share Price）**
+
+\[
+\boxed{Implied\ Price=Target\ P/E\times Forecast\ EPS}
+\]
+
+**公式适用边界**：Gordon Growth 相关公式需要长期恒定增长且 \(r>g\)；留存率与 ROE 对增长的关系依赖盈利能力、资本结构等条件；不盈利企业的普通 P/E 常缺乏常规解释力。比较估值时区分**实际市场 P/E**和**理论合理 P/E**。
+
+
 ## 2. 先从 Gordon Growth Model｜戈登增长模型推导
 
 在股息以固定增长率 \(g\) 永续增长且 \(r>g\) 时：
@@ -207,6 +299,7 @@ p=\frac{D_1}{E_1}
 
 ## 7. Review Checklist｜复习清单
 
+- [ ] 能解释 P、E、EPS、P₀、E₀、E₁、D₁、p、b、r、g、ROE、TTM 的英文全称及中文含义
 - [ ] 能写出 P/E = Price / EPS，并区分 Trailing 与 Forward 的 EPS 口径
 - [ ] 能用 Target P/E × Forecast EPS 估算股价，理解负 EPS 与低 P/E 陷阱
 - [ ] 能从 Gordon Growth Model 推导合理远期 P/E
