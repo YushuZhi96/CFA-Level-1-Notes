@@ -65,6 +65,60 @@ tags: [CFA-L1, Equity, Asset-Based-Valuation, Fair-Value, Liquidation]
 | 现值法 | Present Value / Discounted Cash Flow (DCF) | 未来现金流折现 | 盈利与未来现金流可预测的持续经营企业 |
 | 相对估值法 | Relative Valuation / Multiples | P/E、P/B、EV/EBITDA等倍数 | 对比类似公司与市场估值 |
 
+### Present Value vs Multiplier Models｜现值模型与乘数模型的理论依据
+
+**Present Value Model（现值模型）**：从未来股息或股权自由现金流等经济利益出发，将预计现金流折现到当前，得到绝对估值（Absolute Valuation）。例如，在股息长期稳定增长且 \(r>g\) 时：
+
+\[
+\boxed{P_0=\frac{D_1}{r-g}}
+\]
+
+- \(P_0\)：Intrinsic Value at Time 0（当前内在价值）。
+- \(D_1\)：Expected Dividend per Share（下一期预期每股股息）。
+- \(r\)：Required Rate of Return（必要收益率）。
+- \(g\)：Constant Growth Rate（稳定股息增长率）。
+
+**Multiplier Model（乘数模型）**：通过价格相对于某个财务指标的倍数来进行估值，例如 P/E（Price-to-Earnings Ratio，市盈率）、P/B（Price-to-Book Ratio，市净率）。可比公司法（Method of Comparables）典型地以 Law of One Price（一价定律）为经济依据：
+
+\[
+\boxed{\text{Implied Share Price}=\text{Comparable P/E}\times\text{Forecast EPS}}
+\]
+
+- **Comparable P/E**：可比公司参考市盈率。
+- **Forecast EPS**：预测每股收益（Forecast Earnings per Share）。
+
+**Law of One Price（一价定律）**：在理想无套利条件下，具有相同未来现金流和风险的金融资产应具有相同价格。用于相对估值时，要求可比标的在风险、增长、盈利质量等方面真正足够相似；同一行业不代表必定同价或具有相同 P/E。
+
+**重要理论区分**：Present Value Model 的直接逻辑是 Future Benefits Discounted to Present Value（未来收益折现）；Method of Comparables 的典型经济依据是 Law of One Price。根据预测基本面推导合理估值倍数（Fundamentals-Based Multiples）又可以利用 DCF 思路，因此不能笼统宣称所有乘数模型只使用一价定律。
+
+#### 为什么两种方法可能得出不同估值？
+
+| 维度 | Present Value Model | Multiplier Model / Method of Comparables |
+|---|---|---|
+| 主要输入 | 预计股息／现金流、增长率、贴现率 | 可比公司市场估值倍数、目标公司 EPS 等指标 |
+| 典型逻辑 | Absolute Valuation（绝对估值） | Relative Valuation（相对估值） |
+| 主要敏感因素 | 现金流预测、折现率、永续增长假设 | 可比公司选取、市场定价、风险和增长差异 |
+| 可能结论 | 以预计未来现金流推算的内在价值 | 相对于同行可比证券的隐含价值 |
+
+**同一目标公司的教学假设**：
+- 现值模型：\(D_1=2\)元，\(r=9\%\)，\(g=4\%\)，则 \(P_0=2/(0.09-0.04)=40\)元。
+- 乘数模型：目标公司 Forecast EPS=4元，参考同行 Comparable P/E=15倍，则估计价值 \(P=15\times4=60\)元。
+- **40元与60元并不矛盾**：它们使用的假设和信息来源不同；也不能由此直接证明哪一个模型正确。模型与输入估计即使都合理，也可能得出不完全一致的数值和投资建议。
+
+#### 本题：Law of One Price 是否保证两种估值结论相同？
+
+> An analyst states that since the rationale behind multiplier model and present value are both the law of one price, those two methods will generate same conclusion on valuation. Is his comment reasonable?
+
+- **A. Yes, it is right — 错误**。估值模型输入和假设不同，不能保证结论完全相同；题干关于二者理论依据的表述也不够准确。
+- **B. No, it is wrong — 正确**。两个方法可以产生不同的估值结论。
+- **C. There is no answer — 错误**。可以明确判断原论断并不合理。
+
+**考试速记**：Present Value = Discount Future Cash Flows；Comparables = Law of One Price；Different Inputs / Assumptions → Different Value Estimates；**Same Valuation Purpose ≠ Guaranteed Same Result**。
+
+**官方参考**：
+- [CFA Institute — Equity Valuation: Concepts and Basic Tools (2026)](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools)。
+- [CFA Institute — Market-Based Valuation: Price and Enterprise Value Multiples (2026)](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/market-based-valuation-price-enterprise-value-multiples)。
+
 ## 4. 本题解析：Least Accurately Describes Asset-Based Valuation
 
 > Which of the following statements least accurately describes the asset-based valuation?
