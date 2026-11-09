@@ -2134,6 +2134,23 @@ tags: [CFA-L1, Vocabulary]
 
 ## Equity Investments｜合理远期市盈率与股息支付率
 
+- **Price-to-Earnings Ratio (P/E)** — 市盈率
+  - 股价 / 每股收益（EPS）；在股数口径匹配的简化情形下也等于总市值 / 归属于普通股股东的利润
+
+- **Earnings per Share (EPS)** — 每股收益
+  - 归属于普通股股东的收益除以适用的加权平均股数；注意 Basic 与 Diluted EPS
+
+- **Trailing P/E** — 历史市盈率／滚动市盈率
+  - 当前股价 / 历史每股收益，实务中常用 TTM EPS
+
+- **Forward / Leading P/E** — 远期市盈率
+  - 当前股价 / 下一期预期 EPS；与 Justified Leading P/E 的理论合理值不同
+
+- **Implied Share Price** — 隐含股价
+  - 目标市盈率 × 预期每股收益；需注意选取可比的估值倍数
+
+
+
 - **Justified Leading P/E Ratio** — 合理远期市盈率
   - \(P_0/E_1=(D_1/E_1)/(r-g)=p/(r-g)\)，源自 Gordon Growth Model，要求 \(r>g\)
 
