@@ -667,7 +667,63 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **相关科目**：[[09-Alternative-Investments/INDEX|另类投资（Alternative Investments）]]。本题出现在 Equity Investments 中的 Security Market Indices 主题，与另类投资模块存在交叉。
 
-## 11. 复习清单
+## 11. Behavioral Finance and Investor Biases｜行为金融学与投资者偏差
+
+### Behavioral Finance｜行为金融学
+
+- **定义**：研究心理因素、认知方式和社会互动如何影响投资者决策及金融市场表现。
+- **本题关注**：投资者对自身的信息处理和解释能力过度确信，属于 Overconfidence（过度自信）。
+- **Cognitive Bias（认知偏差）**：信息处理、推理或判断过程中的系统性偏差；与情绪偏差（Emotional Bias）可做概念区分。
+
+### Overconfidence / Overconfidence Bias｜过度自信／过度自信偏差
+
+- **定义**：投资者高估自己的知识、分析能力、预测准确度或对结果的控制程度，对自身判断过分确信。
+- **识别关键词**：Always、Can Process and Interpret Information Precisely、Overestimate Own Ability、Too Certain of Their Judgment。
+- **直观例子**：投资者阅读一家公司的财报后，确信自己能完全理解所有信息，并认为预测几乎不会出错，忽视不确定性和可能的反面证据。
+- **可能后果**：Excessive Trading（过度交易）、Underdiversification（分散投资不足）、过度集中头寸或低估风险。
+- **本题关键**：题干说投资者 *believe they can always*（主观认为自己始终能够做到），而不是证明其信息处理实际上一直准确。因此主要考查的是**对自身能力的过高信心**。
+- **交叉内容**：投资组合管理（Portfolio Management）也会学习行为偏差；词汇表已在 Ethics 部分收录 Overconfidence 的基础释义，此处增加投资情境。
+
+### Loss Aversion｜损失厌恶
+
+- **定义**：在其他条件相似的情况下，同等金额损失带来的心理痛苦通常强于同等金额收益带来的愉悦。
+- **识别关键词**：Dislike Losses More Than Equivalent Gains、Reluctant to Realize Losses。
+- **例子**：亏损 1,000 元产生的痛苦，可能超过赚取 1,000 元带来的快乐。
+- **常见延伸**：可能不愿卖出亏损头寸、过早兑现盈利；但这些行为并非所有损失厌恶者都会出现，不能当作严格定义。
+- **与本题区别**：题干谈的是**信息处理能力的自我评价**，没有描述对收益与损失的不对称心理反应。
+
+### Information Cascades｜信息瀑布效应／信息级联
+
+- **定义**：一个人观察到前面其他人的行动后，可能推断他们掌握了更有价值的信息，从而忽视自己的私人信息（Private Information）并跟随他人做出决定；后续参与者继续模仿，形成连锁决策。
+- **识别关键词**：Follow Earlier Investors' Actions、Ignore Own Information、Copy Others' Choices。
+- **例子**：前面多位投资者买入某只股票，后来者尽管自己的分析并不支持买入，仍认为前面的人“肯定知道些什么”，于是跟随买入。
+- **与本题区别**：题干说的是相信**自己**的分析总准确，未提到观察并追随**他人**行动，因此不选 Information Cascades。
+- **与 Herding（羊群行为）的关系**：信息瀑布可以推动羊群式决策，但强调的是从前面参与者的行动推断信息并忽略私人信号，不只是简单地“大家都在买，所以跟着买”。
+
+### 三种偏差对比
+
+| 类型 | 英文 | 主要心理机制 | 典型线索 |
+|---|---|---|---|
+| 过度自信 | Overconfidence | 高估自己的判断能力 | I am always right |
+| 损失厌恶 | Loss Aversion | 同等损失的痛苦大于收益快乐 | Losses hurt more |
+| 信息瀑布 | Information Cascades | 从他人行动推断信息并跟随 | Follow others despite private signal |
+
+### 本题：If investors believe they can always process and interpret information precisely ...
+
+> If investors believe they can always process and interpret information precisely, they most likely exhibit:
+
+- **A. Loss aversion — 错误**。题目没有提到对损失的厌恶程度，或收益与损失的不对称反应。
+- **B. Overconfidence — 正确**。投资者认为自己始终能准确处理、理解信息，体现对自身认知和分析能力的过度确信。
+- **C. Information cascades — 错误**。题目没有提到观察他人行动、追随其他交易者或放弃个人信息。
+
+**考试判断顺序**：
+1. 自己的分析判断总准确？→ **Overconfidence**。
+2. 同样金额更怕亏损？→ **Loss Aversion**。
+3. 看别人行动并忽略自己掌握的信息？→ **Information Cascades**。
+
+**考试速记**：Overconfidence = Trust Myself Too Much；Loss Aversion = Fear Losses More；Information Cascades = Follow Others' Actions。
+
+## 12. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -687,5 +743,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能解释 Broad Universe、Higher Index Turnover、Dealer Quotes，并识别 EXCEPT 题目
 - [ ] 能解释商品指数为何可能与商品现货价格表现不同（期货展期、权重、抵押品收益）
 - [ ] 能区分 Survivorship Bias 与 Backfill Bias，并列出房地产指数的三种常见类型
+- [ ] 能区分 Overconfidence、Loss Aversion 与 Information Cascades，掌握关键词和例子
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
