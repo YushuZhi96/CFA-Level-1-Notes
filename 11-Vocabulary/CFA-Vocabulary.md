@@ -2248,6 +2248,29 @@ tags: [CFA-L1, Vocabulary]
 - **Stable Growth Rate (g_L)** — 长期稳定股息增长率
   - 本题第二年开始为2%，稳定增长模型需 r > g_L
 
+## Equity Investments｜估值模型与一价定律
+
+- **Present Value Model** — 现值估值模型
+  - 预测未来股息或现金流并折现到今天；属于绝对估值方法
+
+- **Multiplier Model / Multiples Valuation** — 乘数估值模型
+  - 利用 P/E、P/B、EV/EBITDA 等倍数估算证券价值
+
+- **Relative Valuation** — 相对估值
+  - 通过可比公司或市场基准估值倍数，推算目标资产的相对价值
+
+- **Method of Comparables** — 可比公司估值法
+  - 参考相似企业估值倍数；经济理论依据之一是 Law of One Price
+
+- **Law of One Price** — 一价定律
+  - 相同未来现金流和风险的资产在理想无套利市场中应具有相同价格
+
+- **Absolute Valuation** — 绝对估值
+  - 依据目标资产自身未来经济利益及折现率计算内在价值
+
+- **Comparable P/E** — 可比公司市盈率
+  - 参考对象的市盈率，用于估算目标公司相对估值；需考虑可比性
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
