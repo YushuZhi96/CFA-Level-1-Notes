@@ -66,6 +66,67 @@ tags: [CFA-L1, Equity-Investments, DDM, Dividend-Discount-Model, Two-Stage-Growt
 
 **为什么** \(P_1\) **要用** \(D_2\)**？** 因为 \(P_1\) 是第一年末（除息后的）价值，代表从第二年末开始的所有后续股息。
 
+### 2.1 笔记本必背公式卡｜通用公式、单年特例、快捷反推
+
+**① 必背：一般两阶段 DDM（第一阶段共 \(N\) 年）**
+
+\[
+\boxed{P_0=\sum_{t=1}^{N}\frac{D_t}{(1+r)^t}+\frac{P_N}{(1+r)^N}}
+\]
+
+\[
+\boxed{P_N=\frac{D_{N+1}}{r-g_L}}
+\]
+
+**理解**：前 \(N\) 年每期股息的现值之和，再加第 \(N\) 年末终值的现值。长期稳定增长阶段必须满足 \(r>g_L\)。
+
+**② 理解：第一阶段恰好1年的特例**
+
+\[
+\boxed{P_0=\frac{D_1+P_1}{1+r}}
+\]
+
+\[
+\boxed{P_1=\frac{D_2}{r-g_L}}
+\]
+
+**理解**：第一年末可获得 \(D_1\) 股息与除息后股票价值 \(P_1\)，两者都属于一年后的价值，因此一起除以 \(1+r\) 折算到今天。此时 \(D_2=D_1(1+g_L)\)。
+
+**③ 考场快捷：从当前股价反推当前股息（仅第一阶段1年）**
+
+由于 \(P_0=D_1/(r-g_L)\)，且 \(D_1=D_0(1+g_H)\)，可推出：
+
+\[
+\boxed{D_0=\frac{P_0(r-g_L)}{1+g_H}}
+\]
+
+**本题**：
+
+\[
+\boxed{D_0=\frac{30(0.07-0.02)}{1+0.05}\approx\$1.43}
+\]
+
+**切勿误用**：第三式不是一般 \(N\) 年两阶段 DDM 的通用式，只有第一阶段恰好1年、从第二年起股息按 \(g_L\) 永续增长、折现率在该模型中为 \(r\) 时才可使用；持续多年时回到公式①。
+
+**本卡符号对照**（上面的完整中英文对照表见本章开头）：
+
+| 符号 | 英文全称 | 中文含义 |
+|---|---|---|
+| \(P_0\) | Current Intrinsic Value | 当前内在股价 |
+| \(P_1\) | Terminal Value at Year 1 | 第一年底终值 |
+| \(P_N\) | Terminal Value at Year N | 第N年底终值 |
+| \(D_0\) | Current Dividend per Share | 当前每股股息 |
+| \(D_1,D_2\) | Expected Dividends in Years 1 and 2 | 第一、第二年预期每股股息 |
+| \(D_t\) | Dividend at Time t | 第t年的预期股息 |
+| \(D_{N+1}\) | First Dividend in Stable Growth Stage | 稳定增长期首年股息 |
+| \(r\) | Required Return on Equity | 股权必要收益率 |
+| \(g_H\) | First-Stage Dividend Growth Rate | 第一阶段股息增长率 |
+| \(g_L\) | Long-Run Stable Growth Rate | 长期稳定股息增长率 |
+| \(N\) | Number of Years in First Stage | 第一阶段持续年数 |
+| \(t\) | Time Index | 时间下标 |
+
+**记忆顺序**：① 通用公式必须背；② 一年特例要理解“股息＋终值一起折现”；③ 快捷反推只用于一年特例。
+
 ## 3. 本题原文与中文翻译
 
 > Sam is an analyst. Recently he uses two-stage DDM model to estimate Company X’s price per share. Calculate closest current dividend per share using the data below:
