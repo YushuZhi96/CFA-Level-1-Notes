@@ -1607,6 +1607,23 @@ tags: [CFA-L1, Vocabulary]
 - **Market-Capitalization-Weighted Index** — 市值加权指数
   - 按成分股票市值分配权重，而非仅根据每股价格
 
+## Equity Investments｜债券指数与股票指数对比
+
+- **Classification Dimensions** — 分类维度
+  - 债券指数可按发行人、期限、信用评级、票息、币种等更多维度划分成分证券
+
+- **Price Transparency** — 价格透明度
+  - 活跃上市股票的价格信息通常比许多场外交易债券更频繁、更透明
+
+- **Investment Horizon** — 投资期限
+  - 投资者预计持有证券的时间，不等于债券合同约定的到期期限
+
+- **Coupon Structure** — 票息结构
+  - 债券根据固定利率、浮动利率、零息等付息方式分类
+
+- **Seniority** — 偿付优先级
+  - 债权人在清偿顺序中的优先程度；是债券的分类维度之一
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
