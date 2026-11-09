@@ -1103,7 +1103,56 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 **考试速记**：Price Taker = Accept Market Price；Commoditization = More Competition, Less Pricing Power；Only = 注意绝对化论断。
 
 
-## 18. 复习清单
+## 18. Porter's Generic Competitive Strategies｜波特三种基本竞争战略
+
+### Porter’s Generic Strategies｜波特基本竞争战略
+
+企业面对竞争时，常见的三种基本战略是：
+1. **Cost Leadership（成本领先战略）**：以较低成本服务较广泛的市场。
+2. **Differentiation（差异化战略）**：通过独特产品、服务、品牌或体验，在较广泛市场中创造顾客愿意支付溢价的价值。
+3. **Focus（集中化／聚焦战略）**：把经营对象集中在一个狭窄的客户群、产品线或地理细分市场（Niche Market），针对这一细分市场服务。
+
+| 战略 | 目标市场 | 竞争方式 | 典型关键词 |
+|---|---|---|---|
+| Cost Leadership | 广泛市场（Broad Market） | 成本低、效率高 | Lowest Cost, Cost Efficiency |
+| Differentiation | 广泛市场（Broad Market） | 产品或服务独特 | Unique, Distinctive, Premium |
+| Focus | 狭窄细分市场（Niche Market） | 专注特定客户或需求，可采用低成本或差异化 | Narrow Segment, Specific Customer Group, Niche |
+
+### Focus Strategy｜集中化／聚焦战略
+
+- **定义**：企业选择一个特定、相对狭窄的市场细分，并集中资源服务这一群体，而不是试图满足整个市场。
+- **Focus 的两种实现方式**：
+  - **Cost Focus（成本聚焦）**：在特定细分市场内提供较低成本。
+  - **Differentiation Focus（差异化聚焦）**：针对特定细分市场提供高度匹配、独特的产品或服务。
+- **判断重点**：Focus 的关键是**服务对象／市场范围狭窄**，不只是产品有特色或价格便宜。
+
+### Differentiation vs Focus｜差异化与聚焦的区别
+
+- **Differentiation** 主要回答：企业如何让产品或服务与竞争者不同？
+- **Focus** 主要回答：企业选择服务哪一小群客户或哪一个细分市场？
+- 两者并非完全互斥：一家企业可以采用 **Differentiation Focus（差异化聚焦）**，即对一个狭窄细分市场提供独特服务。
+- CFA 单选题中，如果题干最强调 **Niche Market / Not Mainstream / Specific Customer Group**，通常应优先识别 Focus。
+
+### Cost Leadership｜成本领先战略
+
+- **定义**：通过规模经济（Economies of Scale）、高效率运营、供应链控制等方式，使企业在较广泛市场中建立成本优势。
+- **注意**：成本领先不只是把价格定得低；它强调企业自身的成本结构较低，并可据此形成竞争优势。
+
+### 本题：David 的理发店服务发际线后移男性
+
+> David notices several competitors nearby and decides to serve males whose hairline is moving back, although the need is not mainstream.
+
+- **A. Cost Leadership — 错误**：题干没有说 David 通过更低成本或低价格服务广泛市场。
+- **B. Differentiation — 不是最佳答案**：专门服务某类客户当然可能需要差异化服务，但题目最突出的信息是客户群体非常具体且需求不是主流。
+- **C. Focus — 正确**：David 选择一个狭窄的客户细分市场（发际线后移的男性），而不是服务所有理发客户，因此属于 Focus Strategy。
+
+**考试速记**：
+- Broad Market + Lowest Cost → Cost Leadership。
+- Broad Market + Unique Offering → Differentiation。
+- Narrow / Niche Market → Focus。
+- Focus + Unique Service → Differentiation Focus。
+
+## 19. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1133,5 +1182,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能通过 Seed / Start-Up Capital 识别 VC，通过大量 Debt Acquisition 识别 LBO，并判断 VC 的报价与流动性
 - [ ] 能区分 Business Model 中的 Pricing Method 与 Competitive Advantage 里的 Pricing Power
 - [ ] 能区分 Price Taker 和 Pricing Power，并解释 Commoditization 如何增强竞争
+- [ ] 能区分 Cost Leadership、Differentiation 与 Focus，并识别 Cost Focus / Differentiation Focus
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
