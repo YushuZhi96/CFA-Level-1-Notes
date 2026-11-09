@@ -1714,6 +1714,32 @@ tags: [CFA-L1, Vocabulary]
 - **Excessive Trading** — 过度交易
   - 过度自信可能促使投资者频繁交易并增加成本
 
+## Equity Investments｜日历效应与税损收割
+
+- **Tax-Loss Harvesting** — 税损收割／税务亏损实现策略
+  - 出于税务目的卖出亏损证券并实现资本损失，可能解释年末卖压
+
+- **January Effect** — 一月效应
+  - 历史上观察到一月份部分股票收益相对较高；年末税损出售是一种常见解释
+
+- **Holiday Effect / Pre-Holiday Effect** — 假期效应／假日前效应
+  - 假期前交易日可能出现相对异常的收益表现
+
+- **Turn-of-the-Month Effect** — 月末月初效应
+  - 每月最后及次月最初几个交易日可能出现季节性收益差异
+
+- **Calendar Effect** — 日历效应
+  - 股票收益率与月份、假日、月末月初等日历时点有关的历史规律
+
+- **Market Anomaly** — 市场异象
+  - 市场收益率中观察到的特殊模式，不代表可以保证获利
+
+- **Realized Capital Loss** — 已实现资本损失
+  - 卖出亏损资产时确认的投资损失，税务处理取决于适用法规
+
+- **Fiscal Year End** — 财年末
+  - 企业或基金会计年度的结束时间，不一定是公历12月31日
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
