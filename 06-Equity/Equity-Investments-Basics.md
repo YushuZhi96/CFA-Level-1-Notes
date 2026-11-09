@@ -780,7 +780,43 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **一句话速记**：Tax-Loss Harvesting at Year-End → January Effect；Holiday → 假日前；Turn-of-the-Month → 每月交界。
 
-## 13. 复习清单
+## 13. Market Efficiency and Capital Restrictions｜市场有效性与资本参与限制
+
+### Market Efficiency｜市场有效性
+
+- **定义**：在信息有效性（Informational Efficiency）语境下，证券价格能够迅速、充分地反映可获得的相关信息。
+- **本题核心**：阻碍部分投资者进入市场的资本限制（Capital Restrictions）通常会削弱参与者竞争、价格发现和纠正错误定价的能力，因此**可能阻碍市场有效性（Impede Market Efficiency）**。
+- **与市场交易量区分**：交易量（Trading Volume）或流动性（Liquidity）下降可以是限制市场参与的后果，但“交易量更少”本身并不能逻辑上保证价格必然偏离基本价值；本题重点是**有效价格形成的机制可能受阻**。
+
+### Capital Restrictions / Barriers to Market Participation｜资本限制／市场参与壁垒
+
+- **含义**：因法律、跨境资金约束、投资者资格、交易限制或其他制度性壁垒，部分原本愿意交易的投资者无法进入市场或实施某些交易。
+- **题干措辞**：*Capital restrictions that prevent some investors from taking part in the financial market* 明确指限制**投资者参与**，不是询问资本管理政策的全部宏观经济影响。
+- **传导机制**：参与限制 → 市场竞争与信息表达减少、部分价格偏差不易被纠正 → Price Discovery（价格发现）和 Informational Efficiency（信息有效性）可能下降。
+- **注意**：这不是说每一种资本限制都会在所有情况下损害所有形式的市场质量；监管措施也可能有其他政策目标。但在本题给定的参与限制与市场有效性框架中，最合适答案是 **Impediment（阻碍）**。
+
+### Price Discovery｜价格发现
+
+- **定义**：不同投资者依据公开或自身掌握的信息提交报价、买卖指令并成交，推动市场形成反映供需和相关信息的价格。
+- **直观例子**：假设股票交易价为 120 元，某些掌握充分研究信息、认为合理价值约为 100 元的投资者本可卖出或卖空，帮助价格调整。如果这些交易者被禁止参与，纠正高估价格的力量可能减弱。**100 元与 120 元均为解释机制的假设数字**，不代表存在确定的真实“内在价值”。
+- **关联概念**：Arbitrage / Corrective Trading（套利／纠正性交易）。部分投资者受限制，会降低利用定价偏差获利、并促使价格调整的机会。
+
+### 三选项分析
+
+题目：*How does the capital restrictions that prevent some investors from taking part in the financial market most likely affect the efficiency of market?*
+
+- **A. Not affecting market efficiency — 错误**：参与限制有可能削弱价格发现和竞争，不能认为必然毫无影响。
+- **B. Enhancing market efficiency — 错误**：在题目描述的限制有效参与背景下，不是通常应选择的方向。
+- **C. Impeding market efficiency — 正确**：投资者被阻止参与，价格发现及错误定价修正可能受阻。
+
+**做题步骤**：
+1. 识别对象：Market Efficiency，而不只是成交量；
+2. 识别机制：Restrictions **prevent investors from participating**；
+3. 判断方向：Reduced Participation → Weaker Price Discovery → **Impeding Market Efficiency**。
+
+**英文速记**：Barriers to Participation → Less Competition / Harder Price Discovery → Lower Market Efficiency。
+
+## 14. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -802,5 +838,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能区分 Survivorship Bias 与 Backfill Bias，并列出房地产指数的三种常见类型
 - [ ] 能区分 Overconfidence、Loss Aversion 与 Information Cascades，掌握关键词和例子
 - [ ] 能根据 Tax-Loss Harvesting、Pre-Holiday、Month-End 判断三种日历效应
+- [ ] 能解释 Capital Restrictions 如何限制 Price Discovery 并阻碍 Market Efficiency
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
