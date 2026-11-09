@@ -2204,6 +2204,12 @@ tags: [CFA-L1, Vocabulary]
 - **Book Value** — 账面价值
   - 财务报表记录金额，可能不同于公允价值
 
+- **Asset-Based Equity Value per Share** — 每股资产基础估值
+  - 可归属于普通股的资产基础股权价值 / 流通在外普通股数量
+
+- **Financial Company in Asset-Based Valuation** — 金融企业在资产基础估值中的适用性
+  - 部分金融企业或投资基金的金融资产有较可靠的市场价格，因此可能适用；不能一概视为不适用
+
 - **Adjusted Net Asset Value (ANAV)** — 调整后净资产价值
   - 调整资产负债价值后估算净资产，属于资产基础估值常见实现方式
 
