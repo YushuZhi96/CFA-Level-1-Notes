@@ -327,6 +327,65 @@ $$
 
 衡量资本结构中债务融资所占比例；和 Debt-to-Equity 的分母不同。
 
+### 4. 债务 / EBITDA（Debt-to-EBITDA Ratio）
+
+\[
+\boxed{\text{Debt-to-EBITDA}=\frac{\text{Debt}}{\text{EBITDA}}}
+\]
+
+反推债务：
+
+\[
+\boxed{\text{Debt}=\text{Debt-to-EBITDA}\times\text{EBITDA}}
+\]
+
+- **EBITDA** = Earnings Before Interest, Taxes, Depreciation and Amortization（息税折旧摊销前利润）。
+- 常见简化关系：\(\text{EBITDA}=\text{EBIT}+\text{Depreciation}+\text{Amortization}\)。当题目将 Operating Income 作为 EBIT 时，可用营业利润加回折旧与摊销。
+- Debt-to-EBITDA 通常以“倍数（×）”表示，反映债务相对于 EBITDA 的规模；例如 2.0× 表示债务约为 EBITDA 的两倍。具体 Debt 的范围以题目定义为准。
+
+#### 用比率预测 Debt 的步骤
+
+1. 预测营业利润：\(\text{Operating Income}=\text{Revenue}\times\text{Operating Margin}\)。
+2. 预测折旧：\(\text{Depreciation}=\text{Beginning Net PP\&E}\times\text{Depreciation Rate}\)。
+3. 计算 EBITDA：\(\text{EBITDA}=\text{Operating Income}+\text{Depreciation}+\text{Amortization}\)。
+4. 预测债务：\(\text{Debt}=\text{Debt/EBITDA Multiple}\times\text{EBITDA}\)。
+
+**例题：Cary 预测 2023 年债务**
+
+已知：
+- Revenue = \$7,587 million
+- Operating Income / Revenue = 2.1%
+- Depreciation / Beginning Net PP&E = 22%
+- 2022 年末 Net PP&E = \$678 million（即 2023 年期初净 PP&E）
+- Debt / EBITDA = 2.0×
+
+计算：
+
+\[
+\text{Operating Income}=7{,}587\times2.1\%=159.327
+\]
+
+\[
+\text{Depreciation}=678\times22\%=149.16
+\]
+
+\[
+\text{EBITDA}=159.327+149.16=308.487
+\]
+
+\[
+\text{Debt}=308.487\times2=616.974
+\]
+
+\[
+\boxed{\text{Forecast Debt}\approx \$616.98\text{ million}}
+\]
+
+**答案：A。**
+
+- **CapEx（资本支出）**占 Revenue 的 3.9%，本题求 Debt/EBITDA 时不需要用到。若要预测 PP&E 期末余额，简化情况下才使用 \(\text{Ending Net PP\&E}=\text{Beginning Net PP\&E}+\text{CapEx}-\text{Depreciation}\)；该式假设没有处置、减值、汇率及其他变动。
+- **易错点**：不要把 Debt/EBITDA = 2 误当成 Debt = EBITDA / 2；应移项得到 Debt = 2 × EBITDA。
+
 ### 4. 利息保障倍数（Interest Coverage）
 
 $$
