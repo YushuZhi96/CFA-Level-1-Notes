@@ -1584,6 +1584,29 @@ tags: [CFA-L1, Vocabulary]
 - **Prospectus Supplement** — 招股说明书补充文件
   - 具体分次发行时可能需要披露批次条款与更新信息
 
+## Equity Investments｜价格加权指数与价格收益率
+
+- **Price-Weighted Index** — 价格加权指数
+  - 根据成分股每股价格确定权重；在无特殊调整时，指数可用股价总和除以成分数计算
+
+- **Index Divisor** — 指数除数
+  - 价格加权指数的股价合计除数；拆股或成分变动时可能调整以维持指数连续性
+
+- **Price Return** — 价格收益率
+  - 仅计算证券价格或指数水平变化，不计股息
+
+- **Price Return Index** — 价格收益指数
+  - 追踪价格变化，不包含股息再投资收益
+
+- **Total Return Index** — 总收益指数
+  - 在价格变化基础上，按照指数规则计入股息再投资收益
+
+- **Equal-Weighted Index** — 等权重指数
+  - 每只成分股配置相同权重，不等于价格加权
+
+- **Market-Capitalization-Weighted Index** — 市值加权指数
+  - 按成分股票市值分配权重，而非仅根据每股价格
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
