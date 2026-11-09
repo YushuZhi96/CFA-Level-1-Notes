@@ -1861,6 +1861,29 @@ tags: [CFA-L1, Vocabulary]
 - **Operating Performance** — 公司经营业绩
   - 普通优先股通常不直接分享额外经营利润，但其价值与支付风险仍受公司经营影响
 
+## Equity Investments｜股东累积投票与代理投票
+
+- **Cumulative Voting** — 累积投票制
+  - 董事选举中可把总票数集中投给一人或分配给不同候选人
+
+- **Statutory Voting / Straight Voting** — 法定投票制／普通逐席投票制
+  - 每个董事席位分别投票，不能将各席位选票合并投给一名候选人
+
+- **Proxy Voting** — 代理投票
+  - 股东授权代理人代为行使其投票权，不等于累积选票
+
+- **Voting Rights** — 投票权／表决权
+  - 股东按照持股及相应证券条款参与公司治理表决的权利
+
+- **Board of Directors** — 董事会
+  - 对公司重要治理事项承担监督与决策职责的机构
+
+- **Minority Shareholders** — 少数股东
+  - 相对持股比例较小的股东；累积投票制可增强其董事席位代表机会
+
+- **Total Votes** — 总投票票数
+  - 累积投票典型公式为持股数量 × 同次待选董事席位数量
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
