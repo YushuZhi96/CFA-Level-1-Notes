@@ -917,7 +917,58 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **考试速记**：累积补旧账；参与分额外；可转换普通股。
 
-## 15. 复习清单
+## 15. Shareholder Voting Systems｜股东投票制度
+
+### Cumulative Voting｜累积投票制
+
+- **定义**：在同时选举多个董事（Board of Directors）席位时，股东可将所持股份对应的全部选票累积后，集中投给一位候选人或自由分配给多位候选人。
+- **典型的总票数公式**（每股每席位一票的假设下）：
+
+\[
+\boxed{Total\ Votes=Shares\ Owned\times Number\ of\ Directors\ to\ be\ Elected}
+\]
+
+- **例子**：股东持有100股，同时选举3名董事，股东拥有300票。可以把300票全部投给A，也可以按A=200票、B=70票、C=30票分配，总票数均为300票。
+- **考试关键词**：Distribute Total Voting Rights、Allocate Votes Among Candidates、Concentrate Votes on One Candidate。
+- **制度影响**：有利于少数股东（Minority Shareholders）集中力量支持其董事候选人，但并不保证任何少数股东都一定能获得董事席位。
+
+### Statutory Voting｜法定投票制／普通逐席投票制
+
+- **定义（本题语境）**：在选举董事时，股东对于每个董事席位分别使用对应的投票权，不能把多个席位的票数合并集中投给同一候选人。
+- **例子**：股东持有100股，要选3名董事，每个席位最多行使100票；不能把合计300票全部给同一名候选人。
+- **术语说明**：不同法域的公司法和选举规则可能对 statutory voting、straight voting 等术语有细节区别；本题采用与 cumulative voting 对比的通常教学口径。
+
+### Proxy Voting｜代理投票
+
+- **定义**：股东授权另一个人或代理机构（Proxy）按照授权规则和指示代其行使投票权。
+- **例子**：股东无法出席股东大会，委托代理人代为投票。
+- **区别**：Proxy Voting 说明的是**谁替股东投票**，并不规定选票是否可累积。若公司采用累积投票制，也可能通过代理方式行使累积选票。
+
+### 三种制度对比
+
+| 制度 | 英文 | 核心判断 |
+|---|---|---|
+| 累积投票 | Cumulative Voting | 累积、集中或自由分配董事选举票数 |
+| 逐席投票 | Statutory Voting | 各董事席位独立投票，不能跨席位集中票数 |
+| 代理投票 | Proxy Voting | 授权别人代行投票权，与票数分配规则属于不同维度 |
+
+### 与优先股的累积概念区别
+
+- **Cumulative Preference Shares（累积优先股）**：累积的是以前未支付的优先股息（Dividends in Arrears），涉及股息分配。
+- **Cumulative Voting（累积投票）**：累积的是选举董事时的选票，涉及公司治理与董事选举。
+- **口诀**：Cumulative Dividend ≠ Cumulative Votes；看到 Cumulative 必须结合具体对象识别。
+
+### 典型 CFA 题：Equity voting rights
+
+> The equity voting right system that allows shareholders to distribute their total voting rights to different candidates is referred to:
+
+- **A. Statutory Voting — 错误**：逐席使用对应票权，不能汇总所有董事席位的票集中投给一人。
+- **B. Cumulative Voting — 正确**：股东可以分配或集中全部累积选票到不同候选人。
+- **C. Proxy Voting — 错误**：代理投票是授权他人投票，与累积票数分配不是同一概念。
+
+**考试速记**：Cumulative = Allocate/Concentrate Total Votes；Statutory = Per Director Separate Vote；Proxy = Delegate Voting Authority。
+
+## 16. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -943,5 +994,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能说出弱式、半强式、强式的嵌套信息范围，并识别技术分析长期获利对应弱式无效
 - [ ] 能区分 Cumulative、Participating、Convertible 的股息和转换权利
 - [ ] 能解释普通优先股的通常固定股息、一般投票权限制及非参与性（包括例外）
+- [ ] 能区分 Cumulative Voting、Statutory Voting、Proxy Voting，以及累积股息与累积选票的区别
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
