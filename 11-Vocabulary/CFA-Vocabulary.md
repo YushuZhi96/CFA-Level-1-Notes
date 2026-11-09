@@ -1985,6 +1985,32 @@ tags: [CFA-L1, Vocabulary]
 - **Fixed Cost** — 固定成本
   - 在相关范围内，总额通常不随短期业务活动量同步变化
 
+## Equity Investments｜波特基本竞争战略
+
+- **Porter's Generic Strategies** — 波特基本竞争战略
+  - 成本领先、差异化、集中化三种基本竞争战略
+
+- **Cost Leadership** — 成本领先战略
+  - 通过较低成本结构服务较广泛市场，而不只是简单低价销售
+
+- **Differentiation** — 差异化战略
+  - 以独特产品、服务、品牌或体验区别于竞争者
+
+- **Focus Strategy** — 集中化／聚焦战略
+  - 专注服务一个狭窄的客户群或细分市场（Niche Market）
+
+- **Cost Focus** — 成本聚焦
+  - 在特定细分市场内采用低成本竞争方式
+
+- **Differentiation Focus** — 差异化聚焦
+  - 为狭窄的细分市场提供独特、定制化的产品或服务
+
+- **Niche Market** — 利基市场／细分小众市场
+  - 规模较小、需求较具体的目标市场
+
+- **Broad Market** — 广泛市场
+  - 面向较广泛的客户群体，而非单一狭窄细分市场
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
