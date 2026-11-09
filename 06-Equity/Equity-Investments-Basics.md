@@ -1322,7 +1322,81 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 
 **考试速记**：Lower Production Cost + Tough Competition → Lower Selling Price / Pass-through → Gross Margin Most Likely Unchanged；若企业拥有强定价权且售价不降，毛利率才更可能扩大。
 
-## 23. 复习清单
+## 23. Asset-Based Valuation｜资产基础估值法
+
+### 核心定义与公式
+
+**Asset-Based Valuation（资产基础估值）**：根据公司资产与负债的估计公允价值（Fair Value）评估股权价值（Equity Value），而不是单纯根据盈利倍数或未来现金流折现。
+
+\[
+\boxed{\text{Equity Value}=\text{Fair Value of Assets}-\text{Fair Value of Liabilities}}
+\]
+
+为方便记忆，也可写作：
+
+\[
+\boxed{V_E=FV_A-FV_L}
+\]
+
+| 符号 | 英文全称 | 中文含义 |
+|---|---|---|
+| \(V_E\) | Equity Value | 股权价值 |
+| \(FV_A\) | Fair Value of Assets | 资产公允价值 |
+| \(FV_L\) | Fair Value of Liabilities | 负债公允价值 |
+| FV | Fair Value | 公允价值 |
+
+若不存在另需扣除的优先权益，普通股价值的简单每股估计为：
+
+\[
+\boxed{\text{Equity Value per Share}=\frac{\text{Estimated Equity Value}}{\text{Common Shares Outstanding}}}
+\]
+
+- **Common Shares Outstanding**：流通在外普通股数量。
+- **需要注意**：估值对象若是普通股，还要考虑优先股等其他权益请求权；清算情境则应按法律清偿顺序、可实现价格及交易和清算费用计算。
+- **Book Value vs Fair Value（账面价值 vs 公允价值）**：账面净资产等于会计资产减会计负债；它不一定等于按当前市场价值估算的资产基础股权价值。
+
+### 示例（教学假设）
+
+资产公允价值 1 亿元、负债公允价值 4,000 万元，全部股权价值 = 6,000 万元。假设没有其他优先权益，普通股共 1,000 万股，则每股资产基础估值为 6 元。
+
+### 何时更适用？何时有困难？
+
+| 企业情况 | 资产基础估值的典型适用性 | 理由 |
+|---|---|---|
+| Approaching Liquidation（接近清算） | **较适用** | 价值主要取决于资产可变现价值、负债、清算支出及受偿顺序 |
+| Financial Companies / Investment Funds（部分金融公司／投资基金） | **可能适用** | 资产常包括金融资产，可根据市场价格或公允价值模型估计；有些金融资产及负债仍难估 |
+| Tangible Asset-Rich Firms（有形资产较多企业） | 较适用 | 实物资产或资源可能有可观察估值依据 |
+| Significant Intangible Assets（大量重要无形资产） | **可能不可靠** | 品牌、专利、客户关系与商誉等价值难以单独确定，也可能有未入账无形资产 |
+
+**关键判断**：不能认为资产基础估值**不适用于所有金融公司**。适用性取决于资产和负债能否合理地估计价值，部分金融机构和投资基金恰好可能适用。相反，大量无形资产会增加估值困难。
+
+### 与其他权益估值方法对比
+
+- **Present Value / Discounted Cash Flow Models（现值／现金流折现模型）**：根据未来可取得的现金流或收益贴现得到价值。
+- **Multiplier / Relative Valuation Models（乘数／相对估值模型）**：根据 P/E、P/B 等市场倍数和可比公司估值。
+- **Asset-Based Valuation Models（资产基础估值模型）**：根据资产和负债的估计公允价值计算净资产价值。
+
+### CFA 典型题：Least accurately describes the asset-based valuation?
+
+> A. Asset-based model assumes that equity value can be estimated by the difference between the fair value of asset and the fair value of liability.
+>
+> B. Asset-based model is inappropriate for companies holding lots of intangible assets or financial companies.
+>
+> C. Asset-based model is appropriate for valuing firms approaching liquidation.
+
+- **A：正确描述（不选）**：Equity Value = FV(Assets) − FV(Liabilities)。
+- **B：最不准确（正确答案）**：无形资产多的企业确实难估，但部分金融公司可以适用资产基础估值；两者不能一概否定。
+- **C：正确描述（不选）**：公司接近清算时适合根据资产变现和债务清偿估算剩余权益。
+
+**考试速记**：Asset-Based = Fair-Value Assets − Fair-Value Liabilities；Liquidation = Often Suitable；Intangibles = Difficult；Some Financial Firms = May Be Suitable。
+
+**延伸提示**：财务报表中的 Book Value（账面值）与估值所需 Fair Value（公允价值）不必相等，不要直接使用会计净资产替代全部公允净资产。
+
+**参考依据**：
+- [CFA Institute — Equity Valuation: Concepts and Basic Tools](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools)
+- [IFRS Foundation — IFRS 13 Educational Material](https://www.ifrs.org/content/dam/ifrs/supporting-implementation/ifrs-13/education-ifrs-13-eng.pdf)
+
+## 24. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1357,5 +1431,6 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [ ] 能区分 Cyclical 与 Defensive Companies，并识别可推迟购买和大额商品特征
 - [ ] 能比较房地产、银行和住宅电力供应商在经济衰退中的盈利敏感度
 - [ ] 能计算 Gross Profit Margin，并解释激烈竞争下成本下降为何可能传导为售价下降
+- [ ] 能写出资产基础估值公式，区分 Book Value 与 Fair Value，判断金融企业、无形资产企业和清算企业的适用性
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
