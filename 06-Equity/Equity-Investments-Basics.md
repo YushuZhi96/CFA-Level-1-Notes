@@ -816,56 +816,13 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **英文速记**：Barriers to Participation → Less Competition / Harder Price Discovery → Lower Market Efficiency。
 
-### Efficient Market Hypothesis (EMH)｜有效市场假说：弱式、半强式、强式
+### Efficient Market Hypothesis (EMH)｜有效市场假说（独立专题）
 
-**基本概念**：信息有效的市场（Informationally Efficient Market）中，证券价格迅速、充分反映相关信息。市场是否有效，要看价格是否包含了哪一类信息，以及投资者能否仅利用这些信息系统性获得**风险调整后的超额收益**。
+本主题已经整理为专项笔记：[[06-Equity/Efficient-Market-Hypothesis|有效市场假说（EMH）：三种有效形式、影响因素、主动与被动投资、市场异象和自测题]]。
 
-#### Weak-Form Efficient｜弱式有效
+**基础速记**：弱式看历史交易数据，半强式看全部公开信息，强式看全部公开与非公开信息。技术分析若能持续产生风险调整后的异常收益，按 CFA 题意属于 **Weak-Form Inefficient（弱式无效）**。
 
-- **反映的信息**：历史交易数据（Past Market Data），如 Historical Prices（历史股价）、Trading Volume（成交量）、Historical Returns（历史收益）。
-- **判断标准**：单凭技术分析（Technical Analysis）使用过去价格和交易数据，不应持续获得扣除必要成本后、风险调整后的异常收益（Abnormal Return）。
-- **考试线索**：Price Chart、Past Trading Data、Technical Trading Rule。
-- **Weak-Form Inefficient（弱式无效）**：如果历史交易信息仍有可系统性利用的预测力，并能持续带来超额收益，则违反弱式有效的理论要求。
-
-#### Semi-Strong-Form Efficient｜半强式有效
-
-- **反映的信息**：全部公开信息（All Publicly Available Information），**包含历史交易信息**、财报、公告、公开宏观经济数据等。
-- **判断标准**：技术分析和利用公开信息的基本面分析都不能据此持续获得风险调整后的异常收益。
-- **包含关系**：半强式有效市场必然满足弱式有效要求。若技术分析本身能长期系统性获取超额收益，就不能认为市场具有半强式有效性。
-- **考试线索**：Public Filings、Annual Reports、Earnings Announcements、Financial Statement Analysis。
-
-#### Strong-Form Efficient｜强式有效
-
-- **反映的信息**：所有公开与私有信息（All Public and Private Information），包括一般投资者难以获取的私人信息。
-- **判断标准**：即使掌握未公开信息，也无法据此系统性获得异常收益。
-- **包含关系**：强式包含半强式，半强式包含弱式。即 Strong-Form ⇒ Semi-Strong-Form ⇒ Weak-Form。
-- **注意**：强式有效是很严格的理论假设；使用重大非公开信息进行交易也可能违法，不能将其解释为实际建议。
-
-| 市场形式 | 市场价格反映的信息 | 典型分析／信息来源 |
-|---|---|---|
-| Weak-Form | 历史价格、成交量、历史回报 | Technical Analysis |
-| Semi-Strong-Form | 所有公开信息，包括历史数据 | Fundamental Analysis + Public Reports |
-| Strong-Form | 所有公开及非公开信息 | Private Information |
-
-**方向口诀**：弱式看历史，半强看公开，强式看全部。
-
-#### 技术分析与基本面分析的区别
-
-- **Technical Analysis（技术分析）**：通过历史价格、成交量、价格形态等交易信息判断走势。
-- **Fundamental Analysis（基本面分析）**：分析财务数据、行业、经营状况、估值等。公开基本面信息在半强式有效假设下应已被价格反映。
-- 注意“分析方法复杂”不代表自动取得有效市场之外的收益；题目核心看 **Information Set（信息集合）**，不是模型的复杂程度。
-
-#### 典型题：技术分析每年获取 6% Excess Return
-
-> Dheeraj is a famous fund manager in India. He makes investment decisions based on a complex technical analysis model. His strategy earns approximately 6% excess return every year in the past. The market is most likely to be:
-
-- **A. Weak-Form Efficient — 错误**：弱式有效要求历史交易信息已被反映，技术分析不应因此持续获取风险调整后的异常收益。
-- **B. Semi-Strong-Form Efficient — 错误**：半强式有效包含弱式有效，既然历史信息可被持续利用获利，就更不符合半强式有效。
-- **C. Weak-Form Inefficient — 正确（本题设定）**：技术分析凭借历史市场数据持续获取超额收益，说明市场不符合弱式有效的要求。
-- **题目关键词**：Technical Analysis + Approximately 6% Excess Return Every Year。
-- **重要现实限定**：仅仅存在过去若干年的 6% 超额收益，不足以单独严谨地证实市场无效；应检验风险调整、统计显著性、样本选择、交易成本与样本外表现。本题把持续超额收益作为支持理论判断的考试信息。
-
-**考试速记**：Technical Analysis consistently generates abnormal returns ⇒ Weak-Form Inefficient。半强式有效包含弱式有效，因此 B 也不能成立。
+原来的 Dheeraj 技术分析例题已经迁入上述独立专题，避免双处重复维护。
 
 ## 14. 复习清单
 
