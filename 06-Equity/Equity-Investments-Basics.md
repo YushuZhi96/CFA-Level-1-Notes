@@ -1203,7 +1203,45 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 
 **考试速记**：Industry Base Rate = Benchmark, Not a Floor；Industry Structure → Long-Term Profitability；Industry Analysis → Industry Base Rate + Relative Company Strength。
 
-## 20. 复习清单
+## 21. Cyclical vs Non-cyclical Companies｜周期性公司与非周期性公司
+
+### Cyclical Company｜周期性公司
+
+- **定义**：公司收入或利润与整体经济活动（Overall Economic Activity）及经济周期（Business Cycle）高度相关。经济扩张时需求、收入和利润通常改善；经济衰退时需求与盈利可能明显下降。
+- **典型特征**：
+  1. **Strongly Correlated with the Economy（与整体经济高度相关）**：经济景气度上升时，公司利润往往改善；经济走弱时，利润可能收缩。
+  2. **Purchases Can Be Delayed（购买可推迟）**：产品和服务常属于非必需、可选择或耐用品消费（Discretionary / Durable Purchases），经济不确定或预算紧张时，消费者可以推迟购买。
+  3. **Often Big-ticket / Relatively Expensive（通常金额较大／相对昂贵）**：许多周期性商品需要较大支出，消费者更容易延迟购买；这是一种常见特征，不是绝对定义。
+- **常见例子**：汽车、房地产、工业机械、建筑设备、部分高端消费品和旅游等。
+
+### Non-cyclical / Defensive Company｜非周期性／防御型公司
+
+- **定义**：产品或服务的需求对经济周期的敏感度相对较低，经济衰退时需求通常较稳定。
+- **典型产品**：Food and Household Staples（食品及家庭必需品）、日常基本消费品，以及其他需求较稳定的服务。
+- **常见特征**：产品多为生活必需品（Necessities / Staples），消费频率较高，通常难以长期推迟购买，单次消费金额可能相对较小。
+- **注意**：Defensive 不代表利润、股价完全不受经济影响，只是相对不敏感。
+
+### Cyclical vs Non-cyclical｜核心对比
+
+| 维度 | Cyclical（周期性） | Non-cyclical / Defensive（非周期性／防御型） |
+|---|---|---|
+| 与经济相关性 | 通常较高 | 通常较低 |
+| 需求类型 | 可选择、可推迟、耐用品 | 必需品、日常消费 |
+| 购买时机 | 经济差时可延迟 | 通常需要持续购买 |
+| 典型金额 | 常见较大金额／Big-ticket | 常见相对低价／高频 |
+| 经济衰退影响 | 需求和利润可能明显下滑 | 需求相对稳定 |
+
+### 本题：Which of the following is NOT a characteristic of a cyclical company?
+
+- **A. Profits strongly correlated with the overall economy — 正确特征（不选）**：周期性公司的利润通常随宏观经济景气程度明显波动。
+- **B. Products and services represent purchases that can be delayed — 正确特征（不选）**：非必需或耐用品购买可以在经济不景气时推迟。
+- **C. Cyclical products and services are often relatively inexpensive — 不是典型特征（正确答案）**：周期性商品往往是较大金额、可推迟的购买；相对低价的日常必需品更常见于防御性行业。
+
+**考试速记**：Cyclical = Economy-sensitive + Deferrable + Often Big-ticket；Defensive = Necessities + More Stable Demand。
+
+**限定**：产品价格高低只是常见识别线索，不是判断周期性的唯一标准；最终应关注需求与经济周期的敏感程度。
+
+## 22. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1235,5 +1273,6 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [ ] 能区分 Price Taker 和 Pricing Power，并解释 Commoditization 如何增强竞争
 - [ ] 能区分 Cost Leadership、Differentiation 与 Focus，并识别 Cost Focus / Differentiation Focus
 - [ ] 能区分 Industry Base Rate 与 Floor，并解释行业结构对长期盈利能力的影响
+- [ ] 能区分 Cyclical 与 Defensive Companies，并识别可推迟购买和大额商品特征
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
