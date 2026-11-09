@@ -1396,7 +1396,68 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [CFA Institute — Equity Valuation: Concepts and Basic Tools](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/equity-valuation-concepts-basic-tools)
 - [IFRS Foundation — IFRS 13 Educational Material](https://www.ifrs.org/content/dam/ifrs/supporting-implementation/ifrs-13/education-ifrs-13-eng.pdf)
 
-## 24. 复习清单
+## 24. Multiplier Models vs Present Value Models｜乘数法与现值法的估值差异
+
+### Present Value Model｜现值估值法（绝对估值）
+
+- **定义**：预测目标公司的未来现金流或股息（Future Cash Flows / Dividends），用适合现金流风险的贴现率（Discount Rate）折现，得出估值。
+- **一般形式**（仅为有终值的现金流折现框架）：
+
+\[
+\boxed{V_0=\sum_{t=1}^{N}\frac{CF_t}{(1+r)^t}+\frac{TV_N}{(1+r)^N}}
+\]
+
+| 符号 | 英文全称 | 中文含义 |
+|---|---|---|
+| \(V_0\) | Present / Intrinsic Value | 当前估计价值 |
+| \(CF_t\) | Cash Flow in Period t | 第 t 期预测现金流 |
+| \(r\) | Required Rate of Return / Discount Rate | 必要收益率／折现率 |
+| \(TV_N\) | Terminal Value at the End of Period N | 预测期末终值 |
+| \(N\) | Number of Forecast Periods | 预测期数 |
+
+- **注意口径**：若折现的是股权现金流（FCFE），用股权成本并求股权价值；若折现企业自由现金流（FCFF），通常用 WACC 并求企业价值后再调整至股权价值。不能混用现金流与折现率口径。
+- **估值依据**：未来经济利益、货币时间价值（Time Value of Money）和风险调整的贴现率；不应直接说其唯一依据是 Law of One Price。
+
+### Multiplier Model / Relative Valuation｜乘数法／相对估值
+
+- **定义**：从可比公司或市场数据选取 P/E、P/B、EV/EBITDA 等估值倍数（Valuation Multiples），并将倍数应用于目标公司相关的每股收益、账面价值或财务指标，估算相对估值水平。
+- **P/E 乘数估价的简化公式**：
+
+\[
+\boxed{\text{Estimated Share Price}=\text{Comparable P/E}\times\text{Target EPS}}
+\]
+
+- **Comparable P/E（可比公司市盈率）**：作为对照公司的 P/E 估值倍数。
+- **Target EPS（目标公司每股收益）**：目标企业对应期间的每股收益，应与可比公司倍数使用同一口径。
+- **估值依据**：可比资产应该具有合理一致的风险、增长和现金流定价（与 Law of One Price 一价定律相关），但上市公司仅“相似”而非完全相同，可比性和市场定价误差会影响结果。
+
+### Law of One Price｜一价定律
+
+**含义**：若两项资产拥有完全相同的未来经济现金流、风险、时间及权利特征，在不存在重大交易障碍且可有效套利的市场中，其价格应当一致。
+
+- 一价定律不是保证**不同估值方法对同一家公司的估计值完全相等**的数学规则。
+- 如果假设、输入参数、可比公司、盈利质量与市场定价不一样，两种估值结果可能不同。
+- 完全理想且输入假设一致时，合理的估值方法可能更趋一致，但不能把这一理论条件当成现实必然结果。
+
+### 数值对比示例（教学假设）
+
+假设某股票当前市场价为75元：
+- Present Value Model 预测股权价值 **80元/股**：与市场价相比，可能低估（Undervalued）。
+- Multiplier Model 采用可比公司 P/E=12×、目标 EPS=6元，得到 **12×6=72元/股**：与市场价相比，可能高估（Overvalued）。
+
+这说明同一公司在两种方法下**甚至可能得到相反的交易判断**。差异可能来自增长、贴现率、市场可比公司的选择以及市场价格误差。
+
+### 本题：Same Rationale Does Not Guarantee Same Conclusion
+
+> An analyst states that since the rationale behind multiplier model and present value are both the law of one price, those two methods will generate same conclusion on valuation. Is his comment reasonable?
+
+- **A. Yes, it is right. — 错误**：并无保证两种估值模型的结论永远一致。
+- **B. No, it is wrong. — 正确**：理论依据、估值输入和市场可比条件并不等同，模型可能得出不同的价值或高估低估结论。
+- **C. There is no answer. — 错误**：题干能够判断，B 更合适。
+
+**考试速记**：Present Value → Discount Forecast Cash Flows；Multiplier → Comparable Market Multiples；Law of One Price ≠ Identical Model Estimates。
+
+## 25. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1432,5 +1493,6 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [ ] 能比较房地产、银行和住宅电力供应商在经济衰退中的盈利敏感度
 - [ ] 能计算 Gross Profit Margin，并解释激烈竞争下成本下降为何可能传导为售价下降
 - [ ] 能写出资产基础估值公式，区分 Book Value 与 Fair Value，判断金融企业、无形资产企业和清算企业的适用性
+- [ ] 能区分 Present Value 与 Multiplier Model 的计算依据，解释 Law of One Price 不保证估值结论相同
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
