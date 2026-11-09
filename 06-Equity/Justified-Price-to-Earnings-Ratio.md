@@ -17,6 +17,52 @@ tags: [CFA-L1, Equity-Investments, Valuation, P-E, Gordon-Growth]
 - **Trailing P/E（历史市盈率）**：当前价格除以过去一期或过去十二个月每股收益。
 - **Justified P/E（合理市盈率）**：根据增长率、股息支付率和股权必要收益率等基本面指标，推导出理论上有依据的 P/E；不同于市场报价形成的实际交易市盈率。
 
+### 1.1 基础 P/E：最重要的两个计算口径
+
+\[
+\boxed{P/E=\frac{\text{Share Price}}{\text{Earnings per Share (EPS)}}}
+\]
+
+在股数及利润口径匹配的简化条件下：
+
+\[
+\boxed{P/E=\frac{\text{Market Capitalization}}{\text{Earnings Available to Common Shareholders}}}
+\]
+
+- **Share Price（每股股价）**：观察日股票价格。
+- **EPS（每股收益）**：归属于普通股股东的利润除以对应口径的加权平均普通股股数；应留意 Basic EPS 与 Diluted EPS 的差异。
+- **Market Capitalization（股票总市值）**：股价乘对应时点股份总数。
+- **P/E 是倍数而非百分比**。10× P/E 的含义是投资者愿意为每股 1 元盈利支付 10 元，不保证10年能实际收回股价。
+- **股数口径提醒**：报告 EPS 可能用期间加权平均股数，而市值使用时点股数；若期间有回购、增发等，整体市值÷净利润与股价÷报告 EPS 未必精确相等。
+
+### 1.2 历史 P/E 与远期 P/E 的计算
+
+\[
+\boxed{\text{Trailing P/E}=\frac{P_0}{E_0}}
+\]
+
+\[
+\boxed{\text{Forward / Leading P/E}=\frac{P_0}{E_1}}
+\]
+
+- **Trailing P/E（历史／滚动市盈率）**：使用已实现 EPS；实务中常采用过去十二个月 EPS（TTM）。
+- **Forward / Leading P/E（远期市盈率）**：使用未来一期预测 EPS，具有预测误差风险。
+- **示例**：当前股价60元，历史 EPS 5元，下一期预期 EPS 6元。Trailing P/E=60/5=12×；Forward P/E=60/6=10×。股价相同，口径不同，市盈率就不同。
+
+### 1.3 用 P/E 估计股价与估值高低
+
+反推价格：
+
+\[
+\boxed{\text{Implied Price}=\text{Target P/E}\times\text{Forecast EPS}}
+\]
+
+- 例：预计下一期 EPS=6元，基于可比公司、增长及风险判断目标 P/E=10×，则隐含价格为60元。
+- **不是 P/E 越低越便宜**：低 P/E 可能反映利润即将下滑、增长缓慢、风险较高或一次性收益抬高 EPS；高 P/E 也可能反映更高预期增长，但仍可能高估。
+- **EPS 为零或负值**：普通 P/E 不具备常规经济解释或不适合比较；不能将负 P/E 直接认定为“更便宜”。
+- **同口径比较**：比较不同公司市盈率时，应确认行业、增长率、风险、会计政策和 Trailing/Forward 期间可比。
+
+
 ## 2. 先从 Gordon Growth Model｜戈登增长模型推导
 
 在股息以固定增长率 \(g\) 永续增长且 \(r>g\) 时：
@@ -161,6 +207,8 @@ p=\frac{D_1}{E_1}
 
 ## 7. Review Checklist｜复习清单
 
+- [ ] 能写出 P/E = Price / EPS，并区分 Trailing 与 Forward 的 EPS 口径
+- [ ] 能用 Target P/E × Forecast EPS 估算股价，理解负 EPS 与低 P/E 陷阱
 - [ ] 能从 Gordon Growth Model 推导合理远期 P/E
 - [ ] 能区分 Dividend Paid（金额）与 Dividend Payout Ratio（比例）
 - [ ] 能写出 \(b=1-p\) 和 \(g=b\times ROE\)
