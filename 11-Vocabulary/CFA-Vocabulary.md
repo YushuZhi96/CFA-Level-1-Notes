@@ -1936,6 +1936,26 @@ tags: [CFA-L1, Vocabulary]
 - **Competitive Advantage** — 竞争优势
   - 企业相较竞争者在产品、品牌、成本或定价等方面的可持续优势
 
+## Equity Investments｜价格接受者与商品同质化
+
+- **Price Taker** — 价格接受者
+  - 在完全竞争模型中单个企业无法影响市场价格，通常按市场价销售而不会主动低价出售
+
+- **Price Maker** — 价格制定者
+  - 对市场价格有一定影响力的企业，并非可以不受需求约束任意提价
+
+- **Commoditization** — 商品化／产品同质化
+  - 产品差异降低、可替代性增加，通常导致价格竞争增强和定价权减弱
+
+- **Product Differentiation** — 产品差异化
+  - 企业在质量、功能、品牌或服务等方面区别于竞争者的程度
+
+- **Competitive Positioning** — 竞争地位
+  - 企业相对竞争者在市场中的定位与优势，是影响定价权的因素之一
+
+- **Price Elasticity of Demand** — 需求价格弹性
+  - 需求量对价格变化的敏感程度，影响企业的提价空间
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
