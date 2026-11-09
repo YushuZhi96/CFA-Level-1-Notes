@@ -2132,6 +2132,29 @@ tags: [CFA-L1, Vocabulary]
 - **Price War** — 价格战
   - 企业通过降价争夺客户，可能压低毛利率
 
+## Equity Investments｜合理远期市盈率与股息支付率
+
+- **Justified Leading P/E Ratio** — 合理远期市盈率
+  - \(P_0/E_1=(D_1/E_1)/(r-g)=p/(r-g)\)，源自 Gordon Growth Model，要求 \(r>g\)
+
+- **Justified Trailing P/E Ratio** — 合理历史市盈率
+  - 在稳定增长假设下 \(P_0/E_0=p(1+g)/(r-g)\)，与 Leading 的分母每股收益时点不同
+
+- **Dividend Payout Ratio** — 股息支付率
+  - \(p=D_1/E_1\)；增加支付率可能降低留存收益及未来增长率，对合理 P/E 总体影响不一定
+
+- **Retention Ratio / Plowback Ratio** — 留存率／盈余再投资比例
+  - \(b=1-p\)，表示公司未分配并留存的收益比例
+
+- **Sustainable Growth Rate** — 可持续增长率
+  - 简化前提下 \(g=ROE\times b=ROE(1-p)\)
+
+- **Required Return on Equity** — 股权必要收益率
+  - \(r\)；其他条件固定时，必要收益率越高，合理 P/E 越低
+
+- **Ambiguous Relation** — 不确定关系
+  - 股息支付率增加既提高分子，又可能降低可持续增长率，因此对 P/E 的最终影响视条件而定
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
