@@ -384,7 +384,93 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 
 **考试速记**：One registration, several takedowns = Shelf Registration；Dividends reinvested = DRIP；Selected investors = Private Placement。
 
-## 8. 复习清单
+## 8. Price-Weighted Index and Price Return｜价格加权指数与价格收益率
+
+### Price-Weighted Index｜价格加权指数
+
+- **定义**：根据指数成分证券的每股价格（Share Price）确定权重的股票指数。价格较高的股票在指数中的权重通常更大，与公司规模或市值高低不是同一概念。
+- **基本计算**：
+
+\[
+Index\ Level=\frac{\sum_{i=1}^{N}P_i}{D}
+\]
+
+其中 \(P_i\) 为第 \(i\) 只成分股的价格，\(D\) 为指数除数（Index Divisor）。最初无特殊调整的简化情形常取 \(D=N\)（成分股数量），即**价格算术平均值**。
+- **为什么需要 Index Divisor（指数除数）？** 当出现拆股（Stock Split）、成分股调整等不应单凭机械价格变动就令指数跳变的事项时，指数编制者可能调整除数以维持连续性。
+- **权重理解**：在同一计算时点、常规价格加权结构下，股票 \(i\) 的相对权重为 \(w_i=P_i/\sum P_i\)。它不是 Equal-Weighted（等权重）或 Market-Capitalization-Weighted（市值加权）。
+
+### Price Return｜价格收益率
+
+- **定义**：只反映证券或指数价格变动形成的收益率，**不计股息（Dividends）**。
+- **Price Return Index（价格收益指数）**：只追踪成分证券价格变化，不把现金分红再投资计入指数收益。
+
+\[
+R_{price}=\frac{Index_{end}}{Index_{begin}}-1
+\]
+
+**本题无成分调整、拆股及除数变化的简化条件下**，初末指数使用同一除数，消去后：
+
+\[
+\boxed{R_{price}=\frac{\sum P_{end}-\sum P_{begin}}{\sum P_{begin}}}
+\]
+
+- 若计算期内除数因拆股或成分变化而调整，不能直接用**初末简单股价和**套用上式；须按调整后的指数水平和编制规则计算。
+
+### Total Return｜总收益率
+
+- **定义**：既考虑价格变化，也考虑股息等现金分配带来的收益，指数总回报的计算遵循相关分红再投资规则。
+- **Total Return Index（总收益指数）**：在价格变化之外，按指定方法将股息再投资纳入指数表现。
+- **判断原则**：题目明确问 **Price Return** 时，即使数据表提供 Total Dividends，也不要把股息加进分子。
+
+### 本题：三只股票的价格加权指数
+
+题干：Doug Greyson is measuring the performance of the market based on the price-weighted index. The price return of the index is:
+
+| 股票 | Beginning of Period Price (RMB) | End of Period Price (RMB) | Total Dividends (RMB) |
+|---|---:|---:|---:|
+| A | 50 | 54 | 2 |
+| B | 35 | 50 | 3 |
+| C | 30 | 32 | 2 |
+| **合计** | **115** | **136** | **7** |
+
+**计算方法一：股价和直接计算**
+
+\[
+R_{price}=\frac{136-115}{115}=\frac{21}{115}=18.260869\%\approx18.26\%
+\]
+
+**答案：C. 18.26%。** 本题没有需要调整除数的说明，因此可以直接使用简化计算。股息合计 7 元不纳入 Price Return。
+
+**计算方法二：先算指数水平**
+
+- 期初指数水平：\((50+35+30)/3=38.3333\)。
+- 期末指数水平：\((54+50+32)/3=45.3333\)。
+
+\[
+R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
+\]
+
+**方法三：理解价格加权权重**
+
+| 股票 | 期初价格权重 \(w_i=P_{0,i}/115\) | 个股价格收益率 |
+|---|---:|---:|
+| A | 43.48% | \(4/50=8.00\%\) |
+| B | 30.43% | \(15/35=42.86\%\) |
+| C | 26.09% | \(2/30=6.67\%\) |
+
+按照期初权重加权各股价格收益率，也得到约 18.26%。这说明 **Price-Weighted ≠ 简单平均三只股票的百分比收益率**。
+
+### 易错点
+
+1. **Price Return ≠ Total Return**：表格给了 Total Dividends，并不表示一定要使用；本题明确只问价格收益率。
+2. **Price-Weighted ≠ Equal-Weighted**：不能把三只股票的 8%、42.86%、6.67% 直接取算术平均。
+3. **Price-Weighted ≠ Market-Cap-Weighted**：题中没有股数、总市值，不需要计算市值权重。
+4. **除数可调整**：若题目出现 Stock Split、指数调整等事件，必须检查 Index Divisor 是否变化，不能机械套用初末股价和公式。
+5. **与此前学过的 CAGR 区分**：本题问一个 Period 的价格收益率，不是多年度的复合年化收益率。
+
+**考试速记**：Price-Weighted → Sum of Share Prices / Divisor；Price Return → Price Changes Only，Ignore Dividends。
+
+## 9. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -397,5 +483,7 @@ R_{annual}=\sqrt{1+64\%}-1\approx28.06\%
 - [ ] 能区分 IPO 和 Private Placement
 - [ ] 能解释 Firm Commitment 与 Best Efforts 的未售出证券风险由谁承担
 - [ ] 能区分 Shelf Registration、Dividend Reinvestment Plan 与 Private Placement
+- [ ] 能计算 Price-Weighted Index 的 Price Return，并明确忽略 Dividends
+- [ ] 能说明何时不能直接用初末股价和计算收益率（除数调整）
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
