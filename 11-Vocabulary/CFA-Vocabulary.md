@@ -2011,6 +2011,26 @@ tags: [CFA-L1, Vocabulary]
 - **Broad Market** — 广泛市场
   - 面向较广泛的客户群体，而非单一狭窄细分市场
 
+## Equity Investments｜行业分析与行业基准
+
+- **Industry Analysis** — 行业分析
+  - 研究行业结构、竞争力量和长期盈利能力，并评估公司在行业内的相对竞争实力
+
+- **Industry Base Rate** — 行业基准水平
+  - 行业典型或平均盈利表现，作为分析单家公司表现的比较起点；不是公司回报的最低保证
+
+- **Industry Structural Factors** — 行业结构性因素
+  - 影响行业长期竞争格局与盈利能力的因素，如进入壁垒、买卖双方议价能力和替代品威胁
+
+- **Relative Competitive Strength** — 相对竞争实力
+  - 公司相对于行业内竞争对手的优势和劣势
+
+- **Floor** — 下限／最低保证水平
+  - 不能将行业平均或基准盈利水平误解为单家公司回报的最低保证
+
+- **Porter's Five Forces** — 波特五力模型
+  - 新进入者威胁、供应商议价能力、买方议价能力、替代品威胁、现有竞争者竞争强度
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
