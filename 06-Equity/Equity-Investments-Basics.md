@@ -1221,6 +1221,33 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - **常见特征**：产品多为生活必需品（Necessities / Staples），消费频率较高，通常难以长期推迟购买，单次消费金额可能相对较小。
 - **注意**：Defensive 不代表利润、股价完全不受经济影响，只是相对不敏感。
 
+### Recession Scenario Analysis｜经济衰退情景分析：不同行业的盈利敏感度
+
+- **Scenario Analysis（情景分析）**：设定经济衰退、基准、扩张等不同宏观情景，估计企业收入、成本、资产质量及利润可能如何变化。
+- **Recession（经济衰退）**：经济活动明显收缩，通常可能伴随消费、投资和就业走弱；不同行业的盈利敏感度并不相同。
+- **Earnings Sensitivity（盈利敏感度）**：企业盈利对经济活动、需求、利率、信用状况等变化的敏感程度。
+
+| 公司／行业 | 经济衰退的主要传导机制 | 盈利敏感度（通常） |
+|---|---|---|
+| Real Estate Firm（房地产公司） | 购房与商业地产需求、交易量、开发投资和融资条件可能转弱 | 较高 |
+| Bank（银行） | 贷款需求放缓、借款人违约风险上升、不良贷款及信用损失准备可能增加 | 较高 |
+| Residential Electricity Provider（住宅电力供应商） | 居民用电属于基本需求，经济衰退时较难大幅推迟或取消 | 相对较低 |
+
+#### 为什么住宅电力供应商较防御？
+
+- **Essential Service（必需服务）**：家庭仍需照明、冰箱、供暖／制冷等基本用电。
+- **Relatively Stable Demand（需求相对稳定）**：居民通常不会像推迟购房、汽车或企业设备投资那样，大幅推迟基本用电。
+- **Defensive Industry（防御性行业）**：需求对经济周期相对不敏感，因此盈利通常比房地产等周期性行业稳定。
+- **不是完全免疫**：电力公司的盈利仍可能受电价监管（Rate Regulation）、燃料／采购成本、利率、天气、资本开支和监管政策影响；如果业务中有较大工业客户敞口，周期敏感度也可能更高。
+
+#### 本题：least crucial to estimate a decline in earnings from a recession
+
+- **A. Real Estate Firm — 不选**：房地产需求、交易与融资对经济和利率环境较敏感，衰退情景下需要评估盈利下降。
+- **B. Bank — 不选**：经济走弱可能增加贷款违约和信用损失，影响银行利润，因此也需要评估。
+- **C. Residential Electricity Provider — 正确**：住宅基本用电需求相对稳定，经济衰退对其盈利的直接影响通常较小，因此估计衰退导致的盈利下降相对不那么关键。
+
+**考试速记**：Recession → Real Estate / Banks: More Cyclical；Residential Electricity / Essential Utilities: More Defensive。
+
 ### Cyclical vs Non-cyclical｜核心对比
 
 | 维度 | Cyclical（周期性） | Non-cyclical / Defensive（非周期性／防御型） |
@@ -1328,6 +1355,7 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [ ] 能区分 Cost Leadership、Differentiation 与 Focus，并识别 Cost Focus / Differentiation Focus
 - [ ] 能区分 Industry Base Rate 与 Floor，并解释行业结构对长期盈利能力的影响
 - [ ] 能区分 Cyclical 与 Defensive Companies，并识别可推迟购买和大额商品特征
+- [ ] 能比较房地产、银行和住宅电力供应商在经济衰退中的盈利敏感度
 - [ ] 能计算 Gross Profit Margin，并解释激烈竞争下成本下降为何可能传导为售价下降
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
