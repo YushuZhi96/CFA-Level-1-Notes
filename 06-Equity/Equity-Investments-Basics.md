@@ -1152,7 +1152,58 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - Narrow / Niche Market → Focus。
 - Focus + Unique Service → Differentiation Focus。
 
-## 19. 复习清单
+## 20. Purpose of Industry Analysis｜行业分析的目的与行业基准
+
+### Industry Analysis｜行业分析
+
+- **定义**：研究行业的结构、竞争力量、发展趋势及长期盈利能力，为公司分析和估值提供行业背景。
+- **核心目的**：
+  1. 评估行业结构性因素（Industry Structural Factors）对长期盈利能力（Long-Term Profitability）的影响。
+  2. 估计行业基准水平（Industry Base Rate），作为评估行业内单家公司表现的参考起点。
+  3. 结合公司自身竞争地位（Competitive Positioning），判断公司相对竞争实力（Relative Competitive Strength）及其可能高于或低于行业基准的表现。
+
+### Industry Base Rate vs Floor｜行业基准水平不等于公司回报下限
+
+- **Industry Base Rate（行业基准水平）**：行业层面的典型或平均盈利水平，可作为比较单家公司盈利能力的起点；并非保证每家公司至少达到的回报。
+- **Floor（下限）**：最低保证水平。若说行业力量为公司回报设定 floor，就意味着公司回报不会低于某个水平，这并非行业分析的合理结论。
+- **为什么 A 错误**：行业结构可能有利于盈利，但公司若管理差、成本高、品牌弱、执行失败或竞争地位差，实际回报仍可能低于行业基准，甚至亏损。因此行业力量不是公司回报的下限。
+- **理解公式（概念框架，不是精确会计恒等式）**：
+
+\[
+Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ Factors
+\]
+
+其中公司特定因素可能使其表现高于或低于行业基准。
+
+### Industry Structural Factors｜行业结构性因素
+
+- **含义**：行业竞争结构、进入壁垒、替代品、买卖双方议价能力及竞争强度等较长期因素。
+- **长期影响**：影响行业内企业能够维持的价格、成本、利润率及资本回报。
+- **联系 Porter’s Five Forces（波特五力模型）**：
+  1. Threat of New Entrants（新进入者威胁）
+  2. Bargaining Power of Suppliers（供应商议价能力）
+  3. Bargaining Power of Buyers（买方议价能力）
+  4. Threat of Substitutes（替代品威胁）
+  5. Rivalry among Existing Competitors（现有竞争者之间的竞争）
+- 通常，进入壁垒较高、替代威胁较低、买卖双方议价压力较弱且竞争较温和的行业，更有利于企业维持较高的长期盈利能力；仍需结合具体行业情况判断。
+
+### Industry Analysis and Company Competitive Strength｜行业分析如何评估公司竞争实力
+
+- 先了解行业的**基准盈利能力**（Industry Base Rate），再评估单家公司相对竞争者的优势和劣势。
+- 例如：假设某行业典型利润率为 12%，公司 A 因品牌强、成本控制好而达到 18%；公司 B 因运营效率低而只有 5%。12% 是行业参考基准，不是 A、B 都必须达到的最低收益。
+- 行业分析因此同时帮助分析行业本身和公司在行业内的相对位置，不能只看行业整体景气度就推断某家公司一定盈利。
+
+### 本题：Purpose of Industry Analysis — Least Likely Accurate
+
+> Which of the following statements concerning the purpose of industry analysis is least likely accurate?
+
+- **A. Industry forces serve as a floor on the company’s return. — 错误陈述，正确选择。** Industry Base Rate 是比较起点，不是最低保证；公司实际回报可能低于行业基准。
+- **B. Industry structural factors have long-term influences on profitability. — 正确。** 行业结构会长期影响竞争、定价、成本及盈利能力。
+- **C. Industry analysis can be used to estimate the industry base rate and the relatively competitive strength of a company. — 正确。** 行业分析可以提供行业基准，并帮助判断公司相对行业竞争者的实力。
+
+**考试速记**：Industry Base Rate = Benchmark, Not a Floor；Industry Structure → Long-Term Profitability；Industry Analysis → Industry Base Rate + Relative Company Strength。
+
+## 20. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1183,5 +1234,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能区分 Business Model 中的 Pricing Method 与 Competitive Advantage 里的 Pricing Power
 - [ ] 能区分 Price Taker 和 Pricing Power，并解释 Commoditization 如何增强竞争
 - [ ] 能区分 Cost Leadership、Differentiation 与 Focus，并识别 Cost Focus / Differentiation Focus
+- [ ] 能区分 Industry Base Rate 与 Floor，并解释行业结构对长期盈利能力的影响
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
