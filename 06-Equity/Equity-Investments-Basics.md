@@ -824,7 +824,69 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 原来的 Dheeraj 技术分析例题已经迁入上述独立专题，避免双处重复维护。
 
-## 14. 复习清单
+## 14. Preferred Shares: Cumulative, Participating and Convertible｜优先股的三种权利
+
+### Preferred Shares / Preference Shares｜优先股
+
+- **定义**：与普通股（Common Shares）相比，优先股通常在**股息分配和清算剩余资产分配**方面享有某些优先权；具体股息、投票、转换或参与权须以发行条款为准。
+- **重要分类维度**：Cumulative（是否累积未付股息）、Participating（是否参与额外分配）、Convertible（是否具有转换权）。这三类特征**不是完全互斥**的；同一优先股可能同时有多个特征。
+
+### Cumulative Preference Shares｜累积优先股
+
+- **定义**：若优先股当年约定的股息没有支付，欠付股息可以**累积到以后年度**，并在普通股分红之前优先补付。
+- **核心关键词**：Unpaid Dividends in Previous Years（以前年度欠付股息）、Dividends in Arrears（积欠股息）、Paid Before Common Share Dividends（优先于普通股股息支付）。
+- **典型考点**：在公司向普通股股东分配股息之前，应先按照优先股条款清偿累计欠付的优先股息以及相关当期应付股息。
+- **准确性提醒**：Cumulative 不是保证公司每一年一定有现金分红，也不代表欠付股息在一切法律和会计情况下自动成为无条件到期债务；现金实际支付受适用法律、股息宣告与发行条款约束。
+
+**假设例题**：投资者持有 100 股累积优先股，每股年度优先股息 5 元；第 1 年和第 2 年未支付，第 3 年准备向普通股支付股息。在发行条款保持不变、适用条件满足的情况下：
+
+| 期间 | 本期约定股息 | 已支付 |
+|---|---:|---:|
+| 第 1 年 | 500 元 | 0 元 |
+| 第 2 年 | 500 元 | 0 元 |
+| 第 3 年 | 500 元 | 尚未支付 |
+
+此前两年欠付共 1,000 元，加上当期 500 元，**优先股合计应优先安排 1,500 元**，之后才考虑向普通股分红。
+
+### Noncumulative Preference Shares｜非累积优先股
+
+- **定义**：当期未宣告或未支付的优先股股息，通常**不会结转为下一期累积欠付股息**。
+- **对比**：Cumulative 可以将欠付优先股息结转；Noncumulative 一般不能结转。具体以证券发行条款和适用法律为准。
+
+### Participating Preference Shares｜参与型优先股
+
+- **定义**：优先股持有人在取得约定优先股息或其他优先分配后，若符合合同约定，**可能参与额外利润或股息分配**。
+- **典型关键词**：Additional Dividend（额外股息）、Participate in Additional Profits（参与额外利润）、Above a Predetermined Level（超过约定门槛）。
+- **本题 B 对应**：当公司利润超过指定水平而额外支付股息，是参与型优先股条款，不是 Cumulative 的核心定义。
+
+### Convertible Preference Shares｜可转换优先股
+
+- **定义**：允许优先股持有人根据预先约定的转换条件和转换比例（Conversion Ratio），将优先股转换成一定数量的普通股（Common Shares）。
+- **典型关键词**：Convert into Common Shares（转换成普通股）、Specified Number of Common Shares（约定数量的普通股）。
+- **假设示例**：转换比例为一股优先股转换三股普通股（1 Preferred Share → 3 Common Shares）；投资者可根据约定条件选择是否转换。
+- **本题 C 对应**：Convert 是可转换特征，不能把它与 Cumulative（股息累积）混淆。
+
+### 三类优先股权利对比
+
+| 类别 | 英文 | 最主要的权利 | 一眼识别的词 |
+|---|---|---|---|
+| 累积优先股 | Cumulative | 以前年度未付股息可累积、普通股分红前优先补足 | Unpaid Previous Dividends |
+| 参与型优先股 | Participating | 符合约定条件时可分享额外股息／利润 | Additional Dividend |
+| 可转换优先股 | Convertible | 按约定比例转换为普通股 | Convert into Common Shares |
+
+### 典型 CFA 题：Cumulative preference shares give shareholders the rights to ...
+
+> Cumulative preference shares give shareholders the rights to:
+
+- **A 正确**：Receive the unpaid dividends in previous years and must be paid in full before dividends on common shares。以前年度欠付股息累积，且优先于普通股股息支付。
+- **B 错误**：Receive an additional dividend if the company’s profits exceed a predetermined level。属于 Participating Preference Shares（参与型优先股）。
+- **C 错误**：Convert their shares into a specified number of common shares。属于 Convertible Preference Shares（可转换优先股）。
+
+**做题顺序**：Cumulative → Arrears；Participating → Additional Distribution；Convertible → Conversion。
+
+**考试速记**：累积补旧账；参与分额外；可转换普通股。
+
+## 15. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -848,5 +910,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能根据 Tax-Loss Harvesting、Pre-Holiday、Month-End 判断三种日历效应
 - [ ] 能解释 Capital Restrictions 如何限制 Price Discovery 并阻碍 Market Efficiency
 - [ ] 能说出弱式、半强式、强式的嵌套信息范围，并识别技术分析长期获利对应弱式无效
+- [ ] 能区分 Cumulative、Participating、Convertible 的股息和转换权利
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
