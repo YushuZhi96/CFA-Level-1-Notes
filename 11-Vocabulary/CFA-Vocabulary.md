@@ -618,8 +618,10 @@ tags: [CFA-L1, Vocabulary]
 - **Cost of Goods Sold (COGS)** — 销售成本 / 营业成本
   - 共同比利润表中常比较其占 Revenue 的比例
 
-- **Gross Profit Margin** — 毛利率
-  - Gross Profit / Revenue
+- **Gross Profit Margin (GPM)** — 毛利率
+  - GPM = Gross Profit / Revenue × 100%
+  - GPM = (Revenue − COGS) / Revenue × 100%
+  - Gross Profit（毛利润）= Revenue（营业收入）− COGS（销售成本）
 
 - **Operating Profit Margin** — 营业利润率
   - Operating Income / Revenue
