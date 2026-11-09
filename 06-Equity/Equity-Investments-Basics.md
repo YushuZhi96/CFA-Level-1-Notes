@@ -470,7 +470,60 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 
 **考试速记**：Price-Weighted → Sum of Share Prices / Divisor；Price Return → Price Changes Only，Ignore Dividends。
 
-## 9. 复习清单
+## 9. Fixed-Income vs Equity Index Constituents｜债券指数与股票指数成分证券的差异
+
+### 核心区别：债券需要更多分类维度
+
+- **Equity Index（股票指数）**：由股票等权益证券作为成分证券（Constituent Securities），可按行业（Sector）、公司市值（Market Capitalization）、国家和投资风格（Investment Style）等维度分类。
+- **Fixed-Income Index / Bond Index（固定收益指数／债券指数）**：由符合规则的债券等固定收益证券组成。除了发行主体不同，同一发行主体也可能发行大量具有不同到期日、信用质量和合同条款的债券。
+- **CFA 判断**：相较于股票指数，固定收益指数的成分证券通常 **Classified Along More Dimensions（按更多维度分类）**。
+
+| 债券分类维度（Classification Dimension） | 英文 | 常见差别 |
+|---|---|---|
+| 发行人类型 | Issuer Type | 主权政府、地方政府、公司等 |
+| 到期期限 | Maturity / Time to Maturity | 短期、中期、长期 |
+| 信用评级／信用质量 | Credit Rating / Credit Quality | 投资级、投机级及具体评级 |
+| 票息结构 | Coupon Structure | 固定利率、浮动利率、零息等 |
+| 计价货币 | Currency | 美元、人民币、欧元等 |
+| 偿付优先级 | Seniority | 优先、次级等 |
+| 税务特征（视市场而定） | Tax Status | 某些债券可能享有特定税务待遇 |
+
+**直观例子**：同一家企业发行 3 年期固定利率债券和 10 年期浮动利率债券，即使发行人相同，两只债券的风险和现金流特征也不同。这会影响它们被纳入哪一类债券指数。
+
+### Price Transparency｜价格透明度
+
+- **股票**：大型上市股票通常在集中交易所活跃交易，交易价格和报价较为频繁、透明。
+- **债券**：很多单只债券在 Over-the-Counter (OTC，场外市场) 交易，成交频率可能较低，某些债券缺少连续成交价，需要依赖报价或估值。
+- **CFA 判断**：相比股票，固定收益指数的成分证券通常**并非**具有更频繁、更透明的价格数据（Frequent and Transparent Price Data）。
+- **限制**：这是典型市场比较；活跃国债可能很透明，也存在不活跃股票，不能绝对化。
+
+### Investment Horizon vs Maturity｜投资期限与到期期限
+
+- **Investment Horizon（投资期限）**：投资者计划持有某项资产的时间。
+- **Maturity（债券到期期限）**：债券合同约定的本金偿还日期／剩余期限。
+- **区别**：多数普通债券有到期日，普通股通常没有固定到期日；不能推断债券指数的成分证券普遍具有比股票更长的 Investment Horizon。
+
+### 与固定收益模块已整理知识点的联系
+
+参见：[[07-Fixed-Income/Fixed-Income-Basics|Fixed Income Basics]] 中的 **Bond Indexes and Equity Indexes｜债券指数与股票指数**。
+
+广泛债券指数（Broad Bond Index）与广泛股票指数（Broad Equity Index）比较时，债券指数往往：
+- **More Constituents（成分数量更多）**：单个发行人可能发行多个债券品种。
+- **Higher Turnover（成分周转率较高）**：债券到期、新发行及信用评级变化等影响纳入资格。
+- **Harder Full Replication（完全复制更难）**：成分多、流动性差异和场外交易提高复制难度。
+- **More Classification Dimensions（分类维度更多）**：债券具体合约特征较丰富。
+
+### 典型题：Compared to equity indexes ...
+
+> Compared to equity indexes, the constituent securities of fixed-income indexes are most likely:
+
+- **A. With longer investment horizon — 错误**：投资者持有期限与证券约定到期期限不同，不能概括债券的持有期限更长。
+- **B. With frequent and transparent price data — 错误**：许多债券在 OTC 市场交易、成交不频繁，价格数据通常不如活跃股票透明。
+- **C. Classified along more dimensions — 正确**：债券按发行人、期限、信用评级、票息、币种、偿付优先级等更多维度分类。
+
+**考试速记**：Bond Index → More Dimensions + Less Transparent Pricing + Higher Turnover + Harder Replication。
+
+## 10. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -485,5 +538,6 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 - [ ] 能区分 Shelf Registration、Dividend Reinvestment Plan 与 Private Placement
 - [ ] 能计算 Price-Weighted Index 的 Price Return，并明确忽略 Dividends
 - [ ] 能说明何时不能直接用初末股价和计算收益率（除数调整）
+- [ ] 能解释债券指数为什么有更多分类维度，以及债券价格为何通常不如活跃股票透明
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
