@@ -1795,6 +1795,26 @@ tags: [CFA-L1, Vocabulary]
 - **Private Information** — 私有信息
   - 未充分公开的信息；强式有效假说的信息集合包含此类信息
 
+## Equity Investments｜有效市场与主动被动基金表现
+
+- **Actively Managed Fund** — 主动管理基金
+  - 通过研究、择股或择时寻求超额收益，通常承担较高研究管理与交易成本
+
+- **Passively Managed Fund** — 被动管理基金
+  - 通常跟踪指数或按规则持仓，管理与研究成本往往较低
+
+- **Outperform / Underperform** — 跑赢／跑输
+  - 相对于比较对象取得更高／更低的投资表现；须分清净收益口径
+
+- **Gross Return** — 扣费前收益率
+  - 尚未扣除有关投资费用的收益率，具体仍需看披露口径
+
+- **Net Return** — 扣费后净收益率
+  - 投资收益扣除相关管理和交易成本后的收益口径
+
+- **Management Fees / Trading Costs** — 管理费／交易成本
+  - 半强式有效市场中，主动基金更高的投资成本是其净收益可能跑输的关键原因
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
