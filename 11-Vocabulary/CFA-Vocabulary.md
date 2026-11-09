@@ -1815,6 +1815,32 @@ tags: [CFA-L1, Vocabulary]
 - **Management Fees / Trading Costs** — 管理费／交易成本
   - 半强式有效市场中，主动基金更高的投资成本是其净收益可能跑输的关键原因
 
+## Equity Investments｜累积、参与型及可转换优先股
+
+- **Preferred Shares / Preference Shares** — 优先股
+  - 通常在股息与清算分配方面优先于普通股，具体权利取决于发行条款
+
+- **Cumulative Preference Shares** — 累积优先股
+  - 欠付优先股息可累积，并在普通股股息支付前优先补足
+
+- **Noncumulative Preference Shares** — 非累积优先股
+  - 当期未支付的股息通常不会累积结转到以后期间
+
+- **Dividends in Arrears** — 积欠股息／以前年度未付股息
+  - 累积优先股未支付而结转的股息，不等于公司每年必定支付现金
+
+- **Participating Preference Shares** — 参与型优先股
+  - 可能在约定优先股息之外参与额外分配
+
+- **Additional Dividend** — 额外股息
+  - 参与型优先股在符合约定条件时可能取得的额外分红
+
+- **Convertible Preference Shares** — 可转换优先股
+  - 根据发行条款转换成约定数量的普通股
+
+- **Conversion Ratio** — 转换比例
+  - 每股可转换证券可以换取的普通股数量
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
