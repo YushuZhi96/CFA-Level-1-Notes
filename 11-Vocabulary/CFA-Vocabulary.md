@@ -1841,6 +1841,26 @@ tags: [CFA-L1, Vocabulary]
 - **Conversion Ratio** — 转换比例
   - 每股可转换证券可以换取的普通股数量
 
+## Equity Investments｜普通优先股的典型特征
+
+- **Nonparticipating Preference Shares** — 非参与型优先股
+  - 通常只获得约定优先股息，不直接参与超出约定金额的额外利润分配
+
+- **Fixed Preferred Dividend** — 固定优先股息
+  - 普通优先股常见的预定股息金额或比率；不等于公司保证每期一定支付
+
+- **Floating-Rate Preferred Dividend** — 浮动优先股息
+  - 股息率可根据参考指标调整，是“优先股股息全部固定”说法的例外
+
+- **Voting Rights** — 投票权／表决权
+  - 普通股通常有一般表决权；优先股通常无一般表决权但可能享有特别投票权
+
+- **Liquidation Preference** — 清算分配优先权
+  - 优先股通常在清算剩余分配上先于普通股、后于公司债权人
+
+- **Operating Performance** — 公司经营业绩
+  - 普通优先股通常不直接分享额外经营利润，但其价值与支付风险仍受公司经营影响
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
