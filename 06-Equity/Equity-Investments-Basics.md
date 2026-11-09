@@ -831,6 +831,37 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - **定义**：与普通股（Common Shares）相比，优先股通常在**股息分配和清算剩余资产分配**方面享有某些优先权；具体股息、投票、转换或参与权须以发行条款为准。
 - **重要分类维度**：Cumulative（是否累积未付股息）、Participating（是否参与额外分配）、Convertible（是否具有转换权）。这三类特征**不是完全互斥**的；同一优先股可能同时有多个特征。
 
+### Ordinary Preference Shares vs Common Shares｜普通优先股与普通股的基本特征
+
+**普通／非参与型优先股（Ordinary / Nonparticipating Preference Shares）**通常有以下特征：
+
+1. **股息相对固定（Usually Fixed Dividend）**：优先股通常约定固定股息金额或固定股息率；其实际支付不保证每年发生，且某些优先股可采用 Floating-Rate Preferred Dividend（浮动股息）条款。因此不能说所有优先股的股息都必然完全不变。
+2. **通常不具有一般投票权（Generally No Ordinary Voting Rights）**：普通股持有人通常可行使公司治理投票权；优先股一般不享有普通股式的日常表决权，但在重大事项、股息拖欠或特定条款下可能取得特殊表决权。
+3. **通常不分享额外经营业绩分配（Generally Nonparticipating in Operating Profits）**：经营利润大幅增加时，非参与型优先股持有人通常仍按约定股息获得优先分配，不像普通股那样分享剩余利润的增长；但其市场价格、违约风险和实际支付能力仍受公司经营表现影响。
+4. **股息和清算优先权（Dividend and Liquidation Preference）**：在相应条件和法律规定下，优先股股东在股息支付与清算剩余分配顺序上通常先于普通股，但一般排在公司债权人之后。
+
+#### Common Shares vs Preference Shares｜对比
+
+| 特征 | Common Shares（普通股） | Preference Shares（通常非参与型优先股） |
+|---|---|---|
+| 股息金额 | 不保证，通常随董事会分配和公司经营变化 | 常有约定股息金额／比率，未必保证支付 |
+| 分红顺序 | 通常后于优先股 | 通常先于普通股 |
+| 一般投票权 | 通常具有 | 通常没有；可能有特殊表决权 |
+| 额外利润分享 | 具有剩余利润分配参与机会 | 通常不直接参与额外利润分配 |
+| 清算顺序 | 最后剩余权益 | 通常先于普通股、后于债权人 |
+
+**注意**：这里说的不参与经营业绩，专指通常不具有普通股式的额外利润分配权，**不是说优先股完全不受企业经营风险影响**，也不适用于具有额外分红参与权的 Participating Preference Shares（参与型优先股）。
+
+#### 本题：Claire Durant 的优先股研究报告
+
+> Claire Durant, an associate in Golden Capital, is writing a research report on the practical use of preference shares. Which of the following statements she mentions is one of the characteristics of preference shares?
+
+- **A. The dividends of preference shares vary. — 错误（就本题的典型优先股特征而言）**：普通优先股通常约定较固定的股息，不是像普通股分红那样自然随经营利润波动；不过现实中也存在浮动股息等例外。
+- **B. Preference shares typically have voting rights. — 错误**：普通优先股通常没有一般表决权，某些发行条款可设特别投票权。
+- **C. Preference shares do not share in the operating performance of the company. — 正确（按典型非参与型优先股理解）**：不以普通股方式分享经营利润增长带来的额外分红，但仍暴露于发行人的经营和信用风险。
+
+**考试关键词**：Usually Fixed Dividend + Usually Nonvoting + Normally Nonparticipating (except Participating Preferred)。
+
 ### Cumulative Preference Shares｜累积优先股
 
 - **定义**：若优先股当年约定的股息没有支付，欠付股息可以**累积到以后年度**，并在普通股分红之前优先补付。
@@ -911,5 +942,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能解释 Capital Restrictions 如何限制 Price Discovery 并阻碍 Market Efficiency
 - [ ] 能说出弱式、半强式、强式的嵌套信息范围，并识别技术分析长期获利对应弱式无效
 - [ ] 能区分 Cumulative、Participating、Convertible 的股息和转换权利
+- [ ] 能解释普通优先股的通常固定股息、一般投票权限制及非参与性（包括例外）
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
