@@ -1020,7 +1020,46 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **交叉科目**：[[09-Alternative-Investments/INDEX|Alternative Investments（另类投资）]]。
 
-## 17. 复习清单
+## 17. Business Model Elements vs Pricing Power｜商业模式要素与定价权
+
+### Business Model｜商业模式
+
+- **定义**：描述一家企业向哪些客户提供什么产品或服务、如何交付产品、获得收入及组织核心资源与供应关系的经营安排。
+- **本题教材解释列出的核心要素**：
+  1. Products or Services（产品或服务）：公司销售什么。
+  2. Customers / Customer Base（客户／客户群）：公司向谁销售。
+  3. Sales Channels（销售渠道）：公司通过什么渠道销售。
+  4. Pricing and Payment Arrangements（产品如何定价和付款）：向客户收取多少钱、如何收款。
+  5. Raw Materials and Suppliers（原材料与供应商）：运营需要哪些关键投入及供应来源。
+- **重要辨析**：描述“产品如何定价”的 **Pricing Method / Pricing Strategy（定价方式／策略）**，不等于评价“公司是否有能力提高售价”的 **Pricing Power（定价权）**。题目按教材对商业模式组成要素的口径，将后者放在公司竞争地位／盈利能力分析中。
+
+### Pricing Power｜定价权
+
+- **定义**：企业在不显著损失客户需求或市场份额的情况下，维持较高价格、提高售价或转嫁成本上升的能力。
+- **为什么重要**：能够体现竞争优势（Competitive Advantage）、客户忠诚度（Customer Loyalty）、品牌、产品差异化（Product Differentiation）及竞争环境，影响利润率与企业价值。
+- **是否与商业模式无关？** 并非无关。定价权可能影响商业模式的盈利表现，只是**在本题对基本组成要素的分类中，不直接作为商业模式的组成部分**。
+- **例子**：同样通过线上渠道销售产品，两家公司都采用单件定价，但有品牌优势的一家公司可能更容易提价而不大量失去顾客；前者是销售渠道和定价安排，后者是定价权。
+
+### Pricing vs Pricing Power｜两个概念的对比
+
+| 概念 | 英文 | 回答的问题 | 在本题中的定位 |
+|---|---|---|---|
+| 定价安排／定价方式 | Pricing Method / Pricing Strategy | 产品定多少钱、采取怎样的收费方式？ | 商业模式的组成 |
+| 定价权 | Pricing Power | 公司能不能提高价格而不大量流失客户？ | 竞争能力／盈利能力分析 |
+
+### 典型 CFA 题：Which is NOT regarded as a business model element?
+
+> Which of the following is not regarded as a business model element?
+
+- **A. The products or services the company sells — 错误（不选）**：公司提供什么产品和服务，是商业模式的核心要素。
+- **B. Sales channels — 错误（不选）**：通过什么渠道接触客户并完成销售，也是商业模式要素。
+- **C. Company's pricing powers — 正确（选 C）**：题目区分了商业模式中的定价安排与公司的定价能力（Pricing Power）；后者更偏向竞争优势分析。
+
+**考试速记**：Products / Customers / Channels / How Pricing & Payment Work = Business Model；Ability to Raise Price = Pricing Power。
+
+**范围提醒**：商业模式框架在实践中存在不同划分方法，不应推导成“任何商业模式研究都不能涉及定价权”；此处是按用户所做 CFA 题目及其解释进行分类。
+
+## 18. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1048,5 +1087,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能解释普通优先股的通常固定股息、一般投票权限制及非参与性（包括例外）
 - [ ] 能区分 Cumulative Voting、Statutory Voting、Proxy Voting，以及累积股息与累积选票的区别
 - [ ] 能通过 Seed / Start-Up Capital 识别 VC，通过大量 Debt Acquisition 识别 LBO，并判断 VC 的报价与流动性
+- [ ] 能区分 Business Model 中的 Pricing Method 与 Competitive Advantage 里的 Pricing Power
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
