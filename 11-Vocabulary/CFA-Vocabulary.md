@@ -1884,6 +1884,35 @@ tags: [CFA-L1, Vocabulary]
 - **Total Votes** — 总投票票数
   - 累积投票典型公式为持股数量 × 同次待选董事席位数量
 
+## Equity Investments｜风险投资与杠杆收购
+
+- **Venture Capital (VC)** — 风险投资／创业投资
+  - 常为种子期、初创期或早期高成长企业提供股权融资
+
+- **Seed Capital** — 种子期资本
+  - 为产品概念、研发或创业早期探索提供的资金
+
+- **Start-Up Capital** — 初创期资金
+  - 帮助初创企业启动业务、开发产品或进入市场的融资
+
+- **Private Equity** — 私募股权投资
+  - 涵盖风险投资、收购投资等主要股权投资策略
+
+- **Leveraged Buyout (LBO)** — 杠杆收购
+  - 使用大量债务融资并配合股权资金收购企业或控制权
+
+- **Debt Financing** — 债务融资
+  - 通过借款或发行债务获取资金；LBO 的典型融资特征
+
+- **Take Private** — 私有化／退市收购
+  - 收购上市公司的股权并可能使其不再公开上市交易
+
+- **Quoted Market Price** — 公开市场报价
+  - 活跃证券交易市场可获得的报价；VC 企业股权通常没有持续公开报价
+
+- **Illiquidity** — 低流动性／不易变现
+  - VC 股权往往难以迅速出售并按可靠公开市场价变现
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
