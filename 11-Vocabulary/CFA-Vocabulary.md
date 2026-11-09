@@ -1956,6 +1956,35 @@ tags: [CFA-L1, Vocabulary]
 - **Price Elasticity of Demand** — 需求价格弹性
   - 需求量对价格变化的敏感程度，影响企业的提价空间
 
+## Financial Statement Analysis｜经营费用分类
+
+- **Classification by Nature** — 按费用性质分类
+  - 按实际消耗的资源或费用类别归类，例如员工薪酬、原材料、办公用品和折旧
+
+- **Classification by Function** — 按费用功能分类
+  - 按费用所服务的经营活动归类，例如销售成本、销售与营销、管理及研发
+
+- **Classification by Cost Behavior** — 按成本习性分类
+  - 根据成本对活动量或产量变化的反应，区分变动成本和固定成本
+
+- **Operating Costs / Operating Expenses** — 经营成本／经营费用
+  - 企业日常经营过程中发生的成本费用；需辨认具体分类口径
+
+- **Sales and Marketing Expenses** — 销售与营销费用
+  - Functional Classification 中用于销售推广、营销等经营活动的费用
+
+- **General and Administrative Expenses (G&A)** — 一般及行政费用
+  - Functional Classification 中用于一般管理及行政工作的费用
+
+- **Research and Development Expenses (R&D)** — 研发费用
+  - 功能分类中的研究开发支出；费用化或资本化取决于适用准则
+
+- **Variable Cost** — 变动成本
+  - 在相关范围内，成本总额随着业务活动量变化
+
+- **Fixed Cost** — 固定成本
+  - 在相关范围内，总额通常不随短期业务活动量同步变化
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
