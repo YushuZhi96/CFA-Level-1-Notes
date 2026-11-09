@@ -536,7 +536,84 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 
 **考试速记**：Bond Index → More Dimensions + Less Transparent Pricing + Higher Turnover + Harder Replication。
 
-## 10. 复习清单
+## 10. Alternative Investment Indices｜另类投资指数基础概念
+
+### Alternative Investment Indices｜另类投资指数
+
+- **定义**：跟踪传统股票和债券以外的特定投资类别表现的指数。本题重点包括 **Commodity Indices（商品指数）**、**Hedge Fund Indices（对冲基金指数）** 和 **Real Estate Indices（房地产指数）**。
+- **考法**：分别识别商品期货指数的收益来源、对冲基金指数的样本偏差，以及房地产指数的常见类型。
+
+### Commodity Index｜商品指数
+
+- **定义**：按指数规则选取和配置一种或多种商品相关资产或期货合约，以衡量相关商品投资表现的指数。
+- **典型投资型商品指数**：常由 Commodity Futures Contracts（商品期货合约）构成，而不是直接持有黄金、原油、农产品等实物商品（Physical Commodities）。
+- **Underlying Commodity（标的商品）**：期货合约所依据的实物商品或其价格；其现货价格（Spot Price）表现不一定等于商品期货指数收益。
+- **为什么指数与标的商品回报可能不同**：
+  1. 期货到期前必须按照规则展期（Rolling），不同期货期限的价格结构会影响收益。
+  2. 不同商品指数的成分选择、权重（Weighting Method）及展期方法（Roll Method）可能不同。
+  3. 全收益指数（Total Return Index）可能计入支持期货头寸的现金抵押品收益，而现货价格指数不计入。
+
+### Spot Return, Roll Return, Collateral Return｜商品期货收益的三个常见来源
+
+在**完全现金抵押的商品期货投资（Fully Collateralized Commodity Futures Investment）**、使用标准的收益分解口径时：
+
+\[
+R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
+\]
+
+- **Spot Return（现货价格收益）**：标的商品现货价格变化形成的收益贡献。
+- **Roll Return / Roll Yield（展期收益）**：期货合约到期前，按策略卖出原合约、买入后续合约所产生的收益影响，受到期货期限结构（Term Structure）的影响。
+- **Collateral Return / Collateral Yield（抵押品收益）**：现金抵押品或与之类似的短期安全资产产生的回报。
+- **重要限制**：并非每一种商品指数都包含相同收益项目。有 Price / Spot、Excess Return、Total Return 等不同指数口径；题干仅说 *could be different*，不意味着每种商品指数都一定不同于现货表现。
+- **示例（教学假设）**：现货上涨 10%，展期收益 −4%，现金抵押品收益 +2%，总收益约 8%。说明期货指数收益不必与标的商品现货涨幅一致。
+
+**参考**：[CFA Institute — Introduction to Commodities and Commodity Derivatives](https://www.cfainstitute.org/insights/professional-learning/refresher-readings/2026/introduction-commodities-commodity-derivatives)。
+
+### Hedge Fund Index｜对冲基金指数
+
+- **定义**：依据纳入的对冲基金（Hedge Funds）报告的业绩，综合衡量某类或某组基金的表现。
+- **关键问题**：对冲基金的业绩披露可能是自愿的，样本并非一定能代表全部基金。
+
+#### Survivorship Bias｜幸存者偏差
+
+- **定义**：已关闭、业绩较差或停止报告的基金可能被指数数据库剔除，留下的基金业绩较好，使指数结果偏高。
+- **例子**：五只等权基金收益分别为 +20%、+15%、+10%、−30%、−40%。若只保留前三只“幸存基金”，平均收益为 +15%；全部纳入的平均收益为 −5%。该假设仅用来说明样本筛选对报告结果的影响。
+- **考试陷阱**：*Hedge fund indices do not suffer from survivorship bias* → **错误**。对冲基金指数恰恰常被提醒存在此类偏差。
+
+#### Backfill Bias｜回填偏差／历史业绩回填偏差
+
+- **定义**：基金开始向指数数据库报告时，可能选择将此前表现良好的历史业绩一起补录，使历史指数回报出现向上偏差。
+- **区别**：Survivorship Bias 是**表现差的基金退出数据库**；Backfill Bias 是**后来加入者可能选择性提交较好的历史业绩**。两者都可能高估业绩。
+
+### Real Estate Index｜房地产指数
+
+本题常见的三类：
+
+| 类别 | 英文 | 数据基础与特点 |
+|---|---|---|
+| 评估价值指数 | Appraisal-Based Index | 定期专业评估地产价值；估值可能滞后、平滑波动 |
+| 重复销售指数 | Repeat-Sales Index | 使用同一房产不同时间的重复成交价格衡量变化 |
+| 房地产投资信托基金指数 | REIT Index | 跟踪上市或符合指数标准的 REITs 证券市场表现 |
+
+- **REIT (Real Estate Investment Trust，房地产投资信托基金)**：以房地产资产、相关权益或抵押贷款等为主要投资对象的投资工具；符合规则的上市 REIT 证券可纳入 REIT Index。
+- **C 选项为什么错**：*Real estate indices can only be classified into appraisal indices and repeat sales indices* 忽略了 REIT Index（房地产投资信托基金指数）。**Only** 是绝对化关键词。
+
+### 本题：Regarding the various alternative investment indices ...
+
+> Regarding the various alternative investment indices, which of the following is most accurate?
+
+- **A. The performance of commodity indices could be different from the underlying commodities'. — 正确。** 商品期货指数可因期货展期、权重和抵押品收益而不同于标的商品现货表现。
+- **B. Hedge fund indices do not suffer from survivorship bias. — 错误。** 对冲基金指数可能存在幸存者偏差，表现较差或关闭的基金不再计入数据库会高估历史业绩。
+- **C. Real estate indices can only be classified into appraisal indices and repeat sales indices. — 错误。** 还存在 REIT Index；“only” 过于绝对。
+
+**考试速记**：
+1. **Commodity Index ≠ Spot Commodity Return**（商品期货指数收益不等于商品现货涨幅）。
+2. **Hedge Fund Index → Survivorship & Backfill Bias**（对冲基金指数留意样本偏差）。
+3. **Real Estate Index → Appraisal + Repeat Sales + REIT**（房地产指数三种常见类型）。
+
+**相关科目**：[[09-Alternative-Investments/INDEX|另类投资（Alternative Investments）]]。本题出现在 Equity Investments 中的 Security Market Indices 主题，与另类投资模块存在交叉。
+
+## 11. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -553,5 +630,7 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 - [ ] 能说明何时不能直接用初末股价和计算收益率（除数调整）
 - [ ] 能解释债券指数为什么有更多分类维度，以及债券价格为何通常不如活跃股票透明
 - [ ] 能解释 Broad Universe、Higher Index Turnover、Dealer Quotes，并识别 EXCEPT 题目
+- [ ] 能解释商品指数为何可能与商品现货价格表现不同（期货展期、权重、抵押品收益）
+- [ ] 能区分 Survivorship Bias 与 Backfill Bias，并列出房地产指数的三种常见类型
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
