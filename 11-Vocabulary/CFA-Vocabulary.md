@@ -2222,6 +2222,32 @@ tags: [CFA-L1, Vocabulary]
 - **Going Concern** — 持续经营
   - 企业预计在可预见未来继续经营的假设
 
+## Equity Investments｜两阶段股息贴现模型
+
+- **Two-Stage Dividend Discount Model (Two-Stage DDM)** — 两阶段股息贴现模型
+  - 先预测第一阶段的股息，再将稳定增长期的终值与股息逐年折现
+
+- **Current Dividend per Share (D₀)** — 当前每股股息
+  - 预测未来股息的起点；D₁ = D₀ × (1 + g_H)
+
+- **Dividend per Share in Year 1 (D₁)** — 第一年预期每股股息
+  - 第一年末的预期现金股息
+
+- **Dividend per Share in Year 2 (D₂)** — 第二年预期每股股息
+  - 若从第二年进入稳定增长，则 D₂ = D₁ × (1 + g_L)
+
+- **Terminal Value at Year 1 (P₁)** — 第一年末终值
+  - P₁ = D₂ / (r − g_L)，以第一年末为估值时点
+
+- **Required Rate of Return on Equity (r)** — 股权必要收益率
+  - 股票股息与终值折现时使用的必要收益率
+
+- **First-Stage Growth Rate (g_H)** — 第一阶段股息增长率
+  - 本题第一年为5%
+
+- **Stable Growth Rate (g_L)** — 长期稳定股息增长率
+  - 本题第二年开始为2%，稳定增长模型需 r > g_L
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
