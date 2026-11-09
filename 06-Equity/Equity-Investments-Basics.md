@@ -1241,7 +1241,61 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 
 **限定**：产品价格高低只是常见识别线索，不是判断周期性的唯一标准；最终应关注需求与经济周期的敏感程度。
 
-## 22. 复习清单
+## 22. Competition, Cost Reduction and Gross Profit Margin｜竞争、成本下降与毛利率
+
+### Gross Profit Margin (GPM)｜毛利率
+
+\[
+\boxed{GPM=\frac{Revenue-COGS}{Revenue}\times100\%}
+\]
+
+- **Revenue（营业收入）**：销售商品或提供服务取得的收入。
+- **COGS / Cost of Goods Sold（销售成本）**：与已售商品或服务直接相关的成本。
+- **Gross Profit（毛利润）**：Revenue − COGS。
+- 毛利率表示每 1 元收入扣除销售成本后，剩余多少毛利润；它不是毛利润金额本身。
+
+### Cost Reduction under Tough Competition｜激烈竞争下的成本下降
+
+- **题干场景**：制造企业（Manufacturing Company）采用新技术（New Technology），单位生产成本（Unit Cost of Production）下降；同时行业竞争激烈（Tough Competition）。
+- **典型机制**：竞争者也可能采用新技术或通过价格竞争争夺客户，企业可能将成本节约（Cost Savings）通过降低售价（Lower Selling Price）传递给消费者（Pass Cost Savings to Consumers）。
+- 若售价与单位成本按相同比例下降，毛利率（Gross Profit Margin）可保持不变。技术降低成本本身并不自动意味着毛利率提高，关键还要看售价如何变化。
+- **本题预期答案**：在激烈竞争下，成本优势容易传递给客户，售价也会下降，毛利率最可能保持相同（Remain the Same）。
+
+### 数字例子：为什么毛利率可以不变？
+
+| 项目 | 新技术前 | 新技术后（激烈竞争） |
+|---|---:|---:|
+| Selling Price（单位售价） | 100 元 | 87.5 元 |
+| Unit COGS（单位销售成本） | 80 元 | 70 元 |
+| Unit Gross Profit（单位毛利润） | 20 元 | 17.5 元 |
+| Gross Profit Margin | 20% | 20% |
+
+- 新技术使单位成本从 80 元下降到 70 元。
+- 激烈竞争推动售价从 100 元下降到 87.5 元。
+- 毛利率计算：\((100-80)/100=20\%\)；新毛利率：\((87.5-70)/87.5=20\%\)。
+- **毛利润金额下降不等于毛利率下降**：每件商品毛利润由 20 元降至 17.5 元，但毛利率仍为 20%。
+
+### 对比：竞争强弱与定价权
+
+| 市场条件 | 成本下降后售价 | 毛利率可能的方向 |
+|---|---|---|
+| Tough Competition（竞争激烈） | 竞争者降价，成本节约较多传递给消费者 | 题目假设下通常不变 |
+| Strong Pricing Power（定价权强） | 企业可以维持原售价 | 成本下降可能提高毛利率 |
+| Price War（价格战） | 售价下降幅度可能超过成本下降幅度 | 毛利率也可能下降 |
+
+**注意**：这是一道以激烈竞争为条件的“most likely”题，并非普遍会计恒等式。真实结果取决于行业竞争、价格弹性、竞争者是否采用新技术、降价幅度、产品组合及成本结构。不能机械地认为所有成本下降都一定使毛利率不变。
+
+### 本题：XYZ Corporation — 新技术降低生产成本
+
+> XYZ Corporation is a manufacturing company in tough competition. Recently, a new technology has launched and would lead to a lower cost of production. Which of the following would most likely happen to gross profit margins?
+
+- **A. The gross profit margins would be lower — 错误**：题目没有说明售价降幅超过成本降幅；按激烈竞争下成本优势传递的典型机制，最可能不是毛利率下降。
+- **B. The gross profit margins would be the same — 正确**：竞争使企业把成本节约传递给客户，售价随成本下降，毛利率比例大致保持不变。
+- **C. The gross profit margins would be higher — 错误（本题条件下）**：若售价不变、成本下降，毛利率确实会上升；但激烈竞争使企业难以完全保留成本节约。
+
+**考试速记**：Lower Production Cost + Tough Competition → Lower Selling Price / Pass-through → Gross Margin Most Likely Unchanged；若企业拥有强定价权且售价不降，毛利率才更可能扩大。
+
+## 23. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -1274,5 +1328,6 @@ Company\ Profitability \approx Industry\ Base\ Rate + Company\text{-}Specific\ F
 - [ ] 能区分 Cost Leadership、Differentiation 与 Focus，并识别 Cost Focus / Differentiation Focus
 - [ ] 能区分 Industry Base Rate 与 Floor，并解释行业结构对长期盈利能力的影响
 - [ ] 能区分 Cyclical 与 Defensive Companies，并识别可推迟购买和大额商品特征
+- [ ] 能计算 Gross Profit Margin，并解释激烈竞争下成本下降为何可能传导为售价下降
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
