@@ -2057,6 +2057,29 @@ tags: [CFA-L1, Vocabulary]
 - **Economic Sensitivity** — 经济敏感度
   - 公司需求、收入或利润对宏观经济变化的敏感程度
 
+## Equity Investments｜成本下降与毛利率
+
+- **Gross Profit** — 毛利润
+  - Revenue − Cost of Goods Sold；是金额，不是利润率
+
+- **Selling Price** — 销售价格／售价
+  - 企业向客户销售单位产品收取的价格
+
+- **Unit Production Cost** — 单位生产成本
+  - 生产一单位产品发生的成本；与销售成本的具体会计归属需按存货及销售确认情况判断
+
+- **Cost Savings** — 成本节约
+  - 技术、效率或采购改善所带来的成本下降
+
+- **Cost Pass-through** — 成本节约传递／成本变化传导
+  - 企业因竞争而通过调整售价，将部分成本变化传递给客户
+
+- **Tough Competition** — 激烈竞争
+  - 竞争者之间争夺客户和市场份额的压力较强，可能限制企业保留成本优势的能力
+
+- **Price War** — 价格战
+  - 企业通过降价争夺客户，可能压低毛利率
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
