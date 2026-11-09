@@ -1763,6 +1763,38 @@ tags: [CFA-L1, Vocabulary]
 - **Liquidity** — 流动性
   - 在较低成本和价格影响下进行交易的能力；不同于信息有效性
 
+## Equity Investments｜有效市场假说三种形式
+
+- **Efficient Market Hypothesis (EMH)** — 有效市场假说
+  - 市场价格迅速、充分反映相关信息；区分弱式、半强式与强式
+
+- **Weak-Form Efficient** — 弱式有效市场
+  - 已反映历史价格与成交量等交易信息；技术分析不应持续获得异常收益
+
+- **Weak-Form Inefficient** — 弱式无效市场
+  - 历史交易信息仍可被系统性利用并获得风险调整后的超额收益
+
+- **Semi-Strong-Form Efficient** — 半强式有效市场
+  - 价格反映全部公开信息，包括历史交易数据与公开财报
+
+- **Strong-Form Efficient** — 强式有效市场
+  - 价格反映所有公开和非公开信息，假设最严格
+
+- **Technical Analysis** — 技术分析
+  - 根据历史价格、成交量和交易形态研判走势，关联弱式有效市场检验
+
+- **Fundamental Analysis** — 基本面分析
+  - 分析公司经营、财报、行业与估值等信息；公开资料与半强式有效有关
+
+- **Excess Return / Abnormal Return** — 超额收益／异常收益
+  - 相对于适用基准或风险调整后的收益差异，具体含义依题目口径而定
+
+- **Publicly Available Information** — 公开可得的信息
+  - 公司公开公告、财务数据、历史交易价格等，属于半强式有效市场的信息范围
+
+- **Private Information** — 私有信息
+  - 未充分公开的信息；强式有效假说的信息集合包含此类信息
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
