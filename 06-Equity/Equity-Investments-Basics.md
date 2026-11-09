@@ -723,7 +723,64 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 
 **考试速记**：Overconfidence = Trust Myself Too Much；Loss Aversion = Fear Losses More；Information Cascades = Follow Others' Actions。
 
-## 12. 复习清单
+## 12. Calendar Effects and Tax-Loss Harvesting｜日历效应与税损收割
+
+### Market Anomalies / Calendar Effects｜市场异象／日历效应
+
+- **Market Anomaly（市场异象）**：观察到的某种收益模式，可能偏离简单有效市场假设中的随机或可预测性较弱的收益表现。某种历史异象不代表始终存在、可以无风险获利。
+- **Calendar Effect（日历效应）**：证券收益率在特定月份、假期前或月末月初出现历史上的季节性差异。常见的考点有 January Effect、Holiday Effect、Turn-of-the-Month Effect。
+
+### Tax-Loss Harvesting｜税损收割／税务亏损实现策略
+
+- **定义**：投资者出于税务安排，卖出账面亏损的证券以实现亏损（Realized Capital Loss），在适用税法允许的情况下用来抵减资本利得或满足其他税务安排。
+- **题目场景**：对冲基金公司 Fantasy 在 Fiscal Year End（财年末）前出售部分股票，以实施 Tax-Loss Harvesting。
+- **可能的市场机制**：若许多投资者在日历年末集中卖出表现不佳的股票，可能产生额外卖压；部分投资者在新年重新配置或买回资产时，可能推动反弹，与 January Effect 的一种解释相关。
+- **税法限制**：并非任何卖出亏损股票都一定能享受税务抵扣；适用法律、税务主体、交易性质及美国 Wash Sale（洗售规则）等限制可能影响税务结果。题目考查的是经典市场机制，而非具体税法合规。
+
+### January Effect｜一月效应
+
+- **定义**：股票市场历史研究中曾观察到一月份的收益率相对其他月份偏高，尤其常见于小市值股票（Small-Cap Stocks）的讨论。
+- **可能的解释**：年末税损收割导致部分亏损股票被集中抛售，年初卖压消退或出现重新买入，使一月份可能表现较好。
+- **考试关键词**：Year-End Tax-Loss Selling、Tax-Loss Harvesting、January Rebound、Small-Cap Stocks。
+- **不是必然规律**：一月效应并非每年都会出现，其显著性和可交易性可能随时期、市场、税制及交易成本变化。
+- **时间点辨析**：题目说的是 *fiscal year end*；CFA 题目将其与典型年末税损出售联系起来时，按题意选 January Effect。但严格说，财年末不一定是12月底；历史“一月效应”通常针对日历年初，而非任何公司的财年初。
+
+### Holiday Effect｜假期效应
+
+- **定义**：某些市场历史数据中，节假日前的交易日可能出现相对异常的收益表现（Pre-Holiday Returns）。
+- **关键词**：Before a Holiday、Pre-Holiday Trading、Holiday-Related Seasonality。
+- **与本题区别**：题干明确为 **Tax-Loss Harvesting（税损收割）** 卖出，而不是因为假日前的交易季节性，所以不能只看到年末就选 Holiday Effect。
+
+### Turn-of-the-Month Effect｜月末月初效应
+
+- **定义**：部分市场历史上在月末最后一个或几个交易日以及次月最初几个交易日，可能出现相对较高的收益。
+- **关键词**：Last Trading Days of a Month、First Trading Days of Next Month、Month-End Flows。
+- **与本题区别**：该现象围绕每个月的月末月初交易日，而本题强调出于税务目的的**年末**卖出，侧重 January Effect。
+
+### 三个效应对比
+
+| 效应 | 英文 | 核心时间特征 | 典型解释或关键词 |
+|---|---|---|---|
+| 一月效应 | January Effect | 日历年一月份 | Year-End Tax-Loss Selling、年初反弹 |
+| 假期效应 | Holiday Effect | 节假日前后，尤其假期前交易日 | Pre-Holiday Returns |
+| 月末月初效应 | Turn-of-the-Month Effect | 每个月月末／次月月初 | Month-End / Beginning-of-Month |
+
+### 本题分析：Fantasy, a hedge fund company ...
+
+> Fantasy, a hedge fund company, sold some of the stocks in the portfolio before fiscal year end to implement tax-loss harvesting. The company's action may lead to:
+
+- **A. January Effect — 正确**：题干强调出于 Tax-Loss Harvesting 在年末卖出证券，符合一月效应的经典解释机制。
+- **B. Holiday Effect — 错误**：Holiday Effect 侧重节假日及节假日前后的异常收益，而非税损出售。
+- **C. Turn-of-the-Month Effect — 错误**：Month-End Effect 主要与各月月末月初的收益变化有关，并非专门描述年末税损收割与次年一月份的潜在反弹。
+
+**考试判断**：
+1. **Year-End Tax-Loss Selling → January Effect**。
+2. **Pre-Holiday Return → Holiday Effect**。
+3. **Last / First Trading Days of Month → Turn-of-the-Month Effect**。
+
+**一句话速记**：Tax-Loss Harvesting at Year-End → January Effect；Holiday → 假日前；Turn-of-the-Month → 每月交界。
+
+## 13. 复习清单
 
 - [ ] 能解释 Hedger、Speculator、Investor、Securitizer 的区别
 - [ ] 能识别农民卖出远期与航空公司买入远期分别在对冲什么风险
@@ -744,5 +801,6 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能解释商品指数为何可能与商品现货价格表现不同（期货展期、权重、抵押品收益）
 - [ ] 能区分 Survivorship Bias 与 Backfill Bias，并列出房地产指数的三种常见类型
 - [ ] 能区分 Overconfidence、Loss Aversion 与 Information Cascades，掌握关键词和例子
+- [ ] 能根据 Tax-Loss Harvesting、Pre-Holiday、Month-End 判断三种日历效应
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
