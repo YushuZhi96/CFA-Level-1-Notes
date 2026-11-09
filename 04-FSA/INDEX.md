@@ -3,6 +3,7 @@
 [[00-总目录|← 返回总目录]]
 
 ## 知识点目录
+- [[Operating-Expense-Classification|经营费用按性质、功能与成本习性分类（Operating Expense Classification）]]（2026-11-09，🟡）
 
 - [[FSA-Formula-Handbook|FSA 常用公式总表（FSA Formula Handbook）]]（2026-11-04，🟡）
 
