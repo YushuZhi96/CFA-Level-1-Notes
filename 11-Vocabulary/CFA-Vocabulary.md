@@ -1913,6 +1913,29 @@ tags: [CFA-L1, Vocabulary]
 - **Illiquidity** — 低流动性／不易变现
   - VC 股权往往难以迅速出售并按可靠公开市场价变现
 
+## Equity Investments｜商业模式与定价权
+
+- **Business Model** — 商业模式
+  - 描述公司卖什么、卖给谁、通过什么渠道以及如何定价、收款与组织供应
+
+- **Products or Services** — 产品或服务
+  - 企业提供给客户的核心商品或服务；商业模式的基本组成要素
+
+- **Sales Channels** — 销售渠道
+  - 企业触达客户、销售产品和完成交易的路径
+
+- **Pricing Method / Pricing Strategy** — 定价方式／定价策略
+  - 产品收费与定价安排；本题属于商业模式的内容
+
+- **Pricing Power** — 定价权
+  - 在不显著流失客户情况下提价或转嫁成本的能力，常用于竞争优势分析
+
+- **Customer Base** — 客户群
+  - 公司主要服务的顾客或客户类别，属于商业模式分析要素
+
+- **Competitive Advantage** — 竞争优势
+  - 企业相较竞争者在产品、品牌、成本或定价等方面的可持续优势
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
