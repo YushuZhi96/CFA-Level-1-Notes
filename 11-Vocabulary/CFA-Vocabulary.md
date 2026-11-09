@@ -595,6 +595,27 @@ tags: [CFA-L1, Vocabulary]
   - 现金流量表中与权益和债务融资相关的活动
 
 
+## Financial Statement Analysis｜EBITDA 与债务预测
+
+- **EBITDA** — 息税折旧摊销前利润
+  - EBITDA = EBIT + Depreciation + Amortization；若题目以 Operating Income 代表 EBIT，可在其基础上加回折旧与摊销
+
+- **Debt-to-EBITDA Ratio** — 债务／EBITDA 比率
+  - Debt / EBITDA；以倍数表示债务相对于 EBITDA 的规模
+  - 反推 Debt = Debt-to-EBITDA Multiple × EBITDA
+
+- **Capital Expenditures (CapEx)** — 资本支出
+  - 为购建或改良长期资产发生的支出；常用于预测 PP&E 变动
+
+- **Depreciation Expense** — 折旧费用
+  - 固定资产成本在使用寿命内的系统分摊；通常作为非现金费用加回 EBITDA
+
+- **Beginning Net PP&E** — 期初净固定资产
+  - 期间开始时固定资产账面净额；题目可据此估算当期折旧
+
+- **Operating Income** — 营业利润
+  - 企业经营活动产生的利润；题目若将其作为 EBIT 口径，可用于计算 EBITDA
+
 ## Financial Statement Analysis｜财务报表分析（补充）
 
 - **Common-Size Financial Statements** — 共同比财务报表
