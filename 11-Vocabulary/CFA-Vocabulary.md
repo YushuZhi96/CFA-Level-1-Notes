@@ -1694,6 +1694,26 @@ tags: [CFA-L1, Vocabulary]
 - **Real Estate Investment Trust (REIT)** — 房地产投资信托基金
   - 主要持有或投资房地产及相关资产的投资工具
 
+## Equity Investments｜投资者行为偏差
+
+- **Behavioral Finance** — 行为金融学
+  - 研究心理、认知及社会互动对投资决策和市场表现的影响
+
+- **Overconfidence Bias** — 过度自信偏差
+  - 高估个人的信息处理、分析或预测能力；Overconfidence 已在 Ethics 部分收录
+
+- **Loss Aversion** — 损失厌恶
+  - 同等金额损失带来的心理痛苦往往比获得收益的快乐更强
+
+- **Information Cascades** — 信息瀑布效应／信息级联
+  - 从前面投资者的行动推断信息，并可能忽略自己的私人信息、跟随决策
+
+- **Private Information** — 私人信息
+  - 个人掌握但未向所有市场参与者同等公开的信息；在信息级联中可能被忽略
+
+- **Excessive Trading** — 过度交易
+  - 过度自信可能促使投资者频繁交易并增加成本
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
