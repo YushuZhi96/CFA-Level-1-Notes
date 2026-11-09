@@ -399,6 +399,60 @@ Index\ Level=\frac{\sum_{i=1}^{N}P_i}{D}
 - **为什么需要 Index Divisor（指数除数）？** 当出现拆股（Stock Split）、成分股调整等不应单凭机械价格变动就令指数跳变的事项时，指数编制者可能调整除数以维持连续性。
 - **权重理解**：在同一计算时点、常规价格加权结构下，股票 \(i\) 的相对权重为 \(w_i=P_i/\sum P_i\)。它不是 Equal-Weighted（等权重）或 Market-Capitalization-Weighted（市值加权）。
 
+### Market-Capitalization-Weighted Index｜市值加权指数
+
+- **定义**：按每只成分股的市值（Market Capitalization / Market Value）大小分配指数权重；市值越大，在其他条件相同时对指数收益率的影响越大。
+- **Market Capitalization（股票总市值）** = Share Price（每股价格） × Shares Outstanding（流通在外的股份总数）。
+- **注意**：Shares Outstanding 是已发行且在外流通的股份总数，不一定等于实际可自由交易的 Free Float Shares（自由流通股份）。
+
+**完全市值加权指数（Full Market-Capitalization-Weighted Index）的权重公式**：
+
+\[
+\boxed{w_i=\frac{P_iQ_i}{\sum_{j=1}^{N}P_jQ_j}}
+\]
+
+其中 \(P_i\) 为第 \(i\) 只股票价格，\(Q_i\) 为其流通在外股份数，\(w_i\) 为指数权重。权重求和为 100%。
+
+**指数收益率**（固定成分、无额外公司行动和权重重构的简单情形）：
+
+\[
+R_{index}=\sum_{i=1}^{N}w_{i,0}\times R_i
+\]
+
+其中 \(w_{i,0}\) 是期初指数权重，\(R_i\) 是对应成分股在这一期间的收益率。
+
+- **影响大小的重要限定**：*The largest market value* 表示**最大权重**，但实际的指数收益贡献还取决于该股票涨跌幅 \(R_i\)；只有比较相同涨跌幅时，最大市值对应最大绝对贡献。若小市值股票涨跌特别大，实际贡献也可能更大。本题问的是加权方法的主要决定因素。
+- **Float-Adjusted Market-Capitalization Weighting（自由流通市值加权）**：某些指数只考虑自由流通股份计算权重，须按题干规定的市值口径判断。
+
+#### 直观例子：市值权重而非单看股价或股份数
+
+| 股票 | 每股价格 | Shares Outstanding | 股票市值 | 指数权重 |
+|---|---:|---:|---:|---:|
+| A | 100 元 | 100 万股 | 1 亿元 | 10% |
+| B | 20 元 | 1,000 万股 | 2 亿元 | 20% |
+| C | 50 元 | 1,400 万股 | 7 亿元 | 70% |
+| 合计 | — | — | 10 亿元 | 100% |
+
+- **A** 股价最高，但权重仅 10%。
+- **C** 股价不是最高，却因总市值最大而具有 70% 的权重。
+- 若三只股票各上涨 10%，对指数上涨贡献依次为 1、2、7 个百分点；C 贡献最大。
+
+#### 与 Price-Weighted Index 对比
+
+| 加权方法 | 权重主要由什么决定？ | 高影响力的成分股 |
+|---|---|---|
+| Price-Weighted Index（价格加权） | 单只股票每股价格 \(P_i\) | 每股价格高者权重更高 |
+| Market-Capitalization-Weighted Index（市值加权） | 每股价格 × 股份数量 \(P_iQ_i\) | 市值高者权重更高 |
+| Equal-Weighted Index（等权重） | 各股票初始权重相同 | 同样涨幅时贡献相同 |
+
+#### 本题：Which factor has the largest impact on the index return based on the market-capitalization weighted method?
+
+- **A. The lowest stock price — 错误。** 仅价格低无法判断市值，更无法判断市值权重。
+- **B. The largest numbers of shares outstanding — 错误。** 股份数量最多不代表总市值最高，还要看价格。
+- **C. The largest market value — 正确。** 市值最高的成分股对应最大指数权重；在相同回报率下影响最大。
+
+**考试速记**：Price-Weighted 看 Price；Market-Cap-Weighted 看 Price × Shares；Equal-Weighted 看 Equal Weight。指数实际回报贡献还取决于个股涨跌幅。
+
 ### Price Return｜价格收益率
 
 - **定义**：只反映证券或指数价格变动形成的收益率，**不计股息（Dividends）**。
@@ -627,6 +681,7 @@ R_{total}\approx R_{spot}+R_{roll}+R_{collateral}
 - [ ] 能解释 Firm Commitment 与 Best Efforts 的未售出证券风险由谁承担
 - [ ] 能区分 Shelf Registration、Dividend Reinvestment Plan 与 Private Placement
 - [ ] 能计算 Price-Weighted Index 的 Price Return，并明确忽略 Dividends
+- [ ] 能写出市值加权公式、说明市值与指数权重的关系，区分价格加权和市值加权
 - [ ] 能说明何时不能直接用初末股价和计算收益率（除数调整）
 - [ ] 能解释债券指数为什么有更多分类维度，以及债券价格为何通常不如活跃股票透明
 - [ ] 能解释 Broad Universe、Higher Index Turnover、Dealer Quotes，并识别 EXCEPT 题目
