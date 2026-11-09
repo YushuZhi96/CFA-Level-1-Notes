@@ -2172,6 +2172,21 @@ tags: [CFA-L1, Vocabulary]
 - **Ambiguous Relation** — 不确定关系
   - 股息支付率增加既提高分子，又可能降低可持续增长率，因此对 P/E 的最终影响视条件而定
 
+### P/E 公式符号速查
+
+- **P / P₀ (Price / Current Price)** — 每股价格／当前每股价格，0 表示估值时点
+- **E₀ (Current / Trailing Earnings per Share)** — 本期或最近一期已实现每股收益
+- **E₁ (Expected / Forward Earnings per Share)** — 下一期预期每股收益
+- **D₁ (Expected Dividend per Share)** — 下一期预期每股股息
+- **p (Dividend Payout Ratio)** — 股息支付率，D₁ / E₁
+- **b (Retention / Plowback Ratio)** — 留存率，1 − p
+- **r (Required Return on Equity)** — 股权必要收益率
+- **g (Sustainable / Constant Growth Rate)** — 可持续或稳定增长率
+- **ROE (Return on Equity)** — 净资产收益率，简化稳态增长模型中 g = b × ROE
+- **TTM (Trailing Twelve Months)** — 过去连续12个月，用于历史市盈率的收益期间
+
+完整公式、各符号含义及适用假设：[[06-Equity/Justified-Price-to-Earnings-Ratio|P/E 市盈率与合理估值专题]]。
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
