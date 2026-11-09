@@ -1638,6 +1638,50 @@ tags: [CFA-L1, Vocabulary]
 - **Higher Index Turnover** — 较高的指数成分周转率
   - 债券到期、新发行和评级变化等使债券指数成分通常更频繁变动；不等于日常交易量更高
 
+## Equity Investments｜另类投资指数
+
+- **Alternative Investment Indices** — 另类投资指数
+  - 涵盖商品、对冲基金、房地产等类别的市场表现指数
+
+- **Commodity Index** — 商品指数
+  - 投资型指数常通过商品期货构建；走势可能不同于标的商品现货价格
+
+- **Commodity Futures Contract** — 商品期货合约
+  - 约定未来商品交割或现金结算的标准化期货合约
+
+- **Underlying Commodity** — 标的商品
+  - 商品期货或商品指数所依赖的基础实物商品
+
+- **Spot Return** — 现货价格收益
+  - 标的商品现货价格变动的收益贡献
+
+- **Roll Yield / Roll Return** — 展期收益
+  - 商品期货换月及期限结构对长期收益的贡献
+
+- **Collateral Return / Collateral Yield** — 抵押品收益
+  - 商品期货完全现金抵押投资中现金抵押品的收益
+
+- **Hedge Fund Index** — 对冲基金指数
+  - 由披露业绩的对冲基金构成；存在自愿报告及样本偏差风险
+
+- **Survivorship Bias** — 幸存者偏差
+  - 表现差或关闭的基金被排除，可能高估指数的历史回报
+
+- **Backfill Bias** — 历史业绩回填偏差
+  - 新入库基金选择性补交较好过往业绩，可能使历史回报偏高
+
+- **Appraisal-Based Index** — 评估价值房地产指数
+  - 依赖定期估值，价格可能滞后和平滑
+
+- **Repeat-Sales Index** — 重复销售房地产指数
+  - 依据同一房产前后重复成交的价格变化编制
+
+- **REIT Index** — 房地产投资信托基金指数
+  - 跟踪房地产投资信托基金证券表现；为常见房地产指数类型之一
+
+- **Real Estate Investment Trust (REIT)** — 房地产投资信托基金
+  - 主要持有或投资房地产及相关资产的投资工具
+
 ## Fixed Income｜嵌入式期权债券
 
 - **Embedded Option** — 嵌入式期权
