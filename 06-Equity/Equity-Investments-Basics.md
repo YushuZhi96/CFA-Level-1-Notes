@@ -521,6 +521,19 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 - **B. With frequent and transparent price data — 错误**：许多债券在 OTC 市场交易、成交不频繁，价格数据通常不如活跃股票透明。
 - **C. Classified along more dimensions — 正确**：债券按发行人、期限、信用评级、票息、币种、偿付优先级等更多维度分类。
 
+
+### 典型题：In contrast with equity index, bond index has the following characteristics EXCEPT
+
+> In contrast with equity index, bond index has the following characteristics except that:
+
+- **A. Bond index has a broad universe — 属于典型特征（不选）**。**Broad Universe（广泛的可选债券集合）**意味着市场中有大量不同发行人、期限、信用质量与条款的债券。同一发行人也可能有多只债券存续，广泛债券指数通常面对比股票指数更庞大的可选证券范围。
+- **B. Bond index has less turnover — 不符合典型特征（正确答案）**。债券有固定 Maturity（到期日）；到期退指、新发行债券入指、评级变化或剩余期限不符合指数规则，都会令成分变动。故广泛债券指数通常有 **Higher Index Turnover（更高的成分周转率）**，而不是 Less Turnover。这里的 Index Turnover 是**指数成分调整频率**，不是日常成交量 Trading Volume。
+- **C. Bond index providers rely on dealers for prices — 属于典型特征（不选）**。许多债券通过 OTC 场外市场交易，缺乏连续交易所成交价；指数编制机构（Index Providers）可能参考 Dealer Quotes（交易商报价）、成交数据及第三方估值形成指数价格。这里的 rely on dealers 不代表全部债券价格只能来自单一交易商。
+
+**本题陷阱：EXCEPT = 选出不符合描述的一项**。A（范围广）和 C（依赖交易商报价）通常正确，B（较低成分周转率）错误，因此选择 **B**。
+
+**两题串联：**上一题正确特点是 More Classification Dimensions；本题错误特点是 Less Turnover。联合记忆：**Bond Index = Broad Universe + More Dimensions + Higher Turnover + Dealer/OTC Pricing + Harder Replication**。
+
 **考试速记**：Bond Index → More Dimensions + Less Transparent Pricing + Higher Turnover + Harder Replication。
 
 ## 10. 复习清单
@@ -539,5 +552,6 @@ R_{price}=\frac{45.3333-38.3333}{38.3333}\approx18.26\%
 - [ ] 能计算 Price-Weighted Index 的 Price Return，并明确忽略 Dividends
 - [ ] 能说明何时不能直接用初末股价和计算收益率（除数调整）
 - [ ] 能解释债券指数为什么有更多分类维度，以及债券价格为何通常不如活跃股票透明
+- [ ] 能解释 Broad Universe、Higher Index Turnover、Dealer Quotes，并识别 EXCEPT 题目
 
 **交叉科目**：[[07-Fixed-Income/Fixed-Income-Basics|固定收益基础概念]]（Securitization）；Derivatives（远期合约机制）。
