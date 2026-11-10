@@ -7,4 +7,5 @@
 > 按章节题、例题与易错点逐步收录。
 
 - [[Time-Weighted-Return|时间加权收益率（Time-Weighted Return, TWR）]]（2026-11-10，🟡）
+- [[Mean-Variance-Utility-Function|效用理论与均值—方差效用函数（Utility Theory & Mean-Variance Utility Function）]]（2026-11-10，🟡）
 - [[Base-Rate-Neglect-Outside-Inside-View|基础比率忽视与内外部视角（Base-Rate Neglect, Outside View & Inside View）]]（2026-11-04，🟡）
