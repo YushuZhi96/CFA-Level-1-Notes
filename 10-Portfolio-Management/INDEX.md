@@ -9,5 +9,6 @@
 - [[Time-Weighted-Return|时间加权收益率（Time-Weighted Return, TWR）]]（2026-11-10，🟡）
 - [[Mean-Variance-Utility-Function|效用理论与均值—方差效用函数（Utility Theory & Mean-Variance Utility Function）]]（2026-11-10，🟡）
 - [[Markowitz-Efficient-Frontier|马科维茨有效前沿（Markowitz Efficient Frontier）]]（2026-11-10，🟡）
+- [[Indifference-Curve|无差异曲线（Indifference Curve）]]（2026-11-10，🟡）
 - [[Variance-and-Standard-Deviation|方差与标准差（Variance & Standard Deviation）]]（2026-11-10，🟡）
 - [[Base-Rate-Neglect-Outside-Inside-View|基础比率忽视与内外部视角（Base-Rate Neglect, Outside View & Inside View）]]（2026-11-04，🟡）
