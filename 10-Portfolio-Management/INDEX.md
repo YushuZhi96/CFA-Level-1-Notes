@@ -19,5 +19,4 @@
 - [[Systematic-vs-Nonsystematic-Risk|系统性风险、非系统性风险与分散化（Systematic vs Nonsystematic Risk & Diversification）]]（2026-11-11，🟡）
 - [[Indifference-Curve|无差异曲线（Indifference Curve）]]（2026-11-10，🟡）
 - [[Variance-and-Standard-Deviation|方差与标准差（Variance & Standard Deviation）]]（2026-11-10，🟡）
-- [[Conservatism-Confirmation-Representativeness|保守主义、确认与代表性偏差（Conservatism, Confirmation & Representativeness Biases）]]（2026-11-11，🟡）
-- [[Base-Rate-Neglect-Outside-Inside-View|基础比率忽视与内外部视角（Base-Rate Neglect, Outside View & Inside View）]]（2026-11-04，🟡）
+- [[Behavioral-Biases|行为金融学：15种行为偏差（Behavioral Biases）]]（2026-11-11，🟡）
