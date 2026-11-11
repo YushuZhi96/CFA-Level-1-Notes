@@ -180,7 +180,49 @@ $$
 
 **易错点：VaR 并非最坏情况下的最大损失，也不自动表示超出 VaR 后损失有多大。**
 
-### 2. 风险管理手段
+### 2. 固定收益与衍生品的敏感性指标（Sensitivity Measures）
+
+风险管理中要先辨别**受什么因素影响**，再选择适当的敏感性指标（Sensitivity Measure）。不能看到“价格变动”就把债券久期与期权希腊字母混用。
+
+| 衡量指标 | 英文 | 衡量什么变化 | 常见应用 |
+|---|---|---|---|
+| **久期** | Duration | 债券价格对收益率变化的敏感度；其中**修正久期**直接近似价格百分比变化 | 固定收益（Fixed Income）利率风险 |
+| **凸性** | Convexity | 债券价格—收益率关系的二阶曲率，补充久期的一阶近似 | 固定收益利率风险 |
+| **德尔塔** | Delta ($\Delta$) | 期权价值对标的价格变化的一阶敏感度 | 期权（Options） |
+| **伽马** | Gamma ($\Gamma$) | 期权 Delta 随标的价格变化的速度（二阶敏感度） | 期权 |
+| **Rho** | Rho ($\rho$) | 期权价值对利率变化的敏感度（在常见希腊字母定义下） | 期权的利率敏感度 |
+
+**修正久期（Modified Duration）**近似公式：
+
+$
+\boxed{\frac{\Delta P}{P}\approx-D_{\mathrm{mod}}\Delta y}
+$
+
+- $\Delta P/P$：债券价格的相对变动；
+- $D_{\mathrm{mod}}$：修正久期（Modified Duration）；
+- $\Delta y$：债券到期收益率的变化，使用**小数**表示，例如 100 bps = 0.01；
+- **负号**反映普通固定利率债券价格与收益率通常反向变动。
+- 例如 $D_{\mathrm{mod}}=5$、$\Delta y=+0.01$，则债券价格约下降 $5\%$。此为**一阶近似**，假设其他条件不变。
+
+**加入凸性（Convexity）时**，在使用一致定义的凸性指标 $C$ 下：
+
+$
+\boxed{\frac{\Delta P}{P}\approx-D_{\mathrm{mod}}\Delta y+\frac12 C(\Delta y)^2}
+$
+
+**Delta 与 Gamma** 则主要针对期权价值 $V$ 对**标的资产价格** $S$ 的敏感性：
+
+$
+\Delta=\frac{\partial V}{\partial S},
+\qquad
+\Gamma=\frac{\partial^2 V}{\partial S^2}
+$
+
+**关键边界：**如果题干只问“固定收益证券对利率变化的敏感性”（Interest Rate Sensitivity of a Fixed-Income Instrument），在常规债券情境下应优先选 **Duration**，而不是 Delta 和 Gamma。利率衍生品也可能使用不同的风险希腊字母或 DV01 等指标，但不改变此基础题的判断。
+
+详细推导与单位注意事项请查看：[[07-Fixed-Income/Modified-Duration|修正久期（Modified Duration）]]、[[07-Fixed-Income/Macaulay-Duration|麦考利久期（Macaulay Duration）]]。
+
+### 3. 风险管理手段
 
 - **Risk Avoidance / Prevention（风险规避与预防）**：不承担某项风险或降低事件发生可能性；
 - **Risk Transfer（风险转移）**：例如保险；
@@ -215,6 +257,7 @@ $$
 - [[Investment-Policy-Statement|投资政策声明（IPS）]]：Risk Objectives、Constraints、Risk Tolerance 的投资者层面应用。
 - [[Systematic-vs-Nonsystematic-Risk|系统性风险、非系统性风险与分散化]]：与风险来源分类互补，但系统性/非系统性是**风险能否被分散**的维度。
 - [[CML-and-SML|资本市场线与证券市场线]]：标准差与 Beta 衡量不同维度的投资风险。
+- [[07-Fixed-Income/Modified-Duration|修正久期（Modified Duration）]]：固定收益证券对收益率变动的价格敏感性公式与单位。
 
 ## 九、复习检查
 
@@ -224,6 +267,7 @@ $$
 - [ ] 能列出 Market、Credit、Liquidity、Operational、Model、Tail Risks 的中文含义
 - [ ] 能说明模型为何可能低估尾部风险，以及二者并不等同
 - [ ] 能说明 VaR 为什么不是“最大可能损失”
+- [ ] 能区分 Duration、Convexity 与期权的 Delta、Gamma、Rho，并正确使用修正久期公式
 - [ ] 能描述风险规避、转移、对冲和分散化的基本作用
 
 ## 来源与适用范围
