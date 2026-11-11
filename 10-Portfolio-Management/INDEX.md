@@ -8,6 +8,7 @@
 
 - [[Portfolio-Management-Process|投资组合管理流程（Planning、Execution、Feedback）]]（2026-11-11，🟡）
 - [[Pooled-Investment-Vehicles|集合投资工具与流动性管理（Pooled Investment Vehicles & Liquidity）]]（2026-11-11，🟡）
+- [[Types-of-Pooled-Investment-Vehicles|集合投资工具的类型与区别（Types of Pooled Investment Vehicles）]]（2026-11-11，🟡）
 
 - [[Time-Weighted-Return|时间加权收益率（Time-Weighted Return, TWR）]]（2026-11-10，🟡）
 - [[Mean-Variance-Utility-Function|效用理论与均值—方差效用函数（Utility Theory & Mean-Variance Utility Function）]]（2026-11-10，🟡）
