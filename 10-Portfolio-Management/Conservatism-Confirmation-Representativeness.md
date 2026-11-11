@@ -9,6 +9,8 @@ tags: [CFA-L1, Portfolio-Management, Behavioral-Finance, Cognitive-Bias, Conserv
 
 # 保守主义、确认与代表性偏差（Conservatism, Confirmation & Representativeness Biases）
 
+> 行为偏差统一主笔记：[[Behavioral-Biases|Behavioral Biases（15种行为偏差总表）]]。本文件保留为专题深度阅读，分类及复习入口以主笔记为准。
+
 [[10-Portfolio-Management/INDEX|← 返回投资组合管理目录]]
 
 ## 一句话理解
