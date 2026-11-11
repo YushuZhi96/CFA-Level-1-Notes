@@ -8,6 +8,8 @@ tags: [CFA-L1, Portfolio-Management, Behavioral-Finance, Cognitive-Bias]
 
 # 基础比率忽视与内外部视角（Base-Rate Neglect, Outside View & Inside View）
 
+> 行为偏差统一主笔记：[[Behavioral-Biases|Behavioral Biases（15种行为偏差总表）]]。本文件保留为专题深度阅读，分类及复习入口以主笔记为准。
+
 ## 一、基础比率忽视（Base-Rate Neglect）
 
 **Base-Rate Neglect（基础比率忽视偏差）**是指人在预测或判断具体对象时，过度关注该对象的个别特征或具体信息，却忽视其所属群体的基础概率、历史统计规律或参考类别数据。
