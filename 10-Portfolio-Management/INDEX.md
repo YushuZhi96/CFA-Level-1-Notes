@@ -15,6 +15,7 @@
 - [[Mean-Variance-Utility-Function|效用理论与均值—方差效用函数（Utility Theory & Mean-Variance Utility Function）]]（2026-11-10，🟡）
 - [[Markowitz-Efficient-Frontier|马科维茨有效前沿（Markowitz Efficient Frontier）]]（2026-11-10，🟡）
 - [[CML-and-SML|资本市场线与证券市场线（Capital Market Line, CML & Security Market Line, SML）]]（2026-11-10，🟡）
+- [[Market-Anomalies-and-Fama-French-Three-Factor-Model|市场异象与 Fama-French 三因子模型（Market Anomalies & Fama-French Three-Factor Model）]]（2026-11-11，🟡）
 - [[Systematic-vs-Nonsystematic-Risk|系统性风险、非系统性风险与分散化（Systematic vs Nonsystematic Risk & Diversification）]]（2026-11-11，🟡）
 - [[Indifference-Curve|无差异曲线（Indifference Curve）]]（2026-11-10，🟡）
 - [[Variance-and-Standard-Deviation|方差与标准差（Variance & Standard Deviation）]]（2026-11-10，🟡）
