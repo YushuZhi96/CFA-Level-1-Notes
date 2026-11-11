@@ -3026,3 +3026,26 @@ tags: [CFA-L1, Vocabulary]
 
 - **Required Yield** — 必要收益率
   - 投资者所要求的债券收益率，本题以当前参考利率加必要利差近似
+
+## Alternative Investments｜另类投资
+
+- **Alternative Investment Funds** — 另类投资基金
+  - 通常采用主动管理，寻求正 Alpha，但不保证实现
+
+- **Active Management** — 主动管理
+  - 通过主动决策争取风险调整后超额收益
+
+- **Passive Management** — 被动管理
+  - 主要跟踪基准或指数，并非另类基金典型管理方式
+
+- **Alpha** — 阿尔法 / 风险调整后超额收益
+  - 相对于适当风险模型预期收益的超出部分，不等于绝对收益
+
+- **Positive Alpha** — 正 Alpha
+  - 实际表现高于模型风险调整后预期，目标不等于保证
+
+- **Beta** — 贝塔 / 系统性风险敏感度
+  - 反映对市场或风险因子变动的敏感性，不等于市场收益
+
+- **Market Inefficiency** — 市场低效
+  - 可能产生错误定价机会，主动管理人尝试利用
