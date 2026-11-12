@@ -4,4 +4,4 @@
 
 ## 知识点目录
 - [[GP-Catch-Up]]
-- [[Alternative-Investments-Basics|另类投资基础：分类、主动管理与分散化]]
+- [[Alternative-Investments-Basics|另类投资基础：分类、管理、收益与风险]]
