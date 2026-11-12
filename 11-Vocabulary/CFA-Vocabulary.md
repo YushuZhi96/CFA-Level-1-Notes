@@ -3200,3 +3200,23 @@ tags: [CFA-L1, Vocabulary]
 
 - **Net Rate of Return** — 净收益率
   - 基金投资者收益扣除管理费及业绩报酬后，除以期初投资额
+
+## Alternative Investments｜杠杆与收益率
+
+- **Leveraged Return on Equity** — 杠杆后权益收益率
+  - 投资收益扣借款利息后除以自有资本；分母不是总资产
+
+- **Assets-to-Equity Ratio** — 资产权益倍数
+  - 在A=E+D时等于1+D/E，注意和债务权益比区分
+
+- **Borrowing Rate** — 借款利率
+  - 杠杆收益计算必须扣除借款产生的利息
+
+- **Asset Return** — 资产收益率
+  - 整个投资组合扣借款利息前的资产收益率
+
+- **Equity Capital** — 自有资本
+  - 杠杆后权益收益率以实际自有资本为分母
+
+- **Leveraged Return** — 杠杆收益率
+  - 借款放大投资头寸后按自有资本计算的投资回报
