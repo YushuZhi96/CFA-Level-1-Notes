@@ -3157,3 +3157,35 @@ tags: [CFA-L1, Vocabulary]
 
 - **Year-end AUM** — 期末管理资产规模
   - 管理费计算若指定 based on year-end AUM 则以期末资产为基数
+
+## Alternative Investments｜私募股权投资生命周期
+
+- **Private Equity Investment Life Cycle** — 私募股权投资生命周期
+  - 常按资本认缴、资本部署和资本分配三阶段理解
+
+- **Capital Commitment** — 资本认缴 / 承诺出资
+  - 投资者承诺日后缴款，尚未大量投资时通常少有资产收入
+
+- **Capital Deployment** — 资本部署
+  - 基金实际调用并投入资金购入投资资产
+
+- **Capital Distribution** — 资本分配
+  - 基金向投资者返还资金，常包括本金及投资收益
+
+- **Capital Call** — 资本调用 / 缴款通知
+  - 基金依承诺向投资者要求实际缴款
+
+- **J-Curve** — J型曲线
+  - 私募基金净回报可能早期偏弱、后期回升，但并不保证
+
+- **Cash Distribution** — 现金分配
+  - 投资者实际收取现金，可能包含本金和利润
+
+- **Investment Return** — 投资回报
+  - 投资回报可能包含未实现增值，不等于已收到现金
+
+- **Return of Capital** — 返还本金
+  - 分配款中收回原投入资本的部分，不等于投资利润
+
+- **Exit** — 投资退出
+  - 出售或处置投资资产以实现价值并可能形成分配
