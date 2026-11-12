@@ -3049,3 +3049,56 @@ tags: [CFA-L1, Vocabulary]
 
 - **Market Inefficiency** — 市场低效
   - 可能产生错误定价机会，主动管理人尝试利用
+
+## Alternative Investments｜分类与分散化补充
+
+- **Alternative Investments** — 另类投资
+  - 传统公开股票债券及现金之外的资产或投资策略
+
+- **Traditional Investments** — 传统投资
+  - 典型包括股票、债券、现金；国债和优先股属于传统证券
+
+- **Private Capital** — 私募资本
+  - 主要包含私募股权与私募债务
+
+- **Private Debt** — 私募债务
+  - 非公开市场的债务融资，典型如直接贷款
+
+- **Real Assets** — 实物资产
+  - 包括房地产、基础设施及自然资源
+
+- **Real Estate** — 房地产
+  - 另类实物资产，收益可来自租金和物业增值
+
+- **Infrastructure** — 基础设施
+  - 机场、收费道路、电网等实物资产
+
+- **Natural Resources** — 自然资源
+  - 包括商品、农田和林地等相关资产
+
+- **Commodities** — 大宗商品
+  - 能源、金属等实物商品或其投资敞口
+
+- **Hedge Funds** — 对冲基金
+  - 按策略识别；可采用多空、套利及事件驱动策略
+
+- **Digital Assets** — 数字资产
+  - 包括加密货币及代币，涉及区块链相关风险
+
+- **Correlation** — 相关性
+  - 收益之间的线性联动；低相关不等于低风险
+
+- **Portfolio Diversification** — 投资组合多样化
+  - 通过组合收益联动不完全一致的资产降低风险
+
+- **Diversification Benefits** — 分散化效益
+  - 低相关资产可能降低组合波动，但并不保证不亏损
+
+- **Venture Capital** — 风险投资
+  - 私募股权中投资早期或成长型企业的方式
+
+- **Direct Lending** — 直接贷款
+  - 私募债务中由非银行贷款方直接提供融资
+
+- **Treasury Bonds** — 国债
+  - 固定收益传统投资，即使有时与股票低相关也非另类投资
