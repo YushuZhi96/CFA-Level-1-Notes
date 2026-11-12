@@ -3189,3 +3189,14 @@ tags: [CFA-L1, Vocabulary]
 
 - **Exit** — 投资退出
   - 出售或处置投资资产以实现价值并可能形成分配
+
+## Alternative Investments｜对冲基金净收益率计算补充
+
+- **Beginning AUM** — 期初管理资产规模
+  - 明确以期初 AUM 计收管理费时，用期初资产乘管理费率
+
+- **Net of Management Fees** — 扣除管理费后
+  - 计算业绩报酬前，先从可计费利润中扣除管理费
+
+- **Net Rate of Return** — 净收益率
+  - 基金投资者收益扣除管理费及业绩报酬后，除以期初投资额
