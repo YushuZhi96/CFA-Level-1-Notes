@@ -3131,3 +3131,29 @@ tags: [CFA-L1, Vocabulary]
 
 - **Manager Risk** — 管理人风险
   - 业绩和风险控制较依赖管理人能力
+
+## Alternative Investments｜对冲基金费用结构
+
+- **Assets Under Management (AUM)** — 管理资产规模
+  - 管理费计算需要先判断题目指定的期初、期末或其他 AUM 基数
+
+- **Management Fee** — 管理费
+  - 管理资产规模乘约定费率，基数以合同或题干为准
+
+- **Incentive Fee** — 业绩报酬
+  - 以满足合同条件的投资利润为基础计提，留意费用扣除顺序
+
+- **Hurdle Rate** — 门槛收益率
+  - 计算业绩报酬前需要满足的最低回报要求
+
+- **Hard Hurdle** — 硬门槛
+  - 达到门槛后只对超出门槛的利润部分计提业绩报酬
+
+- **Soft Hurdle** — 软门槛
+  - 跨过门槛后通常对全部符合约定的利润计提业绩报酬
+
+- **High-Water Mark (HWM)** — 高水位线
+  - 未恢复至约定历史净值高点前通常不能再次计提业绩报酬
+
+- **Year-end AUM** — 期末管理资产规模
+  - 管理费计算若指定 based on year-end AUM 则以期末资产为基数
