@@ -67,7 +67,55 @@ $$
 
 **适用条件**：以上为无外部申购赎回、无其他调整、已明确业绩报酬独立计算的简化题型。若规定先扣管理费（net of management fees），应按题意先调整可计费利润；不能机械套用。
 
-### 3. Hard Hurdle 与 Soft Hurdle
+### 3. 先扣管理费后计提业绩报酬（Net of Management Fees）+ Hard Hurdle
+
+当题干明确规定 **Management Fee based on Beginning AUM（管理费按期初 AUM 计提）**、**Incentive Fee net of Management Fees（业绩报酬以扣除管理费后的利润为基础）**，并采用 Hard Hurdle 时，可按以下步骤计算。
+
+管理费：
+
+$
+M=A_0m
+$
+
+扣除管理费后的可计费利润：
+
+$
+G_{\text{after management fee}}=(A_1-A_0)-M
+$
+
+硬门槛对应的最低利润（按期初 AUM 计算）：
+
+$
+H=A_0h
+$
+
+业绩报酬（假设无其他约束）：
+
+$
+I=i\times\max\left(0,G_{\text{after management fee}}-H\right)
+$
+
+投资者最终净收益率（Net Rate of Return）：
+
+$
+r_{\text{net}}=\frac{A_1-A_0-M-I}{A_0}
+$
+
+若以扣费前收益率 $r=(A_1-A_0)/A_0$ 表示，上述特定条件下的快捷公式：
+
+$
+\boxed{r_{\text{net}}=r-m-i\max(0,r-m-h)}
+$
+
+**适用条件**：单一计费期、无追加投资或赎回、无影响费用的高水位线、期初 AUM 为管理费和门槛基数、业绩报酬先扣管理费且只有超过硬门槛的部分计费。若合约规定门槛以其他基数、扣费顺序或净值口径计算，需要按题干调整。
+
+**对比记忆**：
+
+- **Independent of Management Fees**：计算业绩报酬时不先扣管理费；此前第 2 小节的公式适用。
+- **Net of Management Fees**：先扣管理费后判断超门槛利润；使用本小节公式。
+- **Net Rate of Return** 是投资者扣除所有相关基金费用后的收益率，不等于费用合计。
+
+### 4. Hard Hurdle 与 Soft Hurdle
 
 在不考虑其他限制的简化场景中：
 
@@ -90,13 +138,14 @@ $$
 4. **Hurdle Rate vs. High-Water Mark**：前者是回报门槛，后者关注是否重新超过历史高点；两者可以同时存在，计算优先次序以合同为准。
 5. **Gross vs. Net / Fees timing**：基金计费基数、估值时点和是否发生资金流入流出，需要按题目口径调整。
 6. **Units**：AUM 为 billion 时费用答案也是 billion；不能混淆金额与收益率。
+7. **Total Fees vs. Net Return**：总费用是金额；投资者净收益率是扣除管理费和业绩报酬后收益除以期初资本。
 
 ## 典型题型 / 判断路径
 
 1. 标注期初与期末 AUM、管理费率、业绩报酬率。
 2. 圈出收费基数和 **independently / net of** 关键词。
 3. 识别 **Hard / Soft Hurdle** 以及是否有 **High-Water Mark**。
-4. 依约计算 Management Fee 与 Incentive Fee，最后相加并核对单位。
+4. 依约计算 Management Fee 与 Incentive Fee；如果求 **Total Fees**，则两项费用相加；如果求 **Net Rate of Return**，则从期末资产减去全部费用后计算净收益率。
 
 ## 易混知识点 / Obsidian 链接
 
@@ -106,13 +155,15 @@ $$
 ## 我的错因 / 验证记录
 
 - 已完成一道典型的 **Year-end AUM + Independent Incentive Fee + Hard Hurdle** 计算题，**独立答对一次**。
-- 复习状态：🟢 单题独立答对；**尚未通过不同参数或 Soft Hurdle / HWM 的变式验证**。
+- 新增一组 **Beginning AUM + Net of Management Fees + Hard Hurdle + Net Rate of Return** 计算规则；不以题目展示的答案状态推定已独立掌握。
+- 复习状态：🟢 曾独立答对一题；**净收益率及费用顺序的变式仍待独立验证**。
 - 题目原文、选项与原题数字不归档。
 
 ## 复习检查清单
 
 - [x] 已独立答对一次硬门槛计算题
 - [ ] 不看提示能解释 Hard Hurdle 与 Soft Hurdle 的区别
-- [ ] 能处理 independent 与 net of management fees 两种计费顺序
+- [ ] 能处理 independent 与 net of management fees 两种计费顺序及其不同公式
 - [ ] 能解释 HWM 的作用并识别相关约束
+- [ ] 能根据期初/期末管理费基数计算投资者 Net Rate of Return
 - [ ] 能独立完成一道变式题
