@@ -1,13 +1,13 @@
 ---
 subject: Alternative Investments
-topic: Alternative Investment Categories, Active Management and Diversification
+topic: Alternative Investment Categories, Active Management, Diversification, Benefits and Risks
 status: "🟡 解析能懂，待独立验证"
 created: 2026-11-11
 last-reviewed: 2026-11-12
-tags: [CFA-L1, Alternative-Investments, Categories, Diversification, Active-Management, Alpha]
+tags: [CFA-L1, Alternative-Investments, Categories, Diversification, Active-Management, Alpha, Benefits-and-Risks]
 ---
 
-# 另类投资基础：分类、主动管理与分散化（Categories, Active Management and Diversification）
+# 另类投资基础：分类、管理、收益与风险（Categories, Management, Benefits and Risks）
 
 [[09-Alternative-Investments/INDEX|返回另类投资目录]]
 
@@ -54,6 +54,33 @@ $$
 - **Diversification Benefits｜分散化效益**是另类投资可能带来的重要价值，但**另类投资并不保证低相关、低波动或不会亏损**。在金融压力时期，房地产、股票等也可能同步下跌。
 - **Low Correlation ≠ Low Risk**：低相关说的是与其他资产的联动，不代表资产本身风险低。
 - **Traditional vs. Alternative** 是资产/策略分类；**Correlation** 是两种收益的统计关系。国债属于传统投资，也可能在部分时期与股票低相关；房地产属于另类投资，但并非始终与股债低相关。
+
+## 另类投资的潜在优势与主要风险（Benefits and Risks）
+
+### 主要潜在优势（Potential Benefits）
+
+- **Potentially Higher Returns｜潜在较高收益**：管理人可能通过主动管理、资产运营改善、市场低效和流动性溢价等寻求更高回报；**Potentially 不等于 Guaranteed**，不保证实现更高收益。
+- **Diversification Benefits｜分散化效益**：部分另类资产的收益驱动因素不同于传统股票和债券，可能帮助改善投资组合的风险收益特征；并非所有另类资产、所有时期都低相关。
+- **Investment Flexibility｜投资策略灵活性**：部分另类基金（尤其某些 Hedge Funds）相比部分传统基金，在基金授权及监管允许下可较灵活地使用 **Derivatives｜衍生品**、**Leverage｜杠杆** 和 **Short Selling｜卖空**。**Less limitations** 是相对说法，绝不意味着没有监管或合同限制。
+
+### 主要风险（Principal Risks）
+
+| 风险 | 英文 | 典型表现 |
+| --- | --- | --- |
+| 流动性风险 | Liquidity Risk | 私募股权、不动产等可能难以及时出售，退出成本高 |
+| 杠杆风险 | Leverage Risk | 借款或衍生品敞口可能放大亏损 |
+| 估值风险 | Valuation Risk | 缺少活跃市场报价，估值依赖假设与模型 |
+| 集中度风险 | Concentration Risk | 资产、行业或单一策略集中，损失可能被放大 |
+| 管理人风险 | Manager Risk | 业绩依赖投资决策、执行与风控能力 |
+
+**核心判断**：**Low Risk｜低风险**不是另类投资的普遍或典型优势。不同另类资产风险差异很大，不能说每一类必定比传统资产风险更高。
+
+### 概念区分：四个不能画等号
+
+1. **Potential Return ≠ Guaranteed Return**：可能有更高收益，不等于承诺收益。
+2. **Low Correlation ≠ Low Risk**：与股债低相关，不等于自身波动小或不会亏损。
+3. **Investment Flexibility ≠ Unlimited Risk-Taking**：能更灵活使用衍生品，不等于无限制使用。
+4. **Higher Return Potential ≠ Higher Risk-Adjusted Performance**：潜在高绝对收益，不自动代表更高 Alpha 或风险调整后收益。
 
 ## 核心概念 / 定义
 
@@ -102,6 +129,8 @@ $$
 5. **Typically vs. Always**：题干若说“通常”，不应误解成所有另类投资基金一律主动管理。
 6. **Asset Category vs. Correlation**：国债即使与股票低相关仍属于传统投资；房地产虽属另类投资，也不保证始终低相关。
 7. **Low Correlation vs. Low Risk**：低相关与低风险不同；判断资产时不能只看波动或“安全性”。
+8. **Least Likely / Potentially**：反向提问注意寻找“不属于典型优势”的表述；潜在高收益并不代表保证收益。
+9. **Derivatives Flexibility**：衍生品使用灵活性可能是一种策略优势，但既可能增加收益机会，也可能放大风险。
 
 ## 我的错因 / 验证记录
 
@@ -109,6 +138,8 @@ $$
 - 修正逻辑：另类投资基金通常由管理人积极选择投资机会，以争取 **Positive Alpha**。
 - 易错倾向：把“国债可能与股票低相关”误当作“国债属于另类投资”。
 - 修正逻辑：**先判断资产类别（Traditional / Alternative），再分析与其他资产的收益相关性（Correlation）**。
+- 易错倾向：认为“潜在更高收益”不是另类投资的优势，却忽略“低风险”并非典型优势。
+- 修正逻辑：**Higher Return Potential** 是可能的优势；**Low Risk** 不是另类投资的普遍特征，重点区分潜在收益、风险与分散化。
 - 复习状态：🟡 解析能懂，待独立验证。
 
 ## 复习检查清单
@@ -120,4 +151,8 @@ $$
 - [ ] 能归类 Private Capital、Real Assets、Hedge Funds 与 Digital Assets，并举出各自典型资产/策略。
 - [ ] 能区分传统债券与另类实物资产，不混淆分类和相关性。
 - [ ] 能解释低相关性为什么可能产生分散化效益，以及其局限性。
+- [ ] 能区分“潜在较高收益”与“保证收益”。
+- [ ] 能列举流动性、杠杆、估值、集中度和管理人风险。
+- [ ] 能解释为什么部分另类基金的衍生品使用更灵活，但不是没有限制。
+- [ ] 遇到 least likely 时能识别“低风险”并非另类投资的典型优势。
 - [ ] 不看解析，能独立判断同类新题。
