@@ -3102,3 +3102,32 @@ tags: [CFA-L1, Vocabulary]
 
 - **Treasury Bonds** — 国债
   - 固定收益传统投资，即使有时与股票低相关也非另类投资
+
+## Alternative Investments｜优势与风险补充
+
+- **Potentially Higher Returns** — 潜在更高收益
+  - 另类投资可能取得更高回报，但并非保证收益
+
+- **Investment Flexibility** — 投资策略灵活性
+  - 部分另类基金较灵活地使用衍生品、杠杆和卖空，仍受约束
+
+- **Derivatives** — 衍生品
+  - 另类基金可用其实施策略或管理风险，亦可能放大损失
+
+- **Short Selling** — 卖空
+  - 卖出借入证券并希望跌价后回补，存在较高风险
+
+- **Liquidity Risk** — 流动性风险
+  - 资产难以及时出售或退出成本较高
+
+- **Leverage Risk** — 杠杆风险
+  - 融资或杠杆敞口可能放大亏损
+
+- **Valuation Risk** — 估值风险
+  - 缺少活跃市场报价时估值依赖模型和假设
+
+- **Concentration Risk** — 集中度风险
+  - 少量资产或策略集中可能放大损失
+
+- **Manager Risk** — 管理人风险
+  - 业绩和风险控制较依赖管理人能力
