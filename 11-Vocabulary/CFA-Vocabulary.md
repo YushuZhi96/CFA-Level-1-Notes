@@ -3220,3 +3220,29 @@ tags: [CFA-L1, Vocabulary]
 
 - **Leveraged Return** — 杠杆收益率
   - 借款放大投资头寸后按自有资本计算的投资回报
+
+## Alternative Investments｜FOF 双层收费
+
+- **Fund of Hedge Funds (FoHF)** — 对冲基金中的基金
+  - 上层基金投资多只底层对冲基金，可能产生双层费用
+
+- **Underlying Fund** — 底层基金
+  - FoHF 所投资的基金，底层费用需先识别
+
+- **Underlying Fund Fees** — 底层基金费用
+  - 包括底层基金按合同收取的管理费和业绩报酬
+
+- **Double-Layered Fees** — 双层收费
+  - 投资者可能同时承担上层基金与底层基金的费用
+
+- **Net of Underlying Fund Fees** — 扣除底层基金费用后
+  - 上层计费基础先扣底层费用，不能自动推定扣除上层自身管理费
+
+- **Gross of Fees** — 扣费前
+  - 给出的资产价值尚未扣除相应费用
+
+- **Net of Fees** — 扣费后
+  - 给出的资产价值或收益已经扣除约定费用
+
+- **Appreciation** — 增值 / 升值
+  - 资产价值上涨；须判断题目给的是扣费前还是扣费后金额
