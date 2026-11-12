@@ -43,14 +43,14 @@ tags: [CFA-L1, Alternative-Investments, Categories, Diversification, Active-Mana
 
 ## 投资组合分散化与低相关性（Diversification and Low Correlation）
 
-- **Correlation｜相关性**描述两项收益率之间的线性联动程度；相关系数（Correlation Coefficient）$\\rho$ 取值范围为 $[-1,1]$。
+- **Correlation｜相关性**描述两项收益率之间的线性联动程度；相关系数（Correlation Coefficient）$\rho$ 取值范围为 $[-1,1]$。
 - **Portfolio Diversification｜投资组合多样化**：组合持有相关性不完全为 $+1$ 的资产，通常能够降低组合风险；在其他条件相同时，相关性越低，潜在分散化效益越明显。
 
-$
-\\rho_{A,B} = \\frac{\\operatorname{Cov}(R_A,R_B)}{\\sigma_A\\sigma_B}
-$
+$$
+\rho_{A,B} = \frac{\operatorname{Cov}(R_A,R_B)}{\sigma_A\sigma_B}
+$$
 
-- $\\rho=+1$：完全正线性相关；$\\rho=0$：无线性相关（**不表示统计独立**）；$\\rho=-1$：完全负线性相关。
+- $\rho=+1$：完全正线性相关；$\rho=0$：无线性相关（**不表示统计独立**）；$\rho=-1$：完全负线性相关。
 - **Diversification Benefits｜分散化效益**是另类投资可能带来的重要价值，但**另类投资并不保证低相关、低波动或不会亏损**。在金融压力时期，房地产、股票等也可能同步下跌。
 - **Low Correlation ≠ Low Risk**：低相关说的是与其他资产的联动，不代表资产本身风险低。
 - **Traditional vs. Alternative** 是资产/策略分类；**Correlation** 是两种收益的统计关系。国债属于传统投资，也可能在部分时期与股票低相关；房地产属于另类投资，但并非始终与股债低相关。
