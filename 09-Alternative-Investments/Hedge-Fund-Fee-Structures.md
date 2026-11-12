@@ -4,7 +4,7 @@ topic: Hedge Fund Fee Structures
 status: "🟢 单题独立答对，待复测"
 created: 2026-11-12
 last-reviewed: 2026-11-12
-tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fees, Hurdle-Rate]
+tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fees, Hurdle-Rate, Fund-of-Funds]
 ---
 
 # 对冲基金费用结构（Hedge Fund Fee Structures）
@@ -123,6 +123,54 @@ $
 - **Soft Hurdle**：若盈利越过门槛，业绩报酬率通常乘以全部符合约定的利润；未越过门槛则不收取。
 - 不同基金可约定不同的分配方式；**不能将 Hard/Soft 与 High-Water Mark 混为一谈**。
 
+## 基金中的基金：双层费用（Fund of Hedge Funds and Double-Layered Fees）
+
+### 概念与英文词汇
+
+- **Fund of Hedge Funds (FoHF)｜对冲基金中的基金**：上层基金将资金配置到多只底层对冲基金（Underlying Funds）；其费用可能叠加在底层基金费用之上。
+- **Underlying Fund Fees｜底层基金费用**：底层基金按各自合同收取的管理费及业绩报酬。
+- **Double-Layered Fees｜双层收费**：投资者可能同时负担底层基金和上层 FoHF 的管理费与业绩报酬。
+- **Net of Underlying Fund Fees｜扣除底层基金费用后**：上层基金的相关计费基础先扣除底层基金费用；**不自动表示也先扣除上层基金自身的管理费**。
+- **Gross of Fees｜扣费前**；**Net of Fees｜扣费后**。
+- **Appreciation｜资产增值**：基金资产价值上涨；题目出现 **before fees** 时，给出的期末价值尚未扣除所述费用。
+- **Neither ... nor ...｜既不……也不……**：在费用题中留意其所否定的对象。关于哪些基金适用 Hurdle Rate 或 HWM，应依照完整题干的明确陈述判断，不能由残缺片段假设所有基金都没有限制。
+
+### 计算顺序（通用框架，不预设费率）
+
+设 $V_0$ 为期初资金，$V_1$ 为扣除所有相关费用前的期末资产价值；$M_U$、$I_U$ 为底层管理费、业绩报酬；$M_F$、$I_F$ 为上层 FoHF 管理费、业绩报酬。
+
+1. **底层管理费（Underlying Management Fee）**：依底层基金合同的 AUM 基数、时点和费率计算 $M_U$。
+2. **底层业绩报酬（Underlying Incentive Fee）**：按利润、费用扣除顺序、门槛收益率及高水位线等条件计算 $I_U$。
+3. **扣除底层费用（Net of Underlying Fund Fees）**：
+
+$
+V_{\text{after underlying fees}}=V_1-M_U-I_U
+$
+
+4. **上层 FoHF 管理费**：依据合同规定，选择期初、期末扣除底层费用后或其他计费基数，得到 $M_F$。
+5. **上层 FoHF 业绩报酬**：确认是否进一步扣除上层管理费，以及是否存在 Hurdle Rate / High-Water Mark，再得到 $I_F$。
+6. **全部基金费用（Total Fees Earned by All Funds）**：
+
+$
+\boxed{F_{\text{total}}=M_U+I_U+M_F+I_F}
+$
+
+**适用边界**：以上是分层计费框架，并非固定的四个费率公式；如题目有多只底层基金，先依规定逐只计费，再汇总其费用或净值。上层管理费与业绩报酬的实际计费基数、扣费顺序及是否设门槛，须由完整条款确定。
+
+### 常见考试陷阱
+
+1. **只算底层费用**：题干问 *all funds* 时，不能漏算上层 FoHF 费用。
+2. **Net of Underlying vs. Net of Own Management Fee**：扣除底层基金费用不等于一定先扣除 FoHF 自己的管理费。
+3. **Gross vs. Net Asset Value**：题目给出扣费前期末资产价值时，不能当成已经扣费后的金额。
+4. **Missing Fee Terms**：仅凭期初、期末资产规模，若不知道两层费率和计费顺序，就无法唯一算出总费用；不应根据选项反推出假设费率并视为题目事实。
+5. **No Hurdle / HWM**：即使题目明确没有门槛和高水位线，也仍需根据合同规则计算管理费、业绩报酬及两层之间的扣减顺序。
+
+### 复习记录
+
+- 已学习 Fund of Hedge Funds 的双层费用结构和 *net of underlying fund fees* 的含义。
+- 该截图只提供部分题干，**未核实两层收费费率及计费基数，不归档任何推测的数值答案**。
+- 本知识点状态：🟡 规则已讲解，完整计算待验证。
+
 ## 直观理解 / 记忆方法
 
 - **Management Fee：管多少钱，就按题目指定的 AUM 基数算管理费。**
@@ -166,4 +214,6 @@ $
 - [ ] 能处理 independent 与 net of management fees 两种计费顺序及其不同公式
 - [ ] 能解释 HWM 的作用并识别相关约束
 - [ ] 能根据期初/期末管理费基数计算投资者 Net Rate of Return
+- [ ] 能说明 FoHF 双层收费的计算顺序及相关计费基数
+- [ ] 能解释 net of underlying fund fees 与 net of management fees 的区别
 - [ ] 能独立完成一道变式题
