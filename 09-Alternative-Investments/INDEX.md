@@ -9,3 +9,4 @@
 - [[Private-Equity-Investment-Life-Cycle|私募股权投资生命周期]]
 - [[Leverage-and-Leveraged-Returns|杠杆与杠杆收益率]]
 - [[Private-Debt-Risk-and-Return|私募债务风险与收益]]
+- [[Venture-Capital-Financing-Stages|风险投资融资阶段]]
