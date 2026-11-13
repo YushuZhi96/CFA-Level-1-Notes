@@ -3246,3 +3246,29 @@ tags: [CFA-L1, Vocabulary]
 
 - **Appreciation** — 增值 / 升值
   - 资产价值上涨；须判断题目给的是扣费前还是扣费后金额
+
+## Alternative Investments｜私募债务风险与收益
+
+- **Mezzanine Debt** — 夹层债务
+  - 通常劣后于高级债务受偿，因此要求较高风险补偿
+
+- **Senior Direct Lending** — 高级直接贷款
+  - 高级受偿顺位但仍承担企业信用和流动性风险
+
+- **Infrastructure Debt** — 基础设施债务
+  - 成熟稳定项目可能具有可预测现金流和较低预期超额收益
+
+- **Excess Return** — 超额收益
+  - 收益超过指定基准的部分，不等于绝对收益
+
+- **Risk–Return Trade-off** — 风险收益权衡
+  - 其他条件相同下更高风险通常对应更高要求收益
+
+- **Capital Structure** — 资本结构
+  - 债务和股权的融资安排影响风险及清偿顺位
+
+- **Senior Debt** — 高级债务
+  - 清偿顺位一般先于次级或夹层债务
+
+- **Subordinated Debt** — 次级债务
+  - 偿付顺位次于高级债务，通常要求更高风险补偿
