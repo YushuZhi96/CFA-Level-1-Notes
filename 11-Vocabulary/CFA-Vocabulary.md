@@ -3272,3 +3272,32 @@ tags: [CFA-L1, Vocabulary]
 
 - **Subordinated Debt** — 次级债务
   - 偿付顺位次于高级债务，通常要求更高风险补偿
+
+## Alternative Investments｜风险投资融资阶段
+
+- **Formative Stage** — 形成阶段
+  - 风险投资的早期阶段，通常包括种子期和初创期
+
+- **Seed Stage** — 种子期
+  - 资金多用于早期研发、产品开发或市场验证
+
+- **Start-up Stage** — 初创期
+  - 企业建立业务和推进早期商业化的阶段
+
+- **Later Stage** — 后期融资阶段
+  - 企业已有经营规模，资金通常用于扩大产能及销售
+
+- **Mezzanine Stage** — 夹层期 / 上市前融资阶段
+  - 本题分类中资金用于准备 IPO；不要与 Mezzanine Debt 混淆
+
+- **Pre-IPO Financing** — 上市前融资
+  - 公司准备首次公开发行股票前进行的融资
+
+- **Go Public** — 公开上市
+  - 公司通过 IPO 等方式进入公开资本市场
+
+- **Use of Proceeds** — 募集资金用途
+  - 判断风险投资融资阶段时重点关注本轮资金用在哪里
+
+- **A New Round of Financing** — 新一轮融资
+  - 单凭再融资不能判定阶段，还需分析募集资金用途
