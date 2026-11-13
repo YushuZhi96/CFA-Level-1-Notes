@@ -3301,3 +3301,32 @@ tags: [CFA-L1, Vocabulary]
 
 - **A New Round of Financing** — 新一轮融资
   - 单凭再融资不能判定阶段，还需分析募集资金用途
+
+## Alternative Investments｜基础设施投资方式与流动性
+
+- **Master Limited Partnerships (MLPs)** — 主有限合伙企业
+  - 公开交易的 MLP 权益单位可在交易所买卖，但不是所有 MLP 都上市
+
+- **Unlisted Infrastructure Funds** — 非上市基础设施基金
+  - 基金份额缺乏公开交易市场，通常流动性较低
+
+- **Direct Infrastructure Investment** — 直接基础设施投资
+  - 直接持有项目或项目公司权益，通常退出难且流动性风险较高
+
+- **Publicly Traded Infrastructure Securities** — 公开交易的基础设施证券
+  - 可通过二级市场交易，通常比直接项目投资更易变现
+
+- **Governance Transparency** — 治理透明度
+  - 上市工具通常有更明确公开披露要求，但不保证治理质量
+
+- **Underlying Assets** — 底层资产
+  - 基金实际持有的项目或资产，不等于基金份额本身
+
+- **Investor Control** — 投资者控制权
+  - 普通上市基金持有人通常较难直接决定底层项目运营
+
+- **Direct Investment** — 直接投资
+  - 直接持有项目权益，可能有更强控制权但通常流动性较差
+
+- **Limited Partnership** — 有限合伙企业
+  - 由普通合伙人和有限合伙人组成的法律组织形式
