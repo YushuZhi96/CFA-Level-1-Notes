@@ -3937,3 +3937,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Highly Probable Forecast Transaction** — 高度可能发生的预期交易
   - 符合条件的预期交易现金流变动可作为现金流量套期对象
+
+
+## Derivatives｜套利与一价定律
+
+- **Arbitrage Opportunity** — 套利机会
+  - 相同或等价资产出现价格偏差，且价差足以覆盖交易和融资成本时可能存在
+
+- **Replicating Portfolio** — 复制组合
+  - 通过其他资产构建与目标证券相同现金流的组合，用于无套利定价
+
+- **Risk-Free Arbitrage** — 无风险套利
+  - 通过同时建立相反交易锁定无需承担市场风险的利润，现实中机会通常短暂
