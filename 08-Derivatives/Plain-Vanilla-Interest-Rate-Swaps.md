@@ -122,3 +122,68 @@ tags: [CFA-L1, Derivatives, Swaps, Interest-Rate]
 - [ ] 能说明净额结算的支付方向
 - [ ] 能区分 Reset Date 与 Payment Date
 - [ ] 能独立计算固定与浮动利息及净额
+
+
+## 固定互换利率（Fixed Swap Rate / Par Swap Rate）
+
+### 一句话理解
+
+固定互换利率是使互换固定端与浮动端在起始时点的现值相等的平价固定利率。它不是各期限零息利率的简单算术平均数，而是由整条折现曲线、各期现金流时间和隐含远期利率共同决定。
+
+### 核心定价逻辑
+
+在互换起始日，标准平价互换的价值为零：
+
+$$
+PV_{\text{Fixed Leg}}=PV_{\text{Floating Leg}}
+$$
+
+因此，固定端的票息率需要设定为一个盈亏平衡利率（Breakeven Rate），使双方现金流的现值相等。
+
+### 平价固定互换利率公式
+
+在单一折现曲线（Single-Curve Framework）、名义本金归一化为 1、浮动端在起始日刚重设且无额外利差等标准假设下：
+
+$$
+S=\frac{1-DF_n}{\sum_{i=1}^{n}\alpha_i DF_i}
+$$
+
+其中：
+- \(S\)：固定互换利率（Fixed Swap Rate / Par Swap Rate）。
+- \(DF_i\)：第 \(i\) 个结算日的折现因子（Discount Factor）。
+- \(\alpha_i\)：第 \(i\) 个固定端计息期间的年化计息因子（Accrual Factor）。
+- \(n\)：结算期数。
+- \(DF_n\)：最后一个结算日的折现因子。
+
+分母是各期固定现金流支付系数的折现总和，也称年金因子（Annuity Factor）。
+
+### 与零息利率、远期利率的关系
+
+- 零息利率（Zero Rate）用于构建折现因子（Discount Factor）。
+- 隐含远期利率（Implied Forward Rate）用于推算未来各浮动计息期间适用的参考利率。
+- 固定互换利率综合考虑各期现金流和折现权重，因此不是各期限零息利率的简单算术平均数。
+- 在标准单曲线框架下，固定互换利率可理解为与隐含远期浮动现金流现值等价的固定票息率。
+
+### 本题判断
+
+Which interpretation of fixed swap rate is least correct?
+
+- A. A multiperiod breakeven rate making expected future floating and fixed cash flows indifferent to investors. → 正确，表达了平价互换利率的经济含义。
+- B. Arithmetic mean of the zero rates on each settlement date. → 错误，忽略不同期限现金流的折现权重及计息期间。
+- C. The internal rate of return of cash flows based on implied forward rates through the settlement periods. → 在本题的基础框架下可视为正确的等价描述。
+
+**正确答案：B。**
+
+### 常见考试陷阱
+
+1. Fixed Swap Rate ≠ Arithmetic Mean of Zero Rates。
+2. 不同结算日的现金流需要按对应折现因子折现，不能简单等权平均。
+3. Zero Rates 用于折现；Forward Rates 用于推算未来浮动利率。
+4. Fixed Swap Rate 是使固定端和浮动端现值相等的平价利率。
+5. 上述闭式公式依赖单一折现曲线等简化假设；实际市场多曲线框架下，需要使用相应的折现曲线和远期曲线。
+
+## 我的错因 / 验证记录
+
+- [ ] 能解释为什么固定互换利率不是零息利率的算术平均值
+- [ ] 能区分 Zero Rate、Forward Rate 和 Fixed Swap Rate
+- [ ] 能理解折现因子和计息因子在公式中的作用
