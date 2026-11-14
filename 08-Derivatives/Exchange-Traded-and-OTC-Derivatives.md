@@ -107,3 +107,31 @@ tags: [CFA-L1, Derivatives, Market-Structure]
 - [x] 能区分 ETD 与 OTC 的典型特征
 - [ ] 不看解析能独立解释 CCP、保证金和逐日盯市如何降低风险
 - [ ] 能独立完成一道 ETD 与 OTC 的变式题
+
+
+## 补充：信息透明度与监管（Transparency and Regulation）
+
+### 信息透明度（Transparency）
+
+- **ETD 通常透明度更高**：交易集中在交易所，市场参与者通常可以观察到公开报价（Public Quotes）、成交价格和成交量。
+- **OTC 通常透明度相对较低**：交易双方协商具体条款，报价和交易信息可能是双边或非公开的，不一定向整个市场披露。
+- 这并不意味着 OTC 完全没有市场报价或披露要求；具体透明度取决于产品、交易报告制度和监管规则。
+
+### 监管（Regulation）
+
+- ETD 在交易所规则和相关监管框架下交易，合约规格、交易和清算流程较为统一。
+- OTC 不通过交易所集中撮合，条款更灵活；但不能据此认为 OTC 完全不受监管。不同司法管辖区可能要求 OTC 衍生品进行报告、保证金管理或中央清算。
+
+### 本题判断
+
+题目：Which of the following best describes the exchange-traded derivatives but not the over-the-counter derivatives?
+
+- Customized → OTC 的典型特点。
+- Transparent → ETD 的典型特点，正确答案。
+- Less regulation → 更接近 OTC 相对于交易所市场的传统特征，但不是“OTC 不受监管”。
+
+**正确答案：B. Transparent（透明度高）。**
+
+快速记忆：
+- ETD → Standardized + Exchange-traded + Generally more liquid + More transparent.
+- OTC → Customized + Bilateral negotiation + Generally less transparent + Counterparty risk management is important.
