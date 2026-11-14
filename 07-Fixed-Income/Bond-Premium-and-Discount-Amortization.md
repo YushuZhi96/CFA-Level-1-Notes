@@ -240,3 +240,66 @@ $$
 - [ ] 能独立计算溢价债券第一期利息费用与期末账面价值
 - [ ] 能判断折价 / 溢价摊销方向及利息费用变化趋势
 - [ ] 能解释到期偿还本金为何按 Face Value 计入 CFF
+
+
+## 十一、出售债券的资本利得与摊销后账面价值（Capital Gain and Carrying Value）
+
+### 1. 为什么以 Carrying Value 为基准？
+
+对于以**摊余成本／有效利率法（Amortized Cost / Effective Interest Method）**衡量持有期间收益的题目，原始折价或溢价会随着时间逐期摊销。出售时要区分：
+
+- **Amortized Carrying Value（摊销后账面价值）**：原始购买成本加上累计折价摊销，或减去累计溢价摊销。
+- **Selling Price（卖出价格）**：实际出售债券所获得的价格（比较时需采用一致的净价、应计利息口径）。
+- **Capital Gain / Loss（资本利得／损失）**：出售价格与出售时的摊销后账面价值之间的差额。
+
+\[
+\boxed{Capital\ Gain\ (Loss)=Selling\ Price-Carrying\ Value}
+\]
+
+当结果大于零为 Capital Gain（资本利得），小于零为 Capital Loss（资本损失）。
+
+### 2. Discount Bond｜折价债券
+
+\[
+\boxed{Carrying\ Value=Original\ Purchase\ Price+Cumulative\ Discount\ Amortization}
+\]
+
+**例题**：面值1,000，三年前以900购买；截至出售日累计摊销折价60。
+
+- Original Purchase Price = 900。
+- Cumulative Discount Amortization = 60。
+- Carrying Value = 900 + 60 = **960**。
+- 如果第三年卖出价格为980：
+
+\[
+Capital\ Gain=980-960=\boxed{20}
+\]
+
+**为什么不直接算 980 − 900 = 80？** 因为其中60的账面增值已经按有效利率法反映为持有期间的折价摊销收益；本题要衡量的是超出摊销后账面价值的卖出利得。请将这种分类与以原始购买价计算的整个持有期价格差额区分开。
+
+### 3. Premium Bond｜溢价债券
+
+\[
+\boxed{Carrying\ Value=Original\ Purchase\ Price-Cumulative\ Premium\ Amortization}
+\]
+
+溢价债券按有效利率法摊销时，账面价值逐期下降，通常向面值靠拢。
+
+### 4. 考试对比与速判
+
+| 债券 | 累计摊销对 Carrying Value 的影响 | 资本利得的比较基准 |
+|---|---|---|
+| Discount Bond（折价） | 原始买价 + 累计折价摊销 | 出售时 Carrying Value |
+| Premium Bond（溢价） | 原始买价 − 累计溢价摊销 | 出售时 Carrying Value |
+
+**本题原文的判断**：
+
+> An investor sold a fixed-rate coupon bond which he purchased at discount 3 years ago. To measure the capital gain, the investor should compare the selling price with ...
+
+- **A 错误**：折价债券应加上（plus）累计折价摊销，而不是减去（minus）。
+- **B 错误**：原始购买价格忽略了持有期间已确认的折价摊销。
+- **C 正确**：出售价格与出售时的 **Carrying Value** 比较。
+
+**CFA 记忆句**：折价摊销要加，溢价摊销要减；计算这类资本利得时，比较 **Selling Price − Carrying Value**。
+
+**口径提醒**：这里遵循题目的摊销后账面价值与利得分类框架；实际会计确认和税务资本利得的计算还取决于债券分类、税务成本基础及适用规则。不能将本题的 Capital Gain 公式不加条件地用于所有账户和税务情形。
