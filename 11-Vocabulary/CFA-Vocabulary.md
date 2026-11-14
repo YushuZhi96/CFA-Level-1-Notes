@@ -3693,3 +3693,7 @@ tags: [CFA-L1, Vocabulary]
 
 - **Interest-Sensitive Embedded Option** — 利率敏感型嵌入期权
   - 行权可能性随利率变化，并可能改变债券预期现金流
+
+
+- **Approximate Modified Duration** — 近似修正久期
+  - 通过收益率上下等幅冲击后债券价格的中心差分，估计固定现金流债券的修正久期
