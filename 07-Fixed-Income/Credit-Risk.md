@@ -252,3 +252,51 @@ PD=10\%,\quad EL\ Rate=4\%
 RR=1-\frac{4\%}{10\%}=60\%
 \]
 
+
+
+## 9. Credit Risk Definition｜信用风险的定义
+
+**Credit Risk（信用风险）**：债券发行人未能按照合同约定，足额且及时支付利息和／或偿还本金，导致投资者遭受损失的风险。
+
+\[
+\boxed{\text{Credit Risk}=\text{Risk of loss from failure to make full and timely payments}}
+\]
+
+这里的关键词是：
+
+- **Full payments（足额支付）**：发行人可能无法支付全部应付本金或利息。
+- **Timely payments（及时支付）**：发行人可能延迟支付，即使最终补付，也可能构成违约事件或触发合同条款。
+- **Issuer（发行人）**：承担债券合同付款义务的主体。
+
+### Credit Risk vs. Credit Spread Risk vs. Credit Migration Risk
+
+| 概念 | 中文 | 核心问题 | 可能造成的损失 |
+|---|---|---|---|
+| Credit Risk / Default Risk | 信用风险／违约风险 | 发行人能否足额、及时付款？ | 未收到约定本金或利息 |
+| Credit Spread Risk | 信用利差风险 | 市场要求的信用利差是否扩大？ | 即使没有违约，债券价格也可能下跌 |
+| Credit Migration Risk | 信用评级迁移风险 | 发行人的信用评级是否被下调或上调？ | 评级下调可能导致要求收益率上升、价格下跌 |
+
+**重要区分**：
+
+- Credit Risk 的基本定义关注发行人是否履行付款义务。
+- Spread Widening（信用利差扩大）属于市场信用利差变化，可在发行人没有违约时造成债券市值损失。
+- Rating Downgrade（评级下调）属于信用质量评估的迁移；它可能引发利差扩大和价格损失，但不是 Credit Risk 的定义本身。
+- Credit Spread Risk 和 Credit Migration Risk 与信用风险密切相关，但不能替代信用风险的基本定义。
+
+### CFA 题目复盘：Credit Risk is defined as the...
+
+**题目**：Credit risk is defined as the:
+
+- A. risk of loss from spread widening.
+- B. risk of loss from rating downgrade.
+- C. risk of loss from issuer failing to make full and timely payments.
+
+**正确答案：C。**
+
+**解题关键词**：issuer failing to make full and timely payments，即发行人未能足额、及时履行付款义务。
+
+**考场速记**：
+- Fail to make full and timely payments → **Credit Risk / Default Risk**
+- Spread widening → **Credit Spread Risk**
+- Rating downgrade → **Credit Migration Risk**
+
