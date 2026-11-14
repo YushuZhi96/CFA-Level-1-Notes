@@ -3697,3 +3697,13 @@ tags: [CFA-L1, Vocabulary]
 
 - **Approximate Modified Duration** — 近似修正久期
   - 通过收益率上下等幅冲击后债券价格的中心差分，估计固定现金流债券的修正久期
+
+
+- **Callable Bond Effective Duration** — 可赎回债券有效久期
+  - 在低利率、发行人赎回概率上升的敏感区域，通常缩短
+
+- **Putable Bond Effective Duration** — 可回售债券有效久期
+  - 在高利率、投资者回售概率上升的敏感区域，通常缩短
+
+- **Exercise Probability** — 行权概率
+  - 发行人或投资者按嵌入式期权条款提前赎回／回售的可能性
