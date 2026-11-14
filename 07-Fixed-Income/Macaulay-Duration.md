@@ -191,3 +191,20 @@ D_{Mac}=1\times\frac{4.7170}{98.1666}+2\times\frac{93.4496}{98.1666}
 ## 关联
 
 [[Duration-Study-Guide|Duration 总专题]] · [[Modified-Duration]] · [[Key-Rate-Duration]] · [[Fixed-Income-Basics]]
+
+
+## YTM 如何影响 Macaulay Duration？
+
+对于其他条件相同的普通固定票息债券（相同票息率、到期期限、付息频率及可比风险）：
+
+- YTM 上升，未来现金流折现更重，尤其是较远期现金流的现值下降得更多。
+- 远期现金流占债券总价格的现值权重通常下降，较早现金流的相对权重提高。
+- 因此，Macaulay Duration（现值加权平均收款时间）通常缩短。
+
+\[
+\boxed{YTM\uparrow\Rightarrow D_{Mac}\downarrow}
+\]
+
+**特殊情况：Zero-Coupon Bond（零息债券）**只有到期时的一笔现金流，因此其 Macaulay Duration 始终等于到期期限，不会因为 YTM 改变而缩短。
+
+注意：这里讨论的是固定现金流、无嵌入式期权债券的标准比较。含 Callable / Putable 等期权时，利率变化可能改变预期现金流，应结合 Effective Duration 分析。
