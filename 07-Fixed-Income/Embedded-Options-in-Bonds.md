@@ -157,3 +157,35 @@ V_{Convertible}=V_{Straight\ Bond}+V_{Conversion\ Option}
 **边界**：以上是行权敏感区域的典型关系，不代表所有合同条款和所有利率水平下都必然单调成立。实际有效久期还取决于行权价格、可行权日期、保护期、利率波动率、信用利差及估值模型。
 
 更完整的现金流逻辑、Effective Duration 公式与题型见 [[Duration-Study-Guide|Duration 久期总专题第4.1节]]。
+
+
+## 7. Z-spread 与 OAS（Option-Adjusted Spread）
+
+### Z-spread｜零波动利差
+
+Z-spread（Zero-Volatility Spread）是在基准即期利率曲线（Spot Rate Curve）上增加的恒定利差，使债券未来现金流折现值等于当前市场价格。它不对嵌入式期权的影响作单独调整。
+
+### OAS｜期权调整利差
+
+OAS（Option-Adjusted Spread）是在考虑利率路径及嵌入式期权行权影响后，剔除嵌入式期权价值影响所得到的利差。它用于更公平地比较含权债券与无期权债券的利差水平。
+
+### Callable 与 Putable 的 OAS / Z-spread 关系
+
+| 债券类型 | 嵌入期权归属 | Z-spread 与 OAS 关系 | 原因 |
+|---|---|---|---|
+| Callable Bond（可赎回债券） | 发行人持有 Call | Z-spread > OAS | 赎回权对投资者不利，债券价格受到压低；Z-spread 包含了期权影响，剔除后 OAS 较小 |
+| Putable Bond（可回售债券） | 投资者持有 Put | OAS > Z-spread | 回售权对投资者有利，债券价格得到支撑；剔除投资者持有的期权价值后，OAS 高于 Z-spread |
+
+记忆：
+- **Callable：OAS < Z-spread**
+- **Putable：OAS > Z-spread**
+
+### 本题判断
+
+- A. Callable bond 的 OAS 大于 Z-spread → 错误。
+- B. Callable bond 的 OAS 小于 Z-spread → 正确。
+- C. Putable bond 的 OAS 小于 Z-spread → 错误；通常 OAS 大于 Z-spread。
+
+**正确答案：B. For a callable bond, OAS is smaller than Z-spread.**
+
+注意：OAS 是模型估计值，依赖利率波动率、利率树或期权调整模型等假设。上述大小关系是 CFA 基础题中标准的方向判断。
