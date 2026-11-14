@@ -3385,3 +3385,35 @@ tags: [CFA-L1, Vocabulary]
 
 - **Land Value Changes** — 土地价值变化
   - 农田或林地自身价值变化可影响投资回报
+
+## Alternative Investments｜对冲基金基础与 FOF
+
+- **Due Diligence** — 尽职调查
+  - 对底层基金的策略、风险及运营进行评估，不能保证盈利
+
+- **Minimum Investment Requirement** — 最低投资额要求
+  - FOF 可能降低多基金配置的资金门槛，但仍有资格限制
+
+- **Accessible** — 可参与的
+  - FOF 可能让资金较少的合格投资者更容易参与
+
+- **Long/Short** — 多空策略
+  - 同时持有多头和空头，不保证市场中性
+
+- **Event-Driven** — 事件驱动策略
+  - 围绕并购、重组等企业事件投资
+
+- **Arbitrage** — 套利
+  - 利用相对价格差异，仍存在执行和基差风险
+
+- **Investment Due Diligence** — 投资尽职调查
+  - 评估策略、投资流程、业绩来源和风险敞口
+
+- **Operational Due Diligence** — 运营尽职调查
+  - 评估估值、托管、内部控制和运营安排
+
+- **Single Hedge Fund** — 单只对冲基金
+  - 与 FoHF 的多基金配置相对
+
+- **Fund of Funds** — 基金中的基金
+  - 将投资者资金配置到多个底层基金，可能产生双层费用
