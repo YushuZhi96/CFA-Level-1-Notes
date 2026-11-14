@@ -69,21 +69,21 @@ tags: [CFA-L1, Derivatives, Swaps, Interest-Rate]
 
 固定利息：
 
-\[
+$$
 \text{Fixed Payment}=N\times R_f\times\Delta
-\]
+$$
 
 浮动利息：
 
-\[
+$$
 \text{Floating Payment}=N\times R_L\times\Delta
-\]
+$$
 
 净额结算金额：
 
-\[
+$$
 \text{Net Payment}=|\text{Floating Payment}-\text{Fixed Payment}|
-\]
+$$
 
 支付方向由应付金额较大的一方决定。
 
@@ -149,11 +149,11 @@ S=\frac{1-DF_n}{\sum_{i=1}^{n}\alpha_i DF_i}
 $$
 
 其中：
-- \(S\)：固定互换利率（Fixed Swap Rate / Par Swap Rate）。
-- \(DF_i\)：第 \(i\) 个结算日的折现因子（Discount Factor）。
-- \(\alpha_i\)：第 \(i\) 个固定端计息期间的年化计息因子（Accrual Factor）。
-- \(n\)：结算期数。
-- \(DF_n\)：最后一个结算日的折现因子。
+- $S$：固定互换利率（Fixed Swap Rate / Par Swap Rate）。
+- $DF_i$：第 $i$ 个结算日的折现因子（Discount Factor）。
+- $\alpha_i$：第 $i$ 个固定端计息期间的年化计息因子（Accrual Factor）。
+- $n$：结算期数。
+- $DF_n$：最后一个结算日的折现因子。
 
 分母是各期固定现金流支付系数的折现总和，也称年金因子（Annuity Factor）。
 
