@@ -204,3 +204,68 @@ Once the forward contract initiates, changes in the underlying spot price lead t
 - Forward Price (contract delivery price K) → fixed after initiation.
 - Forward Contract Value → changes as market conditions change.
 - Current Market Forward Price → price of a newly initiated forward contract; may change over time.
+
+
+## 持有成本与持有收益对远期价格的影响（Cost of Carry）
+
+远期价格不仅受现货价格和无风险利率影响，也会受持有标的资产期间产生的成本和收益影响。
+
+### 1. 基本关系
+
+按年复利、成本与收益以估值日现值表示的简化公式：
+
+\[
+F_0(T)=\big[S_0+PV(\text{Costs})-PV(\text{Benefits})\big](1+r)^T
+\]
+
+其中：
+- \(S_0\)：当前现货价格（Spot Price）。
+- \(PV(\text{Costs})\)：持有资产期间成本的现值，例如仓储费（Storage Costs）和保险费。
+- \(PV(\text{Benefits})\)：持有资产期间收益的现值，例如股息（Dividends）、利息收入或便利收益（Convenience Yield）的相应价值。
+- \(r\)：无风险利率（Risk-free Rate）。
+- \(T\)：到期期限（Time to Maturity）。
+
+### 2. 方向判断
+
+| 因素 | 对远期价格的影响 | 直觉 |
+|---|---|---|
+| 现货价格上升 | 上升 | 当前买入资产的成本更高 |
+| 无风险利率上升 | 通常上升 | 融资或机会成本提高 |
+| 持有成本上升 | 上升 | 持有现货更贵 |
+| 持有收益上升 | 下降 | 持有现货更有价值，远期买方无需提前持有即可避免放弃收益 |
+
+记忆：
+- **Costs ↑ → Forward Price ↑**
+- **Benefits ↑ → Forward Price ↓**
+
+### 3. 例子
+
+假设某资产当前现货价格为 $100，一年期无风险利率为 5%，一年内会支付现值为 $3 的现金收益，且没有其他持有成本：
+
+\[
+F_0=(100-3)(1.05)=\$101.85
+\]
+
+如果忽略这 $3 的持有收益，远期价格会被高估为 $105。
+
+### 4. 持有收益的例子
+
+- **股息（Dividends）**：股票持有人在持有期间可获得股息，通常会降低股票远期价格。
+- **利息收入（Interest Income）**：生息资产的持有人可能获得利息收入，通常会降低远期价格。
+- **便利收益（Convenience Yield）**：实物商品持有人因能够立即使用或保障生产供应而获得的非现金收益；便利收益越高，商品远期价格通常越低。
+
+持有成本的例子：
+- **仓储成本（Storage Costs）**：持有商品产生的仓储费用，通常会提高远期价格。
+- **保险费用（Insurance Costs）**：持有实物资产期间支付的保险费用，通常会提高远期价格。
+
+### 本题判断
+
+Which statement about pricing and valuation of forward contracts is most accurate?
+
+- Benefits of holding an asset increase forward price → 错误，持有收益会降低远期价格。
+- Costs of holding an asset decrease forward price → 错误，持有成本会提高远期价格。
+- Benefits of holding an asset decrease forward price → 正确。
+
+**正确答案：C。**
+
+注意：不同资产的具体公式还需考虑收益支付时间、成本支付时间、连续复利约定，以及便利收益等因素；本节公式用于掌握方向和基础定价逻辑。
