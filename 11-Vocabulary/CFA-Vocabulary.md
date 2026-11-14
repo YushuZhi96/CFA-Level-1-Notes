@@ -4069,3 +4069,12 @@ tags: [CFA-L1, Vocabulary]
 
 - **Reinvestment Gain** — 再投资收益
   - 期货多头每日收到盈利后可按当时利率再投资，正相关时盈利更可能在较高利率下再投资
+
+
+## Fixed Income｜Z-spread 与 OAS
+
+- **Z-Spread (Zero-Volatility Spread)** — 零波动利差
+  - 在基准即期利率曲线上加上的恒定利差，使折现现金流等于债券市场价格，未单独剔除嵌入期权影响
+
+- **Option-Adjusted Spread (OAS)** — 期权调整利差
+  - 考虑嵌入式期权影响后剔除期权价值所得的利差，用于含权债券的利差比较
