@@ -11,6 +11,8 @@ tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fees, Hurdle-Rate, Fund-of-
 
 [[09-Alternative-Investments/INDEX|返回另类投资目录]]
 
+相关概念：[[Hedge-Fund-Basics|对冲基金基础知识]]（对冲基金、FOF 优势与风险）。本笔记保留收费结构及计算方法。
+
 ## 一句话理解
 
 对冲基金（Hedge Fund）常见收费包括**管理费（Management Fee）**和**业绩报酬（Incentive Fee）**。计算前必须确认：管理费以何时点的 AUM 为基数、业绩报酬是否先扣管理费、是否设有门槛收益率（Hurdle Rate）或高水位线（High-Water Mark）。
