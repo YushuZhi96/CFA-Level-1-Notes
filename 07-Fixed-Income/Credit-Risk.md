@@ -117,3 +117,138 @@ tags: [CFA-L1, Fixed-Income, Credit-Risk, Credit-Rating, Seniority, Recovery-Rat
 
 - [[Fixed-Income-Basics|Fixed Income Basics]]
 - [[CDS-Credit-Spread|CDS & Credit Spread]]
+
+
+## 7. Notching Adjustment｜信用评级微调
+
+**Notching（评级微调）**：评级机构以发行人信用评级（Issuer Rating）为参考，根据某一具体债务工具的偿付优先级、担保、结构性次级和预期回收情况，对该债务工具评级向上或向下调整。
+
+- **Upward Notching（向上微调）**：例如债务有高质量抵押品或强担保，预期回收率相对更高，具体债务评级可能高于发行人评级。
+- **Downward Notching（向下微调）**：例如次级债务（Subordinated Debt）在清偿顺序中靠后，预期回收率可能更低，具体债务评级可能低于发行人评级。
+
+### High-Yield vs. Investment-Grade｜高收益债与投资级债的微调幅度
+
+CFA 考试的典型结论：
+
+\[
+\boxed{Notching_{High\text{-}Yield}>Notching_{Investment\text{-}Grade}}
+\]
+
+高收益债（High-Yield / Speculative-Grade Debt）的信用质量较弱、违约风险通常较高。发生违约时，抵押品和债务偿付优先级造成的回收率差异，对债权人的预期损失及具体债务风险更为重要。因此，评级机构通常会对高收益债进行幅度更大的评级微调。
+
+投资级债（Investment-Grade Debt）违约风险相对较低，债务层级之间回收率差异对评级的影响通常较小，因此微调幅度通常较小。
+
+**CFA 题型复盘：**
+
+题目：For a high-yield debt, the extent of notching adjustment is most likely:
+
+- A. bigger than investment-grade.
+- B. smaller than investment-grade.
+- C. same as investment-grade.
+
+**正确答案：A. bigger than investment-grade.**
+
+**速记**：High-Yield → recovery / seniority differences matter more → larger notching.
+
+**注意**：这是典型评级方法和考试比较关系，不表示每一只高收益债的实际 notch 数都必然大于每一只投资级债；具体调整仍由评级机构的评级方法、资本结构、抵押品和担保情况决定。
+
+## 8. Expected Loss｜预期损失、PD、LGD 与 Recovery Rate
+
+### 四个核心概念
+
+- **PD (Probability of Default)**：违约概率，某一期间内发生违约的概率。
+- **LGD (Loss Given Default)**：违约损失率，发生违约后无法收回的敞口比例。
+- **RR (Recovery Rate)**：回收率，发生违约后可收回的敞口比例。
+- **EL (Expected Loss)**：预期损失，按违约概率加权后的平均损失。
+
+回收率与违约损失率互补：
+
+\[
+\boxed{LGD=1-RR}
+\]
+
+若以违约敞口比例表示预期损失率：
+
+\[
+\boxed{EL\ Rate=PD\times LGD=PD\times(1-RR)}
+\]
+
+若计算金额：
+
+\[
+\boxed{Expected\ Loss=PD\times LGD\times EAD}
+\]
+
+其中 **EAD (Exposure at Default)** 是违约风险暴露金额。若涉及损失发生时间和现值，还需要按题目要求折现；本节基础题暂不考虑折现。
+
+### 例题：由 PD 和 EL 求 Recovery Rate
+
+**题目**：一家跨国公司的 Default Probability 为10%，Expected Loss 为4%。发生违约时的 Recovery Rate 是多少？
+
+已知：
+
+\[
+PD=10\%,\quad EL\ Rate=4\%
+\]
+
+代入：
+
+\[
+4\%=10\%\times(1-RR)
+\]
+
+\[
+1-RR=\frac{4\%}{10\%}=40\%
+\]
+
+\[
+\boxed{RR=60\%}
+\]
+
+**正确答案：B. 60%。**
+
+### 用金额直觉理解
+
+假设 EAD = 100：
+
+- 违约概率为10%，对应预期违约敞口为10。
+- 预期损失为4。
+- 违约时损失率为 \(4/10=40\%\)。
+- 回收率为 \(1-40\%=60\%\)，即违约时预计收回6。
+
+### 公式变形：考试常用
+
+\[
+\boxed{EL=PD\times LGD}
+\]
+
+\[
+\boxed{LGD=\frac{EL}{PD}}
+\]
+
+\[
+\boxed{RR=1-\frac{EL}{PD}}
+\]
+
+以上 EL 与 PD 均使用相同期间、相同敞口口径的比例数值。
+
+**易错点**：
+1. Recovery Rate 不是 \(EL/PD\)，而是 \(1-EL/PD\)。
+2. \(EL/PD\) 得到的是 LGD（违约损失率）。
+3. 若题目给的是预期损失金额而非损失率，需要先除以 EAD，或直接使用 \(EL=PD\times LGD\times EAD\)。
+4. PD、LGD、RR、EL 的期间和敞口口径必须一致。
+
+### CFA 考题复盘
+
+**题型1：High-Yield Debt 的 Notching Adjustment 与 Investment-Grade 相比如何？**
+
+正确：通常更大（Bigger），因为在高收益债中，偿付优先级和回收率差异对信用风险及评级更重要。
+
+**题型2：PD=10%，EL Rate=4%，求 Recovery Rate。**
+
+正确：
+
+\[
+RR=1-\frac{4\%}{10\%}=60\%
+\]
+
