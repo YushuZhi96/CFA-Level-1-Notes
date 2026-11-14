@@ -3832,3 +3832,18 @@ tags: [CFA-L1, Vocabulary]
 
 - **Settlement Method** — 结算方式
   - 合约约定的履行结算安排，可包括实物交割或现金结算
+
+
+## Derivatives｜远期市场与期货市场
+
+- **Futures Contract** — 期货合约
+  - 在交易所交易、由交易所标准化的衍生品合约
+
+- **Futures Market** — 期货市场
+  - 交易所标准化期货合约的集中交易市场，流动性通常高于远期市场
+
+- **Forward Market** — 远期市场
+  - 交易双方协商定制远期合约的场外市场，流动性通常低于期货市场
+
+- **Standardization** — 标准化
+  - 统一合约规模、到期日和交割等条款，促进交易所集中交易
