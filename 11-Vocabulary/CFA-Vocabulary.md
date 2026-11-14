@@ -3847,3 +3847,27 @@ tags: [CFA-L1, Vocabulary]
 
 - **Standardization** — 标准化
   - 统一合约规模、到期日和交割等条款，促进交易所集中交易
+
+
+## Derivatives｜普通利率互换
+
+- **Plain Vanilla Interest Rate Swap** — 普通利率互换
+  - 双方交换固定与浮动利息现金流，通常不交换名义本金
+
+- **Notional Principal** — 名义本金
+  - 用于计算互换利息的参考金额，普通利率互换中通常不实际交换
+
+- **Netting** — 净额结算
+  - 结算日将双方应付现金流抵销，只支付净额
+
+- **Payment Date** — 支付日
+  - 按计息期已确定的利率支付利息的日期，通常位于计息期末
+
+- **Accrual Period** — 计息期
+  - 计算一笔利息所对应的时间区间
+
+- **Set in Advance** — 期初确定
+  - 浮动利率在计息期开始前或开始时确定
+
+- **Paid in Arrears** — 期末支付
+  - 一个计息期的利息通常在该计息期结束后支付
