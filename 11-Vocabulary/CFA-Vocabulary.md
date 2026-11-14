@@ -3498,3 +3498,45 @@ tags: [CFA-L1, Vocabulary]
 
 - **Regulatory Structuring** — 监管架构安排
   - 通过合法结构适配不同司法管辖区规则
+
+
+## Fixed Income｜收益率曲线与利率期限结构
+
+- **Term Structure of Interest Rates** — 利率期限结构
+  - 描述不同期限对应的利率关系
+
+- **Yield Curve** — 收益率曲线
+  - 不同期限的收益率所构成的曲线
+
+- **Forward Rate** — 远期利率
+  - 对应未来某段时间的隐含利率
+
+- **Spot Rate** — 即期利率
+  - 从当前时点到某一到期日的零息利率
+
+- **Par Rate** — 平价利率
+  - 使债券价格等于面值时的票面利率
+
+- **Forward Rate Curve** — 远期利率曲线
+  - 表示各未来区间的远期利率
+
+- **Spot Rate Curve** — 即期利率曲线
+  - 表示不同到期日的即期利率
+
+- **Par Rate Curve** — 平价收益率曲线
+  - 表示各期限对应的平价利率
+
+- **Upward-Sloping Yield Curve** — 上升型收益率曲线
+  - 标准单调上升远期结构下典型关系为 Forward > Spot > Par
+
+- **Downward-Sloping Yield Curve** — 下降型收益率曲线
+  - 标准单调下降远期结构下典型关系为 Forward < Spot < Par
+
+- **Flat Yield Curve** — 水平收益率曲线
+  - 远期利率恒定时 Forward、Spot、Par 相等
+
+- **Humped Yield Curve** — 驼峰型收益率曲线
+  - 利率随期限先上升后下降，不可机械套用统一高低排序
+
+- **Zero-Coupon Rate** — 零息利率
+  - 不同到期期限的无中间票息现金流的贴现利率
