@@ -3672,3 +3672,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Immunization** — 免疫策略
   - 通过久期及现金流安排等控制利率变动对目标价值的影响
+
+
+## Fixed Income｜嵌入期权债券与凸性补充
+
+- **Convexity** — 凸性
+  - 描述债券价格—收益率关系的弯曲程度；与价格对收益率的二阶变化有关
+
+- **Positive Convexity** — 正凸性
+  - 同幅度利率变动下，价格上涨幅度通常大于下跌幅度；无期权债券通常如此
+
+- **Negative Convexity** — 负凸性
+  - 在某些区域，利率下降时债券价格上涨受到压制；可赎回债券可能出现
+
+- **Capped Price Upside** — 价格上涨受限
+  - Callable Bond 在利率下降、赎回更可能发生时的价格特征
+
+- **Downside Price Protection** — 价格下跌保护
+  - Putable Bond 在利率上升、回售权更有价值时的价格特征
+
+- **Interest-Sensitive Embedded Option** — 利率敏感型嵌入期权
+  - 行权可能性随利率变化，并可能改变债券预期现金流
