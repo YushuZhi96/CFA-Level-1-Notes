@@ -1178,6 +1178,38 @@ Required\ Margin\approx3.492\%-2.2\%=1.292\%\approx1.3\%
 - **Spot Rate Curve（即期利率曲线）**：反映从当前时点起至各到期日的零息利率（Zero-Coupon Rates）。
 - **Par Rate Curve（平价收益率曲线）**：反映不同到期期限、债券价格等于面值时对应的票面利率（Par Rates）。
 
+
+### 三种曲线的定义辨析｜Definition Quick Check
+
+| 曲线 | 关键字 | 准确定义 |
+|---|---|---|
+| Spot Rate Curve（即期利率曲线） | Zero-Coupon Rates | 由不同期限的零息即期利率构成 |
+| Forward Rate Curve（远期利率曲线） | Forward Rates | 描述未来指定期限区间的远期利率 |
+| Par Rate Curve（平价收益率曲线） | Par Bond Yields | 由不同期限、以面值交易债券对应的平价收益率构成 |
+
+**容易混淆的考点**：
+- Spot 曲线**不是**一系列平价债券的 YTM；它对应零息现金流的贴现率。
+- Par 曲线对应使各期限债券按面值定价的票面利率；在标准平价付息债券中，Coupon Rate = YTM。
+- Forward 曲线的每一点应说明利率从何时开始、覆盖多长期间，不能仅凭一个到期期限描述所有远期合约。
+
+### 构建收益率曲线的可比性｜Comparability
+
+- 一条用于研究期限结构的收益率曲线，应尽量使用信用质量（Credit Quality）或信用风险（Credit Risk）相近的债券，也应考虑币种、流动性、税收等因素。
+- **Similar Credit Risk（相似信用风险）**：可减少不同评级造成的信用利差差异，避免把信用风险差异误判为期限造成的变化。
+- 因此题目中“Par curve 上的债券应该具有类似信用风险”是合理的比较原则。
+
+### 本题：Least Accurate（定义题速判）
+
+**题干**：Regarding the maturity structure of interest rates, which statement is least accurate?
+
+- A. “Spot curve is a series of yields-to-maturity on par bonds.” → **错误**。把 Par Curve 的定义误写成 Spot Curve。
+- B. “Forward curve describes the relationship between maturity and forward rate.” → **正确**（比较不同期限或远期区间的远期利率）。
+- C. “The bonds on a par curve should own similar credit risk.” → **正确**（可比债券的信用风险应相近）。
+
+**正确答案：A。**
+
+**无需计算的第二种速判法**：先识别选项说的是哪一种曲线的定义：**Spot → Zero-Coupon；Forward → Future Period；Par → Par Bonds**。遇到“Spot + YTM on par bonds”的搭配，可直接识别为概念混淆。与前文根据远期利率单调走势判断曲线高低的方法并列记忆。
+
 ### Forward Rate Tenor｜远期期限表达
 
 | 表达 | 含义 |
