@@ -26,3 +26,6 @@ $$
 
 ## 关联
 [[Modified-Duration]] · [[Key-Rate-Duration]]
+
+## 专题总览
+[[Duration-Study-Guide|返回 Duration 久期专题：四种指标对比与速判]]
