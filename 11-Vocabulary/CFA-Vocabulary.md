@@ -3976,3 +3976,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Out of the Money (OTM)** — 虚值期权
   - Call 为标的价格低于行权价，Put 为标的价格高于行权价
+
+
+## Derivatives｜套利执行障碍
+
+- **Market Impact** — 市场冲击
+  - 交易订单导致市场价格发生变化，大额交易可能侵蚀套利价差
+
+- **Bid-Ask Spread** — 买卖价差
+  - 买入报价与卖出报价之间的差额，价差较宽会提高交易成本
+
+- **Market Depth** — 市场深度
+  - 不同价格水平可供交易的订单数量，深度较大通常更能承接大额交易
