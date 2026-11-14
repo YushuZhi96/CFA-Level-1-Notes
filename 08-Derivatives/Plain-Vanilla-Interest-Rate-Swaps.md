@@ -263,3 +263,54 @@ The swap contract value:
 - [ ] 能区分 Fixed Swap Rate 与 Swap Value
 - [ ] 能解释互换价值为什么会随市场利率变化
 - [ ] 能区分单份组成远期价值与全部组成远期价值之和
+
+
+## 互换价值的计算（Calculation of Swap Value）
+
+互换价值等于未来各期**净现金流（Net Cash Flows）**的现值之和。也可以分别计算收取端与支付端的现值，再相减。
+
+从某一方的角度：
+
+$$
+V_{\text{Swap},t}
+=
+\sum_{i=1}^{n}DF(t,T_i)\times E_t[NCF_i]
+$$
+
+其中：
+- \(DF(t,T_i)\)：从估值日 \(t\) 到第 \(i\) 个支付日 \(T_i\) 的折现因子。
+- \(E_t[NCF_i]\)：在估值日 \(t\) 对第 \(i\) 期净现金流的预期；净现金流按该方视角定义为收取金额减去支付金额。
+- \(n\)：剩余结算期数。
+
+等价表达：
+
+$$
+V_{\text{Swap},t}
+=
+PV_{\text{Receive Leg},t}
+-
+PV_{\text{Pay Leg},t}
+$$
+
+### 本题判断
+
+The swap value is calculated by:
+
+- A. Adding up the present value of the fixed payments in the future. → 不完整，只计算固定端，忽略另一端。
+- B. Adding up the present value of the floating payments in the future. → 不完整，只计算浮动端，忽略另一端。
+- C. Adding up the present value of the net cash payments in the future. → 正确，计算每期净现金流并折现，再将各期现值加总。
+
+**正确答案：C。**
+
+### 现金流方向提醒
+
+- 若从固定利率支付方（Pay Fixed）的角度，净现金流 = 收到的浮动现金流 − 支付的固定现金流。
+- 若从固定利率收取方（Receive Fixed）的角度，净现金流 = 收到的固定现金流 − 支付的浮动现金流。
+- 因此 Swap Value 的正负取决于观察者持有哪一侧；不要脱离交易方向只写一个固定正负号。
+
+### 易错点
+
+1. Swap Value 不是固定端现值单独一项。
+2. Swap Value 也不是浮动端现值单独一项。
+3. 应计算收取端与支付端的差额，或直接计算每期净现金流的现值总和。
+4. 每个结算日通常先对双方应付利息进行净额结算（Net Settlement）；估值时则把未来净现金流折现到当前。
