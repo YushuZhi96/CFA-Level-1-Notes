@@ -6,3 +6,4 @@
 - [[Long-Short-Call-Put]]
 - [[Exchange-Traded-and-OTC-Derivatives]]
 - [[Contingent-Claims-and-Forward-Commitments]]
+- [[Plain-Vanilla-Interest-Rate-Swaps]]
