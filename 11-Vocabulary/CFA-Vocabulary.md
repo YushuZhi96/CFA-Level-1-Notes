@@ -3871,3 +3871,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Paid in Arrears** — 期末支付
   - 一个计息期的利息通常在该计息期结束后支付
+
+
+## Derivatives｜远期与期货每日结算
+
+- **Daily Settlement** — 每日结算
+  - 期货每日按结算价格盯市，将当日盈亏计入保证金账户
+
+- **Settlement Price** — 结算价格
+  - 交易所用于计算期货每日盯市盈亏的当日参考价格
+
+- **Perfect Hedge** — 完美套期保值
+  - 通过匹配风险敞口与对冲合约的标的、数量和期限等，消除目标风险
