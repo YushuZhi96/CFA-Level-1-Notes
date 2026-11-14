@@ -118,6 +118,80 @@ D_{Eff}=\frac{102-98}{2(100)(0.0025)}=8
 
 **注意**：并非只要现金流含不确定性就一定选择有效久期；核心是**预期现金流可能随利率变化**，且估值模型允许这种变化。对现金流固定且其他假设一致的债券，Effective Duration 通常与 Modified Duration 相近。
 
+
+### 4.1 利率变化如何影响 Callable / Putable 的 Effective Duration？
+
+**Effective Duration（有效久期）**衡量债券价格对基准收益率曲线变动的敏感度。对于含利率敏感型嵌入期权的债券，利率变化不仅改变折现率，也可能改变预期现金流和行权概率，因此需要在利率上升、下降情景下重新估计现金流并重新定价。
+
+\[
+D_{Eff}=\frac{P_- - P_+}{2P_0\Delta Curve}
+\]
+
+其中 \(P_-\) 是基准曲线下移后的重新估值价格，\(P_+\) 是基准曲线上移后的重新估值价格。
+
+#### Callable Bond｜可赎回债券
+
+**期权归属：发行人（Issuer）。**
+
+- **利率下降（Rates Fall）**：旧债券的固定票息相对市场融资成本更高，发行人更有动力按合同提前赎回，再以较低利率融资。
+- **预期现金流变化**：投资者未来原本可能收到的高票息现金流可能提前终止，预期现金流期限缩短。
+- **价格表现**：债券价格上涨空间受到赎回价格及行权概率限制，\(P_-\) 不会像无期权债券那样充分上涨。
+- **有效久期**：在赎回权敏感的低利率区域，Effective Duration 通常下降。
+
+**利率上升时**，发行人以更低票息旧债融资的优势减弱，提前赎回概率通常下降；债券更可能继续存续，Effective Duration 通常回升或增加。
+
+#### Putable Bond｜可回售债券
+
+**期权归属：投资者／债券持有人（Investor / Bondholder）。**
+
+- **利率上升（Rates Rise）**：原债券票息相对市场收益率变得不够有吸引力，债券市场价格承压，投资者更愿意按合同回售价将债券卖回发行人。
+- **预期现金流变化**：投资者可能提前收回回售价，预期现金流期限缩短。
+- **价格表现**：回售权为债券价格提供下行保护。
+- **有效久期**：在回售权敏感的高利率区域，Effective Duration 通常下降。
+
+**利率下降时**，回售权通常变得不那么有价值，投资者继续持有债券的可能性增加，Effective Duration 通常回升或增加。
+
+#### 两种债券的方向对照
+
+| 市场利率变化 | Callable：发行人行权概率 | Callable Effective Duration | Putable：投资者行权概率 | Putable Effective Duration |
+|---|---|---|---|---|
+| 利率下降 | 通常上升 | 通常下降 | 通常下降 | 通常上升 |
+| 利率上升 | 通常下降 | 通常上升 | 通常上升 | 通常下降 |
+
+**记忆口诀**：
+- **Call：利率下降，发行人更想收回债券 → 预期现金流缩短 → Effective Duration 通常下降。**
+- **Put：利率上升，投资者更想卖回债券 → 预期现金流缩短 → Effective Duration 通常下降。**
+
+#### 为什么提前行权会让 Effective Duration 通常下降？
+
+Effective Duration 是通过基准曲线上下平移后债券价格的变化幅度估计的。期权更可能行权时，未来现金流可能提前结束，债券价格对进一步利率变化的反应通常被压低；因此价格差 \(P_- - P_+\) 相对缩小，估算出的 Effective Duration 通常降低。
+
+**重要边界**：
+- “通常下降”指期权开始变得有行权价值、对预期现金流影响显著的区域，并非任何利率水平下都必然单调变化。
+- 行权日、赎回／回售价格、保护期、利率波动率、信用利差和模型假设都会影响实际有效久期。
+- Callable 与 Putable 的有效久期都可能在各自行权敏感区域缩短，但触发这种变化的利率方向相反。
+- 这与 Modified Duration 不同：含期权债券应在利率情景中重新估计预期现金流，而不能简单假设现金流固定。
+
+#### CFA 题型复盘
+
+**题型1：Under a circumstance of increasing interest rate, what happens to a putable bond?**
+
+利率上升，回售权更有价值，投资者更可能回售；在回售敏感区域，Effective Duration 通常下降。**答案：Effective Duration will reduce.**
+
+**题型2：Why does a callable bond's Effective Duration usually decline when interest rates fall?**
+
+利率下降提高发行人赎回高票息债券的动机；未来票息可能提前终止，价格上涨受到限制，故有效久期通常下降。
+
+**题型3：Which bond's Effective Duration tends to shorten when rates rise?**
+
+Putable Bond（可回售债券），因为投资者回售概率上升。
+
+### 4.2 与 Callable / Putable 凸性的联系
+
+- Callable：低利率时发行人赎回概率上升，价格上涨受到限制；在赎回敏感区域可能出现负凸性。
+- Putable：高利率时投资者回售概率上升，价格下跌受到保护；通常保持正凸性。
+- 曲线与正负凸性的图形解释见本专题 **7.1 Callable / Putable Bond Convexity**。
+
 ## 5. Key Rate Duration｜关键利率久期
 
 **核心定义**：衡量收益率曲线上**某一个特定期限节点的利率**变化时，债券或投资组合的价格敏感度；其他关键节点尽量保持不变。
