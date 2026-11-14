@@ -107,3 +107,30 @@ V_{Convertible}=V_{Straight\ Bond}+V_{Conversion\ Option}
 - CoCo：特定条件触发强制转换或本金减记。
 
 **题型提醒**：“Which provision is *least likely* a benefit to the bondholder?” 应选 **Call Provision**，因为提前赎回权属于发行人。
+
+
+## 7. Callable / Putable 的价格曲线、久期和凸性
+
+**这里的 Convexity（凸性）指债券价格—收益率曲线的弯曲方向；横轴收益率向右上升，纵轴债券价格向上上升。** 三类债券价格通常都与收益率反向变化，但**曲线弯曲方向**不同。
+
+![Option-free、Callable、Putable 价格—收益率曲线](./figures/Convexity-Option-Free-Callable-Putable.svg)
+
+图为教学示意，不代表某只债券真实报价：
+
+| 类型 | 期权归属 | 利率变动下的典型行权情境 | 曲线关键特征 | 典型凸性 |
+|---|---|---|---|---|
+| Option-Free | 无 | 无嵌入式行权 | 价格—收益率关系向外弯 | 正凸性 |
+| Callable | 发行人 | 利率下降，更可能赎回 | 低利率左侧上涨受限（封上涨） | 赎回敏感区可能负凸性 |
+| Putable | 投资者 | 利率上升，更可能回售 | 高利率右侧下跌受保护（托下跌） | 通常正凸性 |
+
+**价格关系**：其他条件相同，\(V_{Callable}\le V_{Option-free}\le V_{Putable}\)。
+
+**为何是不同的弯曲方向**：Callable 的发行人有权提前终止高票息债券，使价格在利率下降时涨幅被限制；Putable 的投资者可按约定价格回售，使价格在利率上升时跌幅被限制。两者都可能因利率变化改变预期现金流，故分析利率风险时通常需要 Effective Duration / Effective Convexity。
+
+**本题两句判断**：
+- “Callable 和 Putable 都在利率下降时尤其降低 Effective Duration”不成立：Putable 更典型的行权压力来自**利率上升**。
+- “Callable 通常更高正凸性，Putable 通常负凸性”把常见表现**说反了**。
+- 正确选项 **C（两句均不正确）**。
+
+进一步的定义、公式、三点价格凸性例子及考试速判见：[[Duration-Study-Guide|Duration 久期总专题第7.1节]]。
+
