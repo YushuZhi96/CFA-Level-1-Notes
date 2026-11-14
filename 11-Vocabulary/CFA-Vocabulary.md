@@ -3961,3 +3961,18 @@ tags: [CFA-L1, Vocabulary]
 
 - **Short Sale Proceeds** — 卖空所得
   - 卖出借入资产收到的现金，简单套利中可用于覆盖买入低价资产的成本
+
+
+## Derivatives｜期权实值、平值与虚值
+
+- **Moneyness** — 期权实值状态
+  - 比较标的价格与行权价格，判断期权为实值、平值或虚值
+
+- **In the Money (ITM)** — 实值期权
+  - Call 为标的价格高于行权价，Put 为标的价格低于行权价
+
+- **At the Money (ATM)** — 平值期权
+  - 标的价格等于或非常接近行权价格
+
+- **Out of the Money (OTM)** — 虚值期权
+  - Call 为标的价格低于行权价，Put 为标的价格高于行权价
