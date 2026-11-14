@@ -145,6 +145,96 @@ D_{Eff}=\frac{102-98}{2(100)(0.0025)}=8
 - 对含期权债券进行利率风险分析时，应使用与定价模型及曲线变动一致的有效久期和相应的有效凸性（Effective Convexity）度量。
 - 这里先记住“久期是一阶敏感度，凸性修正曲线弯曲造成的误差”；凸性的深入计算可另作专题。
 
+### 7.1 Callable / Putable Bond Convexity｜期权债券的正负凸性与图解
+
+**先记图的坐标：横轴 Yield（收益率，向右增加），纵轴 Bond Price（债券价格，向上增加）。三类债券价格通常都随收益率上升而下降；凸性讨论的是曲线弯曲的方向，而不是上涨/下跌本身。**
+
+![Option-free、Callable 与 Putable 的平滑价格—收益率曲线](./figures/Convexity-Option-Free-Callable-Putable.svg)
+
+*图为教学示意，绿色左端体现 Callable 的上涨受限，红色右端体现 Putable 的下跌保护；具体行权价格、日期及合同条件会改变曲线形状。图中三线满足 \(V_{Callable}\le V_{Option-free}\le V_{Putable}\)，但不能据此推断每只真实债券的凸性都具有相同形状。*
+
+#### 1) 基础：什么是 Convexity（凸性）？
+
+- 债券的收益率（Yield）上升时，价格通常下降；但价格与收益率之间的关系并非直线。
+- **Convexity（凸性）**描述价格—收益率曲线的弯曲程度；数学上与债券价格对收益率的二阶变化有关。
+- 对普通固定现金流的 **Option-Free Bond（无期权债券）**，曲线通常具有 **Positive Convexity（正凸性）**：对于从同一收益率出发、同幅度的利率上升与下降，价格上涨幅度通常大于价格下跌幅度（忽略其他因素）。
+- **Negative Convexity（负凸性）**：在某个利率区域，价格对利率下降的上涨反应受到压制，可能出现同幅度利率下降的价格上涨小于利率上升的价格下跌。
+
+#### 2) Callable Bond（可赎回债券）：低利率区可能负凸性
+
+- **权利持有人**：Issuer（发行人）。发行人可按合同条款提前 Call（赎回）。
+- **逻辑链条**：市场利率下降 → 发行人有动力赎回高票息旧债、改以较低利率融资 → 未来高票息可能提前终止 → 投资者享有的价格上涨空间受限。
+- **图像重点**：图中**绿色 Callable 曲线在左侧低收益率区变平**，不能像蓝色 Option-Free 曲线一样继续大幅上涨。
+- **典型表现**：在赎回权敏感的低收益率区，可能出现负凸性（Negative Convexity）；**不代表 Callable 在所有收益率水平下都具有负凸性**。
+- **价值关系**：
+
+\[
+V_{Callable}=V_{Option-free}-V_{Call}
+\]
+
+这里的 Call Option（赎回权）属于发行人，债券投资者相当于承受该赎回权的不利影响。
+
+#### 3) Putable Bond（可回售债券）：高利率区下跌受到保护
+
+- **权利持有人**：Investor / Bondholder（投资者／债券持有人）。可依合同 Put（回售）给发行人。
+- **逻辑链条**：市场利率上升 → 原债券吸引力下降 → 投资者可能按合同回售价回售 → 债券价格下跌受到保护。
+- **图像重点**：图中**红色 Putable 曲线在右侧高收益率区变平**，不像无期权债券那样持续大幅下跌。
+- **典型表现**：通常维持正凸性或在回售敏感区域呈现有利的下行保护；**不是“Putable 通常负凸性”**。
+- **价值关系**：
+
+\[
+V_{Putable}=V_{Option-free}+V_{Put}
+\]
+
+这里的 Put Option（回售权）对投资者有利，因此增加债券价值。
+
+#### 4) 不要只看曲线“平不平”：用三点检验凸性方向
+
+对于从同一中心收益率 \(y_0\) 向下和向上变化相同幅度 \(\Delta y\) 的三个价格：
+- 若 \(P(y_0-\Delta y)+P(y_0+\Delta y)-2P(y_0)>0\)，为**正凸性方向**。
+- 若该差值小于0，为**负凸性方向**。
+
+| 独立的概念示例 | Yield ↓1% 后价格 | 当前价格 | Yield ↑1% 后价格 | 二阶价格差 |
+|---|---:|---:|---:|---:|
+| Option-Free | 108 | 100 | 93 | +1（正） |
+| Callable（赎回敏感区） | 103 | 98 | 92 | −1（负） |
+| Putable（回售保护区） | 109 | 102 | 97 | +2（正） |
+
+*表中数字仅用于理解二阶差分方向，不是上图的实际曲线报价；没有给出真实债券合同，因此不能将示例数字用于估值。*
+
+#### 5) Effective Duration（有效久期）与 Convexity 的联系
+
+- **Callable**：利率下降时提前赎回概率通常上升，预期现金流变短，价格上涨空间受限，有效久期在赎回敏感区域可能缩短。
+- **Putable**：利率上升时回售概率通常上升，回售权提供价格下行保护，有效久期在回售敏感区域可能缩短。
+- 两者都具有 **Uncertain Future Cash Flows（可能随利率变化的未来现金流）**，因此衡量利率敏感度通常优先使用 Effective Duration，并在相关估值模型下评估 Effective Convexity（有效凸性）。
+
+#### 6) CFA 本题复盘：两个 Statement 为什么都错？
+
+> Statement 1: Both callable bonds and putable bonds have lower effective durations compared to otherwise identical option-free bonds, especially when interest rates are falling.
+
+**错误**：Callable 通常在利率下降时更容易被赎回，而 Putable 更可能在利率上升时被回售，不能说两种期权都是**尤其在利率下降时**显著影响久期。
+
+> Statement 2: Callable bonds often have higher positive convexity, while putable bonds often have negative convexity.
+
+**错误**：典型方向说反了——Callable 在低利率、赎回敏感区可能出现负凸性；Putable 通常保持正凸性，并提供下跌保护。
+
+**答案 C：None of the statements are correct。**
+
+#### 7) 考前10秒速判
+
+| 关键词 | 优先联想 |
+|---|---|
+| Rates Fall + Issuer Calls | Callable：发行人赎回，**封上涨** |
+| Rates Rise + Investor Puts | Putable：持有人回售，**托下跌** |
+| Negative Convexity / Capped Upside | Callable（赎回敏感区） |
+| Downside Protection / Typically Positive Convexity | Putable |
+| Option-sensitive Cash Flows | Effective Duration / Effective Convexity |
+
+**口诀：Call 封上涨，Put 托下跌；负凸性常看 Call，正凸性常看普通债与 Put。**
+
+关联：[[Embedded-Options-in-Bonds|嵌入式期权债券专项]]。
+
+
 ## 8. CFA 真题型练习与速判
 
 **题型一：For bonds with uncertain future cash flows, which duration is most suitable to measure interest rate risk?**
