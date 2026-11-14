@@ -85,6 +85,32 @@ $
 
 **边界**：这是一份入门速记，不代表完整的 CFA 对冲基金策略分类；后续遇到专门策略题再补充。
 
+### 事件驱动与基本面价值策略（Event-Driven vs. Fundamental Value）
+
+本题题库将 **Distressed Securities（困境证券）** 与 **Merger Arbitrage（并购套利）** 归入 **Event-Driven（事件驱动）**，而将 **Fundamental Value（基本面价值）** 归入 **Equity Hedge（权益对冲）**。关键在于投资机会主要由**特定企业事件**还是**基本面估值差异**驱动。
+
+| 子策略 | 所属典型类别 | 核心收益驱动 |
+| --- | --- | --- |
+| Distressed Securities（困境证券） | Event-Driven（事件驱动） | 企业破产、债务重组及证券回收价值变化 |
+| Merger Arbitrage（并购套利） | Event-Driven（事件驱动） | 并购完成概率、收购价格与当前证券价格的差异 |
+| Fundamental Value（基本面价值） | Equity Hedge（权益对冲） | 盈利、现金流、资产质量与估计内在价值的偏离 |
+
+**Distressed Securities｜困境证券策略**：关注陷入财务困难（Financial Distress）、可能违约或进行债务重组（Debt Restructuring）的企业证券。投资结果受重组结果、清偿顺序、回收率（Recovery Rate）等影响；低价买入不保证盈利。
+
+**Merger Arbitrage｜并购套利**：关注并购公告后交易标的价格与约定收购条件之间的差异。现金收购中，目标公司股票可能低于收购价，价差反映时间、融资、监管审批与交易失败风险（Deal Risk）等；**并购套利不是无风险套利**。
+
+**Fundamental Value｜基本面价值策略**：分析财务报表、盈利、现金流和内在价值（Intrinsic Value），寻找估值偏差；并不必须等待并购、破产等特定企业事件，因此在本题分类中不属于 Event-Driven。
+
+#### CFA 判断口诀
+
+- **Bankruptcy / Restructuring → Distressed Securities → Event-Driven**
+- **Merger / Acquisition → Merger Arbitrage → Event-Driven**
+- **Earnings / Cash Flow / Intrinsic Value → Fundamental Value → Equity Hedge**
+
+**分类边界**：实际基金可能同时采用多种策略，且不同数据提供商的分类略有差异；本小节保留题库的分类框架，不把策略标签理解为互斥的法律定义。
+
+**复习记录**：本次能够独立判断 Fundamental Value 不属于典型 Event-Driven 策略，🟢 单题独立答对，待变式验证。
+
 ## Fund of Hedge Funds（FoHF）是什么？
 
 - **Single Hedge Fund｜单只对冲基金**：投资者直接持有单只基金权益，回报与该基金的策略和管理人相关。
