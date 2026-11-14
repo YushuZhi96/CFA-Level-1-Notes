@@ -3579,3 +3579,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Compound Interest** — 复利
   - 每期产生的利息参与下一期计息
+
+
+## Fixed Income｜平价利率直接计算
+
+- **Discount Factor (DF)** — 折现因子
+  - 按相应期限即期利率将未来单位现金流折现到今天的系数
+
+- **Par Rate Formula** — 平价利率公式
+  - 年付息标准债券：Par Rate = (1 − DF_n) / (DF_1 + … + DF_n)
+
+- **Par Bond** — 平价债券
+  - 价格等于面值的债券，其票面利率等于到期收益率（按可比口径）
