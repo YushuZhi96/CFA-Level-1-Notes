@@ -189,3 +189,18 @@ OAS（Option-Adjusted Spread）是在考虑利率路径及嵌入式期权行权�
 **正确答案：B. For a callable bond, OAS is smaller than Z-spread.**
 
 注意：OAS 是模型估计值，依赖利率波动率、利率树或期权调整模型等假设。上述大小关系是 CFA 基础题中标准的方向判断。
+
+
+### 补充练习：OAS 的用途与 Callable Bond 的利差关系
+
+题目陈述：
+- Statement 1：OAS is used for bonds with embedded options.
+- Statement 2：For a callable bond, the Z-spread is lower than OAS.
+
+判断：
+- **Statement 1 正确**：OAS 会考虑嵌入式期权对债券现金流和价值的影响，因此特别适用于含权债券的利差分析。
+- **Statement 2 错误**：可赎回债券的标准关系是 \(\text{Z-spread}>\text{OAS}\)，而不是 Z-spread < OAS。
+
+**正确答案：B. Statement 2。**
+
+考试提示：题目问 most likely to be wrong 时，先分别判断每条陈述，不要被两条陈述放在同一题干中误导。
