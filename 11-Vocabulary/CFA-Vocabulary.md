@@ -3591,3 +3591,33 @@ tags: [CFA-L1, Vocabulary]
 
 - **Par Bond** — 平价债券
   - 价格等于面值的债券，其票面利率等于到期收益率（按可比口径）
+
+
+## Fixed Income｜Duration 久期专题词汇
+
+- **Duration** — 久期
+  - 衡量债券现金流平均时间或债券价格利率敏感度的一类指标
+
+- **Macaulay Duration** — 麦考利久期
+  - 未来现金流按现值权重加权后的平均回收时间
+
+- **Modified Duration** — 修正久期
+  - 未来现金流固定时，债券价格相对于YTM变动的敏感度
+
+- **Effective Duration** — 有效久期
+  - 允许利率变化引起预期现金流变化时，对基准曲线变动的价格敏感度
+
+- **Key Rate Duration (KRD)** — 关键利率久期
+  - 收益率曲线某个特定期限节点变动时的价格敏感度
+
+- **Interest Rate Risk** — 利率风险
+  - 利率变化导致债券价值波动的风险
+
+- **Effective Convexity** — 有效凸性
+  - 考虑可能变化的现金流时，刻画价格对基准曲线变化的二阶敏感性
+
+- **Non-Parallel Shift** — 非平行移动
+  - 收益率曲线不同期限节点的利率变化幅度不相同
+
+- **Present Value Weights** — 现值权重
+  - 现金流现值占债券总价格的比重，Macaulay Duration 的加权依据
