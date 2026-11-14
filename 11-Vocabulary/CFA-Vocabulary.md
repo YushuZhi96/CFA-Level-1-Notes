@@ -3621,3 +3621,27 @@ tags: [CFA-L1, Vocabulary]
 
 - **Present Value Weights** — 现值权重
   - 现金流现值占债券总价格的比重，Macaulay Duration 的加权依据
+
+
+## Fixed Income｜债券出售与资本利得
+
+- **Capital Gain** — 资本利得
+  - 本题摊销后账面口径：Selling Price − Carrying Value 为正
+
+- **Capital Loss** — 资本损失
+  - 本题摊销后账面口径：Selling Price − Carrying Value 为负
+
+- **Carrying Value** — 账面价值／摊销后账面价值
+  - 债券购买成本经过折价或溢价摊销调整后的金额
+
+- **Cumulative Discount Amortization** — 累计折价摊销
+  - 累计摊销金额加回原始折价买价，增加 Carrying Value
+
+- **Cumulative Premium Amortization** — 累计溢价摊销
+  - 累计摊销金额从原始溢价买价扣除，减少 Carrying Value
+
+- **Amortized Cost** — 摊余成本
+  - 根据有效利率法等进行摊销调整后的计量基础
+
+- **Selling Price** — 卖出价格
+  - 资本利得题中需与相同口径的 Carrying Value 比较
