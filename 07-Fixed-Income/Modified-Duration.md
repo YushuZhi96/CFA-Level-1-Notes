@@ -98,3 +98,41 @@ D_{Mod}\approx
 - BA II Plus 的 CPT PV 是债券价格，不会直接给出 Modified Duration。
 - 计算价格时，现金流参数不变，只改变 I/Y。
 - 负 PV 是计算器现金流符号约定；代入价格公式时使用正的价格数值。
+
+
+## YTM 与 Modified Duration 的关系
+
+对其他条件相同的普通固定现金流债券（同票息率、同到期期限、相同付息频率和可比风险）：
+
+\[
+YTM\uparrow\Rightarrow D_{Mac}\downarrow
+\]
+
+并且：
+
+\[
+D_{Mod}=\frac{D_{Mac}}{1+YTM/m}
+\]
+
+因此通常有：
+
+\[
+\boxed{YTM\uparrow\Rightarrow D_{Mod}\downarrow}
+\]
+
+**经济直觉**：YTM 越高，远期现金流的折现程度越大，远期现金流现值权重下降，Macaulay Duration 通常缩短；同时 Modified Duration 公式的分母 \(1+YTM/m\) 增大。
+
+由价格敏感度近似：
+
+\[
+\left|\frac{\Delta P}{P}\right|\approx D_{Mod}|\Delta YTM|
+\]
+
+所以在相同小幅收益率变动下，Modified Duration 较低的债券，价格百分比变化通常较小。
+
+**CFA 题型**：两只普通债券票息率与期限相同，Bond 1 的 YTM 高于 Bond 2，问相同幅度小幅 YTM 变化时哪只债券的价格百分比变化更小？通常选 **Bond 1**。
+
+**边界提醒**：
+- 以上关系用于其他条件相同、固定现金流、无嵌入式期权债券。
+- 零息债券的 Macaulay Duration 固定等于到期期限，但 Modified Duration 仍随 YTM 变化。
+- 若收益率变化达到100 bps等较大幅度，Modified Duration 只是局部一阶近似；Convexity 会影响实际价格变化，精确比较应重新定价或纳入凸性。
