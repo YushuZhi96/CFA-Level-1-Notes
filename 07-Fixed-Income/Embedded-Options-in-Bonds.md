@@ -26,26 +26,26 @@ tags: [CFA-L1, Fixed-Income, Bonds, Embedded-Options]
 - 发行人拥有在约定日期或条件下提前赎回债券的权利。
 - 该权利对发行人有利、对投资者不利。
 - 投资者承担债券被提前赎回的风险，因此通常要求更高收益率（Higher Yield）。
-- 价值关系：\(V_{Callable}=V_{Option-Free}-V_{Call}\)。
+- 价值关系：$V_{Callable}=V_{Option-Free}-V_{Call}$。
 
 ### Putable Bond｜可回售债券
 
 - 投资者拥有在约定日期或条件下，按约定价格将债券卖回给发行人的权利。
 - 该权利为投资者提供保护，因此增加债券对投资者的价值。
 - 投资者愿意为这项保护支付价格，表现为债券价格更高、要求收益率更低（Lower Yield）。
-- 价值关系：\(V_{Putable}=V_{Option-Free}+V_{Put}\)。
+- 价值关系：$V_{Putable}=V_{Option-Free}+V_{Put}$。
 
 ## 3. 价格与收益率关系
 
 债券价格（Bond Price）与收益率（Yield）反向变动：
 
-\[
+$$
 Price\uparrow \Rightarrow Yield\downarrow
-\]
+$$
 
-\[
+$$
 Price\downarrow \Rightarrow Yield\uparrow
-\]
+$$
 
 因此，在其他条件相同的情况下：
 
@@ -79,9 +79,9 @@ Price\downarrow \Rightarrow Yield\uparrow
 - 转换权通常对投资者有利；但转股后持有的是股票，其风险与债权不同。
 - 在可比条件下，可转换债券价值可表示为：
 
-\[
-V_{Convertible}=V_{Straight\ Bond}+V_{Conversion\ Option}
-\]
+$$
+V_{\text{Convertible}}=V_{\text{Straight Bond}}+V_{\text{Conversion Option}}
+$$
 
 ### Contingent Convertible Bond (CoCo Bond)｜应急／或有可转换债券
 
@@ -123,7 +123,7 @@ V_{Convertible}=V_{Straight\ Bond}+V_{Conversion\ Option}
 | Callable | 发行人 | 利率下降，更可能赎回 | 低利率左侧上涨受限（封上涨） | 赎回敏感区可能负凸性 |
 | Putable | 投资者 | 利率上升，更可能回售 | 高利率右侧下跌受保护（托下跌） | 通常正凸性 |
 
-**价格关系**：其他条件相同，\(V_{Callable}\le V_{Option-free}\le V_{Putable}\)。
+**价格关系**：其他条件相同，$V_{Callable}\le V_{Option-free}\le V_{Putable}$。
 
 **为何是不同的弯曲方向**：Callable 的发行人有权提前终止高票息债券，使价格在利率下降时涨幅被限制；Putable 的投资者可按约定价格回售，使价格在利率上升时跌幅被限制。两者都可能因利率变化改变预期现金流，故分析利率风险时通常需要 Effective Duration / Effective Convexity。
 
