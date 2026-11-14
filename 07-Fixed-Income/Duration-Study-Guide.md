@@ -64,6 +64,30 @@ Duration（久期）常用于衡量债券对利率变动的敏感性；不同久
 
 详见：[[Modified-Duration]]。
 
+
+### 3.1 Approximate Modified Duration｜上下收益率冲击法
+
+当题目给出当前债券价格、票息、期限和收益率变动幅度，却没有直接给出 Modified Duration 时，先求当前 YTM，再分别将 YTM 下调和上调相同的 \(\Delta y\)，重新计算 \(P_-\) 与 \(P_+\)：
+
+\[
+\boxed{D_{Mod}\approx\frac{P_- - P_+}{2P_0\Delta y}}
+\]
+
+这里 \(\Delta y\) 是**单边冲击幅度**，例如20 bps = 0.002；分母中的2对应从 \(y-\Delta y\) 到 \(y+\Delta y\) 的总区间。固定 N、PMT、FV，只改变 I/Y 重新求两个价格。
+
+**完整例题**：5年期、年票息3、面值100，当前价格91.3410，收益率冲击20 bps。
+
+1. BA II Plus 输入 N=5、PV=−91.3410、PMT=3、FV=100，求当前 YTM≈5.00%。
+2. YTM 下调至4.80%，得 \(P_-\approx92.1637\)；上调至5.20%，得 \(P_+\approx90.5276\)。
+3. 代入：
+
+\[
+D_{Mod}\approx\frac{92.1637-90.5276}{2(91.3410)(0.002)}=\boxed{4.48}
+\]
+
+**考试陷阱**：20 bps 是单边的0.002；上下两个情景之间相差40 bps，但公式仍写 \(2P_0\Delta y\)。此法用于固定现金流债券的近似 Modified Duration；若利率变化会改变预期现金流，应考虑 Effective Duration。
+
+
 ## 4. Effective Duration｜有效久期
 
 **核心定义**：衡量债券价格相对于**基准收益率曲线（Benchmark Yield Curve）**变化的敏感性，并允许预期现金流在利率变化后重新估计。
