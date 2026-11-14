@@ -199,7 +199,7 @@ OAS（Option-Adjusted Spread）是在考虑利率路径及嵌入式期权行权�
 
 判断：
 - **Statement 1 正确**：OAS 会考虑嵌入式期权对债券现金流和价值的影响，因此特别适用于含权债券的利差分析。
-- **Statement 2 错误**：可赎回债券的标准关系是 \(\text{Z-spread}>\text{OAS}\)，而不是 Z-spread < OAS。
+- **Statement 2 错误**：可赎回债券的标准关系是 $\text{Z-spread}>\text{OAS}$，而不是 Z-spread < OAS。
 
 **正确答案：B. Statement 2。**
 
