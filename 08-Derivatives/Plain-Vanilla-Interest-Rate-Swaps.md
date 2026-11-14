@@ -1,0 +1,124 @@
+---
+subject: Derivatives
+topic: Plain Vanilla Interest Rate Swap
+status: "待复习"
+created: 2026-11-14
+last-reviewed:
+tags: [CFA-L1, Derivatives, Swaps, Interest-Rate]
+---
+
+# 普通利率互换（Plain Vanilla Interest Rate Swap）
+
+## 一句话理解
+
+普通利率互换通常是双方以同一名义本金（Notional Principal）为基础，交换固定利息与浮动利息现金流；名义本金通常不实际交换，双方在每个结算日将应付利息净额结算，而浮动利率通常在计息期开始时确定、期末支付。
+
+## 核心概念 / 定义
+
+### 1. 什么是普通利率互换？
+
+普通利率互换（Plain Vanilla Interest Rate Swap）是最基本的利率互换形式：一方支付固定利率（Fixed Rate），另一方支付浮动利率（Floating Rate），双方按约定名义本金计算利息。
+
+例如：
+- 名义本金：USD 10,000,000
+- 固定利率：年化 4%
+- 浮动利率：参考 LIBOR
+- 付息频率：每半年一次
+
+名义本金只是计算利息的参考金额，普通利率互换中通常不会在开始或结束时交换本金。
+
+### 2. 名义本金（Notional Principal）
+
+- 用于计算双方利息支付金额。
+- 普通利率互换通常不交换名义本金。
+- 不要与货币互换（Currency Swap）混淆：货币互换通常涉及不同货币本金的交换，具体依合约条款而定。
+
+### 3. 净额结算（Netting）
+
+在每个结算日，双方通常只支付两笔利息现金流的净额，而不是分别全额支付。
+
+例如：
+- 固定利率方本期应付 200,000 美元。
+- 浮动利率方本期应付 230,000 美元。
+- 净额为 30,000 美元，由浮动利率方支付给固定利率方。
+
+### 4. 浮动利率的确定与支付时间
+
+普通利率互换通常采用 **期初确定、期末支付（Set in Advance, Paid in Arrears）** 的安排。
+
+- **利率重设日（Reset Date）**：通常在计息期开始时，确定该计息期适用的浮动参考利率。
+- **计息期（Accrual Period）**：使用已确定的利率计算该期间利息。
+- **支付日（Payment Date）**：通常在计息期结束时支付该期间利息。
+
+因此，浮动利率支付通常取决于计息期开始时确定的 LIBOR，而不是支付日当天的 LIBOR。
+
+示意：
+1. 1月初：重设利率，确定1月至3月适用的 LIBOR。
+2. 1月至3月：按该利率累计计算浮动利息。
+3. 3月底：支付1月至3月的利息。
+
+注：具体重设日可能按合约约定和市场惯例提前若干营业日；考试基础框架关注“期初定息、期末付息”。
+
+## 公式与变量
+
+设：
+- (N)：名义本金（Notional Principal）
+- (R_f)：固定互换利率（Fixed Swap Rate）
+- (R_L)：本计息期开始时确定的 LIBOR
+- (Delta)：计息期年化时间比例（Accrual Fraction）
+
+固定利息：
+
+\[
+\text{Fixed Payment}=N\times R_f\times\Delta
+\]
+
+浮动利息：
+
+\[
+\text{Floating Payment}=N\times R_L\times\Delta
+\]
+
+净额结算金额：
+
+\[
+\text{Net Payment}=|\text{Floating Payment}-\text{Fixed Payment}|
+\]
+
+支付方向由应付金额较大的一方决定。
+
+## 常见考试陷阱
+
+1. **名义本金不交换**：普通利率互换通常只交换利息现金流。
+2. **净额结算**：每个结算日通常只支付双方利息的净额。
+3. **期初定息、期末付息**：浮动利率通常在计息期开始时确定，不是支付日当天才确定。
+4. **Reset Date ≠ Payment Date**：前者确定利率，后者支付利息。
+5. **Interest Rate Swap ≠ Currency Swap**：普通利率互换通常不交换本金；货币互换通常涉及本金交换。
+6. LIBOR 是历史上常见的浮动参考利率；实际市场已在多个司法辖区转向其他基准利率，但若题目明确使用 LIBOR，应按题干设定理解。
+
+## 典型题型 / 判断路径
+
+题目问：Which statement regarding a plain vanilla interest rate swap is least likely to be correct?
+
+- Notional amount does not need to be exchanged at the beginning or end → 正确。
+- Interest payments are netted on each settlement date → 正确。
+- Floating rate payments depend on LIBOR on the payment date → 错误。
+
+**正确答案：C。**
+
+记忆：
+- Notional → 通常不交换。
+- Interest cash flows → 通常净额结算。
+- Floating rate → 期初确定（Reset），期末支付（Payment）。
+
+## 易混知识点 / Obsidian 链接
+
+- [[Exchange-Traded-and-OTC-Derivatives]]
+- [[Contingent-Claims-and-Forward-Commitments]]
+
+## 我的错因 / 验证记录
+
+- [ ] 能解释普通利率互换为什么通常不交换名义本金
+- [ ] 能说明净额结算的支付方向
+- [ ] 能区分 Reset Date 与 Payment Date
+- [ ] 能独立计算固定与浮动利息及净额
