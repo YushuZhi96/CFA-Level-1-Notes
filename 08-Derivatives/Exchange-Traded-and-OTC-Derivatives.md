@@ -157,3 +157,39 @@ OTC 合约的结算安排可以根据双方约定设计，常见方式包括：
 **正确答案：B. They are more liquid and transparent.**
 
 术语提醒：Physical Delivery 和 Cash Settlement 是结算方式（Settlement Methods）；Exercise（行权）是期权持有人是否使用期权权利的行为。题目将 “exercised by physical or cash delivery” 混用，严格术语上不够准确，应理解为“可采用实物交割或现金结算”。
+
+
+## 补充：远期市场与期货市场（Forward Markets vs. Futures Markets）
+
+### 远期市场（Forward Market）
+- 远期合约（Forward Contracts）通常在 OTC 市场交易。
+- 合约条款可由双方协商定制，例如名义本金、数量、期限和交割安排。
+- 合约定制化程度较高，通常缺乏像交易所期货那样集中的二级市场，因此流动性通常较低。
+
+### 期货市场（Futures Market）
+- 期货合约（Futures Contracts）是交易所交易的标准化合约，通常不归类为 OTC 衍生品。
+- 交易所统一规定合约规格，并通常通过清算机构和保证金制度管理风险。
+- 集中交易、标准化和公开报价通常使期货市场比远期市场更具流动性和透明度。
+
+### 本题判断：OTC 市场的三个陈述
+
+**Statement 1：Forward contracts, futures, and swaps can all be traded in the OTC markets.**
+
+错误。远期和互换通常属于 OTC；期货合约的典型定义是交易所交易的标准化合约。经济上相似的场外协议通常称为远期，而不是交易所期货。
+
+**Statement 2：OTC derivatives are customized and less regulated.**
+
+正确（按与交易所市场比较的 CFA 典型框架理解）。OTC 合约通常可定制，传统上监管和标准化程度相对较低；但这不意味着 OTC 不受监管。
+
+**Statement 3：Typically, futures markets are more liquid than forward markets.**
+
+正确。期货合约标准化并集中交易，通常比定制化、双边协商的远期合约更容易找到交易对手并平仓。
+
+**正确陈述数量：2 项（Statement 2 和 Statement 3），答案 C。**
+
+## 易错点总结
+
+- Futures ≠ Forwards：期货通常是交易所标准化合约；远期通常是 OTC 定制合约。
+- “OTC derivatives” 是市场交易方式的分类，不代表所有衍生品类型都能不加区分地归入 OTC。
+- Less regulated = 相对监管较少，不等于 unregulated（不受监管）。
+- “Typically” 表示一般情况；流动性比较是典型规律，不是对每一个具体合约的绝对保证。
