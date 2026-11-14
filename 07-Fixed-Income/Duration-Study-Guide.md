@@ -38,7 +38,7 @@ Duration（久期）常用于衡量债券对利率变动的敏感性；不同久
 
 **直觉**：现金流越早收到，现值权重越靠前，Macaulay Duration 通常越短。
 
-详见：[[Macaulay-Duration]]。
+**详细计算分册：** [[Macaulay-Duration|Macaulay Duration 专题：现值、权重、完整计算与免疫速判]]。
 
 ## 3. Modified Duration｜修正久期
 
