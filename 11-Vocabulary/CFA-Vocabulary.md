@@ -4006,3 +4006,12 @@ tags: [CFA-L1, Vocabulary]
 
 - **Forward Contract Value** — 远期合约价值
   - 现有远期合约对持有人的当前价值，不等同于新合约的远期交割价格
+
+
+## Derivatives｜远期价格与远期价值
+
+- **Delivery Price** — 交割价格
+  - 远期合约成立时约定、到期买卖标的资产所使用的价格，既有合约中通常固定
+
+- **Current Market Forward Price** — 当前市场远期价格
+  - 在当前时点新签订同期限远期合约的公平交割价格，会随现货价格和市场条件变化
