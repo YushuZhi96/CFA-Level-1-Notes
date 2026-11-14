@@ -15,6 +15,58 @@ tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fund-of-Funds, Strategies, 
 
 **Hedge Fund（对冲基金）**是以较灵活的投资策略争取投资目标的集合投资工具，通常依赖主动管理（Active Management），可能运用多空交易、衍生品和杠杆。**Fund of Hedge Funds (FoHF，对冲基金中的基金)**通过配置多只底层对冲基金，提供专业筛选和一定的分散化机会，但通常承担双层收费。
 
+## AUM、NAV 与承诺资本（AUM, NAV and Committed Capital）
+
+### AUM 是什么？
+
+**Assets Under Management (AUM)｜管理资产规模**：投资管理机构或基金所管理资产的总价值，通常会随资产市场价值变化、投资者申购和赎回而变化。它是**所管理的资产**，不是基金经理的个人财富。
+
+**重要口径限制**：AUM 的统计方法因管理机构、产品及披露口径而异，可能采用总资产或净资产等口径；**不能在没有题目或合同定义时，认定 AUM 一定等于总资产或 NAV**。
+
+### AUM 与 NAV 的区别
+
+- **Gross Assets｜总资产**：基金所持资产的价值。
+- **Liabilities｜负债**：借款及其他应付款项。
+- **Net Asset Value (NAV)｜资产净值**：总资产扣除负债后的净额。
+
+$
+NAV=\text{Gross Assets}-\text{Liabilities}
+$
+
+简化例子：资产总值为 150、负债为 50，则 NAV 为 100（同一货币单位）。若 AUM 采用总资产口径可为 150，采用净资产口径则可能为 100；**实际应以披露口径和题干为准**。
+
+### AUM 与管理费（Management Fee）
+
+若合同约定以某一时点的 AUM 作为计费基数：
+
+$
+\text{Management Fee}=\text{Specified AUM Base}\times m
+$
+
+其中 $m$ 为管理费率。常见计费基数包括：
+
+- **Beginning AUM｜期初管理资产规模**
+- **Year-end / Ending AUM｜期末管理资产规模**
+- **Average AUM｜平均管理资产规模**
+
+**考试陷阱**：不要看到 AUM 就固定使用期末值；需根据题干确定时点、口径和费用扣除前后状态。
+
+### AUM 与 Committed Capital（承诺资本）
+
+| 对比 | AUM | Committed Capital |
+| --- | --- | --- |
+| 中文 | 管理资产规模 | 承诺资本 |
+| 本质 | 所管理资产的价值 | 投资者承诺未来投入的资本 |
+| 典型应用 | 对冲基金管理费常按 AUM 计算 | 私募股权基金投资期管理费常按承诺资本计算 |
+| 是否等于实缴金额 | 不一定 | 不一定 |
+
+- **Called Capital｜已调用资本**：基金根据承诺向投资者要求缴纳的金额；实际已缴款金额须看题目定义。
+- **Uncalled Capital｜未调用资本**：尚未调用的承诺资金。
+- 简化情形下：$\text{Committed Capital}=\text{Called Capital}+\text{Uncalled Capital}$。
+- 私募股权基金进入投资期后续阶段，管理费基数可能改为已投资资本或其他合同约定基数。
+
+**记忆：AUM 看管理资产的价值；Committed Capital 看承诺投入的资金。**
+
 ## 对冲基金的主要特点
 
 - **Active Management｜主动管理**：管理人主动选择证券、市场敞口或交易策略，通常寻求正的超额风险调整后收益（Positive Alpha），但不保证实现。
@@ -63,6 +115,26 @@ tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fund-of-Funds, Strategies, 
 - **Manager Risk｜管理人风险**：业绩依赖策略判断、执行与风控。
 - **Concentration Risk｜集中度风险**：单一策略、资产或共同市场风险可能集中。
 - **Valuation and Operational Risks｜估值与运营风险**：部分资产难以定价，运营和内部控制也可能出现问题。
+
+## 对冲基金与私募股权基金的结构比较（Hedge Funds vs. Private Equity Funds）
+
+| 维度 | Hedge Fund | Private Equity Fund |
+| --- | --- | --- |
+| 法律结构 | 可采用 Partnership（合伙企业） | 也可采用 Partnership（合伙企业） |
+| 管理费常见基数 | AUM | 投资期常为 Committed Capital |
+| 资金安排 | 通常认购时投入基金 | 通常先承诺，后按 Capital Call 缴款 |
+| 常见业绩保护安排 | High-Water Mark（高水位线） | Clawback Provision（收益追回条款） |
+
+- **Partnership｜合伙企业**：两类基金均**可以**采用合伙结构，但并非必须。
+- **Clawback Provision｜收益追回条款**：私募股权基金中常见，可能要求 GP 返还此前多分配的 Carried Interest（业绩分成），以符合基金最终利润分配安排。
+- **High-Water Mark｜高水位线**：对冲基金常见机制，通常要求净值先超过约定的历史高点，才能再次计提业绩报酬。
+- Clawback 并非仅限 PE，HWM 也不是所有对冲基金必备；这是典型对比，而非排他性法律规定。
+
+### 本次易错点
+
+- 曾将 **Hedge Fund Management Fees** 错认为按 **Committed Capital** 计算。
+- 修正：对冲基金通常以 **AUM** 为基数；PE 投资期通常以 **Committed Capital** 为基数。**两类基金都可能采用 Partnership 结构**。
+- 复习状态：🟡 该跨基金对比题曾答错，待独立验证。
 
 ## 与收费专题的分工
 
