@@ -269,3 +269,23 @@ Which statement about pricing and valuation of forward contracts is most accurat
 **正确答案：C。**
 
 注意：不同资产的具体公式还需考虑收益支付时间、成本支付时间、连续复利约定，以及便利收益等因素；本节公式用于掌握方向和基础定价逻辑。
+
+
+## 远期价格的影响因素：股息、便利收益与违约风险溢价
+
+本题问：Which factor is least likely to influence the price of a forward contract?
+
+- **股息（Dividends）**：会影响股票远期价格。预计股息是持有股票可获得的收益，通常降低远期价格。
+- **便利收益（Convenience Yield）**：会影响商品远期价格。持有实物商品带来的即时使用或供应保障价值属于持有收益，便利收益越高，远期价格通常越低。
+- **违约风险溢价（Default Risk Premium）**：不是基础无套利远期定价公式中的标准变量。基础模型主要考虑现货价格、无风险利率、持有成本和持有收益。
+
+**正确答案：C. The default risk premium.**
+
+### 现实市场的补充区别
+
+基础无套利远期价格（Theoretical No-Arbitrage Forward Price）与考虑交易对手信用风险后的实际衍生品估值并非完全相同。若交易对手存在违约风险，实际估值可能通过信用估值调整（Credit Valuation Adjustment, CVA）等方式反映信用风险；但这不意味着 Default Risk Premium 是基础远期价格公式中的一般决定因素。
+
+快速记忆：
+- Dividends / Convenience Yield → Benefits of Holding → Forward Price ↓
+- Storage Costs / Other Carrying Costs → Forward Price ↑
+- Default Risk Premium → Not a standard input in the basic no-arbitrage forward pricing formula.
