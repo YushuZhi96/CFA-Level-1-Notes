@@ -3330,3 +3330,29 @@ tags: [CFA-L1, Vocabulary]
 
 - **Limited Partnership** — 有限合伙企业
   - 由普通合伙人和有限合伙人组成的法律组织形式
+
+## Alternative Investments｜大宗商品收益与通胀对冲
+
+- **Current Income** — 当期收入
+  - 资产持有期间定期获得的现金收入，实物商品通常不直接产生
+
+- **Income Return** — 收入收益
+  - 来自票息、股息或租金的持有期间收益
+
+- **Price Appreciation** — 价格增值
+  - 资产价格上涨，不等于已经收到当期现金收入
+
+- **Inflation Hedge** — 通胀对冲
+  - 商品可能对部分通胀冲击提供保护，但不保证有效
+
+- **Hedge Against Inflation** — 对冲通货膨胀
+  - 部分商品可能帮助抵御购买力下降，不能理解为必然上涨
+
+- **Commodity Futures** — 大宗商品期货
+  - 期货策略收益可区分现货、展期及抵押品回报
+
+- **Roll Return** — 展期收益
+  - 期货合约换月及价格期限结构相关的收益或损失
+
+- **Collateral Return** — 抵押品收益
+  - 期货抵押资金或现金投资可能产生的利息收益
