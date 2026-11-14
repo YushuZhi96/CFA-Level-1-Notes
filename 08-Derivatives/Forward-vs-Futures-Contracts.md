@@ -289,3 +289,49 @@ Which statement about pricing and valuation of forward contracts is most accurat
 - Dividends / Convenience Yield → Benefits of Holding → Forward Price ↓
 - Storage Costs / Other Carrying Costs → Forward Price ↑
 - Default Risk Premium → Not a standard input in the basic no-arbitrage forward pricing formula.
+
+
+## 利率期货与借款人、贷款人的套期保值（Interest Rate Futures Hedging）
+
+### 1. 利率与期货报价的反向关系
+
+对于以短期利率为基础、采用指数报价的标准利率期货，常见报价方式为：
+
+\[
+\text{Futures Price}=100-\text{MRR}
+\]
+
+其中 MRR 是市场参考利率（Market Reference Rate）。
+
+因此：
+- MRR 上升 → 利率期货价格下降。
+- MRR 下降 → 利率期货价格上升。
+- 期货多头（Long Futures）在期货价格上涨时获利，在价格下跌时亏损。
+- 期货空头（Short Futures）的盈亏方向相反。
+
+示例：
+- MRR 从 3% 上升至 4%。
+- 期货报价从 97 降至 96。
+- 多头期货价格下跌而亏损；空头期货获利。
+
+### 2. 借款人与贷款人的风险及对冲方向
+
+| 参与者 | 主要风险 | 希望对冲的情形 | 常见利率期货头寸 |
+|---|---|---|---|
+| 借款人（Borrower） | 利率上升，未来利息支出增加 | MRR 上升 | 做空 Short Futures |
+| 贷款人（Lender） | 利率下降，未来利息收入减少 | MRR 下降 | 做多 Long Futures |
+
+逻辑：
+- **借款人**担心利率上涨。利率上涨时，期货价格下降，空头期货获利，可抵消融资成本上升。
+- **贷款人**担心利率下降。利率下降时，期货价格上涨，多头期货获利，可抵消利息收入下降。
+
+### 本题判断
+
+When MRR increases:
+- Long interest rate futures position → 期货报价下降，多头亏损。
+- Borrowers should generally short interest rate futures to hedge rising-rate risk.
+- Lenders should generally long interest rate futures to hedge falling-rate risk.
+
+**正确答案：A. When MRR increases, investors who are long interest rate futures will lose.**
+
+注意：100 − MRR 是短期利率期货常见的指数报价惯例。题目若使用债券期货或其他利率期货合约，应结合其具体报价规则和标的判断；本题按 MRR 指数报价的利率期货框架理解。
