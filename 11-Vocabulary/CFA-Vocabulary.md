@@ -3752,3 +3752,11 @@ tags: [CFA-L1, Vocabulary]
 - **EL (Expected Loss)** — 预期损失
   - EL = PD × LGD × EAD；若表示损失率，则 EL Rate = PD × LGD
 
+
+
+- **Credit Spread Risk** — 信用利差风险
+  - 信用利差变化（尤其扩大）导致债券市场价格下跌的风险，即使发行人尚未违约也可能发生
+
+
+- **Credit Migration Risk** — 信用评级迁移风险
+  - 发行人信用评级发生上调或下调，进而可能影响债券要求收益率、信用利差和市场价格
