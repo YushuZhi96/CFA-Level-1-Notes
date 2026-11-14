@@ -427,3 +427,151 @@ YTM 上升时，分母变大；同时 Macaulay Duration 也通常下降，所以
 - 以上是普通、固定现金流、无嵌入式期权债券在其他条件可比时的标准关系。
 - 零息债券的 Macaulay Duration 等于到期期限，不随 YTM 改变；但其 Modified Duration 仍受 YTM 影响。
 - 100 bps 等较大变动时，单用 Modified Duration 是一阶近似，精确价格变化还会受到 Convexity（凸性）影响；若题目要求严格比较大幅变动后的实际价格变化，应重新定价或同时考虑凸性。
+
+
+## Portfolio Duration｜投资组合久期
+
+投资组合久期（Portfolio Duration）衡量债券组合整体对利率变化的敏感度。CFA 题目常见两种计算方法。
+
+### Method 1：Aggregate Cash Flows｜合并现金流法
+
+1. 将组合内所有债券在相同日期收到的现金流合并。
+2. 使用一致的折现口径计算合并现金流的现值。
+3. 用各日期现金流现值占组合总现值的比例作为权重。
+4. 对收款时间进行现值加权，得到组合 Macaulay Duration。
+
+这是直接从整个组合的现金流计算久期。
+
+### Method 2：Weighted Average of Individual Bond Durations｜单只债券久期加权法
+
+先计算每只债券的市场价值权重（Market Value Weight）：
+
+\[
+\boxed{w_i=\frac{MV_i}{\sum_{j=1}^{n}MV_j}}
+\]
+
+其中，\(MV_i\) 是第 i 只债券的市场价值，分母是组合中所有债券市场价值之和。
+
+**组合平均麦考利久期（Average Portfolio Macaulay Duration）：**
+
+\[
+\boxed{D_{Mac,P}=\sum_{i=1}^{n}w_iD_{Mac,i}}
+\]
+
+**组合平均修正久期（Average Portfolio Modified Duration）：**
+
+\[
+\boxed{D_{Mod,P}=\sum_{i=1}^{n}w_iD_{Mod,i}}
+\]
+
+先计算每只债券自己的久期，再以市场价值权重加权；不能简单地对各债券久期做算术平均。
+
+对于年度复利（Annual Compounding）：
+
+\[
+D_{Mod,i}=\frac{D_{Mac,i}}{1+YTM_i}
+\]
+
+如果每年复利/付息 m 次，则在相应名义年化收益率口径下：
+
+\[
+D_{Mod,i}=\frac{D_{Mac,i}}{1+YTM_i/m}
+\]
+
+**重要区别**：组合平均 Modified Duration 应按 Method 2 对各债券的 Modified Duration 分别加权；不要先求组合 Macaulay Duration，再随意除以一个“组合平均 YTM”。
+
+### Method 1 与 Method 2 对比
+
+| 比较 | Method 1 | Method 2 |
+|---|---|---|
+| 计算对象 | 组合合并后的现金流 | 每只债券自己的久期 |
+| 核心步骤 | 合并现金流、折现、算现值权重 | 计算市场价值权重、加权单只债券久期 |
+| 适用理解 | 从组合现金流直接计算 | 从组成债券的久期汇总 |
+| Macaulay Duration | 直接计算组合现金流久期 | 市场价值加权单只债券 Macaulay Duration |
+| Modified Duration | 需保持一致的收益率与折现口径 | 市场价值加权单只债券 Modified Duration |
+
+在现金流、估值和折现口径一致时，Method 1 与 Method 2 的组合 Macaulay Duration 应一致。若各债券使用不同 YTM，组合 Modified Duration 应按题目指定的方法与各债券口径处理，不能假设存在一个简单的组合 YTM 可直接代入。
+
+### CFA 例题：三只零息债券的组合久期
+
+题目数据：
+
+| 债券 | Maturity | Coupon | YTM | Par Value | Market Value |
+|---|---:|---:|---:|---:|---:|
+| Bond A | 1年 | 0% | 2.37% | 100 | 97.68 |
+| Bond B | 3年 | 0% | 3.64% | 1,000 | 898.29 |
+| Bond C | 5年 | 0% | 5.39% | 10,000 | 7,691.36 |
+
+**第一步：利用零息债券特征确定单只债券 Macaulay Duration。**
+
+Zero-Coupon Bond（零息债券）只有到期本金这一笔现金流，因此：
+
+\[
+D_{Mac}=Maturity
+\]
+
+所以 Bond A、B、C 的 Macaulay Duration 分别为 1、3、5 年。
+
+**第二步：计算组合总市场价值。**
+
+\[
+MV_P=97.68+898.29+7691.36=8687.33
+\]
+
+**第三步：计算市场价值权重。**
+
+| 债券 | Market Value | Portfolio Weight |
+|---|---:|---:|
+| A | 97.68 | 1.1244% |
+| B | 898.29 | 10.3402% |
+| C | 7,691.36 | 88.5354% |
+| 合计 | 8,687.33 | 100% |
+
+**第四步：计算组合 Average Macaulay Duration。**
+
+\[
+D_{Mac,P}=w_A(1)+w_B(3)+w_C(5)
+\]
+
+使用题目截图显示的四舍五入后市场价值：
+
+\[
+D_{Mac,P}\approx\boxed{4.7482\text{ years}}
+\]
+
+**第五步：计算每只零息债券的 Modified Duration。**
+
+年度复利下，\(m=1\)：
+
+\[
+D_{Mod,i}=\frac{D_{Mac,i}}{1+YTM_i}
+\]
+
+| 债券 | Macaulay Duration | YTM | Modified Duration |
+|---|---:|---:|---:|
+| A | 1 | 2.37% | 0.97685 |
+| B | 3 | 3.64% | 2.89464 |
+| C | 5 | 5.39% | 4.74428 |
+
+**第六步：计算组合 Average Modified Duration。**
+
+\[
+D_{Mod,P}=w_AD_{Mod,A}+w_BD_{Mod,B}+w_CD_{Mod,C}
+\]
+
+\[
+D_{Mod,P}\approx\boxed{4.5107}
+\]
+
+根据截图中显示的四舍五入市场价值计算，结果约为 Macaulay 4.7482、Modified 4.5107，最接近选项 **B（4.7492，4.5108）**。题库答案与显示数据存在极小差异，可能来自底层未显示的精确市场价值或中间计算精度。
+
+### 考试易错点
+
+1. Portfolio Weight 使用 Market Value（市场价值），不是 Par Value（面值）。
+2. 零息债券的 Macaulay Duration 等于 Maturity。
+3. 组合 Macaulay Duration = 各债券 Macaulay Duration 按市场价值加权。
+4. 组合 Modified Duration = 各债券 Modified Duration 按市场价值加权。
+5. 先分别计算单只债券 Modified Duration，再加权；不要把组合 Macaulay Duration 直接除以简单平均 YTM。
+6. 年度复利时 m=1；半年复利时注意每期收益率与年数/期数单位匹配。
+7. 本题使用 Method 2，重点是先求权重，再做两次加权平均。
+
