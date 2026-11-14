@@ -49,9 +49,13 @@ Forward 和 Futures 都约定未来交易，双方原则上都承担合同履约
 
 期货每日盯市的简化盈亏：
 
-\[
+
+$
+
 \text{Daily Gain/Loss}= (F_t-F_{t-1})\times Q
-\]
+
+$
+
 
 其中：
 - \(F_t\)：当日结算价格（Settlement Price）
@@ -107,9 +111,13 @@ Forward 和 Futures 都约定未来交易，双方原则上都承担合同履约
 
 对于不产生收入、也没有持有成本的简单投资资产，若按年复利：
 
-\[
+
+$
+
 F_0(T)=S_0(1+r)^T
-\]
+
+$
+
 
 其中：
 - \(F_0(T)\)：今天确定、在 T 时点交割的远期价格（Forward Price）。
@@ -119,9 +127,13 @@ F_0(T)=S_0(1+r)^T
 
 若采用连续复利，则：
 
-\[
+
+$
+
 F_0(T)=S_0e^{rT}
-\]
+
+$
+
 
 ### 本题计算
 
@@ -129,9 +141,13 @@ F_0(T)=S_0e^{rT}
 - 无风险利率 \(r=3\%\)
 - 期限 \(T=1\) 年
 
-\[
+
+$
+
 F_0(1)=1000(1+0.03)^1=\boxed{\$1,030}
-\]
+
+$
+
 
 **正确答案：B. $1,030。**
 
@@ -172,9 +188,13 @@ F_0(1)=1000(1+0.03)^1=\boxed{\$1,030}
 
 多头远期（Long Forward）的当前价值：
 
-\[
+
+$
+
 V_t=S_t-\frac{K}{(1+r)^{T-t}}
-\]
+
+$
+
 
 其中：
 - \(S_t\)：当前现货价格。
@@ -184,9 +204,13 @@ V_t=S_t-\frac{K}{(1+r)^{T-t}}
 
 空头远期（Short Forward）的价值为：
 
-\[
+
+$
+
 V_t^{\text{short}}=-V_t^{\text{long}}
-\]
+
+$
+
 
 因此，现货价格变化会影响 Forward Value，而原合约的固定交割价格不变。
 
@@ -214,9 +238,13 @@ Once the forward contract initiates, changes in the underlying spot price lead t
 
 按年复利、成本与收益以估值日现值表示的简化公式：
 
-\[
+
+$
+
 F_0(T)=\big[S_0+PV(\text{Costs})-PV(\text{Benefits})\big](1+r)^T
-\]
+
+$
+
 
 其中：
 - \(S_0\)：当前现货价格（Spot Price）。
@@ -242,9 +270,13 @@ F_0(T)=\big[S_0+PV(\text{Costs})-PV(\text{Benefits})\big](1+r)^T
 
 假设某资产当前现货价格为 $100，一年期无风险利率为 5%，一年内会支付现值为 $3 的现金收益，且没有其他持有成本：
 
-\[
+
+$
+
 F_0=(100-3)(1.05)=\$101.85
-\]
+
+$
+
 
 如果忽略这 $3 的持有收益，远期价格会被高估为 $105。
 
@@ -297,9 +329,13 @@ Which statement about pricing and valuation of forward contracts is most accurat
 
 对于以短期利率为基础、采用指数报价的标准利率期货，常见报价方式为：
 
-\[
+
+$
+
 \text{Futures Price}=100-\text{MRR}
-\]
+
+$
+
 
 其中 MRR 是市场参考利率（Market Reference Rate）。
 
