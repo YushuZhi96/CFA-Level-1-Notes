@@ -3919,3 +3919,21 @@ tags: [CFA-L1, Vocabulary]
 
 - **Transaction Costs** — 交易成本
   - 执行交易及持有或结算头寸产生的费用与成本，包括佣金和买卖价差等
+
+
+## Derivatives｜套期会计
+
+- **Hedge Accounting** — 套期会计
+  - 通过对冲关系的会计处理，减少经济套期与财务报表确认时点不一致造成的波动
+
+- **Cash Flow Hedge** — 现金流量套期
+  - 对冲已确认项目或高度可能预期交易的未来现金流变动风险
+
+- **Fair Value Hedge** — 公允价值套期
+  - 对冲已确认资产或负债的公允价值变动风险，或符合条件的确定承诺风险
+
+- **Net Investment Hedge** — 境外经营净投资套期
+  - 对冲境外经营净投资的汇率风险
+
+- **Highly Probable Forecast Transaction** — 高度可能发生的预期交易
+  - 符合条件的预期交易现金流变动可作为现金流量套期对象
