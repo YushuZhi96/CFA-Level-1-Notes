@@ -4042,3 +4042,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Credit Valuation Adjustment (CVA)** — 信用估值调整
   - 反映交易对手信用风险对衍生品公允价值的调整，区别于基础无套利远期价格公式
+
+
+## Derivatives｜利率期货与套期保值
+
+- **Interest Rate Futures** — 利率期货
+  - 以利率或利率相关工具为基础的期货合约，常用于对冲利率变化风险
+
+- **Market Reference Rate (MRR)** — 市场参考利率
+  - 短期利率期货常见报价为 100 减去 MRR，因此利率与期货报价反向变化
+
+- **Interest Rate Futures Quote** — 利率期货报价
+  - 短期利率期货常见指数报价为 100 − MRR，报价下降意味着参考利率上升
