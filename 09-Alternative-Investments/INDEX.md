@@ -5,6 +5,7 @@
 ## 知识点目录
 - [[GP-Catch-Up]]
 - [[Alternative-Investments-Basics|另类投资基础：分类、管理、收益与风险]]
+- [[Hedge-Fund-Basics|对冲基金基础知识]]
 - [[Hedge-Fund-Fee-Structures|对冲基金费用结构]]
 - [[Private-Equity-Investment-Life-Cycle|私募股权投资生命周期]]
 - [[Leverage-and-Leveraged-Returns|杠杆与杠杆收益率]]
