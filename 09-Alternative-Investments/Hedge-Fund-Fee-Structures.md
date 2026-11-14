@@ -27,6 +27,15 @@ tags: [CFA-L1, Alternative-Investments, Hedge-Funds, Fees, Hurdle-Rate, Fund-of-
 - **Soft Hurdle｜软门槛**：一旦超过门槛，一般对**全部符合合同定义的利润**计提业绩报酬，而不仅是超出门槛的部分。
 - **High-Water Mark (HWM)｜高水位线**：历史净资产价值高点限制，用于避免在尚未弥补此前亏损时就重复收取业绩报酬；实际调整依合同约定。
 
+## AUM 与 NAV：管理费计费基数
+
+- **AUM（Assets Under Management）** 是管理资产规模；具体可能采用总资产或净资产口径，不能无条件视为 NAV。
+- **NAV（Net Asset Value）** 是资产减负债的净额：$NAV=\text{Gross Assets}-\text{Liabilities}$。
+- 对冲基金管理费**通常按合同指定的 AUM 基数**计提；应核实 Beginning、Ending 或 Average AUM。
+- **Committed Capital（承诺资本）** 通常是私募股权基金投资期管理费的常见基数，不应机械套用于对冲基金。
+- **Clawback Provision（收益追回条款）** 常见于 PE 的业绩分成分配，**High-Water Mark（高水位线）** 常见于对冲基金业绩报酬；具体安排均以合同为准。
+- 详细概念与两类基金比较：[[Hedge-Fund-Basics|对冲基金基础知识]]。
+
 ## 公式与变量
 
 设：
