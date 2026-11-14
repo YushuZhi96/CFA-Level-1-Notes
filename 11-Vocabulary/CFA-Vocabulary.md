@@ -3904,3 +3904,18 @@ tags: [CFA-L1, Vocabulary]
 
 - **Option Premium** — 期权费
   - 期权买方为取得权利支付给卖方的价格
+
+
+## Derivatives｜衍生品市场与现货市场
+
+- **Spot Market** — 现货市场
+  - 交易双方按现行市场价格买卖并通常进行标的资产交付的市场
+
+- **Derivative Market** — 衍生品市场
+  - 交易价值来源于标的资产或基础变量的衍生品合约的市场
+
+- **Initial Capital Requirement** — 初始资本要求
+  - 建立某项投资敞口所需投入的初始资金，期货通常以保证金建立敞口
+
+- **Transaction Costs** — 交易成本
+  - 执行交易及持有或结算头寸产生的费用与成本，包括佣金和买卖价差等
