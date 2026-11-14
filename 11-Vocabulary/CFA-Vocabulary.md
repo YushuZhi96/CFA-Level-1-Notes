@@ -3645,3 +3645,30 @@ tags: [CFA-L1, Vocabulary]
 
 - **Selling Price** — 卖出价格
   - 资本利得题中需与相同口径的 Carrying Value 比较
+
+
+## Fixed Income｜利率风险组成与持有到期
+
+- **Market Price Risk** — 市场价格风险
+  - 市场利率变化导致债券市值波动的风险
+
+- **Reinvestment Risk** — 再投资风险
+  - 收到的票息或提前偿还本金可能无法按原先预期利率再投资
+
+- **Default Risk** — 违约风险
+  - 发行人无法按合同约定支付本金或利息的风险
+
+- **Hold to Maturity** — 持有至到期
+  - 不计划在到期前出售债券；中途市场价格仍可能波动
+
+- **Payments Made as Promised** — 所有款项按约支付
+  - 题目假设排除了违约未支付的情况
+
+- **Price Risk** — 价格风险
+  - 利率上升可能造成债券价格下降的影响
+
+- **Duration Matching** — 久期匹配
+  - 使资产与负债或目标投资期限的久期相匹配，以管理利率风险
+
+- **Immunization** — 免疫策略
+  - 通过久期及现金流安排等控制利率变动对目标价值的影响
