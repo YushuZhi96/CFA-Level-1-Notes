@@ -3466,3 +3466,35 @@ tags: [CFA-L1, Vocabulary]
 
 - **Intrinsic Value** — 内在价值
   - 根据企业基本面估计的价值，不保证市场价格回归
+
+## Alternative Investments｜主从基金结构
+
+- **Master-Feeder Structure** — 主从基金结构
+  - 不同 Feeder 汇集资金至同一 Master Fund，不能保证免税
+
+- **Master Fund** — 主基金
+  - 集中管理多个 Feeder 汇集的资金
+
+- **Feeder Fund** — 从基金 / 联接基金
+  - 募集投资者资金并投资于主基金
+
+- **Onshore** — 在岸的
+  - 指境内或特定司法管辖区内的基金安排
+
+- **Offshore** — 离岸的
+  - 指境外司法管辖区基金安排，不等于免税
+
+- **Tax Liability** — 纳税义务
+  - 基金结构本身不能保证投资者没有纳税义务
+
+- **Taxable Jurisdiction** — 应税司法管辖区
+  - 投资者仍可能受当地税法约束
+
+- **Pooling Funds** — 汇集资金
+  - 集中不同 Feeder 的资金，可能形成规模经济
+
+- **Regulatory Requirements** — 监管要求
+  - 主从基金可灵活安排合规结构，但不能免除适用法规
+
+- **Regulatory Structuring** — 监管架构安排
+  - 通过合法结构适配不同司法管辖区规则
