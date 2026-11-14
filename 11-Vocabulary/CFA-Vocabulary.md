@@ -4120,3 +4120,12 @@ tags: [CFA-L1, Vocabulary]
 
 - **Forward Rate Agreement (FRA)** — 远期利率协议
   - 约定未来某一计息期间适用利率的场外合约，多期利率互换可视为一系列 FRA 的组合
+
+
+## Derivatives｜互换净现金流与净额结算
+
+- **Net Settlement** — 净额结算
+  - 在结算日将互换双方应付现金流相互抵销，通常只支付净额
+
+- **Net Cash Flow in a Swap** — 互换净现金流
+  - 从某一方角度看，某期收到的现金流减去支付的现金流，用于计算互换价值
