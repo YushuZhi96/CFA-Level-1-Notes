@@ -169,6 +169,16 @@ D_{Eff}=\frac{102-98}{2(100)(0.0025)}=8
 
 选择 **Macaulay Duration**。
 
+## Duration 与价格风险、再投资风险及 Immunization
+
+- **Price Risk（价格风险）**：收益率上升通常导致债券市场价格下降；Modified/Effective Duration 用于近似衡量价格对利率的敏感度。
+- **Reinvestment Risk（再投资风险）**：收益率下降时，未来收到的票息可能只能以更低利率投资，降低持有期末的累积金额。
+- **两种效应方向相反**：利率上升时价格效应不利但再投资效应可能有利；利率下降时价格效应有利但再投资效应可能不利。
+- **Duration Matching（久期匹配）与 Immunization（免疫策略）**：通过使资产久期与目标负债或投资期限相匹配等条件，尽量让小幅利率变动带来的价格效应与再投资效应相互抵消。免疫策略还受初始收益率、现金流匹配、凸性、曲线非平行变化和再平衡等条件影响，不能仅凭一个久期数值保证完全免疫。
+- **CFA 速判**：普通付息债券 + Hold to Maturity + Payments Made as Promised → 在 Market Price Risk、Reinvestment Risk、Default Risk 三者中优先选择 **Reinvestment Risk**。
+
+详见 [[Fixed-Income-Basics]] 的 “Interest Rate Risk Components｜利率风险的组成”。
+
 ## 9. 10秒考前记忆卡
 
 - **Macaulay = Time**：现金流现值加权平均时间。
