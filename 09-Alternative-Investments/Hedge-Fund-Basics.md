@@ -117,6 +117,71 @@ $
 - **Fund of Hedge Funds｜对冲基金中的基金**：上层基金募集投资者资金，并将其配置到多个底层对冲基金（Underlying Funds）。
 - 通过 FOF，投资者可以获得多基金投资敞口，但实际分散化效果取决于底层策略是否具有不同风险来源。
 
+## Master-Feeder Structure（主从基金结构）
+
+### 一句话理解
+
+**Master-Feeder Structure｜主从基金结构**：不同类别或不同司法管辖区的投资者通过各自的从基金（Feeder Fund）投入资金，再汇集到同一个主基金（Master Fund），由主基金统一执行投资策略。典型优势是**汇集资金、形成规模经济，以及针对不同投资者安排适当的法律、税务和运营结构**；它**不保证投资者免税**。
+
+### 核心概念与资金流向
+
+- **Master Fund｜主基金**：汇集各 Feeder Fund 的资金，统一管理和投资。
+- **Feeder Fund｜从基金 / 联接基金**：为不同投资者群体募集资金，并将其投入主基金。
+- **Onshore Feeder｜在岸从基金**：面向某一司法管辖区内的投资者或按当地法律设立的从基金。
+- **Offshore Feeder｜离岸从基金**：在境外司法管辖区设立的从基金。
+- **Pooling Funds｜资金汇集**：多个 Feeder 将资金汇总至 Master，由同一投资组合管理。
+
+简化结构：
+
+\`\`\`text
+Onshore Investors         Offshore Investors
+        |                         |
+  Onshore Feeder            Offshore Feeder
+        \                         /
+         \                       /
+                 Master Fund
+                     |
+             Investment Portfolio
+\`\`\`
+
+### 典型优势与边界
+
+1. **Economies of Scale｜规模经济**：在岸和离岸投资者资金汇集后，主基金可集中交易、风控和投资管理，可能减少重复工作；但结构本身也会产生法律、审计和行政费用。
+2. **Tax / Operational Structuring｜税务与运营安排灵活性**：不同 Feeder 可以针对不同投资者资格、税务及运营需要设计结构；**税务效率不等于完全免税**。
+3. **Regulatory Structuring｜监管架构安排**：题库将“可以避免部分地区性监管限制”视为典型优势。更准确的表述是，合法架构可能帮助投资者在适用规则下获得投资机会、减少不必要的结构障碍，但**不能免除适用法律或违法规避监管**。
+
+### 典型考试陷阱
+
+- **Without Any Tax Liability｜完全没有纳税义务**：绝对化表述；主从基金结构不能保证投资者在其税务居民地或其他相关司法管辖区免税。
+- **Taxable Jurisdiction｜应税司法管辖区**：投资者的税收责任仍取决于税法、居民身份、收入性质和基金结构。
+- **Do Not Include｜不包括**：反向提问，选择不属于真实或可保证优势的陈述。
+- **Onshore vs. Offshore**：描述基金所在或适用的司法管辖区，并非“在岸一定缴税、离岸一定免税”。
+
+### Master-Feeder 与 Fund of Hedge Funds（FoHF）比较
+
+| 维度 | Master-Feeder Structure | Fund of Hedge Funds（FoHF） |
+| --- | --- | --- |
+| 资金结构 | 多个 Feeder → 同一个 Master | 一个 FoHF → 多只底层基金 |
+| 主要目的 | 集中投资管理，适配不同投资者 | 专业尽调、策略配置和分散化 |
+| 投资执行 | 通常由 Master 统一执行 | 底层基金可能分别采用不同策略 |
+| 费用与风险 | 依具体法律和收费安排而定 | 典型存在双层收费，底层策略可能相关 |
+
+**记忆：Master-Feeder = 多对一；FoHF = 一对多。** 两者都是基金结构，但服务于不同的主要目的。
+
+### 我的错因 / 验证记录
+
+- 本次误选“地区监管要求”相关陈述，未识别 **without any tax liability** 这一绝对化错误。
+- 题库判定：资金汇集产生规模经济是优势；通过合适结构适配不同地区监管也是可能优势；**完全免税不是可保证优势**。
+- 复习状态：🟡 曾答错，待独立验证。
+
+### 复习检查清单
+
+- [ ] 能画出 Onshore / Offshore Feeder → Master Fund 的资金流向。
+- [ ] 能解释 Economies of Scale 的来源及结构成本。
+- [ ] 能区分税务效率与完全免税。
+- [ ] 能区分合法监管架构安排与违法规避监管。
+- [ ] 能说明 Master-Feeder 与 FoHF 的结构区别。
+
 ## FoHF 的典型优势（Benefits）
 
 1. **Access for Smaller Investors｜较小投资者的可参与性**：FOF 汇集投资者资金，可能降低单个投资者获得多基金配置所需的最低投资额（Minimum Investment Requirement）；仍受投资者资格和基金条款限制。
