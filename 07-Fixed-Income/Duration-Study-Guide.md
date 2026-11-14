@@ -311,3 +311,45 @@ V_{Putable}=V_{Option-free}+V_{Put}
 - [[Key-Rate-Duration|关键利率久期]]
 - [[Embedded-Options-in-Bonds|嵌入式期权债券]]
 - [[Fixed-Income-Basics|固定收益基础概念]]
+
+
+## YTM 与 Duration 的关系｜同票息、同期限债券比较
+
+在**其他条件相同、固定现金流、无嵌入式期权**的普通债券之间比较时：
+
+\[
+\boxed{YTM\uparrow\Rightarrow D_{Mac}\downarrow\Rightarrow D_{Mod}\downarrow}
+\]
+
+原因分两层：
+
+1. **Macaulay Duration**：YTM 越高，远期现金流折现越重，远期现金流现值在债券总价格中的权重通常下降；较早现金流的相对权重上升，因此现值加权平均收款时间缩短。
+2. **Modified Duration**：在每年复利/付息次数 \(m\) 相同的条件下，
+\[
+D_{Mod}=\frac{D_{Mac}}{1+YTM/m}
+\]
+YTM 上升时，分母变大；同时 Macaulay Duration 也通常下降，所以 Modified Duration 通常更低。
+
+因此，对相同幅度的小幅 YTM 变动：
+
+\[
+\left|\frac{\Delta P}{P}\right|\approx D_{Mod}|\Delta YTM|
+\]
+
+**Modified Duration 较低的债券，其价格百分比变化通常较小。**
+
+### 本题速判
+
+两只债券票息率和到期期限相同，Bond 1 的 YTM 高于 Bond 2。按普通固定现金流债券的比较关系：
+
+- Bond 1 的 Macaulay Duration 通常较低。
+- Bond 1 的 Modified Duration 通常较低。
+- 若两者 YTM 发生相同的小幅变动，Bond 1 的价格百分比变化通常较小。
+
+**答案：A. Bond 1。**
+
+### 考试边界
+
+- 以上是普通、固定现金流、无嵌入式期权债券在其他条件可比时的标准关系。
+- 零息债券的 Macaulay Duration 等于到期期限，不随 YTM 改变；但其 Modified Duration 仍受 YTM 影响。
+- 100 bps 等较大变动时，单用 Modified Duration 是一阶近似，精确价格变化还会受到 Convexity（凸性）影响；若题目要求严格比较大幅变动后的实际价格变化，应重新定价或同时考虑凸性。
