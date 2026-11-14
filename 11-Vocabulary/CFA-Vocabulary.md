@@ -3729,3 +3729,26 @@ tags: [CFA-L1, Vocabulary]
 
 - **Seniority** — 债务偿付优先级
   - 债务在发行人违约或清算时的相对受偿顺序
+
+
+- **Notching** — 信用评级微调
+  - 评级机构根据具体债务的担保、偿付优先级和预期回收情况，相对发行人评级上调或下调债务工具评级
+
+- **Upward Notching** — 评级向上微调
+  - 因抵押品、担保或较高偿付优先级等因素，具体债务评级可能高于发行人评级
+
+- **Downward Notching** — 评级向下微调
+  - 因次级偿付顺序或较低预期回收率等因素，具体债务评级可能低于发行人评级
+
+- **PD (Probability of Default)** — 违约概率
+  - 指定期间内发生违约的概率
+
+- **LGD (Loss Given Default)** — 违约损失率
+  - 发生违约后无法收回的敞口比例；通常 LGD = 1 − Recovery Rate
+
+- **EAD (Exposure at Default)** — 违约风险暴露
+  - 发生违约时的风险敞口金额
+
+- **EL (Expected Loss)** — 预期损失
+  - EL = PD × LGD × EAD；若表示损失率，则 EL Rate = PD × LGD
+
