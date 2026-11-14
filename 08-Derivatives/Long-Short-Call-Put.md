@@ -62,3 +62,38 @@ tags: [CFA-L1, Derivatives, Options]
 **正确答案：B. Has a right to sell the stock at $30.**
 
 易错点：C 的 “has an obligation to sell” 描述的是期权卖方在买方行权时承担的履约义务，不是期权买方的义务。
+
+
+## 期权实值、平值与虚值（Moneyness）
+
+期权的实值状态由标的资产当前价格（或到期价格）与行权价格的关系决定，**不由期权费决定**。
+
+设：
+- \(S\)：标的股票价格
+- \(K\)：行权价格（Strike Price）
+
+| 期权类型 | 实值（ITM） | 平值（ATM） | 虚值（OTM） |
+|---|---|---|---|
+| Call 看涨期权 | \(S>K\) | \(S=K\) | \(S<K\) |
+| Put 看跌期权 | \(S<K\) | \(S=K\) | \(S>K\) |
+
+到期内在价值（Intrinsic Value）：
+- Call：\(\max(S_T-K,0)\)
+- Put：\(\max(K-S_T,0)\)
+
+### 本题判断：卖出看涨期权（Writing a Call）
+
+- 行权价格 \(K=30\) 美元。
+- 到期股票价格 \(S_T=29\) 美元。
+- 因为 \(S_T<K\)，Call 为虚值（Out of the Money, OTM）。
+- 买方没有理由以 $30 买入市价 $29 的股票，因此通常不会行权。
+- 卖方（Writer）收到的期权费为 $2；到期时 Call payoff 为 0，因此在忽略交易成本等情况下，卖方保留 $2 期权费，取得 $2 的净利润。
+
+注意：题目说 investor is writing a call，说明投资者是期权卖方；但 ITM / ATM / OTM 是对期权合约本身的分类，不因投资者是买方还是卖方而改变。
+
+## 常见考试陷阱
+
+1. Call：股价高于行权价才是实值；Put：股价低于行权价才是实值。
+2. ITM / ATM / OTM 只比较标的价格与行权价格，**不把期权费纳入判断**。
+3. 期权费影响净利润（Profit），不改变期权的实值状态（Moneyness）。
+4. 买入或卖出（Long / Short）不会改变同一份期权合约的 moneyness。
