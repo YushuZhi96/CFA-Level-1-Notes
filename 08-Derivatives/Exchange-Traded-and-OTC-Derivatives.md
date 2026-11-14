@@ -135,3 +135,25 @@ tags: [CFA-L1, Derivatives, Market-Structure]
 快速记忆：
 - ETD → Standardized + Exchange-traded + Generally more liquid + More transparent.
 - OTC → Customized + Bilateral negotiation + Generally less transparent + Counterparty risk management is important.
+
+
+## 补充：场外衍生品的结算方式（Settlement Methods）
+
+OTC 合约的结算安排可以根据双方约定设计，常见方式包括：
+
+- **实物交割（Physical Delivery）**：按合约实际交付标的资产或约定的本金。
+- **现金结算（Cash Settlement）**：不交付标的资产，而是按合约约定，以现金支付相关价值差额。
+
+具体采用哪种方式取决于合约条款和产品结构；不能据此认为所有 OTC 合约都采用同一种结算方式。
+
+### 题目判断
+
+关于 OTC derivatives，哪项陈述错误？
+
+- Customized → 正确，OTC 通常允许双方定制条款。
+- More liquid and transparent → 错误，OTC 通常不如 ETD 流动性高、透明度高。
+- Physical or cash settlement → 可作为 OTC 合约可能采用的结算安排，具体取决于合同。
+
+**正确答案：B. They are more liquid and transparent.**
+
+术语提醒：Physical Delivery 和 Cash Settlement 是结算方式（Settlement Methods）；Exercise（行权）是期权持有人是否使用期权权利的行为。题目将 “exercised by physical or cash delivery” 混用，严格术语上不够准确，应理解为“可采用实物交割或现金结算”。
