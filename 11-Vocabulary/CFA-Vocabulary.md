@@ -4033,3 +4033,12 @@ tags: [CFA-L1, Vocabulary]
 
 - **Dividend** — 股息
   - 股票持有人在持有期间取得的现金收益，通常降低股票远期价格
+
+
+## Derivatives｜远期价格与信用风险
+
+- **Default Risk Premium** — 违约风险溢价
+  - 为承担交易对手或发行人违约风险要求的额外补偿，不是基础无套利远期价格公式的标准变量
+
+- **Credit Valuation Adjustment (CVA)** — 信用估值调整
+  - 反映交易对手信用风险对衍生品公允价值的调整，区别于基础无套利远期价格公式
