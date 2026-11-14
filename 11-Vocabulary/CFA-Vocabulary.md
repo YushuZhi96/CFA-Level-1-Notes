@@ -3558,3 +3558,24 @@ tags: [CFA-L1, Vocabulary]
 
 - **Maturity Structure of Interest Rates** — 利率期限结构
   - 描述不同期限利率之间关系的术语
+
+
+## Fixed Income｜即期与远期利率推导补充
+
+- **Spot–Forward Relationship** — 即期利率与远期利率的关系
+  - 通过不同期限的复利增长因子推导隐含的远期利率
+
+- **No-Arbitrage Principle** — 无套利原理
+  - 相同风险和到期现金流的可锁定策略应具有一致的价值
+
+- **Accumulation Factor** — 复利累积因子
+  - 1+r 为一期本金及利息的总增长倍数，连续期间因子相乘
+
+- **Forward Start** — 远期起始时间
+  - 远期利率对应期间从未来何时开始
+
+- **Forward Tenor** — 远期持续期限
+  - 远期利率适用的时间长度
+
+- **Compound Interest** — 复利
+  - 每期产生的利息参与下一期计息
