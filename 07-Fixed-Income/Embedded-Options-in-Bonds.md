@@ -134,3 +134,26 @@ V_{Convertible}=V_{Straight\ Bond}+V_{Conversion\ Option}
 
 进一步的定义、公式、三点价格凸性例子及考试速判见：[[Duration-Study-Guide|Duration 久期总专题第7.1节]]。
 
+
+
+### 7.1 Effective Duration 如何随利率变化？
+
+**Effective Duration（有效久期）**会考虑利率变化对预期现金流和期权行权概率的影响。对期权债券，应在基准收益率曲线上下移动后重新估计现金流、重新定价。
+
+| 利率变化 | Callable Bond（发行人持有 Call） | Putable Bond（投资者持有 Put） |
+|---|---|---|
+| 利率下降 | 发行人更可能赎回；预期现金流缩短；Effective Duration 通常下降 | 投资者较不需要回售；预期继续持有；Effective Duration 通常上升 |
+| 利率上升 | 发行人较不愿赎回；债券更可能继续存续；Effective Duration 通常上升 | 投资者更可能回售；预期现金流缩短；Effective Duration 通常下降 |
+
+**理解机制**：
+- Callable：发行人想在市场利率下降后替换旧的高融资成本债券，因此更可能提前赎回。
+- Putable：投资者想在市场利率上升、旧债券价格承压时使用回售权，按合同价格收回资金。
+- 提前行权可能使未来现金流提前结束，价格对进一步利率变化的敏感度通常降低。
+
+**CFA 速记**：
+- Call + Rates Fall → Effective Duration 通常下降。
+- Put + Rates Rise → Effective Duration 通常下降。
+
+**边界**：以上是行权敏感区域的典型关系，不代表所有合同条款和所有利率水平下都必然单调成立。实际有效久期还取决于行权价格、可行权日期、保护期、利率波动率、信用利差及估值模型。
+
+更完整的现金流逻辑、Effective Duration 公式与题型见 [[Duration-Study-Guide|Duration 久期总专题第4.1节]]。
