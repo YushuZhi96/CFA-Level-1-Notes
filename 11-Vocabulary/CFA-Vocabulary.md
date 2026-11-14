@@ -3417,3 +3417,29 @@ tags: [CFA-L1, Vocabulary]
 
 - **Fund of Funds** — 基金中的基金
   - 将投资者资金配置到多个底层基金，可能产生双层费用
+
+## Alternative Investments｜AUM、NAV 与基金结构
+
+- **Net Asset Value (NAV)** — 资产净值
+  - 总资产减负债；不能在未说明口径时直接等同 AUM
+
+- **Gross Assets** — 总资产
+  - 资产总值，可能与净资产 NAV 不同
+
+- **Committed Capital** — 承诺资本
+  - 投资者承诺未来出资的金额，PE 投资期管理费常用基数
+
+- **Called Capital** — 已调用资本
+  - 基金根据承诺要求投资者缴纳的金额，区别于未调用承诺
+
+- **Uncalled Capital** — 未调用资本
+  - 尚未被基金调用的承诺资本
+
+- **Average AUM** — 平均管理资产规模
+  - 某一约定期间的平均 AUM，管理费计费基数之一
+
+- **Clawback Provision** — 收益追回条款
+  - PE 常见机制，按约定追回 GP 此前多分配的业绩分成
+
+- **Partnership** — 合伙企业
+  - 对冲基金和私募股权基金均可能采用的组织结构
