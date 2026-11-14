@@ -133,9 +133,9 @@ $$
 
 **价格关系**：其他条件相同：
 
-$
+$$
 V_{\text{Callable}}\le V_{\text{Option-Free}}\le V_{\text{Putable}}
-$
+$$
 
 **为何是不同的弯曲方向**：Callable 的发行人有权提前终止高票息债券，使价格在利率下降时涨幅被限制；Putable 的投资者可按约定价格回售，使价格在利率上升时跌幅被限制。两者都可能因利率变化改变预期现金流，故分析利率风险时通常需要 Effective Duration / Effective Convexity。
 
