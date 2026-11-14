@@ -3540,3 +3540,21 @@ tags: [CFA-L1, Vocabulary]
 
 - **Zero-Coupon Rate** — 零息利率
   - 不同到期期限的无中间票息现金流的贴现利率
+
+
+## Fixed Income｜收益率曲线定义及可比性补充
+
+- **Zero-Coupon Rates** — 零息利率
+  - Spot Rate Curve 所表示的不同期限零息贴现利率
+
+- **Par Bond Yield** — 平价债券收益率
+  - 平价债券的到期收益率，与其票面利率相等
+
+- **Similar Credit Risk** — 相似信用风险
+  - 构建可比收益率曲线时，尽量保持债券信用风险相近
+
+- **Yield Curve Comparability** — 收益率曲线可比性
+  - 尽量统一信用质量、币种及其他相关特征以观察期限影响
+
+- **Maturity Structure of Interest Rates** — 利率期限结构
+  - 描述不同期限利率之间关系的术语
