@@ -3356,3 +3356,32 @@ tags: [CFA-L1, Vocabulary]
 
 - **Collateral Return** — 抵押品收益
   - 期货抵押资金或现金投资可能产生的利息收益
+
+## Alternative Investments｜农田与林地投资
+
+- **Farmland** — 农田
+  - 农作物收获通常受季节和成熟窗口约束
+
+- **Timberland** — 林地
+  - 成熟林木可在一定范围调整采伐时间，具有相对较高的收获灵活性
+
+- **Harvest** — 收获 / 采伐
+  - 在农田指收割作物，在林地指采伐木材
+
+- **Harvest Flexibility** — 采伐时机灵活性
+  - 成熟林木在一定条件下可推迟采伐，不代表无限期等待
+
+- **Biological Growth** — 生物生长
+  - 树木自然生长增加木材蓄积量，可能推动林地价值变化
+
+- **Growing Season** — 生长季节
+  - 农作物通常需在特定成熟与季节窗口收割
+
+- **ESG Principles** — 环境、社会与治理原则
+  - 农田和林地均涉及 ESG，但不保证实际环境效益
+
+- **Timber Price Changes** — 木材价格变化
+  - 木材市场价格影响林地投资回报
+
+- **Land Value Changes** — 土地价值变化
+  - 农田或林地自身价值变化可影响投资回报
