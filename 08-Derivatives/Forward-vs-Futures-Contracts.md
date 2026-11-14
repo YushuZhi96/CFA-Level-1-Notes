@@ -151,3 +151,56 @@ F_0(1)=1000(1+0.03)^1=\boxed{\$1,030}
 2. 若存在存储成本、保险费或便利收益（Convenience Yield），需相应调整持有成本模型。
 3. **Forward Price ≠ Forward Contract Value**：远期价格是合约约定的交割价格；新签订的公平远期合约初始价值通常为零。
 4. Short Forward 不是“今天卖出资产”，而是约定未来按交割价格卖出标的。
+
+
+## 远期价格与远期合约价值的区别（Forward Price vs. Forward Contract Value）
+
+### 1. 合约成立时（At Initiation）
+
+- 双方约定交割价格 \(K\)，也就是该份现有合约的固定 Forward Price。
+- 在公平定价、无初始支付的情况下，新签订远期合约的初始价值通常为零：\(V_0=0\)。
+
+### 2. 合约成立后（After Initiation）
+
+- 原合约约定的交割价格 \(K\) 固定，不会因现货价格变化而自动重设。
+- 标的现货价格（Spot Price）变化，会改变这份既有远期合约对持有人的当前价值（Forward Contract Value）。
+- 市场上若此时重新签订一份新远期合约，其当前市场远期价格（Current Market Forward Price）会随现货价格及剩余期限、利率和持有成本等因素变化；但这不是原合约已经约定的交割价格。
+
+### 3. 简化估值公式
+
+对于无收入、无持有成本的资产，离到期还有 \(T-t\) 年，按年复利计算：
+
+多头远期（Long Forward）的当前价值：
+
+\[
+V_t=S_t-\frac{K}{(1+r)^{T-t}}
+\]
+
+其中：
+- \(S_t\)：当前现货价格。
+- \(K\)：原合约固定的交割价格。
+- \(r\)：期限匹配的无风险利率。
+- \(T-t\)：剩余期限。
+
+空头远期（Short Forward）的价值为：
+
+\[
+V_t^{\text{short}}=-V_t^{\text{long}}
+\]
+
+因此，现货价格变化会影响 Forward Value，而原合约的固定交割价格不变。
+
+### 本题判断
+
+Once the forward contract initiates, changes in the underlying spot price lead to:
+
+- Only the forward price fluctuates → 错误；原合约的约定交割价格固定。
+- Only the forward value fluctuates → 正确。
+- Both fluctuate → 错误；混淆了既有合约的固定交割价格与当前市场新合约价格。
+
+**正确答案：B. The fluctuation of only the forward value.**
+
+记忆：
+- Forward Price (contract delivery price K) → fixed after initiation.
+- Forward Contract Value → changes as market conditions change.
+- Current Market Forward Price → price of a newly initiated forward contract; may change over time.
