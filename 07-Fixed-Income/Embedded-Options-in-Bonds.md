@@ -28,9 +28,9 @@ tags: [CFA-L1, Fixed-Income, Bonds, Embedded-Options]
 - 投资者承担债券被提前赎回的风险，因此通常要求更高收益率（Higher Yield）。
 - 价值关系：
 
-$
+$$
 V_{\text{Callable}}=V_{\text{Option-Free}}-V_{\text{Call}}
-$
+$$
 
 ### Putable Bond｜可回售债券
 
@@ -39,9 +39,9 @@ $
 - 投资者愿意为这项保护支付价格，表现为债券价格更高、要求收益率更低（Lower Yield）。
 - 价值关系：
 
-$
+$$
 V_{\text{Putable}}=V_{\text{Option-Free}}+V_{\text{Put}}
-$
+$$
 
 ## 3. 价格与收益率关系
 
