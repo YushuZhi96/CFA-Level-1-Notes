@@ -3820,3 +3820,15 @@ tags: [CFA-L1, Vocabulary]
 
 - **Public Quotes** — 公开报价
   - 交易所市场可供参与者观察的买卖报价，帮助价格发现
+
+
+## Derivatives｜结算方式
+
+- **Physical Delivery** — 实物交割
+  - 按衍生品合约实际交付标的资产或约定本金
+
+- **Cash Settlement** — 现金结算
+  - 不交付标的资产，而按合同约定以现金支付价值差额
+
+- **Settlement Method** — 结算方式
+  - 合约约定的履行结算安排，可包括实物交割或现金结算
