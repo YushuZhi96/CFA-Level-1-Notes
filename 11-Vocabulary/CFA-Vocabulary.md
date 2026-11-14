@@ -3443,3 +3443,26 @@ tags: [CFA-L1, Vocabulary]
 
 - **Partnership** — 合伙企业
   - 对冲基金和私募股权基金均可能采用的组织结构
+
+## Alternative Investments｜事件驱动与基本面价值策略
+
+- **Distressed Securities** — 困境证券
+  - 围绕破产、债务重组及回收价值的事件驱动策略
+
+- **Merger Arbitrage** — 并购套利
+  - 利用并购收购价差，承担交易失败风险，属于事件驱动
+
+- **Fundamental Value** — 基本面价值策略
+  - 分析盈利、现金流与内在价值，题库归入权益对冲策略
+
+- **Equity Hedge** — 权益对冲策略
+  - 以股票相关多空和基本面策略为代表的对冲基金策略类别
+
+- **Financial Distress** — 财务困境
+  - 企业面临偿债困难或破产风险
+
+- **Deal Risk** — 交易失败风险
+  - 并购可能因监管、融资等原因无法完成
+
+- **Intrinsic Value** — 内在价值
+  - 根据企业基本面估计的价值，不保证市场价格回归
