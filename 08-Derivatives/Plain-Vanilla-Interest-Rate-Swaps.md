@@ -187,3 +187,79 @@ Which interpretation of fixed swap rate is least correct?
 - [ ] 能解释为什么固定互换利率不是零息利率的算术平均值
 - [ ] 能区分 Zero Rate、Forward Rate 和 Fixed Swap Rate
 - [ ] 能理解折现因子和计息因子在公式中的作用
+
+
+## 互换合约价值（Swap Contract Value）
+
+### 1. 成立时的价值（Value at Initiation）
+
+一份新签订、按市场条件公平定价且没有额外前期支付的互换合约，其初始价值通常为零：
+
+$$
+V_{\text{Swap},0}=0
+$$
+
+原因是固定互换利率（Fixed Swap Rate）被设定为使固定端和浮动端的现值相等：
+
+$$
+PV_{\text{Receive Leg}}=PV_{\text{Pay Leg}}
+$$
+
+因此，合约在成立时对双方都没有净价值优势。
+
+### 2. 合约存续期间的价值（Value During the Life of the Swap）
+
+互换价值不会在整个合同期限内固定不变。市场利率、折现曲线和剩余现金流变化后，原互换的价值也会变化。
+
+从某一方的角度：
+
+$$
+V_{\text{Swap},t}=PV_{\text{Receive Leg},t}-PV_{\text{Pay Leg},t}
+$$
+
+注意：
+- 原合同的固定互换利率通常保持不变。
+- 浮动利率会按合同约定定期重设。
+- Swap Value 会随着市场条件变化而波动。
+
+### 3. Swap 与一系列 Forward / FRA 的关系
+
+一份多期利率互换可以理解为一系列不同结算期间的远期利率协议（Forward Rate Agreements, FRAs）。
+
+在成立时：
+- 单独每一期的组成远期合约可能具有正、负或零的初始价值。
+- 互换整体的初始价值等于所有组成远期合约价值之和。
+- 对公平定价的互换，这些组成合约的价值相互抵销，组合价值为零。
+
+$$
+V_{\text{Swap},0}=\sum_{i=1}^{n}V_{\text{Forward},i,0}=0
+$$
+
+因此，**每份组成远期的价值不必为零，但所有组成远期的价值总和必须为零**（在公平定价的互换成立时）。
+
+### 4. 本题判断
+
+The swap contract value:
+
+- A. is zero at initiation. → 正确。标准公平定价互换初始价值为零。
+- B. is fixed over the life of the contract. → 错误。互换价值会随市场利率和剩余现金流变化；固定的是合同约定的固定互换利率，而不是 Swap Value。
+- C. is the same with the value of each component forward contract. → 错误。互换价值等于所有组成远期合约价值的总和，而不是等于每一份组成远期的价值。
+
+**正确答案：A。**
+
+### 易混概念速查
+
+| 概念 | 成立时 | 存续期间 |
+|---|---|---|
+| Fixed Swap Rate | 按市场条件确定 | 原合同通常固定 |
+| Floating Rate | 按当期参考利率确定 | 按合同定期重设 |
+| Swap Value | 公平定价时通常为零 | 随市场条件变化 |
+| Individual Component Forward Value | 可以非零 | 随市场条件变化 |
+| Combined Component Forward Values | 合计为零 | 合计等于 Swap Value |
+
+### 我的错因 / 验证记录
+
+- [ ] 能解释为什么公平定价互换初始价值为零
+- [ ] 能区分 Fixed Swap Rate 与 Swap Value
+- [ ] 能解释互换价值为什么会随市场利率变化
+- [ ] 能区分单份组成远期价值与全部组成远期价值之和
