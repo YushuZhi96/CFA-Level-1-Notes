@@ -116,6 +116,7 @@ Which of the following best describes a risk premium in the context of required 
 
 ## 易混知识点 / Obsidian 链接
 
+- [[Maturity-Risk-Premium|Maturity Risk Premium（期限风险溢价）]]
 - [[Arithmetic-and-Geometric-Mean-Return|Arithmetic Mean Return vs. Geometric Mean Return]]
 - Risk-free Rate（无风险利率）
 - Risk Premium（风险溢价）
