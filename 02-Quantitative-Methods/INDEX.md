@@ -8,7 +8,7 @@
 
 | 编号 | 官方模块名称 | 中文名称 | 归档进度 |
 |---|---|---|---|
-| LM01 | [[LM01-Returns-of-Financial-Assets-and-Instruments/INDEX|Returns of Financial Assets and Instruments]] | 金融资产与金融工具的收益 | 已建立：2 个知识点 |
+| LM01 | [[LM01-Returns-of-Financial-Assets-and-Instruments/INDEX|Returns of Financial Assets and Instruments]] | 金融资产与金融工具的收益 | 已建立：3 个知识点 |
 | LM02 | Types of Financial Returns | 金融收益率的类型 | 待归档 |
 | LM03 | Benchmarking Returns | 收益率基准比较 | 待归档 |
 | LM04 | The Time Value of Money in Finance | 金融中的货币时间价值 | 待归档 |
@@ -24,6 +24,7 @@
 
 - [x] Quant-Q001｜Arithmetic Mean Return vs. Geometric Mean Return
 - [x] Quant-Q002｜Risk Premium and Required Rate of Return
+- [x] Quant-Q003｜Maturity Risk Premium: T-bill vs. T-bond
 - [ ] 后续题目按知识点持续补充；同一知识点不重复建档。
 
 ## 归档规则
