@@ -20,6 +20,7 @@ tags: [CFA-L1, Quantitative-Methods, LM01]
 - [[Arithmetic-and-Geometric-Mean-Return|算术平均收益率与几何平均收益率（Arithmetic Mean Return vs. Geometric Mean Return）]]
 - [[Risk-Premium-and-Required-Rate-of-Return|风险溢价与必要收益率（Risk Premium and Required Rate of Return）]]
 - [[Maturity-Risk-Premium|期限风险溢价（Maturity Risk Premium）]]
+- [[Excess-Return|超额收益率（Excess Return）]]
 
 ## 题目索引
 
@@ -28,10 +29,12 @@ tags: [CFA-L1, Quantitative-Methods, LM01]
 | Quant-Q001 | Arithmetic Mean Return vs. Geometric Mean Return | B |
 | Quant-Q002 | Risk Premium and Required Rate of Return | B |
 | Quant-Q003 | Maturity Risk Premium: T-bill vs. T-bond | A |
+| Quant-Q004 | Excess Return | B |
 
 ## 学习进度
 
 - [x] Arithmetic Mean Return vs. Geometric Mean Return
 - [x] Risk Premium and Required Rate of Return
 - [x] Maturity Risk Premium
+- [x] Excess Return
 - [ ] 后续题目按知识点持续补充
