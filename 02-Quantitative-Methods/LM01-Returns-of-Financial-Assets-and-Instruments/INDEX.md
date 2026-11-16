@@ -18,14 +18,17 @@ tags: [CFA-L1, Quantitative-Methods, LM01]
 ## 知识点目录
 
 - [[Arithmetic-and-Geometric-Mean-Return|算术平均收益率与几何平均收益率（Arithmetic Mean Return vs. Geometric Mean Return）]]
+- [[Risk-Premium-and-Required-Rate-of-Return|风险溢价与必要收益率（Risk Premium and Required Rate of Return）]]
 
 ## 题目索引
 
 | 题目编号 | 考查知识点 | 正确答案 |
 |---|---|---|
 | Quant-Q001 | Arithmetic Mean Return vs. Geometric Mean Return | B |
+| Quant-Q002 | Risk Premium and Required Rate of Return | B |
 
 ## 学习进度
 
-- [x] 已建立首个知识点：Arithmetic Mean Return vs. Geometric Mean Return
+- [x] Arithmetic Mean Return vs. Geometric Mean Return
+- [x] Risk Premium and Required Rate of Return
 - [ ] 后续题目按知识点持续补充
